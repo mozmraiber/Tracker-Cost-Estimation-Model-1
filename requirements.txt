@@ -1,0 +1,47 @@
+# Direct dependencies only, pinned. Install from the repo root so the relative
+# path requirements below resolve:
+#
+#   python3.14 -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements.txt
+#
+# Transitive pins are deliberately left out -- the previous version of this
+# file was a `pip freeze` dump, which also baked in absolute paths from one
+# machine (including /tmp) and platform-tagged wheels.
+
+# Modelling and data
+catboost==1.2.10
+duckdb==1.5.5
+joblib==1.6.0
+lightgbm==4.7.0
+matplotlib==3.11.1
+numpy==2.5.3
+optuna==5.0.0
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.18.1
+shap==0.52.0
+torch==2.14.0
+xgboost==3.4.1
+
+# Crawling (`playwright install` is a separate step for the browsers)
+playwright==1.62.0
+
+# Tooling
+m2cgen==0.10.0     # xgb-classifier/scripts/build_model.py transpiles trees with it
+maturin==1.15.0    # `maturin develop --release` for the Rust extensions below
+psutil==7.2.2
+pytest==9.1.1
+
+# In-tree extensions. `disconnect` is a DuckDB/C extension; the other two are
+# Rust, and llm-classifier-python builds the `llm-classifier` crate alongside it
+# via a relative Cargo path, so keep both directories present.
+./duckdb-disconnect
+./llm-classifier-python
+./llm-classifier-baseline    # empty extension, the size-budget test's baseline
+
+# xgb-classifier is intentionally not listed: it compiles in trees.rs, model.bin
+# and generated.rs, which are gitignored derived artifacts. Generate them, then
+# install it, after the requirements above are in place:
+#
+#   python xgb-classifier/scripts/build_model.py
+#   pip install ./xgb-classifier
