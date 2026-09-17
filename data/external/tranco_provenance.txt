@@ -1,0 +1,17 @@
+Tranco list provenance (recorded before the top-500 build, per
+src/build_tranco_500_top.py's pre-registration note).
+
+list_id:            64XQX
+created_on:         2026-09-14T22:00:02Z
+downloaded_on:      2026-09-15
+download_url:       https://tranco-list.eu/download/64XQX/1000000
+local_copy:         data/external/tranco_top1m.csv
+configuration:
+  isDailyList:        true
+  combinationMethod:  dowdall
+  startDate:          2026-08-16
+  endDate:            2026-09-14  (30-day window)
+  providers:          crux, farsight, majestic, radar, umbrella
+  filterPLD:          on
+  filterTLD:          false
+  listPrefix:         1000000

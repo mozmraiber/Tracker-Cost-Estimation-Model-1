@@ -133,5 +133,5 @@ for group in GROUPS:
     print(f"  {group:<28} {s:>7.1f}% {g:>7.1f}%")
 
 print("\nTop 15 features by mean |SHAP|:")
-for item in top15:
-    print(f"  {item['feature']:<35} {item['mean_abs_shap']:.4f}")
+for feat, val in top15:
+    print(f"  {feat:<35} {val:.4f}")

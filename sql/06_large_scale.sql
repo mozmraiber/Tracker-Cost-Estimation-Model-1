@@ -45,13 +45,13 @@ SELECT
   JSON_VALUE(req.payload, '$._contentEncoding') AS content_encoding,
 
 FROM `httparchive.crawl.requests` req
-WHERE req.date = '2024-06-01'
+WHERE req.date = '2026-08-01'
   AND req.client = 'mobile'
   AND req.is_root_page = TRUE
   AND NET.HOST(req.url) IN (
     SELECT domain
     FROM `httparchive.almanac.third_parties`
-    WHERE date = '2024-06-01'
+    WHERE date = '2025-07-01'
       AND category IN ('ad', 'analytics', 'social', 'tag-manager', 'consent-provider')
   )
   -- 1% sample (~3.5M rows)

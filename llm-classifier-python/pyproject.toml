@@ -1,0 +1,22 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "llm-classifier-python"
+version = "0.1.0"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+
+[tool.maturin]
+# The distribution is named for the crate, the module for what it has always
+# been called: `import llm_classifier` and
+# `site-packages/llm_classifier/llm_classifier.abi3.so` are unchanged by the
+# split, which is what keeps `tests/` and the size budget pointing at it.
+module-name = "llm_classifier"
+features = ["pyo3/extension-module"]
+
+include = ["llm_classifier.pyi", "py.typed"]

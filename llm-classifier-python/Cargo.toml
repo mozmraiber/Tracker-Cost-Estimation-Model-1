@@ -1,0 +1,28 @@
+[package]
+name = "llm-classifier-python"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# The extension module is `llm_classifier`, as it was when this crate and
+# `llm-classifier` were one: it is what `tests/` imports and what the size
+# budget names. The Rust package is the one that gained the suffix.
+name = "llm_classifier"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.29", features = ["extension-module", "abi3-py39"] }
+# Renamed, because the estimator's own lib target is also `llm_classifier` and
+# reading `llm_classifier::` inside a crate of the same name says nothing about
+# which one is meant.
+estimator = { path = "../llm-classifier", package = "llm-classifier" }
+
+[profile.release]
+# Strip symbols: this extension ships to a size budget that
+# tests/test_browsing_journey.py enforces, and an unstripped cdylib carries
+# ~150 KiB of symbol table that the shipped artifact has no use for. This
+# profile covers the estimator crate too, since cargo takes profiles from the
+# package being built; `llm-classifier` deliberately declares none, which would
+# be ignored with a warning. Both extensions set this, so the budget test
+# compares like with like.
+strip = true

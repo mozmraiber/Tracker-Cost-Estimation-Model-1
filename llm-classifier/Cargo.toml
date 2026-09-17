@@ -1,0 +1,15 @@
+[package]
+name = "llm-classifier"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "llm_classifier"
+# A plain Rust library with no Python in it: this is the estimator a browser
+# would link, and `cargo test` here needs no interpreter. `llm-classifier-python`
+# wraps it as a CPython extension and is the only crate that depends on pyo3 --
+# including the size budget, which is a property of that artifact and is
+# measured there.
+crate-type = ["rlib"]
+
+[dependencies]

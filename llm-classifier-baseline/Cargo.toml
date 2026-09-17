@@ -1,0 +1,18 @@
+[package]
+name = "llm_classifier_baseline"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "llm_classifier_baseline"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.29", features = ["extension-module", "abi3-py39"] }
+
+[profile.release]
+# Strip symbols: this extension ships to a size budget that
+# tests/test_browsing_journey.py enforces, and an unstripped cdylib carries
+# ~150 KiB of symbol table that the shipped artifact has no use for.
+# Both crates set this, so the budget test compares like with like.
+strip = true

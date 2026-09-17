@@ -72,3 +72,19 @@ logs/
 versions/
 comment.cut
 slack_messages.txt
+
+# Paired tracking crawl output (HARs are large and regenerable)
+data/raw/firefox_crawl_500_tracking/
+data/external/tranco_top1m.csv
+
+# xgb-classifier's compiled-in model: 23MB of trees transpiled by m2cgen plus
+# the packed TF-IDF/SVD tables, all derived from the gitignored artifacts in
+# models/per_request/. Rebuild with xgb-classifier/scripts/build_model.py.
+xgb-classifier/src/trees.rs
+xgb-classifier/src/model.bin
+xgb-classifier/src/generated.rs
+
+data/http-archive-urls-1pct/*.parquet
+data/http-archive-urls-1pct_old/*.parquet
+target-wheels/llm_classifier-0.1.0-cp39-abi3-macosx_11_0_arm64.whl
+data/cache

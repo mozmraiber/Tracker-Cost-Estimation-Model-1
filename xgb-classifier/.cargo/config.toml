@@ -1,0 +1,8 @@
+# PyO3 extension modules leave CPython symbols unresolved at link time; they are
+# provided by the interpreter at import. maturin sets this automatically, this
+# makes a plain `cargo build`/`cargo check` work too.
+[target.x86_64-apple-darwin]
+rustflags = ["-C", "link-arg=-undefined", "-C", "link-arg=dynamic_lookup"]
+
+[target.aarch64-apple-darwin]
+rustflags = ["-C", "link-arg=-undefined", "-C", "link-arg=dynamic_lookup"]

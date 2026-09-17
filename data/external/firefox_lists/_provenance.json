@@ -1,0 +1,25 @@
+{
+  "fetched_iso": "2026-09-15T12:13:05+00:00",
+  "files": {
+    "disconnect-blacklist.json": {
+      "source": "https://raw.githubusercontent.com/mozilla-services/shavar-prod-lists/master/disconnect-blacklist.json",
+      "bytes": 376014,
+      "sha256_16": "85063a79524a969f"
+    },
+    "disconnect-entitylist.json": {
+      "source": "https://raw.githubusercontent.com/mozilla-services/shavar-prod-lists/master/disconnect-entitylist.json",
+      "bytes": 411384,
+      "sha256_16": "6a223855e9c947f0"
+    },
+    "url-classifier-exceptions.json": {
+      "source": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/url-classifier-exceptions/records",
+      "bytes": 476360,
+      "sha256_16": "5c6132b0834b21aa"
+    },
+    "url-classifier-skip-urls.json": {
+      "source": "/Users/mraiber/firefox/services/settings/dumps/main/url-classifier-skip-urls.json",
+      "bytes": 1007,
+      "sha256_16": "1521a3b926e872f5"
+    }
+  }
+}
