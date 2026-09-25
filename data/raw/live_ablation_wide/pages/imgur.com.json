@@ -1,0 +1,331 @@
+{
+ "url": "https://imgur.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 257608,
+     "control": {
+      "page": 8232925,
+      "third_party": 1978034,
+      "listed": 635310
+     },
+     "ablated": {
+      "page": 7854160,
+      "third_party": 1599730,
+      "listed": 481122
+     },
+     "n_aborted": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 257608,
+      "fundingchoicesmessages.google.com": 166264,
+      "fonts.gstatic.com": 87760,
+      "assets.bounceexchange.com": -69354,
+      "sync.sparteo.com": -23876,
+      "ads.assemblyexchange.com": -15202,
+      "eus.rubiconproject.com": -12617,
+      "ads.pubmatic.com": -8028,
+      "fonts.googleapis.com": 6955,
+      "lh3.googleusercontent.com": 3248,
+      "js-sec.indexww.com": -1799,
+      "sync.1rx.io": -1754
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256947,
+     "control": {
+      "page": 8336171,
+      "third_party": 2081281,
+      "listed": 733220
+     },
+     "ablated": {
+      "page": 8064621,
+      "third_party": 1810165,
+      "listed": 625272
+     },
+     "n_aborted": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256947,
+      "fundingchoicesmessages.google.com": 166276,
+      "fonts.gstatic.com": 87760,
+      "sync.sparteo.com": -45874,
+      "eus.rubiconproject.com": -37851,
+      "ittpx.eskimi.com": -33750,
+      "ads.pubmatic.com": -24084,
+      "ads.assemblyexchange.com": -15173,
+      "prebid.pixad.com.tr": -13089,
+      "dsp-service.pixad.com.tr": -9829,
+      "sync.1rx.io": -9102,
+      "fonts.googleapis.com": 6955
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     121157,
+     14603
+    ],
+    "third_party": [
+     120696,
+     14169
+    ],
+    "listed": [
+     -103420,
+     -148999
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 67880,
+     "sd": 75345.05596255139,
+     "se": 53277.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 67432.5,
+     "sd": 75325.96407945934,
+     "se": 53263.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -126209.5,
+     "sd": 32229.21997970165,
+     "se": 22789.5
+    }
+   },
+   "own_mean": 257277.5
+  },
+  "quicklyedit.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 48432,
+     "control": {
+      "page": 8231114,
+      "third_party": 1976656,
+      "listed": 633869
+     },
+     "ablated": {
+      "page": 8220795,
+      "third_party": 1965896,
+      "listed": 682837
+     },
+     "n_aborted": 1,
+     "moved": {
+      "assets.bounceexchange.com": -71209,
+      "quicklyedit.com": 48432,
+      "code.jquery.com": 30970,
+      "delivery.adrecover.com": 28563,
+      "eus.rubiconproject.com": -12617,
+      "ads.pubmatic.com": -8028,
+      "js-sec.indexww.com": -1799,
+      "events.bouncex.net": -1520,
+      "api.bounceexchange.com": -1149,
+      "match.adsrvr.org": -559,
+      "pd.cdnwidget.com": -482,
+      "i.imgur.com": -457
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 48460,
+     "control": {
+      "page": 8232435,
+      "third_party": 1977998,
+      "listed": 635141
+     },
+     "ablated": {
+      "page": 8123247,
+      "third_party": 1868810,
+      "listed": 586010
+     },
+     "n_aborted": 1,
+     "moved": {
+      "quicklyedit.com": 48460,
+      "code.jquery.com": 30970,
+      "delivery.adrecover.com": 28563,
+      "securepubads.g.doubleclick.net": 481,
+      "aax.amazon-adsystem.com": 412,
+      "chrome-reporting-server-qiu4epv3ia-uc.a.run.app": 300,
+      "xeno.media-lab.ai": 263,
+      "assets.bounceexchange.com": -175,
+      "api.btloader.com": -50,
+      "ab.dns-finder.com": -50,
+      "www.googletagmanager.com": 10,
+      "api.imgur.com": -6
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -38113,
+     60728
+    ],
+    "third_party": [
+     -37672,
+     60728
+    ],
+    "listed": [
+     -97400,
+     671
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 11307.5,
+     "sd": 69891.14135925955,
+     "se": 49420.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 11528,
+     "sd": 69579.30726875628,
+     "se": 49200.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -48364.5,
+     "sd": 69346.6691377459,
+     "se": 49035.5
+    }
+   },
+   "own_mean": 48446
+  },
+  "btloader.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 36649,
+     "control": {
+      "page": 8232328,
+      "third_party": 1977894,
+      "listed": 634663
+     },
+     "ablated": {
+      "page": 8179136,
+      "third_party": 1924243,
+      "listed": 581847
+     },
+     "n_aborted": 2,
+     "moved": {
+      "btloader.com": 34260,
+      "ad-delivery.net": 10318,
+      "ad.doubleclick.net": 5859,
+      "cdn.btloader.com": 1065,
+      "api.btloader.com": 776,
+      "ab.dns-finder.com": 754,
+      "cdn.api.btloader.com": 548,
+      "i.imgur.com": -468,
+      "ads.assemblyexchange.com": 357,
+      "xeno.media-lab.ai": -288,
+      "quicklyedit.com": -22,
+      "assets.bounceexchange.com": -21
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 36515,
+     "control": {
+      "page": 8232135,
+      "third_party": 1977695,
+      "listed": 635077
+     },
+     "ablated": {
+      "page": 8178613,
+      "third_party": 1923720,
+      "listed": 581835
+     },
+     "n_aborted": 2,
+     "moved": {
+      "btloader.com": 34126,
+      "ad-delivery.net": 10318,
+      "ad.doubleclick.net": 5859,
+      "cdn.btloader.com": 1065,
+      "api.btloader.com": 776,
+      "ab.dns-finder.com": 754,
+      "securepubads.g.doubleclick.net": 562,
+      "cdn.api.btloader.com": 548,
+      "i.imgur.com": -454,
+      "www.googletagmanager.com": 93,
+      "xeno.media-lab.ai": -50,
+      "ads.assemblyexchange.com": -50
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     16543,
+     17007
+    ],
+    "third_party": [
+     17002,
+     17460
+    ],
+    "listed": [
+     16167,
+     16727
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 16775,
+     "sd": 328.09754647055803,
+     "se": 231.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 17231,
+     "sd": 323.85490578343877,
+     "se": 228.99999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 16447,
+     "sd": 395.9797974644666,
+     "se": 280.0
+    }
+   },
+   "own_mean": 36582
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "quicklyedit.com",
+  "btloader.com"
+ ],
+ "category": "social",
+ "domain": "imgur.com",
+ "n_blocked_tracking": 108.0,
+ "elapsed_s": 105.4
+}

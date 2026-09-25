@@ -1,0 +1,284 @@
+{
+ "url": "https://frontiersin.org/",
+ "hosts": [
+  "js-agent.newrelic.com",
+  "bam.nr-data.net",
+  "googleads.g.doubleclick.net",
+  "static.doubleclick.net"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "googleads.g.doubleclick.net",
+    "js-agent.newrelic.com",
+    "bam.nr-data.net",
+    "static.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3805948,
+      "third_party": 1620439,
+      "listed": 231021
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3727591,
+      "third_party": 1617041,
+      "listed": 228961
+     },
+     "own": 1616,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 78357,
+      "third_party": 3398,
+      "listed": 2060
+     },
+     "cascade": {
+      "page": 76741,
+      "third_party": 1782,
+      "listed": 444
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "js-agent.newrelic.com"
+     ],
+     "bytes": {
+      "page": 3879797,
+      "third_party": 1694365,
+      "listed": 190988
+     },
+     "own": 37038,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": -73849,
+      "third_party": -73926,
+      "listed": 40033
+     },
+     "cascade": {
+      "page": -110887,
+      "third_party": -110964,
+      "listed": 2995
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "js-agent.newrelic.com",
+      "bam.nr-data.net"
+     ],
+     "bytes": {
+      "page": 3898650,
+      "third_party": 1694267,
+      "listed": 190988
+     },
+     "own": 40033,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": -92702,
+      "third_party": -73828,
+      "listed": 40033
+     },
+     "cascade": {
+      "page": -132735,
+      "third_party": -113861,
+      "listed": 0
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "js-agent.newrelic.com",
+      "bam.nr-data.net",
+      "static.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3737525,
+      "third_party": 1583243,
+      "listed": 190219
+     },
+     "own": 40802,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 68423,
+      "third_party": 37196,
+      "listed": 40802
+     },
+     "cascade": {
+      "page": 27621,
+      "third_party": -3606,
+      "listed": 0
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "js-agent.newrelic.com",
+    "bam.nr-data.net",
+    "static.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3730112,
+      "third_party": 1619496,
+      "listed": 231020
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js-agent.newrelic.com"
+     ],
+     "bytes": {
+      "page": 3690824,
+      "third_party": 1580304,
+      "listed": 192604
+     },
+     "own": 35422,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 39288,
+      "third_party": 39192,
+      "listed": 38416
+     },
+     "cascade": {
+      "page": 3866,
+      "third_party": 3770,
+      "listed": 2994
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js-agent.newrelic.com",
+      "bam.nr-data.net"
+     ],
+     "bytes": {
+      "page": 3740087,
+      "third_party": 1581071,
+      "listed": 192604
+     },
+     "own": 38416,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": -9975,
+      "third_party": 38425,
+      "listed": 38416
+     },
+     "cascade": {
+      "page": -48391,
+      "third_party": 9,
+      "listed": 0
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js-agent.newrelic.com",
+      "bam.nr-data.net",
+      "static.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3690631,
+      "third_party": 1580095,
+      "listed": 191835
+     },
+     "own": 39185,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 39481,
+      "third_party": 39401,
+      "listed": 39185
+     },
+     "cascade": {
+      "page": 296,
+      "third_party": 216,
+      "listed": 0
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js-agent.newrelic.com",
+      "bam.nr-data.net",
+      "static.doubleclick.net",
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3689003,
+      "third_party": 1578496,
+      "listed": 190219
+     },
+     "own": 40801,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 41109,
+      "third_party": 41000,
+      "listed": 40801
+     },
+     "cascade": {
+      "page": 308,
+      "third_party": 199,
+      "listed": 0
+     }
+    }
+   ]
+  }
+ ],
+ "category": "reference",
+ "domain": "frontiersin.org",
+ "elapsed_s": 76.2
+}

@@ -1,0 +1,331 @@
+{
+ "url": "https://att.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "cdn.quantummetric.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 206106,
+     "control": {
+      "page": 7132043,
+      "third_party": 1087695,
+      "listed": 854570
+     },
+     "ablated": {
+      "page": 6918037,
+      "third_party": 876081,
+      "listed": 640775
+     },
+     "n_aborted": 2,
+     "moved": {
+      "cdn.quantummetric.com": 206106,
+      "ingestusipv4.quantummetric.com": 4928,
+      "collection.decibelinsight.net": -2646,
+      "www.att.com": 2391,
+      "p.rfihub.com": 1867,
+      "live.rezync.com": 1836,
+      "pnapi.invoca.net": -1005,
+      "dpm.demdex.net": 764,
+      "azinsight.adsrvr.org": 674,
+      "cm.g.doubleclick.net": -498,
+      "sync-tm.everesttech.net": -404,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkirb-pvv8bq-b0db08eea-clienttons-s.akamaihd.net": 312
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 206108,
+     "control": {
+      "page": 5255183,
+      "third_party": 1090418,
+      "listed": 854530
+     },
+     "ablated": {
+      "page": 6903778,
+      "third_party": 874317,
+      "listed": 639052
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.att.com": -1864819,
+      "cdn.quantummetric.com": 206108,
+      "bf03987fss.bf.dynatrace.com": 7083,
+      "ingestusipv4.quantummetric.com": 5003,
+      "live.rezync.com": -2132,
+      "p.rfihub.com": -827,
+      "sync-tm.everesttech.net": 404,
+      "cm.g.doubleclick.net": -314,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkirz-px3nb6-201335f2c-clienttons-s.akamaihd.net": 312,
+      "jubpehs4poc5g2vvei4q-px3nb6-c46151b9b-clientnsv4-s.akamaihd.net": 312,
+      "j.clarity.ms": -275,
+      "n.clarity.ms": 275
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     7900,
+     -1854703
+    ],
+    "third_party": [
+     5508,
+     9993
+    ],
+    "listed": [
+     7689,
+     9370
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -923401.5,
+     "sd": 1317059.211958407,
+     "se": 931301.4999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 7750.5,
+     "sd": 3171.3739136216655,
+     "se": 2242.4999999999995
+    },
+    "listed": {
+     "n": 2,
+     "mean": 8529.5,
+     "sd": 1188.6464991745863,
+     "se": 840.4999999999999
+    }
+   },
+   "own_mean": 206107
+  },
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 178383,
+     "control": {
+      "page": 7464837,
+      "third_party": 1084635,
+      "listed": 849552
+     },
+     "ablated": {
+      "page": 7284540,
+      "third_party": 906301,
+      "listed": 673855
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 178383,
+      "live.rezync.com": -2897,
+      "collection.decibelinsight.net": 2609,
+      "bf03987fss.bf.dynatrace.com": -2361,
+      "www.att.com": 1838,
+      "p.rfihub.com": 1289,
+      "www.facebook.com": 953,
+      "cm.g.doubleclick.net": 740,
+      "pnapi.invoca.net": -563,
+      "mpc2-prod-25-is5qnl632q-wl.a.run.app": 488,
+      "6100125.fls.doubleclick.net": -370,
+      "k6-e4e4123be8e54363900a90353991ca93.ecs.us-west-1.on.aws": 349
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 178382,
+     "control": {
+      "page": 7462964,
+      "third_party": 1084455,
+      "listed": 848393
+     },
+     "ablated": {
+      "page": 7280856,
+      "third_party": 902777,
+      "listed": 667824
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 178382,
+      "cm.g.doubleclick.net": -5793,
+      "a.rfihub.com": 2711,
+      "live.rezync.com": 2234,
+      "dsum-sec.casalemedia.com": 1163,
+      "www.facebook.com": 949,
+      "bf03987fss.bf.dynatrace.com": 809,
+      "dpm.demdex.net": -764,
+      "pnapi.invoca.net": 562,
+      "mpc2-prod-25-is5qnl632q-wl.a.run.app": 488,
+      "www.att.com": 427,
+      "k6-e4e4123be8e54363900a90353991ca93.ecs.us-west-1.on.aws": 349
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1914,
+     3726
+    ],
+    "third_party": [
+     -49,
+     3296
+    ],
+    "listed": [
+     -2686,
+     2187
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2820,
+     "sd": 1281.277487510024,
+     "se": 905.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1623.5,
+     "sd": 2365.2721830690016,
+     "se": 1672.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -249.5,
+     "sd": 3445.7313447220463,
+     "se": 2436.5
+    }
+   },
+   "own_mean": 178382.5
+  },
+  "s2.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 118330,
+     "control": {
+      "page": 7458551,
+      "third_party": 1082416,
+      "listed": 847587
+     },
+     "ablated": {
+      "page": 7330191,
+      "third_party": 961683,
+      "listed": 728624
+     },
+     "n_aborted": 4,
+     "moved": {
+      "s2.go-mpulse.net": 118330,
+      "www.att.com": 7750,
+      "c.go-mpulse.net": 5993,
+      "live.rezync.com": -2954,
+      "collection.decibelinsight.net": 2077,
+      "pnapi.invoca.net": -1128,
+      "region1.google-analytics.com": -819,
+      "bf03987fss.bf.dynatrace.com": -666,
+      "azinsight.adsrvr.org": -633,
+      "servedby.flashtalking.com": 418,
+      "www.google.com": -330,
+      "z.clarity.ms": -275
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 118330,
+     "control": {
+      "page": 7444005,
+      "third_party": 1083202,
+      "listed": 848154
+     },
+     "ablated": {
+      "page": 7330079,
+      "third_party": 963971,
+      "listed": 729385
+     },
+     "n_aborted": 4,
+     "moved": {
+      "s2.go-mpulse.net": 118330,
+      "c.go-mpulse.net": 5995,
+      "www.att.com": -5182,
+      "live.rezync.com": -1721,
+      "p.rfihub.com": -932,
+      "region1.google-analytics.com": 819,
+      "cm.g.doubleclick.net": -818,
+      "bf03987fss.bf.dynatrace.com": -787,
+      "dpm.demdex.net": -764,
+      "sync-tm.everesttech.net": -751,
+      "www.google.com": 462,
+      "pixel.rubiconproject.com": -314
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     10030,
+     -4404
+    ],
+    "third_party": [
+     2403,
+     901
+    ],
+    "listed": [
+     633,
+     439
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2813,
+     "sd": 10206.379279646628,
+     "se": 7217.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1652,
+     "sd": 1062.0743853421943,
+     "se": 750.9999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 536,
+     "sd": 137.17871555019022,
+     "se": 97.0
+    }
+   },
+   "own_mean": 118330
+  }
+ },
+ "candidates": [
+  "cdn.quantummetric.com",
+  "connect.facebook.net",
+  "s2.go-mpulse.net"
+ ],
+ "category": "productivity",
+ "domain": "att.com",
+ "n_blocked_tracking": 555.0,
+ "elapsed_s": 113.9
+}

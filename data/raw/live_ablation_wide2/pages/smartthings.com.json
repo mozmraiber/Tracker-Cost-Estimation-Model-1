@@ -1,0 +1,337 @@
+{
+ "url": "https://smartthings.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "analytics.tiktok.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 161475,
+     "control": {
+      "page": 7049507,
+      "third_party": 7048659,
+      "listed": 1352269
+     },
+     "ablated": {
+      "page": 6054941,
+      "third_party": 6054093,
+      "listed": 1348279
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.googletagmanager.com": 949558,
+      "connect.facebook.net": -192253,
+      "analytics.tiktok.com": 161475,
+      "snap.licdn.com": 23905,
+      "assets.adobedtm.com": 19417,
+      "www.google.com": 18116,
+      "ad.doubleclick.net": 2586,
+      "cm.g.doubleclick.net": 2514,
+      "www.google.de": 2333,
+      "www.facebook.com": -1964,
+      "googleads.g.doubleclick.net": 1707,
+      "1782317.fls.doubleclick.net": 1572
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 161097,
+     "control": {
+      "page": 7242060,
+      "third_party": 7241640,
+      "listed": 1544760
+     },
+     "ablated": {
+      "page": 7083645,
+      "third_party": 7082797,
+      "listed": 1384565
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "analytics.tiktok.com": 161097,
+      "www.samsung.com": -2865,
+      "analytics-ipv6.tiktokw.us": 1464,
+      "api.bounceexchange.com": -1151,
+      "px4.ads.linkedin.com": 759,
+      "ingest.quantummetric.com": -444,
+      "smartthings.com": -428,
+      "events.bouncex.net": -385,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkvst-p72hdq-45e919416-clienttons-s.akamaihd.net": 312,
+      "jubpehqccvw2w2vvkzgq-penu10-6ef8ebdf8-clientnsv4-s.akamaihd.net": -312,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkvsn-penu10-e7422fff6-clienttons-s.akamaihd.net": -312,
+      "jubpehqccvw3c2vvkzjq-p72hdq-42abc0e47-clientnsv4-s.akamaihd.net": 312
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     833091,
+     -2682
+    ],
+    "third_party": [
+     833091,
+     -2254
+    ],
+    "listed": [
+     -157485,
+     -902
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 415204.5,
+     "sd": 590980.7558326244,
+     "se": 417886.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 415418.5,
+     "sd": 590678.1141302765,
+     "se": 417672.49999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": -79193.5,
+     "sd": 110720.90111853318,
+     "se": 78291.5
+    }
+   },
+   "own_mean": 161286
+  },
+  "samsungusa.api.useinsider.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 124576,
+     "control": {
+      "page": 7242622,
+      "third_party": 7241774,
+      "listed": 1541881
+     },
+     "ablated": {
+      "page": 7107662,
+      "third_party": 7107242,
+      "listed": 1406461
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "samsungusa.api.useinsider.com": 124576,
+      "eitri.api.useinsider.com": 6528,
+      "assets.api.useinsider.com": 3890,
+      "cm.g.doubleclick.net": -2514,
+      "segment.api.useinsider.com": 1931,
+      "px.ads.linkedin.com": -1562,
+      "api.bounceexchange.com": 1151,
+      "www.facebook.com": 994,
+      "gum.criteo.com": -901,
+      "www.googletagmanager.com": -618,
+      "locationv2.api.useinsider.com": 431,
+      "smartthings.com": 428
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 124675,
+     "control": {
+      "page": 7246605,
+      "third_party": 7245757,
+      "listed": 1543886
+     },
+     "ablated": {
+      "page": 7044917,
+      "third_party": 7044069,
+      "listed": 1378333
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "samsungusa.api.useinsider.com": 124675,
+      "wsv3cdn.audioeye.com": 33707,
+      "assets.bounceexchange.com": 22705,
+      "eitri.api.useinsider.com": 6528,
+      "assets.api.useinsider.com": 3890,
+      "www.samsung.com": 2704,
+      "www.facebook.com": 1964,
+      "px.ads.linkedin.com": 1831,
+      "cm.g.doubleclick.net": 1231,
+      "api.bounceexchange.com": 1151,
+      "gum.criteo.com": -901,
+      "segment.api.useinsider.com": 697
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     10384,
+     77013
+    ],
+    "third_party": [
+     9956,
+     77013
+    ],
+    "listed": [
+     10844,
+     40878
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 43698.5,
+     "sd": 47113.817723678476,
+     "se": 33314.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 43484.5,
+     "sd": 47416.45942602632,
+     "se": 33528.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 25861,
+     "sd": 21237.245066156767,
+     "se": 15016.999999999998
+    }
+   },
+   "own_mean": 124625.5
+  },
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 307672,
+     "control": {
+      "page": 7232558,
+      "third_party": 7231710,
+      "listed": 1532591
+     },
+     "ablated": {
+      "page": 6933073,
+      "third_party": 6932225,
+      "listed": 1232123
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 307672,
+      "assets.bounceexchange.com": -11380,
+      "px.ads.linkedin.com": 1831,
+      "falcon.useinsider.com": 1237,
+      "api.bounceexchange.com": 1151,
+      "www.googletagmanager.com": -788,
+      "www.facebook.com": 474,
+      "www.google.com": -362,
+      "ids.cdnwidget.com": -341,
+      "script.beusable.net": 266,
+      "samsungusa.api.useinsider.com": -151,
+      "resources.samsung.com": -135
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 115388,
+     "control": {
+      "page": 6962365,
+      "third_party": 6961537,
+      "listed": 1320966
+     },
+     "ablated": {
+      "page": 6908312,
+      "third_party": 6907464,
+      "listed": 1231641
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 115388,
+      "wsv3cdn.audioeye.com": -33747,
+      "assets.bounceexchange.com": -22730,
+      "analytics.tiktok.com": -4028,
+      "collection.decibelinsight.net": 3230,
+      "www.samsung.com": -3021,
+      "px.ads.linkedin.com": -1563,
+      "analytics-ipv6.tiktokw.us": -1467,
+      "samsungusa.api.useinsider.com": 1281,
+      "gum.criteo.com": 901,
+      "www.googletagmanager.com": 772,
+      "ingest.quantummetric.com": 569
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -8187,
+     -61335
+    ],
+    "third_party": [
+     -8187,
+     -61315
+    ],
+    "listed": [
+     -7204,
+     -26063
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -34761,
+     "sd": 37581.31120650263,
+     "se": 26574.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -34751,
+     "sd": 37567.169070878896,
+     "se": 26563.999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": -16633.5,
+     "sd": 13335.3267863971,
+     "se": 9429.5
+    }
+   },
+   "own_mean": 211530
+  }
+ },
+ "candidates": [
+  "analytics.tiktok.com",
+  "samsungusa.api.useinsider.com",
+  "connect.facebook.net"
+ ],
+ "category": "productivity",
+ "domain": "smartthings.com",
+ "n_blocked_tracking": 276.0,
+ "elapsed_s": 90.6
+}

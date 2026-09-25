@@ -1,0 +1,229 @@
+{
+ "url": "https://bandcamp.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 835,
+     "control": {
+      "page": 4519160,
+      "third_party": 4463074,
+      "listed": 56794
+     },
+     "ablated": {
+      "page": 4458004,
+      "third_party": 4401886,
+      "listed": 55805
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "f4.bcbits.com": 60196,
+      "region1.google-analytics.com": 835,
+      "www.recaptcha.net": 154,
+      "bandcamp.com": -32,
+      "s4.bcbits.com": 2,
+      "js.stripe.com": 1,
+      "o363271.ingest.us.sentry.io": 0,
+      "m.stripe.com": 0,
+      "www.googletagmanager.com": 0,
+      "m.stripe.network": 0,
+      "fonts.gstatic.com": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 835,
+     "control": {
+      "page": 4474164,
+      "third_party": 4418530,
+      "listed": 53839
+     },
+     "ablated": {
+      "page": 4474248,
+      "third_party": 4418470,
+      "listed": 52868
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "f4.bcbits.com": -1029,
+      "region1.google-analytics.com": 835,
+      "bandcamp.com": -144,
+      "www.recaptcha.net": 109,
+      "www.googletagmanager.com": 91,
+      "o363271.ingest.us.sentry.io": 25,
+      "js.stripe.com": 23,
+      "s4.bcbits.com": 4,
+      "m.stripe.network": 2,
+      "m.stripe.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     60321,
+     -919
+    ],
+    "third_party": [
+     60353,
+     -775
+    ],
+    "listed": [
+     154,
+     136
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 29701,
+     "sd": 43303.21927986417,
+     "se": 30619.999999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 29789,
+     "sd": 43224.02332037128,
+     "se": 30564.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 145,
+     "sd": 12.727922061357855,
+     "se": 9.0
+    }
+   },
+   "own_mean": 835
+  },
+  "o363271.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 4454151,
+      "third_party": 4398688,
+      "listed": 53816
+     },
+     "ablated": {
+      "page": 4381532,
+      "third_party": 4326899,
+      "listed": 53439
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "f4.bcbits.com": 71409,
+      "bandcamp.com": 830,
+      "o363271.ingest.us.sentry.io": 494,
+      "www.recaptcha.net": -117,
+      "s4.bcbits.com": 3,
+      "region1.google-analytics.com": 0,
+      "m.stripe.com": 0,
+      "www.googletagmanager.com": 0,
+      "m.stripe.network": 0,
+      "fonts.gstatic.com": 0,
+      "www.gstatic.com": 0,
+      "js.stripe.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 4308161,
+      "third_party": 4254647,
+      "listed": 56731
+     },
+     "ablated": {
+      "page": 4380198,
+      "third_party": 4326002,
+      "listed": 56294
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "f4.bcbits.com": -71808,
+      "bandcamp.com": -682,
+      "o363271.ingest.us.sentry.io": 494,
+      "m.stripe.network": -42,
+      "www.googletagmanager.com": 15,
+      "www.recaptcha.net": -15,
+      "js.stripe.com": 2,
+      "s4.bcbits.com": -1,
+      "region1.google-analytics.com": 0,
+      "m.stripe.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     72125,
+     -72531
+    ],
+    "third_party": [
+     71295,
+     -71849
+    ],
+    "listed": [
+     -117,
+     -57
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -203,
+     "sd": 102287.23853932122,
+     "se": 72328.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -277,
+     "sd": 101218.09308616717,
+     "se": 71572.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -87,
+     "sd": 42.42640687119285,
+     "se": 30.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "region1.google-analytics.com",
+  "o363271.ingest.us.sentry.io"
+ ],
+ "category": "entertainment",
+ "domain": "bandcamp.com",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 61.1
+}

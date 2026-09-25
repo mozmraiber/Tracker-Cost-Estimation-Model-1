@@ -1,0 +1,331 @@
+{
+ "url": "https://viber.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 58847,
+     "control": {
+      "page": 13613091,
+      "third_party": 728535,
+      "listed": 229384
+     },
+     "ablated": {
+      "page": 13558708,
+      "third_party": 674157,
+      "listed": 170168
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s.go-mpulse.net": 58847,
+      "www.googletagmanager.com": -4838,
+      "c.go-mpulse.net": 344,
+      "cdn.mxpnl.com": 25,
+      "www.viber.com": 5,
+      "region1.analytics.google.com": 0,
+      "fonts.googleapis.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "cdn.cookielaw.org": 0,
+      "stats.g.doubleclick.net": 0,
+      "geolocation.onetrust.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 58847,
+     "control": {
+      "page": 13614110,
+      "third_party": 729558,
+      "listed": 229968
+     },
+     "ablated": {
+      "page": 13553224,
+      "third_party": 669359,
+      "listed": 170193
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s.go-mpulse.net": 58847,
+      "c.go-mpulse.net": 928,
+      "www.viber.com": 687,
+      "www.googletagmanager.com": 424,
+      "region1.analytics.google.com": 0,
+      "fonts.googleapis.com": 0,
+      "cdn.mxpnl.com": 0,
+      "684dd325.akstat.io": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "cdn.cookielaw.org": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -4464,
+     2039
+    ],
+    "third_party": [
+     -4469,
+     1352
+    ],
+    "listed": [
+     369,
+     928
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1212.5,
+     "sd": 4598.315398056118,
+     "se": 3251.4999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1558.5,
+     "sd": 4116.068573286893,
+     "se": 2910.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 648.5,
+     "sd": 395.2726906832801,
+     "se": 279.5
+    }
+   },
+   "own_mean": 58847
+  },
+  "cdn.mxpnl.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 34292,
+     "control": {
+      "page": 13613092,
+      "third_party": 728525,
+      "listed": 229359
+     },
+     "ablated": {
+      "page": 13578797,
+      "third_party": 694233,
+      "listed": 195067
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.mxpnl.com": 34292,
+      "www.viber.com": 3,
+      "region1.analytics.google.com": 0,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "www.googletagmanager.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "cdn.cookielaw.org": 0,
+      "stats.g.doubleclick.net": 0,
+      "geolocation.onetrust.com": 0,
+      "www.google.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 34292,
+     "control": {
+      "page": 13613090,
+      "third_party": 728525,
+      "listed": 229359
+     },
+     "ablated": {
+      "page": 13578774,
+      "third_party": 694218,
+      "listed": 195067
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.mxpnl.com": 34292,
+      "www.googletagmanager.com": 15,
+      "www.viber.com": 9,
+      "region1.analytics.google.com": 0,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "cdn.cookielaw.org": 0,
+      "stats.g.doubleclick.net": 0,
+      "geolocation.onetrust.com": 0,
+      "www.google.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3,
+     24
+    ],
+    "third_party": [
+     0,
+     15
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 13.5,
+     "sd": 14.849242404917497,
+     "se": 10.499999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 7.5,
+     "sd": 10.606601717798213,
+     "se": 7.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 34292
+  },
+  "region1.analytics.google.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 836,
+     "control": {
+      "page": 13613128,
+      "third_party": 728550,
+      "listed": 229384
+     },
+     "ablated": {
+      "page": 13612259,
+      "third_party": 727674,
+      "listed": 228523
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.analytics.google.com": 836,
+      "cdn.mxpnl.com": 25,
+      "www.googletagmanager.com": 15,
+      "www.viber.com": -7,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "cdn.cookielaw.org": 0,
+      "stats.g.doubleclick.net": 0,
+      "geolocation.onetrust.com": 0,
+      "www.google.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 836,
+     "control": {
+      "page": 13613102,
+      "third_party": 728530,
+      "listed": 229364
+     },
+     "ablated": {
+      "page": 13612262,
+      "third_party": 727674,
+      "listed": 228523
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.analytics.google.com": 836,
+      "www.viber.com": -16,
+      "www.googletagmanager.com": 15,
+      "cdn.mxpnl.com": 5,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "cdn.cookielaw.org": 0,
+      "stats.g.doubleclick.net": 0,
+      "geolocation.onetrust.com": 0,
+      "www.google.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     33,
+     4
+    ],
+    "third_party": [
+     40,
+     20
+    ],
+    "listed": [
+     25,
+     5
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 18.5,
+     "sd": 20.506096654409877,
+     "se": 14.499999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 30,
+     "sd": 14.142135623730951,
+     "se": 10.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 15,
+     "sd": 14.142135623730951,
+     "se": 10.0
+    }
+   },
+   "own_mean": 836
+  }
+ },
+ "candidates": [
+  "s.go-mpulse.net",
+  "cdn.mxpnl.com",
+  "region1.analytics.google.com"
+ ],
+ "category": "social",
+ "domain": "viber.com",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 99.2
+}

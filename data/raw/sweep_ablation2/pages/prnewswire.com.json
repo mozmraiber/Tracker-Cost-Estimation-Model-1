@@ -1,0 +1,456 @@
+{
+ "url": "https://prnewswire.com/",
+ "hosts": [
+  "js.qualified.com",
+  "connect.facebook.net",
+  "cdn.optimizely.com",
+  "browser.sentry-cdn.com",
+  "snap.licdn.com",
+  "static.cloudflareinsights.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "snap.licdn.com",
+    "cdn.optimizely.com",
+    "connect.facebook.net",
+    "js.qualified.com",
+    "static.cloudflareinsights.com",
+    "browser.sentry-cdn.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5462471,
+      "third_party": 3758231,
+      "listed": 2238325
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 5435093,
+      "third_party": 3731137,
+      "listed": 2211248
+     },
+     "own": 23918,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 27378,
+      "third_party": 27094,
+      "listed": 27077
+     },
+     "cascade": {
+      "page": 3460,
+      "third_party": 3176,
+      "listed": 3159
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5340720,
+      "third_party": 3636483,
+      "listed": 2117312
+     },
+     "own": 117799,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 121751,
+      "third_party": 121748,
+      "listed": 121013
+     },
+     "cascade": {
+      "page": 3952,
+      "third_party": 3949,
+      "listed": 3214
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 5104358,
+      "third_party": 3399931,
+      "listed": 1881423
+     },
+     "own": 352274,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 358113,
+      "third_party": 358300,
+      "listed": 356902
+     },
+     "cascade": {
+      "page": 5839,
+      "third_party": 6026,
+      "listed": 4628
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net",
+      "js.qualified.com"
+     ],
+     "bytes": {
+      "page": 3382916,
+      "third_party": 1679302,
+      "listed": 161326
+     },
+     "own": 717222,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 2079555,
+      "third_party": 2078929,
+      "listed": 2076999
+     },
+     "cascade": {
+      "page": 1362333,
+      "third_party": 1361707,
+      "listed": 1359777
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net",
+      "js.qualified.com",
+      "static.cloudflareinsights.com"
+     ],
+     "bytes": {
+      "page": 3373349,
+      "third_party": 1668910,
+      "listed": 150829
+     },
+     "own": 738212,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 2089122,
+      "third_party": 2089321,
+      "listed": 2087496
+     },
+     "cascade": {
+      "page": 1350910,
+      "third_party": 1351109,
+      "listed": 1349284
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net",
+      "js.qualified.com",
+      "static.cloudflareinsights.com",
+      "browser.sentry-cdn.com"
+     ],
+     "bytes": {
+      "page": 3383016,
+      "third_party": 1679122,
+      "listed": 125140
+     },
+     "own": 763901,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 2079455,
+      "third_party": 2079109,
+      "listed": 2113185
+     },
+     "cascade": {
+      "page": 1315554,
+      "third_party": 1315208,
+      "listed": 1349284
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "snap.licdn.com",
+    "js.qualified.com",
+    "connect.facebook.net",
+    "static.cloudflareinsights.com",
+    "cdn.optimizely.com",
+    "browser.sentry-cdn.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5460014,
+      "third_party": 3756723,
+      "listed": 2237931
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 5434135,
+      "third_party": 3730876,
+      "listed": 2211428
+     },
+     "own": 23918,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 25879,
+      "third_party": 25847,
+      "listed": 26503
+     },
+     "cascade": {
+      "page": 1961,
+      "third_party": 1929,
+      "listed": 2585
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com"
+     ],
+     "bytes": {
+      "page": 3714955,
+      "third_party": 2010146,
+      "listed": 491814
+     },
+     "own": 388866,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 1745059,
+      "third_party": 1746577,
+      "listed": 1746117
+     },
+     "cascade": {
+      "page": 1356193,
+      "third_party": 1357711,
+      "listed": 1357251
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3513511,
+      "third_party": 1809048,
+      "listed": 255784
+     },
+     "own": 623341,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 1946503,
+      "third_party": 1947675,
+      "listed": 1982147
+     },
+     "cascade": {
+      "page": 1323162,
+      "third_party": 1324334,
+      "listed": 1358806
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net",
+      "static.cloudflareinsights.com"
+     ],
+     "bytes": {
+      "page": 3466172,
+      "third_party": 1762430,
+      "listed": 244810
+     },
+     "own": 644331,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 1993842,
+      "third_party": 1994293,
+      "listed": 1993121
+     },
+     "cascade": {
+      "page": 1349511,
+      "third_party": 1349962,
+      "listed": 1348790
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net",
+      "static.cloudflareinsights.com",
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 3407995,
+      "third_party": 1704272,
+      "listed": 150836
+     },
+     "own": 738213,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 2052019,
+      "third_party": 2052451,
+      "listed": 2087095
+     },
+     "cascade": {
+      "page": 1313806,
+      "third_party": 1314238,
+      "listed": 1348882
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net",
+      "static.cloudflareinsights.com",
+      "cdn.optimizely.com",
+      "browser.sentry-cdn.com"
+     ],
+     "bytes": {
+      "page": 3348509,
+      "third_party": 1644218,
+      "listed": 125427
+     },
+     "own": 763902,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 2111505,
+      "third_party": 2112505,
+      "listed": 2112504
+     },
+     "cascade": {
+      "page": 1347603,
+      "third_party": 1348603,
+      "listed": 1348602
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "prnewswire.com",
+ "elapsed_s": 127.1
+}

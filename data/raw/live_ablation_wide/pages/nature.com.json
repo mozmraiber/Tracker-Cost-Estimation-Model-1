@@ -1,0 +1,225 @@
+{
+ "url": "https://nature.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 255178,
+     "control": {
+      "page": 1588660,
+      "third_party": 947478,
+      "listed": 370572
+     },
+     "ablated": {
+      "page": 1333468,
+      "third_party": 692287,
+      "listed": 115394
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 255178,
+      "media.springernature.com": 13,
+      "cmp.nature.com": 2,
+      "idp.nature.com": -1,
+      "verify.nature.com": 0,
+      "www.googletagmanager.com": 0,
+      "sgtm.nature.com": 0,
+      "scripts.webcontentassessor.com": 0,
+      "fed-libs.nature.com": 0,
+      "badges.altmetric.com": 0,
+      "nature.com": 0,
+      "www.nature.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 257024,
+     "control": {
+      "page": 1589527,
+      "third_party": 949313,
+      "listed": 372418
+     },
+     "ablated": {
+      "page": 1332023,
+      "third_party": 692287,
+      "listed": 115394
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 257024,
+      "idp.nature.com": 454,
+      "sgtm.nature.com": 24,
+      "media.springernature.com": 2,
+      "verify.nature.com": 0,
+      "cmp.nature.com": 0,
+      "www.googletagmanager.com": 0,
+      "scripts.webcontentassessor.com": 0,
+      "fed-libs.nature.com": 0,
+      "badges.altmetric.com": 0,
+      "nature.com": 0,
+      "www.nature.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     14,
+     480
+    ],
+    "third_party": [
+     13,
+     2
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 247,
+     "sd": 329.51176003293114,
+     "se": 232.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 7.5,
+     "sd": 7.7781745930520225,
+     "se": 5.499999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 256101
+  },
+  "scripts.webcontentassessor.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 115394,
+     "control": {
+      "page": 1588794,
+      "third_party": 948833,
+      "listed": 371941
+     },
+     "ablated": {
+      "page": 1475102,
+      "third_party": 833919,
+      "listed": 257026
+     },
+     "n_aborted": 1,
+     "moved": {
+      "scripts.webcontentassessor.com": 115394,
+      "www.nature.com": -805,
+      "pagead2.googlesyndication.com": -479,
+      "nature.com": -416,
+      "cmp.nature.com": -1,
+      "media.springernature.com": -1,
+      "verify.nature.com": 0,
+      "www.googletagmanager.com": 0,
+      "sgtm.nature.com": 0,
+      "fed-libs.nature.com": 0,
+      "badges.altmetric.com": 0,
+      "idp.nature.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 115394,
+     "control": {
+      "page": 1590707,
+      "third_party": 949499,
+      "listed": 372606
+     },
+     "ablated": {
+      "page": 1474626,
+      "third_party": 833442,
+      "listed": 256549
+     },
+     "n_aborted": 1,
+     "moved": {
+      "scripts.webcontentassessor.com": 115394,
+      "pagead2.googlesyndication.com": 663,
+      "sgtm.nature.com": 25,
+      "cmp.nature.com": -1,
+      "idp.nature.com": -1,
+      "www.nature.com": 1,
+      "verify.nature.com": 0,
+      "media.springernature.com": 0,
+      "www.googletagmanager.com": 0,
+      "fed-libs.nature.com": 0,
+      "badges.altmetric.com": 0,
+      "nature.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1702,
+     687
+    ],
+    "third_party": [
+     -480,
+     663
+    ],
+    "listed": [
+     -479,
+     663
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -507.5,
+     "sd": 1689.2781002546621,
+     "se": 1194.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 91.5,
+     "sd": 808.2230508962239,
+     "se": 571.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 92,
+     "sd": 807.5159441150373,
+     "se": 571.0
+    }
+   },
+   "own_mean": 115394
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com",
+  "scripts.webcontentassessor.com"
+ ],
+ "category": "reference",
+ "domain": "nature.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 64.5
+}

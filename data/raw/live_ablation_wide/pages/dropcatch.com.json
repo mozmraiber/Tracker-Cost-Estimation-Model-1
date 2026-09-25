@@ -1,0 +1,225 @@
+{
+ "url": "https://dropcatch.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o4510675591430144.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1557,
+     "control": {
+      "page": 2771139,
+      "third_party": 1594390,
+      "listed": 2397
+     },
+     "ablated": {
+      "page": 2770160,
+      "third_party": 1592997,
+      "listed": 840
+     },
+     "n_aborted": 3,
+     "moved": {
+      "o4510675591430144.ingest.us.sentry.io": 1557,
+      "dropcatch.com": -368,
+      "www.google.com": -164,
+      "client.dropcatch.com": -23,
+      "www.dropcatch.com": -23,
+      "rt.dropcatch.com": 0,
+      "www.googletagmanager.com": 0,
+      "ad.doubleclick.net": 0,
+      "region1.google-analytics.com": 0,
+      "www.gstatic.com": 0,
+      "translate.dropcatch.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1482,
+     "control": {
+      "page": 2771817,
+      "third_party": 1594555,
+      "listed": 2322
+     },
+     "ablated": {
+      "page": 2770116,
+      "third_party": 1592909,
+      "listed": 840
+     },
+     "n_aborted": 3,
+     "moved": {
+      "o4510675591430144.ingest.us.sentry.io": 1482,
+      "www.google.com": 164,
+      "translate.dropcatch.com": 58,
+      "client.dropcatch.com": -3,
+      "dropcatch.com": 0,
+      "rt.dropcatch.com": 0,
+      "www.googletagmanager.com": 0,
+      "ad.doubleclick.net": 0,
+      "region1.google-analytics.com": 0,
+      "www.dropcatch.com": 0,
+      "www.gstatic.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -578,
+     219
+    ],
+    "third_party": [
+     -164,
+     164
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -179.5,
+     "sd": 563.5641046056784,
+     "se": 398.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 0,
+     "sd": 231.93102422918759,
+     "se": 164.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1519.5
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 840,
+     "control": {
+      "page": 2771580,
+      "third_party": 1594366,
+      "listed": 2397
+     },
+     "ablated": {
+      "page": 2770228,
+      "third_party": 1593970,
+      "listed": 1482
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.google-analytics.com": 840,
+      "logging.dropcatch.com": 590,
+      "dropcatch.com": 368,
+      "www.googletagmanager.com": -264,
+      "www.google.com": -255,
+      "o4510675591430144.ingest.us.sentry.io": 75,
+      "www.dropcatch.com": -38,
+      "client.dropcatch.com": 34,
+      "translate.dropcatch.com": 2,
+      "rt.dropcatch.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 840,
+     "control": {
+      "page": 2772241,
+      "third_party": 1595042,
+      "listed": 2322
+     },
+     "ablated": {
+      "page": 2770839,
+      "third_party": 1593699,
+      "listed": 1557
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.google-analytics.com": 840,
+      "www.googletagmanager.com": 720,
+      "www.google.com": -142,
+      "o4510675591430144.ingest.us.sentry.io": -75,
+      "translate.dropcatch.com": 50,
+      "client.dropcatch.com": 9,
+      "dropcatch.com": 0,
+      "rt.dropcatch.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.dropcatch.com": 0,
+      "www.gstatic.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     512,
+     562
+    ],
+    "third_party": [
+     -444,
+     503
+    ],
+    "listed": [
+     75,
+     -75
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 537,
+     "sd": 35.35533905932738,
+     "se": 25.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 29.5,
+     "sd": 669.6301217836605,
+     "se": 473.49999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 106.06601717798213,
+     "se": 75.0
+    }
+   },
+   "own_mean": 840
+  }
+ },
+ "candidates": [
+  "o4510675591430144.ingest.us.sentry.io",
+  "region1.google-analytics.com"
+ ],
+ "category": "shopping",
+ "domain": "dropcatch.com",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 52.3
+}

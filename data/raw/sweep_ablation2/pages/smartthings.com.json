@@ -1,0 +1,456 @@
+{
+ "url": "https://smartthings.com/",
+ "hosts": [
+  "connect.facebook.net",
+  "analytics.tiktok.com",
+  "samsungusa.api.useinsider.com",
+  "cdn.quantummetric.com",
+  "s.go-mpulse.net",
+  "cdn.attn.tv"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "s.go-mpulse.net",
+    "samsungusa.api.useinsider.com",
+    "analytics.tiktok.com",
+    "connect.facebook.net",
+    "cdn.attn.tv",
+    "cdn.quantummetric.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 7170741,
+      "third_party": 7170321,
+      "listed": 1533083
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "s.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 7104331,
+      "third_party": 7103483,
+      "listed": 1467504
+     },
+     "own": 59165,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 66410,
+      "third_party": 66838,
+      "listed": 65579
+     },
+     "cascade": {
+      "page": 7245,
+      "third_party": 7673,
+      "listed": 6414
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "s.go-mpulse.net",
+      "samsungusa.api.useinsider.com"
+     ],
+     "bytes": {
+      "page": 6973621,
+      "third_party": 6972773,
+      "listed": 1335045
+     },
+     "own": 183797,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 197120,
+      "third_party": 197548,
+      "listed": 198038
+     },
+     "cascade": {
+      "page": 13323,
+      "third_party": 13751,
+      "listed": 14241
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "s.go-mpulse.net",
+      "samsungusa.api.useinsider.com",
+      "analytics.tiktok.com"
+     ],
+     "bytes": {
+      "page": 6838666,
+      "third_party": 6837818,
+      "listed": 1169062
+     },
+     "own": 342749,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 332075,
+      "third_party": 332503,
+      "listed": 364021
+     },
+     "cascade": {
+      "page": -10674,
+      "third_party": -10246,
+      "listed": 21272
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "s.go-mpulse.net",
+      "samsungusa.api.useinsider.com",
+      "analytics.tiktok.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 6529140,
+      "third_party": 6528292,
+      "listed": 860244
+     },
+     "own": 650405,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 641601,
+      "third_party": 642029,
+      "listed": 672839
+     },
+     "cascade": {
+      "page": -8804,
+      "third_party": -8376,
+      "listed": 22434
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "s.go-mpulse.net",
+      "samsungusa.api.useinsider.com",
+      "analytics.tiktok.com",
+      "connect.facebook.net",
+      "cdn.attn.tv"
+     ],
+     "bytes": {
+      "page": 6470607,
+      "third_party": 6470187,
+      "listed": 802177
+     },
+     "own": 708989,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 700134,
+      "third_party": 700134,
+      "listed": 730906
+     },
+     "cascade": {
+      "page": -8855,
+      "third_party": -8855,
+      "listed": 21917
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "s.go-mpulse.net",
+      "samsungusa.api.useinsider.com",
+      "analytics.tiktok.com",
+      "connect.facebook.net",
+      "cdn.attn.tv",
+      "cdn.quantummetric.com"
+     ],
+     "bytes": {
+      "page": 6184915,
+      "third_party": 6184067,
+      "listed": 697633
+     },
+     "own": 811439,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 985826,
+      "third_party": 986254,
+      "listed": 835450
+     },
+     "cascade": {
+      "page": 174387,
+      "third_party": 174815,
+      "listed": 24011
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "s.go-mpulse.net",
+    "connect.facebook.net",
+    "analytics.tiktok.com",
+    "cdn.attn.tv",
+    "samsungusa.api.useinsider.com",
+    "cdn.quantummetric.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 7172052,
+      "third_party": 7171204,
+      "listed": 1535559
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "s.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 7104930,
+      "third_party": 7104082,
+      "listed": 1468404
+     },
+     "own": 59165,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 67122,
+      "third_party": 67122,
+      "listed": 67155
+     },
+     "cascade": {
+      "page": 7957,
+      "third_party": 7957,
+      "listed": 7990
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "s.go-mpulse.net",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 6797012,
+      "third_party": 6796164,
+      "listed": 1160145
+     },
+     "own": 366843,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 375040,
+      "third_party": 375040,
+      "listed": 375414
+     },
+     "cascade": {
+      "page": 8197,
+      "third_party": 8197,
+      "listed": 8571
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "s.go-mpulse.net",
+      "connect.facebook.net",
+      "analytics.tiktok.com"
+     ],
+     "bytes": {
+      "page": 6630738,
+      "third_party": 6629890,
+      "listed": 995715
+     },
+     "own": 528564,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 541314,
+      "third_party": 541314,
+      "listed": 539844
+     },
+     "cascade": {
+      "page": 12750,
+      "third_party": 12750,
+      "listed": 11280
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "s.go-mpulse.net",
+      "connect.facebook.net",
+      "analytics.tiktok.com",
+      "cdn.attn.tv"
+     ],
+     "bytes": {
+      "page": 6606620,
+      "third_party": 6605772,
+      "listed": 937798
+     },
+     "own": 587148,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 565432,
+      "third_party": 565432,
+      "listed": 597761
+     },
+     "cascade": {
+      "page": -21716,
+      "third_party": -21716,
+      "listed": 10613
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "s.go-mpulse.net",
+      "connect.facebook.net",
+      "analytics.tiktok.com",
+      "cdn.attn.tv",
+      "samsungusa.api.useinsider.com"
+     ],
+     "bytes": {
+      "page": 6438869,
+      "third_party": 6438449,
+      "listed": 804198
+     },
+     "own": 712982,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 733183,
+      "third_party": 732755,
+      "listed": 731361
+     },
+     "cascade": {
+      "page": 20201,
+      "third_party": 19773,
+      "listed": 18379
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "s.go-mpulse.net",
+      "connect.facebook.net",
+      "analytics.tiktok.com",
+      "cdn.attn.tv",
+      "samsungusa.api.useinsider.com",
+      "cdn.quantummetric.com"
+     ],
+     "bytes": {
+      "page": 6185161,
+      "third_party": 6184313,
+      "listed": 697877
+     },
+     "own": 815433,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 986891,
+      "third_party": 986891,
+      "listed": 837682
+     },
+     "cascade": {
+      "page": 171458,
+      "third_party": 171458,
+      "listed": 22249
+     }
+    }
+   ]
+  }
+ ],
+ "category": "productivity",
+ "domain": "smartthings.com",
+ "elapsed_s": 97.5
+}

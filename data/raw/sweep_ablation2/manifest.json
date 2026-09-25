@@ -1,0 +1,410 @@
+{
+ "written": "2026-09-25T10:53:20",
+ "params": {
+  "out": "data/raw/sweep_ablation2",
+  "per_category": 8,
+  "min_blocks": 5,
+  "max_hosts": 6,
+  "min_hosts": 3,
+  "reps": 2,
+  "timeout_s": 45,
+  "settle_s": 5.0,
+  "browser_every": 5,
+  "limit": 0,
+  "rebuild": false
+ },
+ "pages": [
+  {
+   "url": "https://ted.com/",
+   "domain": "ted.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 124.0,
+   "bytes_saved_tracking": 4145570.0
+  },
+  {
+   "url": "https://disneyplus.com/",
+   "domain": "disneyplus.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 94.0,
+   "bytes_saved_tracking": 21832.0
+  },
+  {
+   "url": "https://dailymotion.com/",
+   "domain": "dailymotion.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 90.0,
+   "bytes_saved_tracking": 305766.0
+  },
+  {
+   "url": "https://kick.com/",
+   "domain": "kick.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 90.0,
+   "bytes_saved_tracking": 7189808.0
+  },
+  {
+   "url": "https://ivi.ru/",
+   "domain": "ivi.ru",
+   "category": "entertainment",
+   "n_blocked_tracking": 80.0,
+   "bytes_saved_tracking": 2557212.0
+  },
+  {
+   "url": "https://genius.com/",
+   "domain": "genius.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 59.0,
+   "bytes_saved_tracking": 5938165.0
+  },
+  {
+   "url": "https://go.com/",
+   "domain": "go.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 45.0,
+   "bytes_saved_tracking": 278616.0
+  },
+  {
+   "url": "https://erome.com/",
+   "domain": "erome.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 857311.0
+  },
+  {
+   "url": "https://amzn.to/",
+   "domain": "amzn.to",
+   "category": "infrastructure",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 299829.0
+  },
+  {
+   "url": "https://fwmrm.net/",
+   "domain": "fwmrm.net",
+   "category": "infrastructure",
+   "n_blocked_tracking": 190.0,
+   "bytes_saved_tracking": 3471379.0
+  },
+  {
+   "url": "https://no-ip.com/",
+   "domain": "no-ip.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 130.0,
+   "bytes_saved_tracking": 4196387.0
+  },
+  {
+   "url": "https://imgsmail.ru/",
+   "domain": "imgsmail.ru",
+   "category": "infrastructure",
+   "n_blocked_tracking": 109.0,
+   "bytes_saved_tracking": 3846008.0
+  },
+  {
+   "url": "https://bit.ly/",
+   "domain": "bit.ly",
+   "category": "infrastructure",
+   "n_blocked_tracking": 100.0,
+   "bytes_saved_tracking": 1644900.0
+  },
+  {
+   "url": "https://abovedomains.com/",
+   "domain": "abovedomains.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 80.0,
+   "bytes_saved_tracking": 3146411.0
+  },
+  {
+   "url": "https://ipify.org/",
+   "domain": "ipify.org",
+   "category": "infrastructure",
+   "n_blocked_tracking": 80.0,
+   "bytes_saved_tracking": 1721781.0
+  },
+  {
+   "url": "https://3lift.com/",
+   "domain": "3lift.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": -1065696.0
+  },
+  {
+   "url": "https://nbcnews.com/",
+   "domain": "nbcnews.com",
+   "category": "news",
+   "n_blocked_tracking": 360.0,
+   "bytes_saved_tracking": 22283302.0
+  },
+  {
+   "url": "https://mlb.com/",
+   "domain": "mlb.com",
+   "category": "news",
+   "n_blocked_tracking": 336.0,
+   "bytes_saved_tracking": 1587463.0
+  },
+  {
+   "url": "https://uol.com.br/",
+   "domain": "uol.com.br",
+   "category": "news",
+   "n_blocked_tracking": 308.0,
+   "bytes_saved_tracking": 6233097.0
+  },
+  {
+   "url": "https://techcrunch.com/",
+   "domain": "techcrunch.com",
+   "category": "news",
+   "n_blocked_tracking": 270.0,
+   "bytes_saved_tracking": 11921962.0
+  },
+  {
+   "url": "https://globo.com/",
+   "domain": "globo.com",
+   "category": "news",
+   "n_blocked_tracking": 245.0,
+   "bytes_saved_tracking": 14412135.0
+  },
+  {
+   "url": "https://hbr.org/",
+   "domain": "hbr.org",
+   "category": "news",
+   "n_blocked_tracking": 170.0,
+   "bytes_saved_tracking": 5958046.0
+  },
+  {
+   "url": "https://cnet.com/",
+   "domain": "cnet.com",
+   "category": "news",
+   "n_blocked_tracking": 154.0,
+   "bytes_saved_tracking": 4832642.0
+  },
+  {
+   "url": "https://prnewswire.com/",
+   "domain": "prnewswire.com",
+   "category": "news",
+   "n_blocked_tracking": 150.0,
+   "bytes_saved_tracking": 22262751.0
+  },
+  {
+   "url": "https://att.com/",
+   "domain": "att.com",
+   "category": "productivity",
+   "n_blocked_tracking": 555.0,
+   "bytes_saved_tracking": 7006429.0
+  },
+  {
+   "url": "https://amazonalexa.com/",
+   "domain": "amazonalexa.com",
+   "category": "productivity",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 281518.0
+  },
+  {
+   "url": "https://braze.com/",
+   "domain": "braze.com",
+   "category": "productivity",
+   "n_blocked_tracking": 290.0,
+   "bytes_saved_tracking": 18130562.0
+  },
+  {
+   "url": "https://smartthings.com/",
+   "domain": "smartthings.com",
+   "category": "productivity",
+   "n_blocked_tracking": 276.0,
+   "bytes_saved_tracking": 6340947.0
+  },
+  {
+   "url": "https://applovin.com/",
+   "domain": "applovin.com",
+   "category": "productivity",
+   "n_blocked_tracking": 258.0,
+   "bytes_saved_tracking": 878278.0
+  },
+  {
+   "url": "https://mailchimp.com/",
+   "domain": "mailchimp.com",
+   "category": "productivity",
+   "n_blocked_tracking": 245.0,
+   "bytes_saved_tracking": 408830.0
+  },
+  {
+   "url": "https://inmobi.com/",
+   "domain": "inmobi.com",
+   "category": "productivity",
+   "n_blocked_tracking": 240.0,
+   "bytes_saved_tracking": 2570608.0
+  },
+  {
+   "url": "https://oxylabs.io/",
+   "domain": "oxylabs.io",
+   "category": "productivity",
+   "n_blocked_tracking": 190.0,
+   "bytes_saved_tracking": 5391401.0
+  },
+  {
+   "url": "https://creativecommons.org/",
+   "domain": "creativecommons.org",
+   "category": "reference",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 33260.0
+  },
+  {
+   "url": "https://harvard.edu/",
+   "domain": "harvard.edu",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 2065958.0
+  },
+  {
+   "url": "https://nist.gov/",
+   "domain": "nist.gov",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 359534.0
+  },
+  {
+   "url": "https://stanford.edu/",
+   "domain": "stanford.edu",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 1898662.0
+  },
+  {
+   "url": "https://berkeley.edu/",
+   "domain": "berkeley.edu",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 118789.0
+  },
+  {
+   "url": "https://consultant.ru/",
+   "domain": "consultant.ru",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 1262073.0
+  },
+  {
+   "url": "https://frontiersin.org/",
+   "domain": "frontiersin.org",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 402413.0
+  },
+  {
+   "url": "https://nasa.gov/",
+   "domain": "nasa.gov",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 291719.0
+  },
+  {
+   "url": "https://amazon.ca/",
+   "domain": "amazon.ca",
+   "category": "shopping",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 344138.0
+  },
+  {
+   "url": "https://amazon.com.br/",
+   "domain": "amazon.com.br",
+   "category": "shopping",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 271710.0
+  },
+  {
+   "url": "https://fiverr.com/",
+   "domain": "fiverr.com",
+   "category": "shopping",
+   "n_blocked_tracking": 360.0,
+   "bytes_saved_tracking": 3423271.0
+  },
+  {
+   "url": "https://rakuten.com/",
+   "domain": "rakuten.com",
+   "category": "shopping",
+   "n_blocked_tracking": 210.0,
+   "bytes_saved_tracking": 4686736.0
+  },
+  {
+   "url": "https://avito.ru/",
+   "domain": "avito.ru",
+   "category": "shopping",
+   "n_blocked_tracking": 139.0,
+   "bytes_saved_tracking": 9484704.0
+  },
+  {
+   "url": "https://dell.com/",
+   "domain": "dell.com",
+   "category": "shopping",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 2146478.0
+  },
+  {
+   "url": "https://dropcatch.com/",
+   "domain": "dropcatch.com",
+   "category": "shopping",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 22460.0
+  },
+  {
+   "url": "https://kleinanzeigen.de/",
+   "domain": "kleinanzeigen.de",
+   "category": "shopping",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 631530.0
+  },
+  {
+   "url": "https://livejournal.com/",
+   "domain": "livejournal.com",
+   "category": "social",
+   "n_blocked_tracking": 240.0,
+   "bytes_saved_tracking": 6035972.0
+  },
+  {
+   "url": "https://scribd.com/",
+   "domain": "scribd.com",
+   "category": "social",
+   "n_blocked_tracking": 150.0,
+   "bytes_saved_tracking": 230540.0
+  },
+  {
+   "url": "https://imgur.com/",
+   "domain": "imgur.com",
+   "category": "social",
+   "n_blocked_tracking": 108.0,
+   "bytes_saved_tracking": 6521822.0
+  },
+  {
+   "url": "https://linktr.ee/",
+   "domain": "linktr.ee",
+   "category": "social",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 16650.0
+  },
+  {
+   "url": "https://viber.com/",
+   "domain": "viber.com",
+   "category": "social",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 959212.0
+  },
+  {
+   "url": "https://ok.ru/",
+   "domain": "ok.ru",
+   "category": "social",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 1250483.0
+  },
+  {
+   "url": "https://pikabu.ru/",
+   "domain": "pikabu.ru",
+   "category": "social",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 4888867.0
+  },
+  {
+   "url": "https://ameblo.jp/",
+   "domain": "ameblo.jp",
+   "category": "social",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 22390.0
+  }
+ ]
+}

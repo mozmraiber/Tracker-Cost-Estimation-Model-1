@@ -1,0 +1,307 @@
+{
+ "url": "https://erome.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "a.magsrv.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 61014,
+     "control": {
+      "page": 407813,
+      "third_party": 268146,
+      "listed": 86246
+     },
+     "ablated": {
+      "page": 346808,
+      "third_party": 207139,
+      "listed": 25232
+     },
+     "n_aborted": 1,
+     "moved": {
+      "a.magsrv.com": 61014,
+      "www.googletagmanager.com": -7,
+      "www.erome.com": -2,
+      "erome.com": 0,
+      "fonts.googleapis.com": 0,
+      "cdn.tsyndicate.com": 0,
+      "region1.google-analytics.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 61014,
+     "control": {
+      "page": 407856,
+      "third_party": 268183,
+      "listed": 86276
+     },
+     "ablated": {
+      "page": 346807,
+      "third_party": 207139,
+      "listed": 25232
+     },
+     "n_aborted": 1,
+     "moved": {
+      "a.magsrv.com": 61014,
+      "cdn.tsyndicate.com": 30,
+      "www.erome.com": 5,
+      "erome.com": 0,
+      "fonts.googleapis.com": 0,
+      "www.googletagmanager.com": 0,
+      "region1.google-analytics.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -9,
+     35
+    ],
+    "third_party": [
+     -7,
+     30
+    ],
+    "listed": [
+     0,
+     30
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 13,
+     "sd": 31.11269837220809,
+     "se": 21.999999999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 11.5,
+     "sd": 26.16295090390226,
+     "se": 18.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 15,
+     "sd": 21.213203435596427,
+     "se": 15.0
+    }
+   },
+   "own_mean": 61014
+  },
+  "cdn.tsyndicate.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 24396,
+     "control": {
+      "page": 407817,
+      "third_party": 268153,
+      "listed": 86246
+     },
+     "ablated": {
+      "page": 383424,
+      "third_party": 243757,
+      "listed": 61850
+     },
+     "n_aborted": 2,
+     "moved": {
+      "cdn.tsyndicate.com": 24396,
+      "www.erome.com": -3,
+      "erome.com": 0,
+      "fonts.googleapis.com": 0,
+      "a.magsrv.com": 0,
+      "www.googletagmanager.com": 0,
+      "region1.google-analytics.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 24419,
+     "control": {
+      "page": 407913,
+      "third_party": 268176,
+      "listed": 86269
+     },
+     "ablated": {
+      "page": 383418,
+      "third_party": 243750,
+      "listed": 61850
+     },
+     "n_aborted": 2,
+     "moved": {
+      "cdn.tsyndicate.com": 24419,
+      "www.erome.com": 69,
+      "www.googletagmanager.com": 7,
+      "erome.com": 0,
+      "fonts.googleapis.com": 0,
+      "a.magsrv.com": 0,
+      "region1.google-analytics.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -3,
+     76
+    ],
+    "third_party": [
+     0,
+     7
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 36.5,
+     "sd": 55.86143571373726,
+     "se": 39.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3.5,
+     "sd": 4.949747468305833,
+     "se": 3.4999999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 24407.5
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 836,
+     "control": {
+      "page": 407848,
+      "third_party": 268183,
+      "listed": 86276
+     },
+     "ablated": {
+      "page": 407016,
+      "third_party": 267347,
+      "listed": 85440
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.google-analytics.com": 836,
+      "www.erome.com": -4,
+      "erome.com": 0,
+      "fonts.googleapis.com": 0,
+      "a.magsrv.com": 0,
+      "www.googletagmanager.com": 0,
+      "cdn.tsyndicate.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 836,
+     "control": {
+      "page": 407426,
+      "third_party": 268183,
+      "listed": 86276
+     },
+     "ablated": {
+      "page": 406983,
+      "third_party": 267316,
+      "listed": 85440
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.google-analytics.com": 836,
+      "erome.com": -427,
+      "www.googletagmanager.com": 31,
+      "www.erome.com": 3,
+      "fonts.googleapis.com": 0,
+      "a.magsrv.com": 0,
+      "cdn.tsyndicate.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -4,
+     -393
+    ],
+    "third_party": [
+     0,
+     31
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -198.5,
+     "sd": 275.064537881567,
+     "se": 194.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 15.5,
+     "sd": 21.920310216782973,
+     "se": 15.499999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 836
+  }
+ },
+ "candidates": [
+  "a.magsrv.com",
+  "cdn.tsyndicate.com",
+  "region1.google-analytics.com"
+ ],
+ "category": "entertainment",
+ "domain": "erome.com",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 83.5
+}

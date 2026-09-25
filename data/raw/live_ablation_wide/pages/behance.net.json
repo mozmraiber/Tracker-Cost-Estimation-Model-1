@@ -1,0 +1,225 @@
+{
+ "url": "https://behance.net/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 32551,
+     "control": {
+      "page": 6415761,
+      "third_party": 2035361,
+      "listed": 384794
+     },
+     "ablated": {
+      "page": 6380925,
+      "third_party": 2000481,
+      "listed": 350400
+     },
+     "n_aborted": 1,
+     "moved": {
+      "js-agent.newrelic.com": 32551,
+      "bam.nr-data.net": 1852,
+      "accounts.google.com": 485,
+      "www.behance.net": -44,
+      "www.adobe.com": -9,
+      "use.typekit.net": 8,
+      "ims-na1.adobelogin.com": -7,
+      "dcs.adobedc.net": 1,
+      "sstats.adobe.com": -1,
+      "geolocation.onetrust.com": 0,
+      "auth-light.identity.adobe.com": 0,
+      "behance.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 32551,
+     "control": {
+      "page": 6417560,
+      "third_party": 2034827,
+      "listed": 384773
+     },
+     "ablated": {
+      "page": 6380543,
+      "third_party": 2000141,
+      "listed": 350068
+     },
+     "n_aborted": 1,
+     "moved": {
+      "js-agent.newrelic.com": 32551,
+      "a5.behance.net": 2097,
+      "bam.nr-data.net": 1852,
+      "adobeid-na1.services.adobe.com": 330,
+      "www.behance.net": 268,
+      "behance.net": -34,
+      "www.adobe.com": -19,
+      "accounts.google.com": -19,
+      "sstats.adobe.com": -5,
+      "auth-light.identity.adobe.com": -2,
+      "auth.services.adobe.com": -2,
+      "geo2.adobe.com": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2285,
+     4466
+    ],
+    "third_party": [
+     2329,
+     2135
+    ],
+    "listed": [
+     1843,
+     2154
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3375.5,
+     "sd": 1542.1998897678602,
+     "se": 1090.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2232,
+     "sd": 137.17871555019022,
+     "se": 97.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1998.5,
+     "sd": 219.9102089490163,
+     "se": 155.5
+    }
+   },
+   "own_mean": 32551
+  },
+  "bam.nr-data.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1852,
+     "control": {
+      "page": 6414942,
+      "third_party": 2034528,
+      "listed": 384464
+     },
+     "ablated": {
+      "page": 6413093,
+      "third_party": 2032691,
+      "listed": 382622
+     },
+     "n_aborted": 2,
+     "moved": {
+      "bam.nr-data.net": 1852,
+      "behance.net": 34,
+      "www.behance.net": -22,
+      "ims-na1.adobelogin.com": -7,
+      "www.adobe.com": -6,
+      "sstats.adobe.com": -4,
+      "accounts.google.com": 2,
+      "auth-light.identity.adobe.com": -1,
+      "auth.services.adobe.com": -1,
+      "geo2.adobe.com": 1,
+      "dcs.adobedc.net": 1,
+      "use.typekit.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1852,
+     "control": {
+      "page": 6415317,
+      "third_party": 2034879,
+      "listed": 384800
+     },
+     "ablated": {
+      "page": 6413433,
+      "third_party": 2033029,
+      "listed": 382947
+     },
+     "n_aborted": 2,
+     "moved": {
+      "bam.nr-data.net": 1852,
+      "behance.net": 34,
+      "sstats.adobe.com": 6,
+      "www.adobe.com": -5,
+      "accounts.google.com": -3,
+      "js-agent.newrelic.com": -1,
+      "dcs.adobedc.net": 1,
+      "use.typekit.net": 0,
+      "www.behance.net": 0,
+      "geolocation.onetrust.com": 0,
+      "auth-light.identity.adobe.com": 0,
+      "assets.adobedtm.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -3,
+     32
+    ],
+    "third_party": [
+     -15,
+     -2
+    ],
+    "listed": [
+     -10,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 14.5,
+     "sd": 24.748737341529164,
+     "se": 17.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -8.5,
+     "sd": 9.192388155425117,
+     "se": 6.499999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -4.5,
+     "sd": 7.7781745930520225,
+     "se": 5.499999999999999
+    }
+   },
+   "own_mean": 1852
+  }
+ },
+ "candidates": [
+  "js-agent.newrelic.com",
+  "bam.nr-data.net"
+ ],
+ "category": "social",
+ "domain": "behance.net",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 67.3
+}

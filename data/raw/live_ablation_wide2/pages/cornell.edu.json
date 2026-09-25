@@ -1,0 +1,229 @@
+{
+ "url": "https://cornell.edu/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "siteimproveanalytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 13969,
+     "control": {
+      "page": 25244976,
+      "third_party": 21327961,
+      "listed": 34945
+     },
+     "ablated": {
+      "page": 25230047,
+      "third_party": 21313693,
+      "listed": 20695
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "siteimproveanalytics.com": 13969,
+      "www.cornell.edu": 548,
+      "6120104.global.siteimproveanalytics.io": 301,
+      "cornell.edu": 113,
+      "region1.google-analytics.com": -20,
+      "use.typekit.net": 12,
+      "www.googletagmanager.com": 5,
+      "cdnjs.cloudflare.com": 4,
+      "cdnsecakmi.kaltura.com": -3,
+      "media.univcomm.cornell.edu": 0,
+      "ajax.googleapis.com": 0,
+      "ssl.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 13963,
+     "control": {
+      "page": 25421227,
+      "third_party": 21504212,
+      "listed": 34939
+     },
+     "ablated": {
+      "page": 25229562,
+      "third_party": 21313721,
+      "listed": 20695
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.googletagmanager.com": 176261,
+      "siteimproveanalytics.com": 13963,
+      "media.univcomm.cornell.edu": 669,
+      "www.cornell.edu": 371,
+      "6120104.global.siteimproveanalytics.io": 301,
+      "cornell.edu": 113,
+      "cdn.universityrelations.cornell.edu": 21,
+      "region1.google-analytics.com": -20,
+      "use.typekit.net": -11,
+      "cdnjs.cloudflare.com": -2,
+      "cdnsecakmi.kaltura.com": -1,
+      "ajax.googleapis.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     960,
+     177702
+    ],
+    "third_party": [
+     299,
+     176528
+    ],
+    "listed": [
+     281,
+     281
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 89331,
+     "sd": 124975.46672047279,
+     "se": 88371.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 88413.5,
+     "sd": 124612.72094172408,
+     "se": 88114.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 281,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 13966
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1656,
+     "control": {
+      "page": 25245332,
+      "third_party": 21328318,
+      "listed": 34915
+     },
+     "ablated": {
+      "page": 25241756,
+      "third_party": 21326153,
+      "listed": 33242
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "region1.google-analytics.com": 1656,
+      "media.univcomm.cornell.edu": 648,
+      "www.cornell.edu": 629,
+      "www.googletagmanager.com": 480,
+      "cornell.edu": 113,
+      "cdn.universityrelations.cornell.edu": 21,
+      "siteimproveanalytics.com": 17,
+      "cdnjs.cloudflare.com": 12,
+      "use.typekit.net": 0,
+      "ajax.googleapis.com": 0,
+      "6120104.global.siteimproveanalytics.io": 0,
+      "ssl.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1676,
+     "control": {
+      "page": 25420765,
+      "third_party": 21503737,
+      "listed": 34916
+     },
+     "ablated": {
+      "page": 25419870,
+      "third_party": 21502857,
+      "listed": 33236
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "region1.google-analytics.com": 1676,
+      "www.googletagmanager.com": -798,
+      "cdn.universityrelations.cornell.edu": 21,
+      "www.cornell.edu": -6,
+      "siteimproveanalytics.com": 4,
+      "cdnjs.cloudflare.com": -2,
+      "use.typekit.net": 0,
+      "media.univcomm.cornell.edu": 0,
+      "ajax.googleapis.com": 0,
+      "6120104.global.siteimproveanalytics.io": 0,
+      "ssl.google-analytics.com": 0,
+      "cornell.edu": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1920,
+     -781
+    ],
+    "third_party": [
+     509,
+     -796
+    ],
+    "listed": [
+     17,
+     4
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 569.5,
+     "sd": 1909.895415984865,
+     "se": 1350.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -143.5,
+     "sd": 922.7743494484445,
+     "se": 652.4999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 10.5,
+     "sd": 9.192388155425117,
+     "se": 6.499999999999999
+    }
+   },
+   "own_mean": 1666
+  }
+ },
+ "candidates": [
+  "siteimproveanalytics.com",
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "cornell.edu",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 86.8
+}

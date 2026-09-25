@@ -1,0 +1,331 @@
+{
+ "url": "https://bit.ly/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "cdn.optimizely.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 123186,
+     "control": {
+      "page": 5900119,
+      "third_party": 5899754,
+      "listed": 354179
+     },
+     "ablated": {
+      "page": 5829598,
+      "third_party": 5829233,
+      "listed": 228677
+     },
+     "n_aborted": 2,
+     "moved": {
+      "cdn.optimizely.com": 121322,
+      "mkt-static.bitly.com": -54244,
+      "a16488430484.cdn.optimizely.com": 1864,
+      "logx.optimizely.com": 1110,
+      "region1.google-analytics.com": 832,
+      "www.googletagmanager.com": -774,
+      "cdn3.optimizely.com": 374,
+      "sp.bitly.com": 25,
+      "accounts.google.com": 12,
+      "pagead2.googlesyndication.com": 0,
+      "cdn.userway.org": 0,
+      "geolocation.onetrust.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 123186,
+     "control": {
+      "page": 5899610,
+      "third_party": 5899220,
+      "listed": 354971
+     },
+     "ablated": {
+      "page": 5774908,
+      "third_party": 5774518,
+      "listed": 228677
+     },
+     "n_aborted": 2,
+     "moved": {
+      "cdn.optimizely.com": 121322,
+      "a16488430484.cdn.optimizely.com": 1864,
+      "region1.google-analytics.com": 1624,
+      "mkt-static.bitly.com": -1600,
+      "logx.optimizely.com": 1110,
+      "cdn3.optimizely.com": 374,
+      "cdn.jsdelivr.net": 6,
+      "accounts.google.com": 2,
+      "www.googletagmanager.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "cdn.userway.org": 0,
+      "geolocation.onetrust.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -52665,
+     1516
+    ],
+    "third_party": [
+     -52665,
+     1516
+    ],
+    "listed": [
+     2316,
+     3108
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -25574.5,
+     "sd": 38311.75251146833,
+     "se": 27090.499999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -25574.5,
+     "sd": 38311.75251146833,
+     "se": 27090.499999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2712,
+     "sd": 560.0285706997456,
+     "se": 395.99999999999994
+    }
+   },
+   "own_mean": 123186
+  },
+  "bat.bing.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35118,
+     "control": {
+      "page": 5952736,
+      "third_party": 5952346,
+      "listed": 353327
+     },
+     "ablated": {
+      "page": 5861804,
+      "third_party": 5861439,
+      "listed": 318229
+     },
+     "n_aborted": 1,
+     "moved": {
+      "mkt-static.bitly.com": 54784,
+      "bat.bing.com": 35118,
+      "bat.bing.net": 1028,
+      "api.userway.org": 611,
+      "www.googletagmanager.com": -499,
+      "sp.bitly.com": -90,
+      "bit.ly": 25,
+      "bitly.com": -25,
+      "region1.google-analytics.com": -20,
+      "cdn.jsdelivr.net": 2,
+      "accounts.google.com": -2,
+      "logx.optimizely.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35118,
+     "control": {
+      "page": 5897990,
+      "third_party": 5897625,
+      "listed": 353347
+     },
+     "ablated": {
+      "page": 5862162,
+      "third_party": 5861797,
+      "listed": 319061
+     },
+     "n_aborted": 1,
+     "moved": {
+      "bat.bing.com": 35118,
+      "bat.bing.net": 1028,
+      "region1.google-analytics.com": -832,
+      "mkt-static.bitly.com": 635,
+      "sp.bitly.com": -75,
+      "www.googletagmanager.com": -26,
+      "accounts.google.com": -14,
+      "cdn.jsdelivr.net": -6,
+      "logx.optimizely.com": 0,
+      "a16488430484.cdn.optimizely.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "cdn.userway.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     55814,
+     710
+    ],
+    "third_party": [
+     55789,
+     710
+    ],
+    "listed": [
+     -20,
+     -832
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 28262,
+     "sd": 38964.41207050352,
+     "se": 27552.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 28249.5,
+     "sd": 38946.73440097385,
+     "se": 27539.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -426,
+     "sd": 574.1707063234766,
+     "se": 405.99999999999994
+    }
+   },
+   "own_mean": 35118
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1664,
+     "control": {
+      "page": 5952492,
+      "third_party": 5952127,
+      "listed": 353347
+     },
+     "ablated": {
+      "page": 5895784,
+      "third_party": 5895394,
+      "listed": 351733
+     },
+     "n_aborted": 4,
+     "moved": {
+      "mkt-static.bitly.com": 55104,
+      "region1.google-analytics.com": 1664,
+      "logx.optimizely.com": -50,
+      "sp.bitly.com": 25,
+      "bit.ly": -25,
+      "cdn.jsdelivr.net": -6,
+      "accounts.google.com": -4,
+      "www.googletagmanager.com": 0,
+      "a16488430484.cdn.optimizely.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "cdn.userway.org": 0,
+      "geolocation.onetrust.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2496,
+     "control": {
+      "page": 5898797,
+      "third_party": 5898432,
+      "listed": 354179
+     },
+     "ablated": {
+      "page": 5896287,
+      "third_party": 5895922,
+      "listed": 351683
+     },
+     "n_aborted": 3,
+     "moved": {
+      "region1.google-analytics.com": 2496,
+      "mkt-static.bitly.com": 605,
+      "accounts.google.com": -527,
+      "sp.bitly.com": -25,
+      "bitly.com": -25,
+      "www.googletagmanager.com": -14,
+      "logx.optimizely.com": 0,
+      "a16488430484.cdn.optimizely.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "cdn.userway.org": 0,
+      "geolocation.onetrust.com": 0,
+      "cdn.jsdelivr.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     55044,
+     14
+    ],
+    "third_party": [
+     55069,
+     14
+    ],
+    "listed": [
+     -50,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 27529,
+     "sd": 38912.08616869571,
+     "se": 27514.999999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 27541.5,
+     "sd": 38929.76383822537,
+     "se": 27527.499999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": -25,
+     "sd": 35.35533905932738,
+     "se": 25.0
+    }
+   },
+   "own_mean": 2080
+  }
+ },
+ "candidates": [
+  "cdn.optimizely.com",
+  "bat.bing.com",
+  "region1.google-analytics.com"
+ ],
+ "category": "infrastructure",
+ "domain": "bit.ly",
+ "n_blocked_tracking": 100.0,
+ "elapsed_s": 97.0
+}

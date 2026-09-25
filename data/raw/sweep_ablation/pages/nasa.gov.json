@@ -1,0 +1,284 @@
+{
+ "url": "https://nasa.gov/",
+ "hosts": [
+  "cdn.parsely.com",
+  "region1.google-analytics.com",
+  "googleads.g.doubleclick.net",
+  "static.doubleclick.net"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "googleads.g.doubleclick.net",
+    "cdn.parsely.com",
+    "region1.google-analytics.com",
+    "static.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 30015995,
+      "third_party": 2086208,
+      "listed": 32598
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 29883425,
+      "third_party": 1953908,
+      "listed": 30982
+     },
+     "own": 1616,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 132570,
+      "third_party": 132300,
+      "listed": 1616
+     },
+     "cascade": {
+      "page": 130954,
+      "third_party": 130684,
+      "listed": 0
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 30016702,
+      "third_party": 2086919,
+      "listed": 3234
+     },
+     "own": 28733,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": -707,
+      "third_party": -711,
+      "listed": 29364
+     },
+     "cascade": {
+      "page": -29440,
+      "third_party": -29444,
+      "listed": 631
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.parsely.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 29948563,
+      "third_party": 2018780,
+      "listed": 767
+     },
+     "own": 31198,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 67432,
+      "third_party": 67428,
+      "listed": 31831
+     },
+     "cascade": {
+      "page": 36234,
+      "third_party": 36230,
+      "listed": 633
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.parsely.com",
+      "region1.google-analytics.com",
+      "static.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 29912854,
+      "third_party": 1983071,
+      "listed": 0
+     },
+     "own": 31967,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 103141,
+      "third_party": 103137,
+      "listed": 32598
+     },
+     "cascade": {
+      "page": 71174,
+      "third_party": 71170,
+      "listed": 631
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "cdn.parsely.com",
+    "region1.google-analytics.com",
+    "static.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 29947929,
+      "third_party": 2018146,
+      "listed": 32617
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 29917246,
+      "third_party": 1987463,
+      "listed": 4849
+     },
+     "own": 27117,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 30683,
+      "third_party": 30683,
+      "listed": 27768
+     },
+     "cascade": {
+      "page": 3566,
+      "third_party": 3566,
+      "listed": 651
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.parsely.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 30075237,
+      "third_party": 2145454,
+      "listed": 2384
+     },
+     "own": 29602,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": -127308,
+      "third_party": -127308,
+      "listed": 30233
+     },
+     "cascade": {
+      "page": -156910,
+      "third_party": -156910,
+      "listed": 631
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.parsely.com",
+      "region1.google-analytics.com",
+      "static.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 29854724,
+      "third_party": 1924938,
+      "listed": 1616
+     },
+     "own": 30370,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 93205,
+      "third_party": 93208,
+      "listed": 31001
+     },
+     "cascade": {
+      "page": 62835,
+      "third_party": 62838,
+      "listed": 631
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.parsely.com",
+      "region1.google-analytics.com",
+      "static.doubleclick.net",
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 29852760,
+      "third_party": 1922976,
+      "listed": 0
+     },
+     "own": 31986,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 95169,
+      "third_party": 95170,
+      "listed": 32617
+     },
+     "cascade": {
+      "page": 63183,
+      "third_party": 63184,
+      "listed": 631
+     }
+    }
+   ]
+  }
+ ],
+ "category": "reference",
+ "domain": "nasa.gov",
+ "elapsed_s": 90.9
+}

@@ -262,12 +262,47 @@ def test_classify_url() -> None:
     assert disconnect.tracker_index('https://fonts.googleapis.com/css') is not None
     assert disconnect.is_tracker('https://fonts.googleapis.com/css', 'Content')
 
-def test_llmclassifier_size() -> None:
+#: How much bigger than an empty PyO3 extension `llm_classifier` may be.
+#:
+#: What fills it is the compiled-in size table (35.8 KB) and the pyo3
+#: registration for the two argument enums; `llm-classifier-python/Cargo.toml`
+#: and `llm-classifier/scripts/build_table.py` record what each costs.
+#:
+#: Raised from 50,000 in 2026-09 to admit `classify_url`, and the arithmetic
+#: is worth keeping because the headline number overstates what was spent.
+#: The build sat at 49,840 bytes over baseline, so 160 bytes of slack. The
+#: code behind `classify_url` measures ~16 bytes: the estimator already
+#: walked the table and already knew which rung answered, and the binding
+#: returns a `&'static str` rather than a third `#[pyclass]` for this reason.
+#: What cost 16 KiB was crossing a Mach-O page boundary -- the same addition
+#: measured 16 bytes when it fit in the page and 16,512 when it did not, and
+#: `#[inline(never)]` on the shared resolver changes neither, because there
+#: is no duplicated code to collapse.
+#:
+#: So this is one page of headroom rather than a budget for 20 KB of new
+#: code: the next addition of any size is free until the page fills, and the
+#: one after that costs another 16 KiB. Anything that needs a second page
+#: should be argued for on its own, not waved through on this one.
+MAX_BYTES_OVER_BASELINE = 70_000
 
+
+def test_llmclassifier_size() -> None:
+    """The shipped extension stays inside its size budget.
+
+    See `MAX_BYTES_OVER_BASELINE` for what the budget is for and what the
+    last increase bought.
+    """
     objsize_baseline = os.stat(".venv/lib/python3.14/site-packages/llm_classifier_baseline/llm_classifier_baseline.abi3.so").st_size
 
     objsize = os.stat(".venv/lib/python3.14/site-packages/llm_classifier/llm_classifier.abi3.so").st_size
 
-    print(f"Size above baseline: {(objsize - objsize_baseline)//1024} KiB")
+    over = objsize - objsize_baseline
+    print(f"Size above baseline: {over//1024} KiB of {MAX_BYTES_OVER_BASELINE//1024} KiB")
 
-    assert objsize - objsize_baseline < 50000, f"llm_classifier.abi3.so size larger than 50KB from baseline: {objsize//1024} KiB vs {objsize_baseline//1024} KiB"
+    assert over < MAX_BYTES_OVER_BASELINE, (
+        f"llm_classifier.abi3.so is {over:,} bytes over the baseline "
+        f"extension, past the {MAX_BYTES_OVER_BASELINE:,} allowed "
+        f"({objsize//1024} KiB vs {objsize_baseline//1024} KiB). Mach-O pages "
+        f"are 16 KiB, so this is either ~16 KiB of new code or one byte past "
+        f"a boundary -- check which before raising the budget again"
+    )

@@ -1,0 +1,284 @@
+{
+ "url": "https://harvard.edu/",
+ "hosts": [
+  "connect.facebook.net",
+  "www.google-analytics.com",
+  "cdn.parsely.com",
+  "region1.analytics.google.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "cdn.parsely.com",
+    "connect.facebook.net",
+    "www.google-analytics.com",
+    "region1.analytics.google.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3140545,
+      "third_party": 685937,
+      "listed": 207491
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 3120388,
+      "third_party": 665780,
+      "listed": 187334
+     },
+     "own": 20034,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 20157,
+      "third_party": 20157,
+      "listed": 20157
+     },
+     "cascade": {
+      "page": 123,
+      "third_party": 123,
+      "listed": 123
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.parsely.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 2958307,
+      "third_party": 503699,
+      "listed": 25248
+     },
+     "own": 181580,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 182238,
+      "third_party": 182238,
+      "listed": 182243
+     },
+     "cascade": {
+      "page": 658,
+      "third_party": 658,
+      "listed": 663
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.parsely.com",
+      "connect.facebook.net",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 2934727,
+      "third_party": 480119,
+      "listed": 1676
+     },
+     "own": 205112,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 205818,
+      "third_party": 205818,
+      "listed": 205815
+     },
+     "cascade": {
+      "page": 706,
+      "third_party": 706,
+      "listed": 703
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.parsely.com",
+      "connect.facebook.net",
+      "www.google-analytics.com",
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 2933891,
+      "third_party": 479283,
+      "listed": 838
+     },
+     "own": 205950,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 206654,
+      "third_party": 206654,
+      "listed": 206653
+     },
+     "cascade": {
+      "page": 704,
+      "third_party": 704,
+      "listed": 703
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "connect.facebook.net",
+    "www.google-analytics.com",
+    "region1.analytics.google.com",
+    "cdn.parsely.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3140650,
+      "third_party": 686042,
+      "listed": 207597
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 2978571,
+      "third_party": 523963,
+      "listed": 45511
+     },
+     "own": 161612,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 162079,
+      "third_party": 162079,
+      "listed": 162086
+     },
+     "cascade": {
+      "page": 467,
+      "third_party": 467,
+      "listed": 474
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "connect.facebook.net",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 2954793,
+      "third_party": 500383,
+      "listed": 21939
+     },
+     "own": 185184,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 185857,
+      "third_party": 185659,
+      "listed": 185658
+     },
+     "cascade": {
+      "page": 673,
+      "third_party": 475,
+      "listed": 474
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "connect.facebook.net",
+      "www.google-analytics.com",
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 2954355,
+      "third_party": 499747,
+      "listed": 21101
+     },
+     "own": 186022,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 186295,
+      "third_party": 186295,
+      "listed": 186496
+     },
+     "cascade": {
+      "page": 273,
+      "third_party": 273,
+      "listed": 474
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "connect.facebook.net",
+      "www.google-analytics.com",
+      "region1.analytics.google.com",
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 2933694,
+      "third_party": 479284,
+      "listed": 838
+     },
+     "own": 206056,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 206956,
+      "third_party": 206758,
+      "listed": 206759
+     },
+     "cascade": {
+      "page": 900,
+      "third_party": 702,
+      "listed": 703
+     }
+    }
+   ]
+  }
+ ],
+ "category": "reference",
+ "domain": "harvard.edu",
+ "elapsed_s": 70.3
+}

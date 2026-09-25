@@ -1,0 +1,115 @@
+{
+ "url": "https://amazon.ca/",
+ "reps": 3,
+ "aa_reps": 2,
+ "hosts": {},
+ "candidates": [],
+ "aa": {
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 0,
+    "control": {
+     "page": 6626124,
+     "third_party": 6131187,
+     "listed": 56447
+    },
+    "ablated": {
+     "page": 5915571,
+     "third_party": 5423904,
+     "listed": 0
+    },
+    "n_aborted": 0,
+    "moved": {
+     "m.media-amazon.com": 648949,
+     "s.amazon-adsystem.com": 23951,
+     "cm.g.doubleclick.net": 6373,
+     "images-na.ssl-images-amazon.com": 4420,
+     "www.amazon.ca": 2634,
+     "dsum-sec.casalemedia.com": 2350,
+     "dpm.demdex.net": 1781,
+     "capi.connatix.com": 1428,
+     "x.bidswitch.net": 1424,
+     "rtb-csync.smartadserver.com": 1294,
+     "uipglob.semasio.net": 1270,
+     "www.imdb.com": 1258
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 0,
+    "control": {
+     "page": 3258145,
+     "third_party": 2734848,
+     "listed": 58933
+    },
+    "ablated": {
+     "page": 3257121,
+     "third_party": 2732257,
+     "listed": 56481
+    },
+    "n_aborted": 0,
+    "moved": {
+     "m.media-amazon.com": 2706,
+     "1c5c1ecf7303.7a63328c.eu-central-1.token.awswaf.com": -2567,
+     "www.amazon.ca": -2006,
+     "cm.g.doubleclick.net": 1251,
+     "spl.zeotap.com": 1194,
+     "amazon.ca": 439,
+     "lciapi.ninthdecimal.com": 25,
+     "us-u.openx.net": -25,
+     "odr.mookie1.com": 25,
+     "dsum-sec.casalemedia.com": -12,
+     "dpm.demdex.net": -6,
+     "sync.taboola.com": -1
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    710553,
+    1024
+   ],
+   "third_party": [
+    707283,
+    2591
+   ],
+   "listed": [
+    56447,
+    2452
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": 355788.5,
+    "sd": 501712.76734850986,
+    "se": 354764.49999999994
+   },
+   "third_party": {
+    "n": 2,
+    "mean": 354937,
+    "sd": 498292.49184791057,
+    "se": 352346.0
+   },
+   "listed": {
+    "n": 2,
+    "mean": 29449.5,
+    "sd": 38180.230650167636,
+    "se": 26997.5
+   }
+  }
+ },
+ "category": "shopping",
+ "domain": "amazon.ca",
+ "n_blocked_tracking": 410.0,
+ "elapsed_s": 29.6
+}

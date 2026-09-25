@@ -1,0 +1,325 @@
+{
+ "url": "https://base.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "browser-intake-datadoghq.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2320,
+     "control": {
+      "page": 5448875,
+      "third_party": 441008,
+      "listed": 228853
+     },
+     "ablated": {
+      "page": 5446497,
+      "third_party": 438716,
+      "listed": 226533
+     },
+     "n_aborted": 10,
+     "moved": {
+      "browser-intake-datadoghq.com": 2320,
+      "www.base.org": 83,
+      "static-assets.coinbase.com": -38,
+      "cca-lite.coinbase.com": 11,
+      "base.org": 3,
+      "api.sprig.com": -1,
+      "api.lab.amplitude.com": 0,
+      "www.googletagmanager.com": 0,
+      "region1.google-analytics.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2320,
+     "control": {
+      "page": 5448745,
+      "third_party": 441052,
+      "listed": 228854
+     },
+     "ablated": {
+      "page": 5444743,
+      "third_party": 436646,
+      "listed": 226533
+     },
+     "n_aborted": 10,
+     "moved": {
+      "browser-intake-datadoghq.com": 2320,
+      "cca-lite.coinbase.com": 2023,
+      "www.base.org": -404,
+      "static-assets.coinbase.com": 62,
+      "api.lab.amplitude.com": 1,
+      "api.sprig.com": 0,
+      "www.googletagmanager.com": 0,
+      "region1.google-analytics.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0,
+      "base.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     58,
+     1682
+    ],
+    "third_party": [
+     -28,
+     2086
+    ],
+    "listed": [
+     0,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 870,
+     "sd": 1148.3414126469531,
+     "se": 811.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1029,
+     "sd": 1494.8237354283615,
+     "se": 1057.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 2320
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 835,
+     "control": {
+      "page": 5449246,
+      "third_party": 441066,
+      "listed": 228852
+     },
+     "ablated": {
+      "page": 5446066,
+      "third_party": 438144,
+      "listed": 228016
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cca-lite.coinbase.com": 2039,
+      "region1.google-analytics.com": 835,
+      "www.base.org": 256,
+      "static-assets.coinbase.com": 49,
+      "api.sprig.com": -2,
+      "base.org": 2,
+      "api.lab.amplitude.com": 1,
+      "browser-intake-datadoghq.com": 0,
+      "www.googletagmanager.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 835,
+     "control": {
+      "page": 5447035,
+      "third_party": 439075,
+      "listed": 228853
+     },
+     "ablated": {
+      "page": 5456784,
+      "third_party": 441459,
+      "listed": 228017
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.base.org": -7356,
+      "cca-lite.coinbase.com": -3286,
+      "region1.google-analytics.com": 835,
+      "static-assets.coinbase.com": 57,
+      "www.googletagmanager.com": 9,
+      "base.org": -9,
+      "api.lab.amplitude.com": 1,
+      "browser-intake-datadoghq.com": 0,
+      "api.sprig.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2345,
+     -10584
+    ],
+    "third_party": [
+     2087,
+     -3219
+    ],
+    "listed": [
+     1,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -4119.5,
+     "sd": 9142.183573960872,
+     "se": 6464.499999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -566,
+     "sd": 3751.908580975821,
+     "se": 2653.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 835
+  },
+  "api.lab.amplitude.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 690,
+     "control": {
+      "page": 5447129,
+      "third_party": 439019,
+      "listed": 228853
+     },
+     "ablated": {
+      "page": 5446204,
+      "third_party": 438374,
+      "listed": 228163
+     },
+     "n_aborted": 4,
+     "moved": {
+      "api.lab.amplitude.com": 690,
+      "www.base.org": 266,
+      "www.googletagmanager.com": -55,
+      "base.org": 14,
+      "static-assets.coinbase.com": 10,
+      "browser-intake-datadoghq.com": 0,
+      "api.sprig.com": 0,
+      "region1.google-analytics.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0,
+      "cca-lite.coinbase.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 690,
+     "control": {
+      "page": 5447663,
+      "third_party": 439908,
+      "listed": 229781
+     },
+     "ablated": {
+      "page": 5376806,
+      "third_party": 438391,
+      "listed": 228163
+     },
+     "n_aborted": 4,
+     "moved": {
+      "www.base.org": 69348,
+      "browser-intake-datadoghq.com": 928,
+      "api.lab.amplitude.com": 690,
+      "static-assets.coinbase.com": -101,
+      "base.org": -8,
+      "api.sprig.com": 0,
+      "www.googletagmanager.com": 0,
+      "region1.google-analytics.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0,
+      "cca-lite.coinbase.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     235,
+     70167
+    ],
+    "third_party": [
+     -45,
+     827
+    ],
+    "listed": [
+     0,
+     928
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 35201,
+     "sd": 49449.39142193764,
+     "se": 34965.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 391,
+     "sd": 616.5971131946694,
+     "se": 435.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 464,
+     "sd": 656.1950929411161,
+     "se": 463.99999999999994
+    }
+   },
+   "own_mean": 690
+  }
+ },
+ "candidates": [
+  "browser-intake-datadoghq.com",
+  "region1.google-analytics.com",
+  "api.lab.amplitude.com"
+ ],
+ "category": "productivity",
+ "domain": "base.org",
+ "n_blocked_tracking": 160.0,
+ "elapsed_s": 86.2
+}

@@ -1,0 +1,107 @@
+{
+ "url": "https://disqus.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js.hs-scripts.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 3402,
+     "control": {
+      "page": 2511532,
+      "third_party": 2482304,
+      "listed": 2335386
+     },
+     "ablated": {
+      "page": 2508133,
+      "third_party": 2478904,
+      "listed": 2331986
+     },
+     "n_aborted": 2,
+     "moved": {
+      "js.hs-scripts.com": 3402,
+      "c.disquscdn.com": -2,
+      "disqus.com": -1,
+      "referrer.disqus.com": 0,
+      "cmp.osano.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 3402,
+     "control": {
+      "page": 2511537,
+      "third_party": 2482308,
+      "listed": 2335390
+     },
+     "ablated": {
+      "page": 2508135,
+      "third_party": 2478906,
+      "listed": 2331988
+     },
+     "n_aborted": 2,
+     "moved": {
+      "js.hs-scripts.com": 3402,
+      "disqus.com": 0,
+      "c.disquscdn.com": 0,
+      "referrer.disqus.com": 0,
+      "cmp.osano.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -3,
+     0
+    ],
+    "third_party": [
+     -2,
+     0
+    ],
+    "listed": [
+     -2,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1.5,
+     "sd": 2.1213203435596424,
+     "se": 1.4999999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1,
+     "sd": 1.4142135623730951,
+     "se": 1.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -1,
+     "sd": 1.4142135623730951,
+     "se": 1.0
+    }
+   },
+   "own_mean": 3402
+  }
+ },
+ "candidates": [
+  "js.hs-scripts.com"
+ ],
+ "category": "social",
+ "domain": "disqus.com",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 28.6
+}

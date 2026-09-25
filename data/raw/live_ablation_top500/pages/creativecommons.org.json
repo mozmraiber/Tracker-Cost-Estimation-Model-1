@@ -1,0 +1,361 @@
+{
+ "url": "https://creativecommons.org/",
+ "reps": 3,
+ "aa_reps": 2,
+ "hosts": {
+  "region1.analytics.google.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1920,
+     "control": {
+      "page": 20661558,
+      "third_party": 183964,
+      "listed": 3320
+     },
+     "ablated": {
+      "page": 20660452,
+      "third_party": 182930,
+      "listed": 1400
+     },
+     "n_aborted": 3,
+     "moved": {
+      "region1.analytics.google.com": 1920,
+      "www.googletagmanager.com": -886,
+      "creativecommons.org": 72,
+      "stats.g.doubleclick.net": 0,
+      "www.google.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1920,
+     "control": {
+      "page": 20661485,
+      "third_party": 183964,
+      "listed": 3320
+     },
+     "ablated": {
+      "page": 20659629,
+      "third_party": 182044,
+      "listed": 1400
+     },
+     "n_aborted": 3,
+     "moved": {
+      "region1.analytics.google.com": 1920,
+      "creativecommons.org": -64,
+      "stats.g.doubleclick.net": 0,
+      "www.googletagmanager.com": 0,
+      "www.google.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1920,
+     "control": {
+      "page": 20661514,
+      "third_party": 183964,
+      "listed": 3320
+     },
+     "ablated": {
+      "page": 20659505,
+      "third_party": 182044,
+      "listed": 1400
+     },
+     "n_aborted": 3,
+     "moved": {
+      "region1.analytics.google.com": 1920,
+      "creativecommons.org": 89,
+      "stats.g.doubleclick.net": 0,
+      "www.googletagmanager.com": 0,
+      "www.google.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -814,
+     -64,
+     89
+    ],
+    "third_party": [
+     -886,
+     0,
+     0
+    ],
+    "listed": [
+     0,
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": -263,
+     "sd": 483.2732146519192,
+     "se": 279.01792057142137
+    },
+    "third_party": {
+     "n": 3,
+     "mean": -295.3333333333333,
+     "sd": 511.53233850200843,
+     "se": 295.33333333333337
+    },
+    "listed": {
+     "n": 3,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1920
+  },
+  "ad.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 558,
+     "control": {
+      "page": 20661377,
+      "third_party": 183964,
+      "listed": 3320
+     },
+     "ablated": {
+      "page": 20660941,
+      "third_party": 183395,
+      "listed": 2762
+     },
+     "n_aborted": 2,
+     "moved": {
+      "ad.doubleclick.net": 558,
+      "creativecommons.org": -133,
+      "www.googletagmanager.com": 11,
+      "stats.g.doubleclick.net": 0,
+      "www.google.com": 0,
+      "region1.analytics.google.com": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 558,
+     "control": {
+      "page": 20661572,
+      "third_party": 183964,
+      "listed": 3320
+     },
+     "ablated": {
+      "page": 20661010,
+      "third_party": 183572,
+      "listed": 2762
+     },
+     "n_aborted": 2,
+     "moved": {
+      "ad.doubleclick.net": 558,
+      "creativecommons.org": 170,
+      "www.googletagmanager.com": -166,
+      "stats.g.doubleclick.net": 0,
+      "www.google.com": 0,
+      "region1.analytics.google.com": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 558,
+     "control": {
+      "page": 20661516,
+      "third_party": 183964,
+      "listed": 3320
+     },
+     "ablated": {
+      "page": 20660801,
+      "third_party": 183406,
+      "listed": 2762
+     },
+     "n_aborted": 2,
+     "moved": {
+      "ad.doubleclick.net": 558,
+      "creativecommons.org": 157,
+      "stats.g.doubleclick.net": 0,
+      "www.googletagmanager.com": 0,
+      "www.google.com": 0,
+      "region1.analytics.google.com": 0,
+      "www.google.de": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -122,
+     4,
+     157
+    ],
+    "third_party": [
+     11,
+     -166,
+     0
+    ],
+    "listed": [
+     0,
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": 13,
+     "sd": 139.71757226634023,
+     "se": 80.66597795849252
+    },
+    "third_party": {
+     "n": 3,
+     "mean": -51.666666666666664,
+     "sd": 99.16820727094613,
+     "se": 57.25479116293335
+    },
+    "listed": {
+     "n": 3,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 558
+  }
+ },
+ "candidates": [
+  "region1.analytics.google.com",
+  "ad.doubleclick.net"
+ ],
+ "aa": {
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 0,
+    "control": {
+     "page": 20661553,
+     "third_party": 183964,
+     "listed": 3320
+    },
+    "ablated": {
+     "page": 20661638,
+     "third_party": 183964,
+     "listed": 3320
+    },
+    "n_aborted": 0,
+    "moved": {
+     "creativecommons.org": -85,
+     "stats.g.doubleclick.net": 0,
+     "www.googletagmanager.com": 0,
+     "www.google.com": 0,
+     "ad.doubleclick.net": 0,
+     "region1.analytics.google.com": 0,
+     "www.google.de": 0
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 0,
+    "control": {
+     "page": 20661409,
+     "third_party": 183964,
+     "listed": 3320
+    },
+    "ablated": {
+     "page": 20661419,
+     "third_party": 183933,
+     "listed": 3300
+    },
+    "n_aborted": 0,
+    "moved": {
+     "creativecommons.org": -41,
+     "region1.analytics.google.com": 20,
+     "www.googletagmanager.com": 11,
+     "stats.g.doubleclick.net": 0,
+     "www.google.com": 0,
+     "ad.doubleclick.net": 0,
+     "www.google.de": 0
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    -85,
+    -10
+   ],
+   "third_party": [
+    0,
+    31
+   ],
+   "listed": [
+    0,
+    20
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": -47.5,
+    "sd": 53.033008588991066,
+    "se": 37.5
+   },
+   "third_party": {
+    "n": 2,
+    "mean": 15.5,
+    "sd": 21.920310216782973,
+    "se": 15.499999999999998
+   },
+   "listed": {
+    "n": 2,
+    "mean": 10,
+    "sd": 14.142135623730951,
+    "se": 10.0
+   }
+  }
+ },
+ "category": "reference",
+ "domain": "creativecommons.org",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 142.4
+}

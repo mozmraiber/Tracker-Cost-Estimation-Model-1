@@ -1,0 +1,331 @@
+{
+ "url": "https://time.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "warp.media.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 272433,
+     "control": {
+      "page": 6337939,
+      "third_party": 4998453,
+      "listed": 1161362
+     },
+     "ablated": {
+      "page": 5638206,
+      "third_party": 4298700,
+      "listed": 468947
+     },
+     "n_aborted": 1,
+     "moved": {
+      "warp.media.net": 272433,
+      "securepubads.g.doubleclick.net": 256977,
+      "prebid.media.net": 60627,
+      "direct.adsrvr.org": 39938,
+      "htlb.casalemedia.com": 27159,
+      "navvy.media.net": 8799,
+      "web-banner.ads.aps.amazon-adsystem.com": 6617,
+      "imagedelivery.net": 6330,
+      "fastlane.rubiconproject.com": 5075,
+      "hb.undertone.com": 2808,
+      "exchange.postrelease.com": 2030,
+      "aax-eu.amazon-adsystem.com": 1990
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 272519,
+     "control": {
+      "page": 6310186,
+      "third_party": 4970691,
+      "listed": 1139855
+     },
+     "ablated": {
+      "page": 5638495,
+      "third_party": 4298998,
+      "listed": 469458
+     },
+     "n_aborted": 1,
+     "moved": {
+      "warp.media.net": 272519,
+      "securepubads.g.doubleclick.net": 255700,
+      "prebid.media.net": 65860,
+      "direct.adsrvr.org": 30590,
+      "htlb.casalemedia.com": 9607,
+      "navvy.media.net": 8623,
+      "web-banner.ads.aps.amazon-adsystem.com": 6889,
+      "fastlane.rubiconproject.com": 5073,
+      "hb.undertone.com": 2808,
+      "exchange.postrelease.com": 2030,
+      "aax-eu.amazon-adsystem.com": 1990,
+      "tlx.3lift.com": 1925
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     427300,
+     399172
+    ],
+    "third_party": [
+     427320,
+     399174
+    ],
+    "listed": [
+     419982,
+     397878
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 413236,
+     "sd": 19889.49954121521,
+     "se": 14064.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 413247,
+     "sd": 19902.227463276566,
+     "se": 14072.999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 408930,
+     "sd": 15629.888291347446,
+     "se": 11052.0
+    }
+   },
+   "own_mean": 272476
+  },
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256936,
+     "control": {
+      "page": 6327766,
+      "third_party": 4988281,
+      "listed": 1157643
+     },
+     "ablated": {
+      "page": 5949757,
+      "third_party": 4610264,
+      "listed": 743234
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256936,
+      "prebid.media.net": 68757,
+      "www.gstatic.com": -36363,
+      "direct.adsrvr.org": 34459,
+      "htlb.casalemedia.com": 19602,
+      "navvy.media.net": 8839,
+      "web-banner.ads.aps.amazon-adsystem.com": 6617,
+      "fastlane.rubiconproject.com": 5074,
+      "hb.undertone.com": 2808,
+      "exchange.postrelease.com": 2030,
+      "aax-eu.amazon-adsystem.com": 1990,
+      "tlx.3lift.com": 1925
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 255696,
+     "control": {
+      "page": 6334778,
+      "third_party": 4995697,
+      "listed": 1158361
+     },
+     "ablated": {
+      "page": 5923954,
+      "third_party": 4584468,
+      "listed": 747351
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 255696,
+      "prebid.media.net": 63933,
+      "direct.adsrvr.org": 40851,
+      "htlb.casalemedia.com": 19712,
+      "navvy.media.net": 8708,
+      "web-banner.ads.aps.amazon-adsystem.com": 6622,
+      "fastlane.rubiconproject.com": 5075,
+      "sdk.mrf.io": -4346,
+      "hb.undertone.com": 2808,
+      "exchange.postrelease.com": 2030,
+      "display.bidder.taboola.com": 2002,
+      "aax-eu.amazon-adsystem.com": 1990
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     121073,
+     155128
+    ],
+    "third_party": [
+     121081,
+     155533
+    ],
+    "listed": [
+     157473,
+     155314
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 138100.5,
+     "sd": 24080.521433307877,
+     "se": 17027.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 138307,
+     "sd": 24361.242825438934,
+     "se": 17225.999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 156393.5,
+     "sd": 1526.643540581756,
+     "se": 1079.4999999999998
+    }
+   },
+   "own_mean": 256316
+  },
+  "c.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 98824,
+     "control": {
+      "page": 6366120,
+      "third_party": 5026634,
+      "listed": 1159415
+     },
+     "ablated": {
+      "page": 6136494,
+      "third_party": 4796995,
+      "listed": 924154
+     },
+     "n_aborted": 1,
+     "moved": {
+      "c.amazon-adsystem.com": 98824,
+      "launchpad.privacymanager.io": 46833,
+      "btloader.com": 34920,
+      "secure.cdn.fastclick.net": 22359,
+      "tags.crwdcntrl.net": 13956,
+      "htlb.casalemedia.com": -13753,
+      "ad-delivery.net": 10318,
+      "web-banner.ads.aps.amazon-adsystem.com": 7177,
+      "prebid.media.net": 6367,
+      "imagedelivery.net": -6330,
+      "ad.doubleclick.net": 5859,
+      "direct.adsrvr.org": -3703
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 98824,
+     "control": {
+      "page": 6369138,
+      "third_party": 5029653,
+      "listed": 1162272
+     },
+     "ablated": {
+      "page": 6126847,
+      "third_party": 4787341,
+      "listed": 950731
+     },
+     "n_aborted": 1,
+     "moved": {
+      "c.amazon-adsystem.com": 98824,
+      "htlb.casalemedia.com": -64728,
+      "launchpad.privacymanager.io": 46833,
+      "www.gstatic.com": 36363,
+      "btloader.com": 33201,
+      "prebid.media.net": 29636,
+      "secure.cdn.fastclick.net": 22359,
+      "tags.crwdcntrl.net": 13956,
+      "ad-delivery.net": 10318,
+      "web-banner.ads.aps.amazon-adsystem.com": 7460,
+      "imagedelivery.net": -6330,
+      "ad.doubleclick.net": 5859
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     130802,
+     143467
+    ],
+    "third_party": [
+     130815,
+     143488
+    ],
+    "listed": [
+     136437,
+     112717
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 137134.5,
+     "sd": 8955.507383727625,
+     "se": 6332.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 137151.5,
+     "sd": 8961.164237977116,
+     "se": 6336.499999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 124577,
+     "sd": 16772.57284974491,
+     "se": 11860.0
+    }
+   },
+   "own_mean": 98824
+  }
+ },
+ "candidates": [
+  "warp.media.net",
+  "securepubads.g.doubleclick.net",
+  "c.amazon-adsystem.com"
+ ],
+ "category": "news",
+ "domain": "time.com",
+ "n_blocked_tracking": 90.0,
+ "elapsed_s": 108.5
+}

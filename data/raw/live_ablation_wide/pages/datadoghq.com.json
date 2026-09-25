@@ -1,0 +1,331 @@
+{
+ "url": "https://datadoghq.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 115369,
+     "control": {
+      "page": 5900492,
+      "third_party": 4639336,
+      "listed": 268723
+     },
+     "ablated": {
+      "page": 5774096,
+      "third_party": 4521553,
+      "listed": 153425
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 115369,
+      "www.datadoghq.com": 8503,
+      "www.googletagmanager.com": 2520,
+      "8b61d74c.datadoghq.com": 822,
+      "datadoghq.com": -704,
+      "cdn.calibermind.com": -80,
+      "a.quora.com": -69,
+      "transcend-cdn.com": 30,
+      "www.influ2.com": -25,
+      "t.influ2.com": 25,
+      "preview.ff-cdn.datadoghq.com": -7,
+      "e.calibermind.com": 6
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 115369,
+     "control": {
+      "page": 5897695,
+      "third_party": 4635412,
+      "listed": 268843
+     },
+     "ablated": {
+      "page": 5787144,
+      "third_party": 4525983,
+      "listed": 152236
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 115369,
+      "corp.dd-static.net": -7309,
+      "dsum-sec.casalemedia.com": 1195,
+      "datadoghq.com": 704,
+      "8b61d74c.datadoghq.com": 411,
+      "transcend-cdn.com": 130,
+      "ml314.com": 25,
+      "nexus.ensighten.com": 20,
+      "preview.ff-cdn.datadoghq.com": 8,
+      "cdnjs.cloudflare.com": -4,
+      "t.influ2.com": 3,
+      "cdn.calibermind.com": 2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     11027,
+     -4818
+    ],
+    "third_party": [
+     2414,
+     -5940
+    ],
+    "listed": [
+     -71,
+     1238
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3104.5,
+     "sd": 11204.106947900846,
+     "se": 7922.499999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1763,
+     "sd": 5907.170050032418,
+     "se": 4176.999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 583.5,
+     "sd": 925.6027765731907,
+     "se": 654.4999999999999
+    }
+   },
+   "own_mean": 115369
+  },
+  "www.redditstatic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 25252,
+     "control": {
+      "page": 5898235,
+      "third_party": 4636384,
+      "listed": 268822
+     },
+     "ablated": {
+      "page": 5772152,
+      "third_party": 4519570,
+      "listed": 243565
+     },
+     "n_aborted": 1,
+     "moved": {
+      "corp.dd-static.net": 92065,
+      "www.redditstatic.com": 25252,
+      "www.datadoghq.com": 8510,
+      "8b61d74c.datadoghq.com": 822,
+      "www.googletagmanager.com": -597,
+      "cdn.calibermind.com": 104,
+      "transcend-cdn.com": -55,
+      "lp.datadoghq.com": -35,
+      "preview.ff-cdn.datadoghq.com": -26,
+      "t.influ2.com": 25,
+      "cdnjs.cloudflare.com": 12,
+      "dsum-sec.casalemedia.com": 6
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 25252,
+     "control": {
+      "page": 5900069,
+      "third_party": 4638202,
+      "listed": 267669
+     },
+     "ablated": {
+      "page": 5906658,
+      "third_party": 4654142,
+      "listed": 243580
+     },
+     "n_aborted": 1,
+     "moved": {
+      "corp.dd-static.net": -43003,
+      "www.redditstatic.com": 25252,
+      "www.datadoghq.com": 8517,
+      "www.googletagmanager.com": 3117,
+      "dsum-sec.casalemedia.com": -1201,
+      "8b61d74c.datadoghq.com": 822,
+      "transcend-cdn.com": -161,
+      "connect.facebook.net": 43,
+      "cdn.calibermind.com": 34,
+      "preview.ff-cdn.datadoghq.com": 29,
+      "s.company-target.com": -25,
+      "www.influ2.com": -25
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     100831,
+     -31841
+    ],
+    "third_party": [
+     91562,
+     -41192
+    ],
+    "listed": [
+     5,
+     -1163
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 34495,
+     "sd": 93813.27087358163,
+     "se": 66335.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 25185,
+     "sd": 93871.25362963893,
+     "se": 66377.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -579,
+     "sd": 825.9007204258875,
+     "se": 583.9999999999999
+    }
+   },
+   "own_mean": 25252
+  },
+  "www.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 21732,
+     "control": {
+      "page": 5887530,
+      "third_party": 4635008,
+      "listed": 268808
+     },
+     "ablated": {
+      "page": 4458653,
+      "third_party": 3207113,
+      "listed": 246993
+     },
+     "n_aborted": 1,
+     "moved": {
+      "corp.dd-static.net": 1414011,
+      "www.google-analytics.com": 21732,
+      "cdn.vector.co": -6750,
+      "api.vector.co": -1258,
+      "www.datadoghq.com": 1001,
+      "a.quora.com": 69,
+      "transcend-cdn.com": 61,
+      "connect.facebook.net": 19,
+      "e.calibermind.com": 18,
+      "preview.ff-cdn.datadoghq.com": -18,
+      "cdnjs.cloudflare.com": -6,
+      "cdn.calibermind.com": 4
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 21732,
+     "control": {
+      "page": 5912366,
+      "third_party": 4660353,
+      "listed": 268928
+     },
+     "ablated": {
+      "page": 5872251,
+      "third_party": 4620226,
+      "listed": 245948
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.google-analytics.com": 21732,
+      "corp.dd-static.net": 15001,
+      "api.vector.co": 2191,
+      "dsum-sec.casalemedia.com": 1317,
+      "transcend-cdn.com": -56,
+      "cdn.calibermind.com": 40,
+      "s.company-target.com": -25,
+      "www.influ2.com": -25,
+      "ml314.com": -25,
+      "connect.facebook.net": -19,
+      "preview.ff-cdn.datadoghq.com": -10,
+      "cdnjs.cloudflare.com": -4
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1407145,
+     18383
+    ],
+    "third_party": [
+     1406163,
+     18395
+    ],
+    "listed": [
+     83,
+     1248
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 712764,
+     "sd": 982003.0276541921,
+     "se": 694380.9999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 712279,
+     "sd": 981300.1635136927,
+     "se": 693884.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 665.5,
+     "sd": 823.7794000823278,
+     "se": 582.4999999999999
+    }
+   },
+   "own_mean": 21732
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "www.redditstatic.com",
+  "www.google-analytics.com"
+ ],
+ "category": "productivity",
+ "domain": "datadoghq.com",
+ "n_blocked_tracking": 131.0,
+ "elapsed_s": 102.0
+}

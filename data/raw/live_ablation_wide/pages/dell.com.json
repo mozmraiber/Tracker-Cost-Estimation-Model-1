@@ -1,0 +1,331 @@
+{
+ "url": "https://dell.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 60873,
+     "control": {
+      "page": 2634927,
+      "third_party": 733599,
+      "listed": 614480
+     },
+     "ablated": {
+      "page": 2576276,
+      "third_party": 673123,
+      "listed": 554894
+     },
+     "n_aborted": 2,
+     "moved": {
+      "s.go-mpulse.net": 60873,
+      "trc.taboola.com": -2948,
+      "nexus.dell.com": -2102,
+      "c.go-mpulse.net": 1665,
+      "i.dell.com": 1364,
+      "collector.vcr.dell.com": -755,
+      "www.dell.com": -333,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkmbe-p0dqs5-7b5ada753-clienttons-s.akamaihd.net": 312,
+      "jubpehs44ibqw2vvgasa-p0dqs5-30d75c408-clientnsv4-s.akamaihd.net": 312,
+      "trial-eum-clientnsv4-s.akamaihd.net": 266,
+      "a4.tribalfusion.com": -12,
+      "s.tribalfusion.com": 7
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 60873,
+     "control": {
+      "page": 2637235,
+      "third_party": 734953,
+      "listed": 616724
+     },
+     "ablated": {
+      "page": 2571153,
+      "third_party": 669064,
+      "listed": 551108
+     },
+     "n_aborted": 2,
+     "moved": {
+      "s.go-mpulse.net": 60873,
+      "trc.taboola.com": 3177,
+      "c.go-mpulse.net": 1600,
+      "nexus.dell.com": 804,
+      "www.dell.com": -410,
+      "afcs.dellcdn.com": 273,
+      "dell.com": -187,
+      "fid.agkn.com": -25,
+      "i.dell.com": -8,
+      "s.tribalfusion.com": -5,
+      "sm.dell.com": -4,
+      "match.adsrvr.org": -4
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -2222,
+     5209
+    ],
+    "third_party": [
+     -397,
+     5016
+    ],
+    "listed": [
+     -1287,
+     4743
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1493.5,
+     "sd": 5254.510490997234,
+     "se": 3715.4999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2309.5,
+     "sd": 3827.569006562782,
+     "se": 2706.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1728,
+     "sd": 4263.853890554881,
+     "se": 3014.9999999999995
+    }
+   },
+   "own_mean": 60873
+  },
+  "nexus.ensighten.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35975,
+     "control": {
+      "page": 2630896,
+      "third_party": 728485,
+      "listed": 610256
+     },
+     "ablated": {
+      "page": 2350849,
+      "third_party": 557326,
+      "listed": 476807
+     },
+     "n_aborted": 1,
+     "moved": {
+      "aiq-in.dell.com": 102044,
+      "nexus.ensighten.com": 35975,
+      "cdn.taboola.com": 28030,
+      "cdn-0.d41.co": 25337,
+      "c.amazon-adsystem.com": 24819,
+      "static.ads-twitter.com": 17876,
+      "s.yimg.com": 8076,
+      "www.dell.com": 5764,
+      "d2qmp7jjpd79k7.cloudfront.net": 4708,
+      "a.tribalfusion.com": 3760,
+      "analytics.twitter.com": 3281,
+      "tags.creativecdn.com": 2945
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35975,
+     "control": {
+      "page": 2710180,
+      "third_party": 733958,
+      "listed": 615729
+     },
+     "ablated": {
+      "page": 2356764,
+      "third_party": 557057,
+      "listed": 476804
+     },
+     "n_aborted": 1,
+     "moved": {
+      "aiq-in.dell.com": 102044,
+      "collector.vcr.dell.com": 74392,
+      "nexus.ensighten.com": 35975,
+      "cdn.taboola.com": 28030,
+      "cdn-0.d41.co": 25337,
+      "c.amazon-adsystem.com": 24819,
+      "static.ads-twitter.com": 17876,
+      "s.yimg.com": 8076,
+      "trc.taboola.com": 5366,
+      "d2qmp7jjpd79k7.cloudfront.net": 4708,
+      "a.tribalfusion.com": 3759,
+      "analytics.twitter.com": 3282
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     244072,
+     317441
+    ],
+    "third_party": [
+     135184,
+     140926
+    ],
+    "listed": [
+     97474,
+     102950
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 280756.5,
+     "sd": 51879.7174288758,
+     "se": 36684.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 138055,
+     "sd": 4060.2071375731557,
+     "se": 2870.9999999999995
+    },
+    "listed": {
+     "n": 2,
+     "mean": 100212,
+     "sd": 3872.116733777534,
+     "se": 2737.9999999999995
+    }
+   },
+   "own_mean": 35975
+  },
+  "cdn.taboola.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 28030,
+     "control": {
+      "page": 2635107,
+      "third_party": 733396,
+      "listed": 614321
+     },
+     "ablated": {
+      "page": 2606376,
+      "third_party": 703493,
+      "listed": 584096
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.taboola.com": 28030,
+      "trc.taboola.com": 2193,
+      "www.dell.com": -2009,
+      "nexus.dell.com": 818,
+      "jubpehs44ibqw2vvgbna-pgoyf9-a9f7318c3-clientnsv4-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkmc2-pgoyf9-8e53edd15-clienttons-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkmdb-pjntvg-8a221de15-clienttons-s.akamaihd.net": -312,
+      "jubpehs44ibqw2vvgbqq-pjntvg-0ace4ee31-clientnsv4-s.akamaihd.net": -312,
+      "trial-eum-clienttons-s.akamaihd.net": -278,
+      "s.yimg.com": -44,
+      "stt.dell.com": 19,
+      "s.tribalfusion.com": 3
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 28037,
+     "control": {
+      "page": 2638887,
+      "third_party": 736988,
+      "listed": 617591
+     },
+     "ablated": {
+      "page": 2678611,
+      "third_party": 702972,
+      "listed": 584119
+     },
+     "n_aborted": 1,
+     "moved": {
+      "collector.vcr.dell.com": -74392,
+      "cdn.taboola.com": 28037,
+      "trc.taboola.com": 5439,
+      "nexus.dell.com": 818,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkmdj-pfmv35-0f6788554-clienttons-s.akamaihd.net": -312,
+      "jubpehs44ibqw2vvgbuq-pfmv35-00dd985a7-clientnsv4-s.akamaihd.net": -312,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkmdq-pybcff-5a11f2240-clienttons-s.akamaihd.net": 312,
+      "jubpehs44ibqw2vvgbya-pybcff-e20a20da2-clientnsv4-s.akamaihd.net": 312,
+      "trial-eum-clienttons-s.akamaihd.net": 278,
+      "trial-eum-clientnsv4-s.akamaihd.net": 266,
+      "www.dell.com": -148,
+      "fid.agkn.com": -25
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     701,
+     -67761
+    ],
+    "third_party": [
+     1873,
+     5979
+    ],
+    "listed": [
+     2195,
+     5435
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -33530,
+     "sd": 48409.944453593416,
+     "se": 34231.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3926,
+     "sd": 2903.380443551964,
+     "se": 2053.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3815,
+     "sd": 2291.025971044414,
+     "se": 1619.9999999999998
+    }
+   },
+   "own_mean": 28033.5
+  }
+ },
+ "candidates": [
+  "s.go-mpulse.net",
+  "nexus.ensighten.com",
+  "cdn.taboola.com"
+ ],
+ "category": "shopping",
+ "domain": "dell.com",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 89.9
+}

@@ -1,0 +1,227 @@
+{
+ "url": "https://scribd.com/",
+ "hosts": [
+  "region1.google-analytics.com",
+  "pagead2.googlesyndication.com",
+  "o127091.ingest.us.sentry.io"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "region1.google-analytics.com",
+    "o127091.ingest.us.sentry.io",
+    "pagead2.googlesyndication.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2649882,
+      "third_party": 1324386,
+      "listed": 125161
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 2646468,
+      "third_party": 1320418,
+      "listed": 120654
+     },
+     "own": 4532,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 3414,
+      "third_party": 3968,
+      "listed": 4507
+     },
+     "cascade": {
+      "page": -1118,
+      "third_party": -564,
+      "listed": -25
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "region1.google-analytics.com",
+      "o127091.ingest.us.sentry.io"
+     ],
+     "bytes": {
+      "page": 2645443,
+      "third_party": 1319393,
+      "listed": 120175
+     },
+     "own": 5026,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 4439,
+      "third_party": 4993,
+      "listed": 4986
+     },
+     "cascade": {
+      "page": -587,
+      "third_party": -33,
+      "listed": -40
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "region1.google-analytics.com",
+      "o127091.ingest.us.sentry.io",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 2643330,
+      "third_party": 1317267,
+      "listed": 117940
+     },
+     "own": 7242,
+     "n_aborted": 15,
+     "n_aborted_casc": 11,
+     "saved": {
+      "page": 6552,
+      "third_party": 7119,
+      "listed": 7221
+     },
+     "cascade": {
+      "page": -690,
+      "third_party": -123,
+      "listed": -21
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "o127091.ingest.us.sentry.io",
+    "pagead2.googlesyndication.com",
+    "region1.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2650440,
+      "third_party": 1324391,
+      "listed": 125162
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "o127091.ingest.us.sentry.io"
+     ],
+     "bytes": {
+      "page": 2649428,
+      "third_party": 1323383,
+      "listed": 124668
+     },
+     "own": 494,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 1012,
+      "third_party": 1008,
+      "listed": 494
+     },
+     "cascade": {
+      "page": 518,
+      "third_party": 514,
+      "listed": 0
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "o127091.ingest.us.sentry.io",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 2647749,
+      "third_party": 1321702,
+      "listed": 122452
+     },
+     "own": 2710,
+     "n_aborted": 9,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 2691,
+      "third_party": 2689,
+      "listed": 2710
+     },
+     "cascade": {
+      "page": -19,
+      "third_party": -21,
+      "listed": 0
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "o127091.ingest.us.sentry.io",
+      "pagead2.googlesyndication.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 2646427,
+      "third_party": 1320379,
+      "listed": 120238
+     },
+     "own": 7242,
+     "n_aborted": 15,
+     "n_aborted_casc": 11,
+     "saved": {
+      "page": 4013,
+      "third_party": 4012,
+      "listed": 4924
+     },
+     "cascade": {
+      "page": -3229,
+      "third_party": -3230,
+      "listed": -2318
+     }
+    }
+   ]
+  }
+ ],
+ "category": "social",
+ "domain": "scribd.com",
+ "elapsed_s": 56.8
+}

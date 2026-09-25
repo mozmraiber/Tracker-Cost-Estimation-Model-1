@@ -1,0 +1,11 @@
+{
+ "url": "https://amazon.ca/",
+ "hosts": [
+  "s.amazon-adsystem.com"
+ ],
+ "runs": [],
+ "skipped": "only 1 ETP-blocked hosts",
+ "category": "shopping",
+ "domain": "amazon.ca",
+ "elapsed_s": 6.3
+}

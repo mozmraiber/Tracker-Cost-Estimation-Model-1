@@ -1,0 +1,111 @@
+{
+ "url": "https://weather.com",
+ "reps": 2,
+ "hosts": {
+  "cdn.taboola.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 349679,
+     "control": {
+      "page": 3297947,
+      "third_party": 1930534,
+      "listed": 1394506
+     },
+     "ablated": {
+      "page": 3187184,
+      "third_party": 1819096,
+      "listed": 1007593
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.taboola.com": 349679,
+      "static.tblcontent.com": -275511,
+      "pm-widget.taboola.com": 26923,
+      "trc.taboola.com": 9626,
+      "securepubads.g.doubleclick.net": 682,
+      "weather.com": -674,
+      "accounts.google.com": 25,
+      "walkourworld.com": 11,
+      "www.stay22.com": 3,
+      "nr-events.taboola.com": 1,
+      "api.lab.amplitude.com": -1,
+      "c2.taboola.com": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 349679,
+     "control": {
+      "page": 3290172,
+      "third_party": 1920371,
+      "listed": 1383997
+     },
+     "ablated": {
+      "page": 3187533,
+      "third_party": 1817727,
+      "listed": 1006200
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.taboola.com": 349679,
+      "static.tblcontent.com": -275511,
+      "pm-widget.taboola.com": 26924,
+      "securepubads.g.doubleclick.net": 1248,
+      "accounts.google.com": 338,
+      "hq2zc2zefnwmg3wcm.ay.delivery": -61,
+      "walkourworld.com": 21,
+      "www.stay22.com": 5,
+      "mparticle.weather.com": -5,
+      "nr-events.taboola.com": 1,
+      "api.lab.amplitude.com": 1,
+      "s.w-x.co": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -238916,
+     -247040
+    ],
+    "third_party": [
+     -238241,
+     -247035
+    ],
+    "listed": [
+     37234,
+     28118
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -242978,
+     "sd": 5744.535490359512,
+     "se": 4061.9999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -242638,
+     "sd": 6218.297033754499,
+     "se": 4397.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 32676,
+     "sd": 6445.985417296567,
+     "se": 4557.999999999999
+    }
+   },
+   "own_mean": 349679
+  }
+ }
+}

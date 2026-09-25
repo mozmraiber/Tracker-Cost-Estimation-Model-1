@@ -1,0 +1,119 @@
+{
+ "url": "https://amazon.ca/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23951,
+     "control": {
+      "page": 6653921,
+      "third_party": 6150334,
+      "listed": 56313
+     },
+     "ablated": {
+      "page": 6478681,
+      "third_party": 5973824,
+      "listed": 8641
+     },
+     "n_aborted": 1,
+     "moved": {
+      "m.media-amazon.com": 124384,
+      "s.amazon-adsystem.com": 19484,
+      "cm.g.doubleclick.net": 6171,
+      "1c5c1ecf7303.7a63328c.eu-central-1.token.awswaf.com": 2540,
+      "dsum-sec.casalemedia.com": 2342,
+      "dpm.demdex.net": 1781,
+      "x.bidswitch.net": 1474,
+      "capi.connatix.com": 1428,
+      "rtb-csync.smartadserver.com": 1294,
+      "uipglob.semasio.net": 1270,
+      "www.amazon.ca": -1270,
+      "www.imdb.com": 1258
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 23951,
+     "control": {
+      "page": 6512488,
+      "third_party": 6012566,
+      "listed": 57349
+     },
+     "ablated": {
+      "page": 3188227,
+      "third_party": 2661038,
+      "listed": 8643
+     },
+     "n_aborted": 1,
+     "moved": {
+      "m.media-amazon.com": 3301000,
+      "www.amazon.ca": -27267,
+      "s.amazon-adsystem.com": 19484,
+      "cm.g.doubleclick.net": 7502,
+      "dsum-sec.casalemedia.com": 2316,
+      "dpm.demdex.net": 1781,
+      "capi.connatix.com": 1428,
+      "x.bidswitch.net": 1424,
+      "rtb-csync.smartadserver.com": 1294,
+      "uipglob.semasio.net": 1270,
+      "www.imdb.com": 1258,
+      "user-sync.fwmrm.net": 962
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     151289,
+     3300310
+    ],
+    "third_party": [
+     152559,
+     3327577
+    ],
+    "listed": [
+     23721,
+     24755
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1725799.5,
+     "sd": 2226694.103198843,
+     "se": 1574510.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1740068,
+     "sd": 2245076.75818935,
+     "se": 1587509.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 24238,
+     "sd": 731.1484117468901,
+     "se": 517.0
+    }
+   },
+   "own_mean": 23951
+  }
+ },
+ "candidates": [
+  "s.amazon-adsystem.com"
+ ],
+ "category": "shopping",
+ "domain": "amazon.ca",
+ "n_blocked_tracking": 410.0,
+ "elapsed_s": 29.6
+}

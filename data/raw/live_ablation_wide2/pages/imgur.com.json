@@ -1,0 +1,337 @@
+{
+ "url": "https://imgur.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 255651,
+     "control": {
+      "page": 5638379,
+      "third_party": 1976356,
+      "listed": 633337
+     },
+     "ablated": {
+      "page": 5585252,
+      "third_party": 1923242,
+      "listed": 640173
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 255651,
+      "fundingchoicesmessages.google.com": 166285,
+      "sync.sparteo.com": -138793,
+      "fonts.gstatic.com": 87760,
+      "assets.bounceexchange.com": -69111,
+      "eus.rubiconproject.com": -50468,
+      "ittpx.eskimi.com": -33750,
+      "ads.pubmatic.com": -32112,
+      "prebid.pixad.com.tr": -17053,
+      "ads.assemblyexchange.com": -13302,
+      "sync.1rx.io": -10072,
+      "dsp-service.pixad.com.tr": -9826
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 255606,
+     "control": {
+      "page": 5638223,
+      "third_party": 1976234,
+      "listed": 633302
+     },
+     "ablated": {
+      "page": 5328669,
+      "third_party": 1667139,
+      "listed": 573124
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 255606,
+      "fundingchoicesmessages.google.com": 166272,
+      "fonts.gstatic.com": 87760,
+      "assets.bounceexchange.com": -71232,
+      "usync.ingage.tech": -28605,
+      "eus.rubiconproject.com": -25234,
+      "ads.pubmatic.com": -24084,
+      "static.cloudflareinsights.com": -22323,
+      "ads.assemblyexchange.com": -15592,
+      "fonts.googleapis.com": 6955,
+      "server.cpmstar.com": -3269,
+      "lh3.googleusercontent.com": 3247
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -202524,
+     53948
+    ],
+    "third_party": [
+     -202537,
+     53489
+    ],
+    "listed": [
+     -262487,
+     -195428
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -74288,
+     "sd": 181353.0903844762,
+     "se": 128235.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -74524,
+     "sd": 181037.72076006702,
+     "se": 128013.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -228957.5,
+     "sd": 47417.87363958869,
+     "se": 33529.49999999999
+    }
+   },
+   "own_mean": 255628.5
+  },
+  "quicklyedit.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 48502,
+     "control": {
+      "page": 5639636,
+      "third_party": 1977635,
+      "listed": 634679
+     },
+     "ablated": {
+      "page": 5531407,
+      "third_party": 1869419,
+      "listed": 585853
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "quicklyedit.com": 48502,
+      "code.jquery.com": 30970,
+      "delivery.adrecover.com": 28565,
+      "www.googletagmanager.com": -484,
+      "aax.amazon-adsystem.com": 412,
+      "chrome-reporting-server-qiu4epv3ia-uc.a.run.app": 300,
+      "securepubads.g.doubleclick.net": -83,
+      "xeno.media-lab.ai": 25,
+      "fundingchoicesmessages.google.com": 14,
+      "s.imgur.com": 12,
+      "assets.bounceexchange.com": -5,
+      "i.imgur.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 48414,
+     "control": {
+      "page": 5737636,
+      "third_party": 2076095,
+      "listed": 732806
+     },
+     "ablated": {
+      "page": 5530908,
+      "third_party": 1869374,
+      "listed": 586256
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "assets.bounceexchange.com": 71358,
+      "quicklyedit.com": 48414,
+      "code.jquery.com": 30969,
+      "delivery.adrecover.com": 28565,
+      "eus.rubiconproject.com": 12617,
+      "ads.pubmatic.com": 8028,
+      "events.bouncex.net": 1925,
+      "js-sec.indexww.com": 1799,
+      "api.bounceexchange.com": 1151,
+      "securepubads.g.doubleclick.net": -668,
+      "match.adsrvr.org": 559,
+      "pd.cdnwidget.com": 483
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     59727,
+     158314
+    ],
+    "third_party": [
+     59714,
+     158307
+    ],
+    "listed": [
+     324,
+     98136
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 109020.5,
+     "sd": 69711.53623683816,
+     "se": 49293.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 109010.5,
+     "sd": 69715.77887752528,
+     "se": 49296.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 49230,
+     "sd": 69163.52848141859,
+     "se": 48906.0
+    }
+   },
+   "own_mean": 48458
+  },
+  "btloader.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 36564,
+     "control": {
+      "page": 5640177,
+      "third_party": 1978181,
+      "listed": 635241
+     },
+     "ablated": {
+      "page": 5584634,
+      "third_party": 1923104,
+      "listed": 580782
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "btloader.com": 34263,
+      "ad-delivery.net": 10318,
+      "ad.doubleclick.net": 5859,
+      "securepubads.g.doubleclick.net": 1757,
+      "cdn.btloader.com": 977,
+      "api.btloader.com": 776,
+      "ab.dns-finder.com": 754,
+      "cdn.api.btloader.com": 548,
+      "i.imgur.com": 468,
+      "www.googletagmanager.com": -209,
+      "xeno.media-lab.ai": 50,
+      "fundingchoicesmessages.google.com": 26
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 36591,
+     "control": {
+      "page": 5742451,
+      "third_party": 2080915,
+      "listed": 737911
+     },
+     "ablated": {
+      "page": 5587271,
+      "third_party": 1925283,
+      "listed": 582827
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "assets.bounceexchange.com": 71233,
+      "btloader.com": 34215,
+      "eus.rubiconproject.com": 12617,
+      "ad-delivery.net": 10318,
+      "ads.pubmatic.com": 8028,
+      "ad.doubleclick.net": 5859,
+      "as-sec.casalemedia.com": 3112,
+      "events.bouncex.net": 1925,
+      "js-sec.indexww.com": 1799,
+      "direct.adsrvr.org": 1296,
+      "api.bounceexchange.com": 1151,
+      "cdn.btloader.com": 977
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     18979,
+     118589
+    ],
+    "third_party": [
+     18513,
+     119041
+    ],
+    "listed": [
+     17895,
+     118493
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 68784,
+     "sd": 70434.906473992,
+     "se": 49805.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 68777,
+     "sd": 71084.03049912125,
+     "se": 50263.99999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 68194,
+     "sd": 71133.5279738043,
+     "se": 50298.99999999999
+    }
+   },
+   "own_mean": 36577.5
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "quicklyedit.com",
+  "btloader.com"
+ ],
+ "category": "social",
+ "domain": "imgur.com",
+ "n_blocked_tracking": 108.0,
+ "elapsed_s": 94.8
+}

@@ -1,0 +1,11 @@
+{
+ "url": "https://linktr.ee/",
+ "hosts": [
+  "pagead2.googlesyndication.com"
+ ],
+ "runs": [],
+ "skipped": "only 1 ETP-blocked hosts",
+ "category": "social",
+ "domain": "linktr.ee",
+ "elapsed_s": 5.9
+}

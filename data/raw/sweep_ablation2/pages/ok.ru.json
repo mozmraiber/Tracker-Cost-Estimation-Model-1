@@ -1,0 +1,476 @@
+{
+ "url": "https://ok.ru/",
+ "hosts": [
+  "mc.yandex.ru",
+  "top-fwz1.mail.ru",
+  "www.google-analytics.com",
+  "mc.yandex.com",
+  "stats.g.doubleclick.net",
+  "region1.analytics.google.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "stats.g.doubleclick.net",
+    "www.google-analytics.com",
+    "top-fwz1.mail.ru",
+    "mc.yandex.ru",
+    "region1.analytics.google.com",
+    "mc.yandex.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 6854864,
+      "third_party": 6557321,
+      "listed": 358706
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "stats.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 6932282,
+      "third_party": 6632396,
+      "listed": 391984
+     },
+     "own": 1789,
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "beacon": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": -77418,
+      "third_party": -75075,
+      "listed": -33278
+     },
+     "cascade": {
+      "page": -79207,
+      "third_party": -76864,
+      "listed": -35067
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 6876654,
+      "third_party": 6576730,
+      "listed": 368678
+     },
+     "own": 24431,
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "beacon": 1
+     },
+     "saved": {
+      "page": -21790,
+      "third_party": -19409,
+      "listed": -9972
+     },
+     "cascade": {
+      "page": -46221,
+      "third_party": -43840,
+      "listed": -34403
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 6844867,
+      "third_party": 6544963,
+      "listed": 322943
+     },
+     "own": 47053,
+     "n_aborted": 3,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "beacon": 1
+     },
+     "saved": {
+      "page": 9997,
+      "third_party": 12358,
+      "listed": 35763
+     },
+     "cascade": {
+      "page": -37056,
+      "third_party": -34695,
+      "listed": -11290
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 6732838,
+      "third_party": 6432917,
+      "listed": 217665
+     },
+     "own": 139061,
+     "n_aborted": 5,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "beacon": 1
+     },
+     "saved": {
+      "page": 122026,
+      "third_party": 124404,
+      "listed": 141041
+     },
+     "cascade": {
+      "page": -17035,
+      "third_party": -14657,
+      "listed": 1980
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru",
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 6722734,
+      "third_party": 6425159,
+      "listed": 212813
+     },
+     "own": 140697,
+     "n_aborted": 7,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 2,
+      "beacon": 1
+     },
+     "saved": {
+      "page": 132130,
+      "third_party": 132162,
+      "listed": 145893
+     },
+     "cascade": {
+      "page": -8567,
+      "third_party": -8535,
+      "listed": 5196
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru",
+      "region1.analytics.google.com",
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 6684969,
+      "third_party": 6385133,
+      "listed": 183136
+     },
+     "own": 151267,
+     "n_aborted": 7,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 2,
+      "beacon": 1
+     },
+     "saved": {
+      "page": 169895,
+      "third_party": 172188,
+      "listed": 175570
+     },
+     "cascade": {
+      "page": 18628,
+      "third_party": 20921,
+      "listed": 24303
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "stats.g.doubleclick.net",
+    "mc.yandex.ru",
+    "top-fwz1.mail.ru",
+    "region1.analytics.google.com",
+    "www.google-analytics.com",
+    "mc.yandex.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 6891163,
+      "third_party": 6591272,
+      "listed": 390350
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "stats.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 6888747,
+      "third_party": 6591246,
+      "listed": 387703
+     },
+     "own": 1789,
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "beacon": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": 2416,
+      "third_party": 26,
+      "listed": 2647
+     },
+     "cascade": {
+      "page": 627,
+      "third_party": -1763,
+      "listed": 858
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 7379575,
+      "third_party": 7082010,
+      "listed": 242747
+     },
+     "own": 93797,
+     "n_aborted": 3,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "beacon": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": -488412,
+      "third_party": -490738,
+      "listed": 147603
+     },
+     "cascade": {
+      "page": -582209,
+      "third_party": -584535,
+      "listed": 53806
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "mc.yandex.ru",
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 6747932,
+      "third_party": 6448099,
+      "listed": 238144
+     },
+     "own": 116419,
+     "n_aborted": 5,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "beacon": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": 143231,
+      "third_party": 143173,
+      "listed": 152206
+     },
+     "cascade": {
+      "page": 26812,
+      "third_party": 26754,
+      "listed": 35787
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "mc.yandex.ru",
+      "top-fwz1.mail.ru",
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 6718807,
+      "third_party": 6421329,
+      "listed": 215058
+     },
+     "own": 118055,
+     "n_aborted": 7,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 2,
+      "beacon": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": 172356,
+      "third_party": 169943,
+      "listed": 175292
+     },
+     "cascade": {
+      "page": 54301,
+      "third_party": 51888,
+      "listed": 57237
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "mc.yandex.ru",
+      "top-fwz1.mail.ru",
+      "region1.analytics.google.com",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 6731775,
+      "third_party": 6431851,
+      "listed": 220576
+     },
+     "own": 140697,
+     "n_aborted": 7,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 2,
+      "beacon": 1
+     },
+     "saved": {
+      "page": 159388,
+      "third_party": 159421,
+      "listed": 169774
+     },
+     "cascade": {
+      "page": 18691,
+      "third_party": 18724,
+      "listed": 29077
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "stats.g.doubleclick.net",
+      "mc.yandex.ru",
+      "top-fwz1.mail.ru",
+      "region1.analytics.google.com",
+      "www.google-analytics.com",
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 6680941,
+      "third_party": 6383488,
+      "listed": 186047
+     },
+     "own": 151077,
+     "n_aborted": 7,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 2,
+      "beacon": 1
+     },
+     "saved": {
+      "page": 210222,
+      "third_party": 207784,
+      "listed": 204303
+     },
+     "cascade": {
+      "page": 59145,
+      "third_party": 56707,
+      "listed": 53226
+     }
+    }
+   ]
+  }
+ ],
+ "category": "social",
+ "domain": "ok.ru",
+ "elapsed_s": 137.3
+}

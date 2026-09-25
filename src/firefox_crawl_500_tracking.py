@@ -16,22 +16,55 @@ WHAT THE TWO ARMS ARE
 Real Firefox Standard ETP blocks tracking *content* in Private Windows only;
 in a normal window it blocks cryptominers, fingerprinters and tracking
 cookies, but lets tracker requests through. Playwright cannot open a real
-Private Window, so the arms are separated by exactly the pref that a Private
-Window flips, `privacy.trackingprotection.enabled`, and by nothing else:
+Private Window, so the blocking arm is assembled from the prefs a Private
+Window flips:
 
-  --mode normal    privacy.trackingprotection.enabled = false
-  --mode private   privacy.trackingprotection.enabled = true
+  --mode normal    trackingprotection.enabled = false
+                   trackingprotection.cryptomining.enabled = false
+                   trackingprotection.fingerprinting.enabled = false
+  --mode private   all three true
 
-Everything else -- the classifier tables, the entity allowlists, cryptomining
-and fingerprinting blocking, cookieBehavior=5 -- is identical across arms and
-pinned to Firefox's shipped defaults (see SHARED_PREFS). So the measured delta
-is attributable to tracking-content blocking alone, which is the quantity the
-savings estimate is about. `--strict` promotes the blocking arm to ETP Strict
-by adding content-track-digest256 and the social/email trackers.
+The control arm deliberately does *not* mirror a real normal window here: it
+is a no-blocking baseline, so cryptomining and fingerprinting blocking are off
+there too and every request the page made has an observed `_transferSize`.
+That invariant is what the whole analysis rests on -- a request the blocking
+arm refused can only be priced if the control arm actually fetched it -- and
+with those protections left on, the ~20 requests a normal window blocks by
+itself were missing from the baseline and unpriceable in either arm.
+
+Everything else -- the classifier tables, the entity allowlists,
+cookieBehavior=5 -- is identical across arms and pinned to Firefox's shipped
+defaults (see SHARED_PREFS). The measured delta is therefore all of ETP
+Standard's content blocking, not tracking content alone; each block carries
+the nsresult that caused it, so compare_tracking_arms.py splits the tracking
+protections from cryptomining/fingerprinting and reports them separately.
+`--strict` promotes the blocking arm to ETP Strict by adding
+content-track-digest256 and the social/email trackers.
 
 Note that the request-count delta is larger than the blocked-request count,
 because a blocked tracker also never injects its own subresources. Both
 numbers are recorded; do not conflate them.
+
+REPEATED VISITS
+---------------
+A single load of a page is a noisy measurement of it: ad auctions fill
+differently on every impression, lazy content varies, and CPU carries whatever
+else the machine was doing. `--repeats N` loads the whole URL list N times so
+the analysis can average a page over visits and see its spread.
+
+The rounds are sequenced to keep repeat visits of one site far apart in time.
+Each round is a full pass over every URL and a round only starts once the
+previous one has finished, so consecutive visits to a site are separated by an
+entire pass -- hours, for a 500-URL list -- rather than by seconds. The URL
+order is held identical across rounds on purpose: any reshuffle moves some site
+towards the end of one round and the start of the next, which is exactly the
+back-to-back pair we are trying to avoid. `--round-gap-s` adds a wall-clock
+floor on top, which is what makes short lists (`--limit`) behave sensibly.
+
+Visits are not independent of each other at the site's end -- it may recognise
+a returning IP, and frequency caps shape which ads it serves -- so treat the
+spread across rounds as the measurement's repeatability, not as N independent
+draws.
 
 THE BROWSER MUST BE PATCHED FIRST
 ---------------------------------
@@ -70,6 +103,13 @@ Output, per arm, under <out>/:
     _crawl_summary.json       run-level outcome counts
     _pages.csv                flat per-page table for analysis
 
+With `--repeats N` (N > 1) each round gets that same layout of its own in
+<out>/repNN/, so every downstream tool can be pointed at one round unchanged,
+and <out>/_pages.csv and <out>/_crawl_summary.json pool all rounds with a
+`rep` column. A plain `--repeats 1` run writes the flat layout directly under
+<out>/ as it always has, which is also what makes an interrupted single-round
+crawl resume.
+
 Usage:
     python src/patch_playwright_firefox.py --apply
     python src/firefox_crawl_500_tracking.py --verify-etp
@@ -79,6 +119,11 @@ Usage:
     # ...later, as a separate pass:
     python src/firefox_crawl_500_tracking.py --urls data/tranco_500_top.txt \
         --mode private --out data/raw/firefox_crawl_500_tracking/private
+
+    # ten visits per page, one full pass between repeat visits of a site:
+    python src/firefox_crawl_500_tracking.py --urls data/tranco_500_top.txt \
+        --repeats 10 \
+        --mode normal --out data/raw/firefox_crawl_500_tracking_x10/normal
 """
 
 from __future__ import annotations
@@ -139,11 +184,19 @@ SHARED_PREFS: dict = {
         "moztest-trackwhite-simple,mozstd-trackwhite-digest256,"
         "google-trackwhite-digest256",
 
-    # On in both arms: ETP Standard blocks these in normal windows too.
-    "privacy.trackingprotection.cryptomining.enabled": True,
-    "privacy.trackingprotection.fingerprinting.enabled": True,
     "network.cookie.cookieBehavior": 5,
 }
+
+# Per-arm prefs. Cryptomining and fingerprinting blocking live here, not in
+# SHARED_PREFS: a real normal window applies them, but the control arm is a
+# no-blocking baseline whose job is to observe the true cost of every request,
+# including the ones a normal window would have refused.
+ARM_PREFS = (
+    "privacy.trackingprotection.enabled",
+    "privacy.trackingprotection.pbmode.enabled",
+    "privacy.trackingprotection.cryptomining.enabled",
+    "privacy.trackingprotection.fingerprinting.enabled",
+)
 
 # ETP Strict additions, applied to the blocking arm only under --strict.
 STRICT_PREFS: dict = {
@@ -159,8 +212,8 @@ STRICT_PREFS: dict = {
 
 def build_prefs(mode: str, strict: bool) -> dict:
     prefs = dict(SHARED_PREFS)
-    prefs["privacy.trackingprotection.enabled"] = (mode == "private")
-    prefs["privacy.trackingprotection.pbmode.enabled"] = (mode == "private")
+    for pref in ARM_PREFS:
+        prefs[pref] = (mode == "private")
     if mode == "private" and strict:
         prefs.update(STRICT_PREFS)
     return prefs
@@ -477,7 +530,7 @@ def crawl_page(args_tuple):
     dead browser is detected before each page so a worker survives a Firefox
     crash.
     """
-    idx, url, out_dir, mode = args_tuple
+    idx, url, out_dir, mode, rep = args_tuple
     out_dir = Path(out_dir)
     slug = _slugify(url)
     har_path = out_dir / f"har_{idx:04d}_{slug}.json"
@@ -499,6 +552,7 @@ def crawl_page(args_tuple):
     info = {
         "idx": idx,
         "url": url,
+        "rep": rep,
         "mode": mode,
         "outcome": "unknown",
         "ok": False,
@@ -630,7 +684,7 @@ def crawl_page(args_tuple):
 # Driver
 # --------------------------------------------------------------------------
 CSV_COLUMNS = [
-    "idx", "url", "mode", "outcome", "ok", "t_start_iso",
+    "idx", "url", "rep", "mode", "outcome", "ok", "t_start_iso",
     "n_requests", "transfer_bytes", "n_no_transfer_size",
     "n_blocked", "n_failed_other",
     "cpu_total_s", "cpu_n_procs", "cpu_n_samples", "cpu_max_sample_gap_s",
@@ -639,12 +693,59 @@ CSV_COLUMNS = [
 ]
 
 
+def round_dir(out_dir: Path, rep: int, n_repeats: int) -> Path:
+    """Where one round writes.
+
+    A single-round crawl keeps the flat historical layout directly under
+    <out>, so existing output directories still resume and every downstream
+    tool that globs an arm directory is unaffected. Repeats get one such
+    directory each, which keeps those tools usable a round at a time.
+    """
+    return out_dir if n_repeats == 1 else out_dir / f"rep{rep:02d}"
+
+
 def write_pages_csv(path: Path, rows: list[dict]) -> None:
     with open(path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=CSV_COLUMNS, extrasaction="ignore")
         w.writeheader()
-        for r in sorted(rows, key=lambda r: r.get("idx", 0)):
+        for r in sorted(rows,
+                        key=lambda r: (r.get("rep", 1), r.get("idx", 0))):
             w.writerow(r)
+
+
+def write_arm_outputs(dest: Path, rows: list[dict], *, args, prefs: dict,
+                      n_urls: int, elapsed_s: float, extra: dict) -> dict:
+    """Write `_crawl_summary.json` and `_pages.csv` for a round, or for the
+    whole run. Returns the outcome counts so the caller can report them."""
+    by_outcome: dict[str, int] = {}
+    for r in rows:
+        by_outcome[r["outcome"]] = by_outcome.get(r["outcome"], 0) + 1
+    cpus = [r["cpu_total_s"] for r in rows if r.get("cpu_total_s")]
+
+    payload = {
+        "mode": args.mode,
+        "strict": args.strict,
+        "prefs": prefs,
+        "n_urls": n_urls,
+        "n_workers": args.workers,
+        "urls_file": args.urls,
+        "finished_iso": datetime.now(timezone.utc).isoformat(
+            timespec="seconds"),
+        "wall_clock_s": round(elapsed_s, 1),
+        "by_outcome": by_outcome,
+        "totals": {
+            "transfer_bytes": sum(r["transfer_bytes"] for r in rows),
+            "n_requests": sum(r["n_requests"] for r in rows),
+            "n_blocked": sum(r["n_blocked"] for r in rows),
+            "cpu_total_s": round(sum(cpus), 1) if cpus else None,
+        },
+        "results": rows,
+    }
+    payload.update(extra)
+    with open(dest / "_crawl_summary.json", "w") as f:
+        json.dump(payload, f, indent=2)
+    write_pages_csv(dest / "_pages.csv", rows)
+    return by_outcome
 
 
 def cmd_verify_etp(strict: bool, warm_timeout_s: int) -> int:
@@ -692,6 +793,16 @@ def main() -> int:
                     help="Parallel browsers. Use 1 for clean CPU numbers.")
     ap.add_argument("--limit", type=int,
                     help="Crawl only the first N URLs (for a smoke test).")
+    ap.add_argument("--repeats", type=int, default=1, metavar="N",
+                    help="Visit every URL N times. Each round is a full pass "
+                         "over the list and waits for the previous one to "
+                         "finish, so repeat visits of a site are a whole pass "
+                         "apart. N>1 writes each round to <out>/repNN/.")
+    ap.add_argument("--round-gap-s", type=float, default=0.0, metavar="S",
+                    help="Floor on the wall-clock period between the starts "
+                         "of consecutive rounds. A full pass usually exceeds "
+                         "it on its own; it is what keeps repeat visits apart "
+                         "on a short list.")
     ap.add_argument("--warm-timeout", type=int, default=240,
                     help="Max seconds to wait for the tracker lists to sync "
                          "in the blocking arm (polls a canary, exits early).")
@@ -705,6 +816,9 @@ def main() -> int:
 
     if args.verify_etp:
         return cmd_verify_etp(args.strict, args.warm_timeout)
+
+    if args.repeats < 1:
+        ap.error("--repeats must be at least 1")
 
     missing = [f"--{n}" for n in ("urls", "out", "mode")
                if getattr(args, n) is None]
@@ -731,68 +845,103 @@ def main() -> int:
 
     etp_label = ("Strict" if args.strict else "Standard") \
         if args.mode == "private" else "off"
+    n_repeats = args.repeats  # validated >= 1 above
+    n_pages = len(urls) * n_repeats
     print(f"Arm:        {args.mode}  (tracking-content blocking: {etp_label})")
     print(f"URLs:       {len(urls)} from {args.urls}")
+    if n_repeats > 1:
+        gap = (f", at least {args.round_gap_s:.0f}s apart"
+               if args.round_gap_s else "")
+        print(f"Repeats:    {n_repeats} rounds{gap}  "
+              f"({n_pages} page loads; a site is revisited only after a full "
+              "pass over the list)")
     print(f"Workers:    {args.workers}"
           + ("" if args.workers == 1 else
              "   [CPU figures carry contention; use --workers 1 for clean CPU]"))
     print(f"Output:     {out_dir}")
     print()
 
-    payload = [(i + 1, url, str(out_dir), args.mode)
-               for i, url in enumerate(urls)]
     summary: list[dict] = []
+    rounds: list[dict] = []
     t_start = time.time()
+    t_round_start = None
 
     with mp.Pool(args.workers, initializer=_init_worker,
                  initargs=(cfg,)) as pool:
-        for info in pool.imap_unordered(crawl_page, payload, chunksize=1):
-            done = len(summary) + 1
-            summary.append(info)
-            cpu = info.get("cpu_total_s")
-            print(f"[{done:4d}/{len(urls)}]  {info['outcome']:>18s}  "
-                  f"reqs={info['n_requests']:>4d}  "
-                  f"{info['transfer_bytes']/1e6:>6.2f}MB  "
-                  f"blocked={info['n_blocked']:>3d}  "
-                  f"cpu={cpu if cpu is None else f'{cpu:5.1f}'}s  "
-                  f"t={info['elapsed_s']:>5.1f}s  {info['url']}",
-                  flush=True)
+        for rnd in range(1, n_repeats + 1):
+            # The floor is on the period between round *starts*, because that
+            # is what sets the gap between the two visits to a given site:
+            # each keeps its position in the pass.
+            if t_round_start is not None and args.round_gap_s > 0:
+                wait = args.round_gap_s - (time.time() - t_round_start)
+                if wait > 0:
+                    print(f"--- waiting {wait:.0f}s before round {rnd} "
+                          "(--round-gap-s)", flush=True)
+                    time.sleep(wait)
+            t_round_start = time.time()
+
+            rdir = round_dir(out_dir, rnd, n_repeats)
+            rdir.mkdir(parents=True, exist_ok=True)
+            if n_repeats > 1:
+                print(f"--- round {rnd}/{n_repeats} -> {rdir}", flush=True)
+
+            # Identical URL order every round, on purpose: a reshuffle would
+            # put some site late in one round and early in the next, which is
+            # the back-to-back pair the sequencing exists to prevent.
+            payload = [(i + 1, url, str(rdir), args.mode, rnd)
+                       for i, url in enumerate(urls)]
+            round_rows: list[dict] = []
+            tag = f"r{rnd:02d}  " if n_repeats > 1 else ""
+            for info in pool.imap_unordered(crawl_page, payload, chunksize=1):
+                round_rows.append(info)
+                done = len(summary) + len(round_rows)
+                cpu = info.get("cpu_total_s")
+                print(f"[{done:5d}/{n_pages}]  {tag}"
+                      f"{info['outcome']:>18s}  "
+                      f"reqs={info['n_requests']:>4d}  "
+                      f"{info['transfer_bytes']/1e6:>6.2f}MB  "
+                      f"blocked={info['n_blocked']:>3d}  "
+                      f"cpu={cpu if cpu is None else f'{cpu:5.1f}'}s  "
+                      f"t={info['elapsed_s']:>5.1f}s  {info['url']}",
+                      flush=True)
+
+            round_elapsed = time.time() - t_round_start
+            if n_repeats > 1:
+                write_arm_outputs(rdir, round_rows, args=args, prefs=prefs,
+                                  n_urls=len(urls), elapsed_s=round_elapsed,
+                                  extra={"rep": rnd, "n_repeats": n_repeats})
+            rounds.append({
+                "rep": rnd,
+                "dir": str(rdir),
+                "wall_clock_s": round(round_elapsed, 1),
+                "started_iso": datetime.fromtimestamp(
+                    t_round_start, timezone.utc).isoformat(
+                        timespec="seconds"),
+                "n_ok": sum(1 for r in round_rows if r["ok"]),
+                "transfer_bytes": sum(r["transfer_bytes"]
+                                      for r in round_rows),
+                "n_blocked": sum(r["n_blocked"] for r in round_rows),
+            })
+            summary.extend(round_rows)
 
     elapsed = time.time() - t_start
-    by_outcome: dict[str, int] = {}
-    for r in summary:
-        by_outcome[r["outcome"]] = by_outcome.get(r["outcome"], 0) + 1
-
     ok = [r for r in summary if r["ok"]]
     total_bytes = sum(r["transfer_bytes"] for r in summary)
     total_blocked = sum(r["n_blocked"] for r in summary)
     cpus = [r["cpu_total_s"] for r in summary if r.get("cpu_total_s")]
 
-    with open(out_dir / "_crawl_summary.json", "w") as f:
-        json.dump({
-            "mode": args.mode,
-            "strict": args.strict,
-            "prefs": prefs,
-            "n_urls": len(urls),
-            "n_workers": args.workers,
-            "urls_file": args.urls,
-            "finished_iso": datetime.now(timezone.utc).isoformat(
-                timespec="seconds"),
-            "wall_clock_s": round(elapsed, 1),
-            "by_outcome": by_outcome,
-            "totals": {
-                "transfer_bytes": total_bytes,
-                "n_requests": sum(r["n_requests"] for r in summary),
-                "n_blocked": total_blocked,
-                "cpu_total_s": round(sum(cpus), 1) if cpus else None,
-            },
-            "results": summary,
-        }, f, indent=2)
-    write_pages_csv(out_dir / "_pages.csv", summary)
+    by_outcome = write_arm_outputs(
+        out_dir, summary, args=args, prefs=prefs, n_urls=len(urls),
+        elapsed_s=elapsed,
+        extra={"n_repeats": n_repeats,
+               "round_gap_s": args.round_gap_s,
+               "rounds": rounds})
 
     print()
     print("=== Crawl summary ===")
     print(f"Arm:              {args.mode} (blocking: {etp_label})")
+    if n_repeats > 1:
+        print(f"Rounds:           {n_repeats} x {len(urls)} URLs")
     print(f"Pages attempted:  {len(summary)}")
     print(f"Pages succeeded:  {len(ok)}")
     print(f"Total requests:   {sum(r['n_requests'] for r in summary):,}")
@@ -806,7 +955,26 @@ def main() -> int:
     print("Outcomes:")
     for cat, cnt in sorted(by_outcome.items(), key=lambda x: -x[1]):
         print(f"  {cat:>22s}: {cnt}")
-    print(f"Per-page table:   {out_dir / '_pages.csv'}")
+    if n_repeats > 1:
+        print("Rounds (a site's revisit gap is the gap between round "
+              "starts):")
+        prev = None
+        for r in rounds:
+            t = datetime.fromisoformat(r["started_iso"])
+            if prev is None:
+                gap = ""
+            else:
+                dt = (t - prev).total_seconds()
+                gap = ("  +%.0f s since previous" % dt if dt < 600
+                       else "  +%.0f min since previous" % (dt / 60))
+            prev = t
+            print(f"  r{r['rep']:02d}  {r['started_iso']}  "
+                  f"{r['wall_clock_s']/60:5.1f} min  "
+                  f"ok={r['n_ok']:>4d}  "
+                  f"{r['transfer_bytes']/1e6:>8.1f} MB{gap}")
+    print(f"Per-page table:   {out_dir / '_pages.csv'}"
+          + ("   (pooled; `rep` column, per-round copies in repNN/)"
+             if n_repeats > 1 else ""))
 
     if args.mode == "private" and total_blocked == 0:
         print()

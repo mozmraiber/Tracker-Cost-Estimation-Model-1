@@ -1,0 +1,115 @@
+{
+ "url": "https://twitter.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o30969.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 3624346,
+      "third_party": 3620242,
+      "listed": 114665
+     },
+     "ablated": {
+      "page": 3589952,
+      "third_party": 3585847,
+      "listed": 80250
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "x.com": 33922,
+      "o30969.ingest.us.sentry.io": 494,
+      "accounts.google.com": -20,
+      "api.x.com": -1,
+      "twitter.com": -1,
+      "fonts.gstatic.com": 0,
+      "jf.x.com": 0,
+      "abs.twimg.com": 0,
+      "appleid.cdn-apple.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 3624187,
+      "third_party": 3620082,
+      "listed": 114404
+     },
+     "ablated": {
+      "page": 3623198,
+      "third_party": 3619092,
+      "listed": 113519
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "o30969.ingest.us.sentry.io": 494,
+      "x.com": 390,
+      "accounts.google.com": 105,
+      "api.x.com": 1,
+      "twitter.com": -1,
+      "fonts.gstatic.com": 0,
+      "jf.x.com": 0,
+      "abs.twimg.com": 0,
+      "appleid.cdn-apple.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     33900,
+     495
+    ],
+    "third_party": [
+     33901,
+     496
+    ],
+    "listed": [
+     33921,
+     391
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 17197.5,
+     "sd": 23620.90202553662,
+     "se": 16702.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 17198.5,
+     "sd": 23620.90202553662,
+     "se": 16702.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 17156,
+     "sd": 23709.29037318494,
+     "se": 16765.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "o30969.ingest.us.sentry.io"
+ ],
+ "category": "social",
+ "domain": "twitter.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 35.2
+}

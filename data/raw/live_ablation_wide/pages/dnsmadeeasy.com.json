@@ -1,0 +1,119 @@
+{
+ "url": "https://dnsmadeeasy.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "dpm.demdex.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1153,
+     "control": {
+      "page": 2673255,
+      "third_party": 827466,
+      "listed": 4703
+     },
+     "ablated": {
+      "page": 2668861,
+      "third_party": 822800,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "moved": {
+      "digicert.demdex.net": 3550,
+      "dpm.demdex.net": 1153,
+      "dnsmadeeasy.com": -272,
+      "transcend-cdn.com": -56,
+      "www.digicert.com": 19,
+      "smetrics.digicert.com": 0,
+      "cdn.userway.org": 0,
+      "www.google.com": 0,
+      "static.ada.support": 0,
+      "www.gstatic.com": 0,
+      "api.userway.org": 0,
+      "assets.adobedtm.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1153,
+     "control": {
+      "page": 2673849,
+      "third_party": 827554,
+      "listed": 4703
+     },
+     "ablated": {
+      "page": 2669698,
+      "third_party": 822955,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "moved": {
+      "digicert.demdex.net": 3550,
+      "dpm.demdex.net": 1153,
+      "dnsmadeeasy.com": -448,
+      "transcend-cdn.com": -95,
+      "www.digicert.com": -10,
+      "static.ada.support": 1,
+      "smetrics.digicert.com": 0,
+      "cdn.userway.org": 0,
+      "www.google.com": 0,
+      "www.gstatic.com": 0,
+      "api.userway.org": 0,
+      "assets.adobedtm.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3241,
+     2998
+    ],
+    "third_party": [
+     3513,
+     3446
+    ],
+    "listed": [
+     3550,
+     3550
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3119.5,
+     "sd": 171.82694782833104,
+     "se": 121.49999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3479.5,
+     "sd": 47.37615433949868,
+     "se": 33.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3550,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1153
+  }
+ },
+ "candidates": [
+  "dpm.demdex.net"
+ ],
+ "category": "infrastructure",
+ "domain": "dnsmadeeasy.com",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 38.5
+}

@@ -1,0 +1,111 @@
+{
+ "url": "https://x.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o30969.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 3633859,
+      "third_party": 3519750,
+      "listed": 494
+     },
+     "ablated": {
+      "page": 3632974,
+      "third_party": 3519263,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "o30969.ingest.us.sentry.io": 494,
+      "x.com": 398,
+      "abs.twimg.com": -10,
+      "accounts.google.com": 3,
+      "api.x.com": 0,
+      "appleid.cdn-apple.com": 0,
+      "jf.x.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 3633412,
+      "third_party": 3519762,
+      "listed": 494
+     },
+     "ablated": {
+      "page": 3632963,
+      "third_party": 3519241,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "o30969.ingest.us.sentry.io": 494,
+      "x.com": -72,
+      "abs.twimg.com": 15,
+      "accounts.google.com": 12,
+      "api.x.com": 0,
+      "appleid.cdn-apple.com": 0,
+      "jf.x.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     391,
+     -45
+    ],
+    "third_party": [
+     -7,
+     27
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 173,
+     "sd": 308.2985565973347,
+     "se": 217.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 10,
+     "sd": 24.041630560342615,
+     "se": 16.999999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "o30969.ingest.us.sentry.io"
+ ],
+ "category": "social",
+ "domain": "x.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 33.5
+}

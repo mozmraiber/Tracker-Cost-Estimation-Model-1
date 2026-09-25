@@ -1,0 +1,337 @@
+{
+ "url": "https://mediatek.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 258850,
+     "control": {
+      "page": 5075363,
+      "third_party": 2449703,
+      "listed": 471904
+     },
+     "ablated": {
+      "page": 4818365,
+      "third_party": 2190603,
+      "listed": 212553
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 258850,
+      "www.mediatek.com": -2231,
+      "www.googletagmanager.com": -608,
+      "www.facebook.com": 497,
+      "xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws": 354,
+      "mediatek.com": 129,
+      "js.hubspot.com": 6,
+      "cta-service-cms2.hubspot.com": -4,
+      "track.hubspot.com": 2,
+      "static.hsappstatic.net": 2,
+      "px.ads.linkedin.com": 1,
+      "728015.fs1.hubspotusercontent-na1.net": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 258892,
+     "control": {
+      "page": 5078991,
+      "third_party": 2449663,
+      "listed": 471824
+     },
+     "ablated": {
+      "page": 4815981,
+      "third_party": 2190442,
+      "listed": 212546
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 258892,
+      "www.mediatek.com": 3918,
+      "www.facebook.com": 499,
+      "www.googletagmanager.com": -421,
+      "xd-f1cf3d4fdb19408ea770fc6f80817dcb.ecs.us-east-1.on.aws": 354,
+      "mediatek.com": -129,
+      "snap.licdn.com": -118,
+      "unpkg.com": 23,
+      "cdnjs.cloudflare.com": -12,
+      "static.hsappstatic.net": -8,
+      "js.hsforms.net": 6,
+      "js.hubspot.com": -4
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1852,
+     4118
+    ],
+    "third_party": [
+     250,
+     329
+    ],
+    "listed": [
+     501,
+     386
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1133,
+     "sd": 4221.4274836836885,
+     "se": 2984.9999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 289.5,
+     "sd": 55.86143571373726,
+     "se": 39.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 443.5,
+     "sd": 81.31727983645297,
+     "se": 57.5
+    }
+   },
+   "own_mean": 258871
+  },
+  "snap.licdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 47875,
+     "control": {
+      "page": 5079380,
+      "third_party": 2449791,
+      "listed": 471944
+     },
+     "ablated": {
+      "page": 5044424,
+      "third_party": 2412335,
+      "listed": 422583
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "snap.licdn.com": 47875,
+      "csp-reporting.cloudflare.com": -11942,
+      "www.mediatek.com": -2500,
+      "px.ads.linkedin.com": 1445,
+      "7052064.fs1.hubspotusercontent-na1.net": 51,
+      "connect.facebook.net": 24,
+      "unpkg.com": -23,
+      "www.googletagmanager.com": 9,
+      "cta-service-cms2.hubspot.com": 8,
+      "js.hubspot.com": 8,
+      "static.hsappstatic.net": 6,
+      "728015.fs1.hubspotusercontent-na1.net": -6
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 47875,
+     "control": {
+      "page": 5077853,
+      "third_party": 2449726,
+      "listed": 471893
+     },
+     "ablated": {
+      "page": 5026111,
+      "third_party": 2400403,
+      "listed": 422571
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "snap.licdn.com": 47875,
+      "www.mediatek.com": 2419,
+      "px.ads.linkedin.com": 1444,
+      "unpkg.com": -10,
+      "cdnjs.cloudflare.com": 10,
+      "track.hubspot.com": 6,
+      "js.hubspot.com": -3,
+      "static.hsappstatic.net": 2,
+      "px4.ads.linkedin.com": 2,
+      "cta-service-cms2.hubspot.com": -1,
+      "js.hsforms.net": 1,
+      "connect.facebook.net": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -12919,
+     3867
+    ],
+    "third_party": [
+     -10419,
+     1448
+    ],
+    "listed": [
+     1486,
+     1447
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -4526,
+     "sd": 11869.494428997386,
+     "se": 8393.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -4485.5,
+     "sd": 8391.23617234076,
+     "se": 5933.499999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1466.5,
+     "sd": 27.577164466275352,
+     "se": 19.499999999999996
+    }
+   },
+   "own_mean": 47875
+  },
+  "js.hs-analytics.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 44260,
+     "control": {
+      "page": 5075947,
+      "third_party": 2450297,
+      "listed": 472425
+     },
+     "ablated": {
+      "page": 5032747,
+      "third_party": 2403350,
+      "listed": 425501
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hs-analytics.net": 44260,
+      "www.mediatek.com": -3747,
+      "track.hubspot.com": 2016,
+      "px.ads.linkedin.com": 535,
+      "snap.licdn.com": 118,
+      "www.googletagmanager.com": 29,
+      "cdnjs.cloudflare.com": -14,
+      "js.hubspot.com": -8,
+      "js.hsforms.net": 4,
+      "728015.fs1.hubspotusercontent-na1.net": 3,
+      "js.hs-banner.com": 2,
+      "code.jquery.com": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 44261,
+     "control": {
+      "page": 5079122,
+      "third_party": 2449702,
+      "listed": 471898
+     },
+     "ablated": {
+      "page": 5028996,
+      "third_party": 2404633,
+      "listed": 425619
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hs-analytics.net": 44261,
+      "www.mediatek.com": 5057,
+      "track.hubspot.com": 2016,
+      "www.googletagmanager.com": -1206,
+      "cdnjs.cloudflare.com": -20,
+      "static.hsappstatic.net": 6,
+      "js.hubspot.com": 6,
+      "cta-service-cms2.hubspot.com": -5,
+      "js.hsforms.net": 4,
+      "728015.fs1.hubspotusercontent-na1.net": 4,
+      "7052064.fs1.hubspotusercontent-na1.net": 1,
+      "js.hs-banner.com": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1060,
+     5865
+    ],
+    "third_party": [
+     2687,
+     808
+    ],
+    "listed": [
+     2664,
+     2018
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2402.5,
+     "sd": 4896.714459716842,
+     "se": 3462.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1747.5,
+     "sd": 1328.6536418495227,
+     "se": 939.4999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2341,
+     "sd": 456.7909806465097,
+     "se": 323.0
+    }
+   },
+   "own_mean": 44260.5
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "snap.licdn.com",
+  "js.hs-analytics.net"
+ ],
+ "category": "productivity",
+ "domain": "mediatek.com",
+ "n_blocked_tracking": 170.0,
+ "elapsed_s": 112.9
+}

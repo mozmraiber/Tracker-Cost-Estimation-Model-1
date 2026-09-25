@@ -1,0 +1,117 @@
+{
+ "url": "https://palmplaystore.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 291606,
+     "control": {
+      "page": 3093950,
+      "third_party": 1627385,
+      "listed": 320372
+     },
+     "ablated": {
+      "page": 1475204,
+      "third_party": 8134,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "fonts.gstatic.com": 1104700,
+      "pagead2.googlesyndication.com": 291606,
+      "fundingchoicesmessages.google.com": 178912,
+      "fonts.googleapis.com": 15267,
+      "ep2.adtrafficquality.google": 14646,
+      "ep1.adtrafficquality.google": 14120,
+      "cdn2.palmplaystore.com": -707,
+      "palmplaystore.com": 204,
+      "api.palmplaystore.com": -2,
+      "ire-dsc.shallspark.com": 0,
+      "enterprise-api.palmplaystore.com": 0,
+      "h5.eagllwin.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 260987,
+     "control": {
+      "page": 2075625,
+      "third_party": 608413,
+      "listed": 260987
+     },
+     "ablated": {
+      "page": 1474634,
+      "third_party": 8135,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 260987,
+      "fonts.gstatic.com": 173109,
+      "fundingchoicesmessages.google.com": 159208,
+      "fonts.googleapis.com": 6975,
+      "cdn2.palmplaystore.com": 707,
+      "palmplaystore.com": 6,
+      "h5.eagllwin.com": -1,
+      "ire-dsc.shallspark.com": 0,
+      "api.palmplaystore.com": 0,
+      "enterprise-api.palmplaystore.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1327140,
+     340004
+    ],
+    "third_party": [
+     1327645,
+     339291
+    ],
+    "listed": [
+     28766,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 833572,
+     "sd": 698010.5595533638,
+     "se": 493568.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 833468,
+     "sd": 698871.815612849,
+     "se": 494176.99999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 14383,
+     "sd": 20340.633667612226,
+     "se": 14383.0
+    }
+   },
+   "own_mean": 276296.5
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com"
+ ],
+ "category": "entertainment",
+ "domain": "palmplaystore.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 31.0
+}

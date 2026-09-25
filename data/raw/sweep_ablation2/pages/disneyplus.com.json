@@ -1,0 +1,11 @@
+{
+ "url": "https://disneyplus.com/",
+ "hosts": [
+  "browser-intake-datadoghq.com"
+ ],
+ "runs": [],
+ "skipped": "only 1 ETP-blocked hosts",
+ "category": "entertainment",
+ "domain": "disneyplus.com",
+ "elapsed_s": 6.3
+}

@@ -1,0 +1,331 @@
+{
+ "url": "https://dailymail.co.uk/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "scripts.webcontentassessor.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 120342,
+     "control": {
+      "page": 6713115,
+      "third_party": 6667795,
+      "listed": 232880
+     },
+     "ablated": {
+      "page": 6390784,
+      "third_party": 6345466,
+      "listed": 111902
+     },
+     "n_aborted": 1,
+     "moved": {
+      "scripts.webcontentassessor.com": 120342,
+      "video.dailymail.com": 117321,
+      "i.dailymail.com": 84627,
+      "s.go-mpulse.net": 701,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkigj-pt20tu-848414788-clienttons-s.akamaihd.net": -312,
+      "jubpehs44ibqw2vvedeq-pt20tu-aee6d965a-clientnsv4-s.akamaihd.net": -312,
+      "www.googletagmanager.com": 144,
+      "c.go-mpulse.net": -66,
+      "imasdk.googleapis.com": -57,
+      "fonts.googleapis.com": -40,
+      "www.dailymail.com": -20,
+      "ted.dailymail.co.uk": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 120342,
+     "control": {
+      "page": 6712363,
+      "third_party": 6667045,
+      "listed": 232184
+     },
+     "ablated": {
+      "page": 6509017,
+      "third_party": 6463699,
+      "listed": 112608
+     },
+     "n_aborted": 1,
+     "moved": {
+      "scripts.webcontentassessor.com": 120342,
+      "i.dailymail.com": 84627,
+      "s.go-mpulse.net": -701,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkigr-p4q8ri-02f49ea0d-clienttons-s.akamaihd.net": -312,
+      "jubpehs44ibsg2vvediq-p4q8ri-24572bfe6-clientnsv4-s.akamaihd.net": -312,
+      "trial-eum-clienttons-s.akamaihd.net": -278,
+      "c.go-mpulse.net": -65,
+      "fonts.googleapis.com": 40,
+      "www.dailymail.com": 4,
+      "ted.dailymail.co.uk": 1,
+      "t.dailymail.co.uk": -1,
+      "imasdk.googleapis.com": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     201989,
+     83004
+    ],
+    "third_party": [
+     201987,
+     83004
+    ],
+    "listed": [
+     636,
+     -766
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 142496.5,
+     "sd": 84135.10035948135,
+     "se": 59492.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 142495.5,
+     "sd": 84133.68614591898,
+     "se": 59491.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -65,
+     "sd": 991.3637072235397,
+     "se": 701.0
+    }
+   },
+   "own_mean": 120342
+  },
+  "s.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 61574,
+     "control": {
+      "page": 6713046,
+      "third_party": 6667727,
+      "listed": 232867
+     },
+     "ablated": {
+      "page": 6574162,
+      "third_party": 6528844,
+      "listed": 169477
+     },
+     "n_aborted": 2,
+     "moved": {
+      "video.dailymail.com": 78214,
+      "s.go-mpulse.net": 61574,
+      "www.dailymail.com": -2741,
+      "c.go-mpulse.net": 1834,
+      "region1.analytics.google.com": -20,
+      "fonts.googleapis.com": 20,
+      "uk-script.dotmetrics.net": 2,
+      "t.dailymail.co.uk": 1,
+      "cdn.sophi.io": 0,
+      "684dd32b.akstat.io": 0,
+      "rm-script.dotmetrics.net": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 61574,
+     "control": {
+      "page": 6633244,
+      "third_party": 6587926,
+      "listed": 232950
+     },
+     "ablated": {
+      "page": 6652554,
+      "third_party": 6607236,
+      "listed": 169478
+     },
+     "n_aborted": 2,
+     "moved": {
+      "video.dailymail.com": -78214,
+      "s.go-mpulse.net": 61574,
+      "www.dailymail.com": -5275,
+      "c.go-mpulse.net": 1896,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkih6-pu5nnw-2ab7861cc-clienttons-s.akamaihd.net": 312,
+      "jubpehs44ibsg2vved7a-pu5nnw-52a76ceef-clientnsv4-s.akamaihd.net": 312,
+      "trial-eum-clientnsv4-s.akamaihd.net": 266,
+      "www.googletagmanager.com": -144,
+      "fonts.googleapis.com": -40,
+      "uk-script.dotmetrics.net": 2,
+      "ted.dailymail.co.uk": -1,
+      "t.dailymail.co.uk": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     77310,
+     -80884
+    ],
+    "third_party": [
+     77309,
+     -80884
+    ],
+    "listed": [
+     1816,
+     1898
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1787,
+     "sd": 111860.0501430247,
+     "se": 79096.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1787.5,
+     "sd": 111859.34303624352,
+     "se": 79096.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1857,
+     "sd": 57.982756057296896,
+     "se": 41.0
+    }
+   },
+   "own_mean": 61574
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 17910,
+     "control": {
+      "page": 6713892,
+      "third_party": 6668573,
+      "listed": 232951
+     },
+     "ablated": {
+      "page": 6695165,
+      "third_party": 6649848,
+      "listed": 214973
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 17910,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkiig-phky12-6477d490d-clienttons-s.akamaihd.net": 312,
+      "jubpehs44ibqw2vveeda-phky12-50a79b703-clientnsv4-s.akamaihd.net": 312,
+      "fonts.googleapis.com": 138,
+      "c.go-mpulse.net": 65,
+      "www.dailymail.com": -39,
+      "scripts.dailymail.com": 23,
+      "uk-script.dotmetrics.net": 3,
+      "ted.dailymail.co.uk": 1,
+      "t.dailymail.co.uk": 1,
+      "imasdk.googleapis.com": 1,
+      "cdn.sophi.io": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 17910,
+     "control": {
+      "page": 6711971,
+      "third_party": 6666828,
+      "listed": 231420
+     },
+     "ablated": {
+      "page": 6695924,
+      "third_party": 6650778,
+      "listed": 215035
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 17910,
+      "region1.analytics.google.com": -820,
+      "s.go-mpulse.net": -701,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkiix-pz0rai-675cfcdbc-clienttons-s.akamaihd.net": -312,
+      "jubpehs4poc5g2vveepq-prhft7-892c89f48-clientnsv4-s.akamaihd.net": 312,
+      "jubpehs4poc4m2vveelq-pz0rai-aa03b23df-clientnsv4-s.akamaihd.net": -312,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkii7-prhft7-4fc8ca82c-clienttons-s.akamaihd.net": 312,
+      "trial-eum-clientnsv4-s.akamaihd.net": -266,
+      "www.dailymail.com": -60,
+      "www.googletagmanager.com": -9,
+      "uk-script.dotmetrics.net": -3,
+      "ted.dailymail.co.uk": -2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     817,
+     -1863
+    ],
+    "third_party": [
+     815,
+     -1860
+    ],
+    "listed": [
+     68,
+     -1525
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -523,
+     "sd": 1895.0461735799474,
+     "se": 1340.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -522.5,
+     "sd": 1891.5106396740146,
+     "se": 1337.4999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": -728.5,
+     "sd": 1126.42110243017,
+     "se": 796.4999999999999
+    }
+   },
+   "own_mean": 17910
+  }
+ },
+ "candidates": [
+  "scripts.webcontentassessor.com",
+  "s.go-mpulse.net",
+  "pagead2.googlesyndication.com"
+ ],
+ "category": "news",
+ "domain": "dailymail.co.uk",
+ "n_blocked_tracking": 86.0,
+ "elapsed_s": 111.2
+}

@@ -1,0 +1,229 @@
+{
+ "url": "https://go.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "sb.scorecardresearch.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 7889,
+     "control": {
+      "page": 1849643,
+      "third_party": 1790047,
+      "listed": 248884
+     },
+     "ablated": {
+      "page": 1842701,
+      "third_party": 1783105,
+      "listed": 241942
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "sb.scorecardresearch.com": 7889,
+      "disney.demdex.net": -946,
+      "www.datadoghq-browser-agent.com": -1,
+      "sw88.go.com": 0,
+      "go.com": 0,
+      "dcf.espn.com": 0,
+      "fonts.twdc.com": 0,
+      "cdn.espn.com": 0,
+      "lumiere-a.akamaihd.net": 0,
+      "cdn.matterhorn.app": 0,
+      "tag.researchnow.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 7889,
+     "control": {
+      "page": 1850582,
+      "third_party": 1790986,
+      "listed": 249823
+     },
+     "ablated": {
+      "page": 1842702,
+      "third_party": 1783106,
+      "listed": 241943
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "sb.scorecardresearch.com": 7889,
+      "disney.demdex.net": -9,
+      "sw88.go.com": 0,
+      "go.com": 0,
+      "www.datadoghq-browser-agent.com": 0,
+      "dcf.espn.com": 0,
+      "fonts.twdc.com": 0,
+      "cdn.espn.com": 0,
+      "lumiere-a.akamaihd.net": 0,
+      "cdn.matterhorn.app": 0,
+      "tag.researchnow.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -947,
+     -9
+    ],
+    "third_party": [
+     -947,
+     -9
+    ],
+    "listed": [
+     -947,
+     -9
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -478,
+     "sd": 663.2661607529816,
+     "se": 469.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -478,
+     "sd": 663.2661607529816,
+     "se": 469.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -478,
+     "sd": 663.2661607529816,
+     "se": 469.0
+    }
+   },
+   "own_mean": 7889
+  },
+  "disney.demdex.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1989,
+     "control": {
+      "page": 1850590,
+      "third_party": 1790994,
+      "listed": 249831
+     },
+     "ablated": {
+      "page": 1848601,
+      "third_party": 1789005,
+      "listed": 247842
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "disney.demdex.net": 1989,
+      "sb.scorecardresearch.com": 0,
+      "sw88.go.com": 0,
+      "go.com": 0,
+      "www.datadoghq-browser-agent.com": 0,
+      "dcf.espn.com": 0,
+      "fonts.twdc.com": 0,
+      "cdn.espn.com": 0,
+      "lumiere-a.akamaihd.net": 0,
+      "cdn.matterhorn.app": 0,
+      "tag.researchnow.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1984,
+     "control": {
+      "page": 1850585,
+      "third_party": 1790989,
+      "listed": 249826
+     },
+     "ablated": {
+      "page": 1848601,
+      "third_party": 1789005,
+      "listed": 247842
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "disney.demdex.net": 1984,
+      "sb.scorecardresearch.com": 0,
+      "sw88.go.com": 0,
+      "go.com": 0,
+      "www.datadoghq-browser-agent.com": 0,
+      "dcf.espn.com": 0,
+      "fonts.twdc.com": 0,
+      "cdn.espn.com": 0,
+      "lumiere-a.akamaihd.net": 0,
+      "cdn.matterhorn.app": 0,
+      "tag.researchnow.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     0,
+     0
+    ],
+    "third_party": [
+     0,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1986.5
+  }
+ },
+ "candidates": [
+  "sb.scorecardresearch.com",
+  "disney.demdex.net"
+ ],
+ "category": "entertainment",
+ "domain": "go.com",
+ "n_blocked_tracking": 45.0,
+ "elapsed_s": 56.9
+}

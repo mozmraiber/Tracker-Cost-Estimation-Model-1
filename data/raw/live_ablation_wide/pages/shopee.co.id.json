@@ -1,0 +1,331 @@
+{
+ "url": "https://shopee.co.id/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 207620,
+     "control": {
+      "page": 3464801,
+      "third_party": 3331372,
+      "listed": 220508
+     },
+     "ablated": {
+      "page": 3385889,
+      "third_party": 3251931,
+      "listed": 10098
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 207620,
+      "down-id.img.susercontent.com": -134274,
+      "deo.shopeemobile.com": 3291,
+      "www.facebook.com": 1460,
+      "region1.analytics.google.com": 1345,
+      "shopee.co.id": -529,
+      "www.googletagmanager.com": 14,
+      "ad.doubleclick.net": -10,
+      "9469210.fls.doubleclick.net": -5,
+      "ubta.tracking.shopee.co.id": 0,
+      "df.infra.sz.shopee.co.id": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 207621,
+     "control": {
+      "page": 3127868,
+      "third_party": 3036823,
+      "listed": 220532
+     },
+     "ablated": {
+      "page": 3339531,
+      "third_party": 3206309,
+      "listed": 11423
+     },
+     "n_aborted": 1,
+     "moved": {
+      "deo.shopeemobile.com": -247445,
+      "connect.facebook.net": 207621,
+      "down-id.img.susercontent.com": -131150,
+      "shopee.co.id": -42531,
+      "www.facebook.com": 1460,
+      "ubta.tracking.shopee.co.id": 354,
+      "region1.analytics.google.com": 15,
+      "ad.doubleclick.net": 8,
+      "9469210.fls.doubleclick.net": 5,
+      "www.googletagmanager.com": 0,
+      "df.infra.sz.shopee.co.id": 0,
+      "www.google.de": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -128708,
+     -419284
+    ],
+    "third_party": [
+     -128179,
+     -377107
+    ],
+    "listed": [
+     2790,
+     1488
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -273996,
+     "sd": 205468.26005006224,
+     "se": 145288.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -252643,
+     "sd": 176018.6768272049,
+     "se": 124464.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2139,
+     "sd": 920.6530291048849,
+     "se": 651.0
+    }
+   },
+   "own_mean": 207620.5
+  },
+  "region1.analytics.google.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 6353,
+     "control": {
+      "page": 3599945,
+      "third_party": 3465648,
+      "listed": 220483
+     },
+     "ablated": {
+      "page": 3597967,
+      "third_party": 3449201,
+      "listed": 214126
+     },
+     "n_aborted": 14,
+     "moved": {
+      "shopee.co.id": -14469,
+      "deo.shopeemobile.com": 10099,
+      "region1.analytics.google.com": 6353,
+      "connect.facebook.net": 48,
+      "ad.doubleclick.net": -31,
+      "9469210.fls.doubleclick.net": -14,
+      "www.googletagmanager.com": -9,
+      "static.hotjar.com": 1,
+      "ubta.tracking.shopee.co.id": 0,
+      "df.infra.sz.shopee.co.id": 0,
+      "www.google.de": 0,
+      "content.garena.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 6355,
+     "control": {
+      "page": 3597294,
+      "third_party": 3463861,
+      "listed": 220494
+     },
+     "ablated": {
+      "page": 3524954,
+      "third_party": 3391958,
+      "listed": 214131
+     },
+     "n_aborted": 14,
+     "moved": {
+      "down-id.img.susercontent.com": 65540,
+      "region1.analytics.google.com": 6355,
+      "shopee.co.id": 791,
+      "ubta.tracking.shopee.co.id": -354,
+      "ad.doubleclick.net": 6,
+      "9469210.fls.doubleclick.net": 3,
+      "connect.facebook.net": -1,
+      "www.googletagmanager.com": 0,
+      "df.infra.sz.shopee.co.id": 0,
+      "www.google.de": 0,
+      "content.garena.com": 0,
+      "deo.shopeemobile.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -4375,
+     65985
+    ],
+    "third_party": [
+     10094,
+     65548
+    ],
+    "listed": [
+     4,
+     8
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 30805,
+     "sd": 49752.03312428548,
+     "se": 35179.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 37821,
+     "sd": 39211.89944391881,
+     "se": 27727.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 6,
+     "sd": 2.8284271247461903,
+     "se": 2.0
+    }
+   },
+   "own_mean": 6354
+  },
+  "ad.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1831,
+     "control": {
+      "page": 4257588,
+      "third_party": 4108959,
+      "listed": 220542
+     },
+     "ablated": {
+      "page": 3265071,
+      "third_party": 3131513,
+      "listed": 218677
+     },
+     "n_aborted": 5,
+     "moved": {
+      "down-id.img.susercontent.com": 977969,
+      "shopee.co.id": 15425,
+      "deo.shopeemobile.com": -2297,
+      "ad.doubleclick.net": 1831,
+      "ubta.tracking.shopee.co.id": -354,
+      "www.google.com": -91,
+      "connect.facebook.net": 40,
+      "region1.analytics.google.com": -4,
+      "9469210.fls.doubleclick.net": -2,
+      "www.googletagmanager.com": 0,
+      "df.infra.sz.shopee.co.id": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1821,
+     "control": {
+      "page": 3526764,
+      "third_party": 3392774,
+      "listed": 219136
+     },
+     "ablated": {
+      "page": 3263798,
+      "third_party": 3130563,
+      "listed": 218668
+     },
+     "n_aborted": 5,
+     "moved": {
+      "deo.shopeemobile.com": 196171,
+      "down-id.img.susercontent.com": 65663,
+      "ad.doubleclick.net": 1821,
+      "region1.analytics.google.com": -1357,
+      "shopee.co.id": 755,
+      "www.google.com": -91,
+      "9469210.fls.doubleclick.net": 3,
+      "connect.facebook.net": 1,
+      "www.googletagmanager.com": 0,
+      "ubta.tracking.shopee.co.id": 0,
+      "df.infra.sz.shopee.co.id": 0,
+      "www.google.de": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     990686,
+     261145
+    ],
+    "third_party": [
+     975615,
+     260390
+    ],
+    "listed": [
+     34,
+     -1353
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 625915.5,
+     "sd": 515863.38825361506,
+     "se": 364770.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 618002.5,
+     "sd": 505740.4475741485,
+     "se": 357612.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -659.5,
+     "sd": 980.7571055057414,
+     "se": 693.4999999999999
+    }
+   },
+   "own_mean": 1826
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "region1.analytics.google.com",
+  "ad.doubleclick.net"
+ ],
+ "category": "shopping",
+ "domain": "shopee.co.id",
+ "n_blocked_tracking": 29.0,
+ "elapsed_s": 100.9
+}

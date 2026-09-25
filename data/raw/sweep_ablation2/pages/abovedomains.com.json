@@ -1,0 +1,456 @@
+{
+ "url": "https://abovedomains.com/",
+ "hosts": [
+  "connect.facebook.net",
+  "js.hs-analytics.net",
+  "js.hubspot.com",
+  "js.hs-banner.com",
+  "js.hsadspixel.net",
+  "js.hs-scripts.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "js.hsadspixel.net",
+    "js.hubspot.com",
+    "js.hs-analytics.net",
+    "connect.facebook.net",
+    "js.hs-scripts.com",
+    "js.hs-banner.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4695502,
+      "third_party": 4695502,
+      "listed": 317598
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js.hsadspixel.net"
+     ],
+     "bytes": {
+      "page": 3909359,
+      "third_party": 3909173,
+      "listed": 309976
+     },
+     "own": 5913,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 786143,
+      "third_party": 786329,
+      "listed": 7622
+     },
+     "cascade": {
+      "page": 780230,
+      "third_party": 780416,
+      "listed": 1709
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 3876922,
+      "third_party": 3876736,
+      "listed": 278744
+     },
+     "own": 35560,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 818580,
+      "third_party": 818766,
+      "listed": 38854
+     },
+     "cascade": {
+      "page": 783020,
+      "third_party": 783206,
+      "listed": 3294
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hubspot.com",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 3832754,
+      "third_party": 3832568,
+      "listed": 233853
+     },
+     "own": 79464,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 862748,
+      "third_party": 862934,
+      "listed": 83745
+     },
+     "cascade": {
+      "page": 783284,
+      "third_party": 783470,
+      "listed": 4281
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3629275,
+      "third_party": 3629089,
+      "listed": 30922
+     },
+     "own": 281960,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 1066227,
+      "third_party": 1066413,
+      "listed": 286676
+     },
+     "cascade": {
+      "page": 784267,
+      "third_party": 784453,
+      "listed": 4716
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "connect.facebook.net",
+      "js.hs-scripts.com"
+     ],
+     "bytes": {
+      "page": 2793771,
+      "third_party": 2793585,
+      "listed": 2224
+     },
+     "own": 285537,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 1901731,
+      "third_party": 1901917,
+      "listed": 315374
+     },
+     "cascade": {
+      "page": 1616194,
+      "third_party": 1616380,
+      "listed": 29837
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "connect.facebook.net",
+      "js.hs-scripts.com",
+      "js.hs-banner.com"
+     ],
+     "bytes": {
+      "page": 2795190,
+      "third_party": 2795004,
+      "listed": 2224
+     },
+     "own": 310651,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 1900312,
+      "third_party": 1900498,
+      "listed": 315374
+     },
+     "cascade": {
+      "page": 1589661,
+      "third_party": 1589847,
+      "listed": 4723
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "js.hsadspixel.net",
+    "connect.facebook.net",
+    "js.hs-analytics.net",
+    "js.hs-scripts.com",
+    "js.hubspot.com",
+    "js.hs-banner.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4693682,
+      "third_party": 4693496,
+      "listed": 317528
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js.hsadspixel.net"
+     ],
+     "bytes": {
+      "page": 3909066,
+      "third_party": 3908880,
+      "listed": 309998
+     },
+     "own": 5913,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 784616,
+      "third_party": 784616,
+      "listed": 7530
+     },
+     "cascade": {
+      "page": 778703,
+      "third_party": 778703,
+      "listed": 1617
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js.hsadspixel.net",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3705903,
+      "third_party": 3705903,
+      "listed": 107086
+     },
+     "own": 208344,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 987779,
+      "third_party": 987593,
+      "listed": 210442
+     },
+     "cascade": {
+      "page": 779435,
+      "third_party": 779249,
+      "listed": 2098
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js.hsadspixel.net",
+      "connect.facebook.net",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 3661310,
+      "third_party": 3661124,
+      "listed": 62172
+     },
+     "own": 252255,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 1032372,
+      "third_party": 1032372,
+      "listed": 255356
+     },
+     "cascade": {
+      "page": 780117,
+      "third_party": 780117,
+      "listed": 3101
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js.hsadspixel.net",
+      "connect.facebook.net",
+      "js.hs-analytics.net",
+      "js.hs-scripts.com"
+     ],
+     "bytes": {
+      "page": 2793694,
+      "third_party": 2793694,
+      "listed": 2224
+     },
+     "own": 255839,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 1899988,
+      "third_party": 1899802,
+      "listed": 315304
+     },
+     "cascade": {
+      "page": 1644149,
+      "third_party": 1643963,
+      "listed": 59465
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "js.hsadspixel.net",
+      "connect.facebook.net",
+      "js.hs-analytics.net",
+      "js.hs-scripts.com",
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 2794758,
+      "third_party": 2794572,
+      "listed": 2224
+     },
+     "own": 285477,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 1898924,
+      "third_party": 1898924,
+      "listed": 315304
+     },
+     "cascade": {
+      "page": 1613447,
+      "third_party": 1613447,
+      "listed": 29827
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "js.hsadspixel.net",
+      "connect.facebook.net",
+      "js.hs-analytics.net",
+      "js.hs-scripts.com",
+      "js.hubspot.com",
+      "js.hs-banner.com"
+     ],
+     "bytes": {
+      "page": 2794429,
+      "third_party": 2794429,
+      "listed": 2224
+     },
+     "own": 310591,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 1899253,
+      "third_party": 1899067,
+      "listed": 315304
+     },
+     "cascade": {
+      "page": 1588662,
+      "third_party": 1588476,
+      "listed": 4713
+     }
+    }
+   ]
+  }
+ ],
+ "category": "infrastructure",
+ "domain": "abovedomains.com",
+ "elapsed_s": 139.2
+}

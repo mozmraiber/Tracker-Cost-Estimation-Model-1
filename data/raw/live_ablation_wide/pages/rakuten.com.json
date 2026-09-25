@@ -1,0 +1,331 @@
+{
+ "url": "https://rakuten.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 355722,
+     "control": {
+      "page": 3703455,
+      "third_party": 2133733,
+      "listed": 537940
+     },
+     "ablated": {
+      "page": 3344543,
+      "third_party": 1775304,
+      "listed": 179899
+     },
+     "n_aborted": 2,
+     "moved": {
+      "connect.facebook.net": 355722,
+      "www.facebook.com": 3174,
+      "aax-eu.amazon-adsystem.com": -881,
+      "www.rakuten.com": 483,
+      "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws": 353,
+      "e.clarity.ms": 279,
+      "n.clarity.ms": -279,
+      "region1.analytics.google.com": 45,
+      "www.googletagmanager.com": 41,
+      "www.clarity.ms": -41,
+      "ad.doubleclick.net": 15,
+      "11382473.fls.doubleclick.net": 4
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 355764,
+     "control": {
+      "page": 3704296,
+      "third_party": 2134730,
+      "listed": 538938
+     },
+     "ablated": {
+      "page": 3344742,
+      "third_party": 1775943,
+      "listed": 178974
+     },
+     "n_aborted": 2,
+     "moved": {
+      "connect.facebook.net": 355764,
+      "www.facebook.com": 3174,
+      "www.googletagmanager.com": -1473,
+      "aax-eu.amazon-adsystem.com": 881,
+      "rakuten.com": 765,
+      "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws": 353,
+      "wsv3cdn.audioeye.com": -61,
+      "tags.w55c.net": 49,
+      "ad.doubleclick.net": 27,
+      "region1.analytics.google.com": 27,
+      "consent.linksynergy.com": 25,
+      "js.rmtag.com": 25
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3190,
+     3790
+    ],
+    "third_party": [
+     2707,
+     3023
+    ],
+    "listed": [
+     2319,
+     4200
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3490,
+     "sd": 424.26406871192853,
+     "se": 300.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2865,
+     "sd": 223.44574285494903,
+     "se": 158.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3259.5,
+     "sd": 1330.0678554118958,
+     "se": 940.4999999999999
+    }
+   },
+   "own_mean": 355743
+  },
+  "www.redditstatic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 25252,
+     "control": {
+      "page": 3704626,
+      "third_party": 2135386,
+      "listed": 538764
+     },
+     "ablated": {
+      "page": 3676039,
+      "third_party": 2107038,
+      "listed": 511246
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.redditstatic.com": 25252,
+      "alb.reddit.com": 978,
+      "aax-eu.amazon-adsystem.com": 881,
+      "www.googletagmanager.com": 839,
+      "pixel-config.reddit.com": 445,
+      "i.clarity.ms": -279,
+      "n.clarity.ms": 279,
+      "www.rakuten.com": 239,
+      "11382473.fls.doubleclick.net": -23,
+      "ad.doubleclick.net": -10,
+      "region1.analytics.google.com": -10,
+      "rat.rakuten.co.jp": -6
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 25252,
+     "control": {
+      "page": 3703846,
+      "third_party": 2134844,
+      "listed": 538859
+     },
+     "ablated": {
+      "page": 3676149,
+      "third_party": 2107112,
+      "listed": 511279
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.redditstatic.com": 25252,
+      "alb.reddit.com": 978,
+      "aax-eu.amazon-adsystem.com": 881,
+      "pixel-config.reddit.com": 445,
+      "t.clarity.ms": -279,
+      "n.clarity.ms": 279,
+      "s.pinimg.com": 196,
+      "ct.pinterest.com": -40,
+      "www.rakuten.com": -35,
+      "js.rmtag.com": 25,
+      "connect.facebook.net": -19,
+      "region1.analytics.google.com": 18
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3335,
+     2445
+    ],
+    "third_party": [
+     3096,
+     2480
+    ],
+    "listed": [
+     2266,
+     2328
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2890,
+     "sd": 629.3250352560273,
+     "se": 444.99999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2788,
+     "sd": 435.57777721091327,
+     "se": 308.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2297,
+     "sd": 43.840620433565945,
+     "se": 30.999999999999996
+    }
+   },
+   "own_mean": 25252
+  },
+  "c.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 24818,
+     "control": {
+      "page": 3703583,
+      "third_party": 2135310,
+      "listed": 539146
+     },
+     "ablated": {
+      "page": 3677197,
+      "third_party": 2108194,
+      "listed": 512207
+     },
+     "n_aborted": 1,
+     "moved": {
+      "c.amazon-adsystem.com": 24818,
+      "aax-eu.amazon-adsystem.com": 1811,
+      "rakuten.com": -765,
+      "www.facebook.com": 285,
+      "cdn.schemaapp.com": 177,
+      "tags.w55c.net": 50,
+      "www.rakuten.com": 35,
+      "ad.doubleclick.net": -12,
+      "11382473.fls.doubleclick.net": -10,
+      "region1.analytics.google.com": -7,
+      "api.sprig.com": 4,
+      "2700447.fls.doubleclick.net": 4
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 24818,
+     "control": {
+      "page": 3703650,
+      "third_party": 2135414,
+      "listed": 538780
+     },
+     "ablated": {
+      "page": 3678312,
+      "third_party": 2109069,
+      "listed": 513083
+     },
+     "n_aborted": 1,
+     "moved": {
+      "c.amazon-adsystem.com": 24818,
+      "aax-eu.amazon-adsystem.com": 930,
+      "rakuten.com": -765,
+      "www.googletagmanager.com": 654,
+      "t.clarity.ms": -279,
+      "u.clarity.ms": 279,
+      "www.rakuten.com": -242,
+      "ad.doubleclick.net": -37,
+      "region1.analytics.google.com": -21,
+      "connect.facebook.net": 19,
+      "11382473.fls.doubleclick.net": -15,
+      "api.sprig.com": -6
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1568,
+     520
+    ],
+    "third_party": [
+     2298,
+     1527
+    ],
+    "listed": [
+     2121,
+     879
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1044,
+     "sd": 741.0479066835018,
+     "se": 523.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1912.5,
+     "sd": 545.1793282948281,
+     "se": 385.49999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1500,
+     "sd": 878.2266222336921,
+     "se": 621.0
+    }
+   },
+   "own_mean": 24818
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "www.redditstatic.com",
+  "c.amazon-adsystem.com"
+ ],
+ "category": "shopping",
+ "domain": "rakuten.com",
+ "n_blocked_tracking": 210.0,
+ "elapsed_s": 87.0
+}

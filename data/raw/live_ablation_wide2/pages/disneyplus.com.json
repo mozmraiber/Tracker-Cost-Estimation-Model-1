@@ -1,0 +1,121 @@
+{
+ "url": "https://disneyplus.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "browser-intake-datadoghq.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1856,
+     "control": {
+      "page": 5627809,
+      "third_party": 5387424,
+      "listed": 362350
+     },
+     "ablated": {
+      "page": 5490969,
+      "third_party": 5382547,
+      "listed": 360494
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "moved": {
+      "www.disneyplus.com": 131963,
+      "login.disney.com": 3086,
+      "browser-intake-datadoghq.com": 1856,
+      "www.google.com": -75,
+      "disney.api.edge.bamgrid.com": 10,
+      "static-assets.bamgrid.com": 0,
+      "client-sdk-configs.bamgrid.com": 0,
+      "disneyplus.com": 0,
+      "dcf.espn.com": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1856,
+     "control": {
+      "page": 5498998,
+      "third_party": 5390576,
+      "listed": 362350
+     },
+     "ablated": {
+      "page": 6033541,
+      "third_party": 5705267,
+      "listed": 360494
+     },
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "moved": {
+      "prod-static.disney-plus.net": -224578,
+      "www.disneyplus.com": -219827,
+      "static-assets.bamgrid.com": -94830,
+      "login.disney.com": 3228,
+      "browser-intake-datadoghq.com": 1856,
+      "www.google.com": -352,
+      "disneyplus.com": -25,
+      "disney.api.edge.bamgrid.com": -15,
+      "client-sdk-configs.bamgrid.com": 0,
+      "dcf.espn.com": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     134984,
+     -536399
+    ],
+    "third_party": [
+     3021,
+     -316547
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -200707.5,
+     "sd": 474739.47207336786,
+     "se": 335691.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -156763,
+     "sd": 225968.69985022262,
+     "se": 159784.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1856
+  }
+ },
+ "candidates": [
+  "browser-intake-datadoghq.com"
+ ],
+ "category": "entertainment",
+ "domain": "disneyplus.com",
+ "n_blocked_tracking": 94.0,
+ "elapsed_s": 30.7
+}

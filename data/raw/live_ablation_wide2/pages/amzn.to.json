@@ -1,0 +1,121 @@
+{
+ "url": "https://amzn.to/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23952,
+     "control": {
+      "page": 2619922,
+      "third_party": 2619476,
+      "listed": 57181
+     },
+     "ablated": {
+      "page": 2566150,
+      "third_party": 2565704,
+      "listed": 8890
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "s.amazon-adsystem.com": 19484,
+      "cm.g.doubleclick.net": 7622,
+      "www.amazon.com": 3562,
+      "dsum-sec.casalemedia.com": 2330,
+      "dpm.demdex.net": 1781,
+      "x.bidswitch.net": 1474,
+      "capi.connatix.com": 1428,
+      "rtb-csync.smartadserver.com": 1293,
+      "uipglob.semasio.net": 1270,
+      "www.imdb.com": 1258,
+      "user-sync.fwmrm.net": 962,
+      "lciapi.ninthdecimal.com": 926
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 23952,
+     "control": {
+      "page": 2614062,
+      "third_party": 2613616,
+      "listed": 57745
+     },
+     "ablated": {
+      "page": 2564752,
+      "third_party": 2564281,
+      "listed": 8644
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "s.amazon-adsystem.com": 19484,
+      "cm.g.doubleclick.net": 7622,
+      "dsum-sec.casalemedia.com": 2338,
+      "dpm.demdex.net": 1781,
+      "www.amazon.com": -1541,
+      "x.bidswitch.net": 1449,
+      "capi.connatix.com": 1428,
+      "rtb-csync.smartadserver.com": 1293,
+      "uipglob.semasio.net": 1270,
+      "www.imdb.com": 1258,
+      "user-sync.fwmrm.net": 962,
+      "lciapi.ninthdecimal.com": 951
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     29820,
+     25358
+    ],
+    "third_party": [
+     29820,
+     25383
+    ],
+    "listed": [
+     24339,
+     25149
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 27589,
+     "sd": 3155.110457654375,
+     "se": 2230.9999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 27601.5,
+     "sd": 3137.4327881247114,
+     "se": 2218.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 24744,
+     "sd": 572.7564927611035,
+     "se": 404.99999999999994
+    }
+   },
+   "own_mean": 23952
+  }
+ },
+ "candidates": [
+  "s.amazon-adsystem.com"
+ ],
+ "category": "infrastructure",
+ "domain": "amzn.to",
+ "n_blocked_tracking": 410.0,
+ "elapsed_s": 28.3
+}

@@ -1,0 +1,337 @@
+{
+ "url": "https://hostinger.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "cdn.amplitude.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 212997,
+     "control": {
+      "page": 7269933,
+      "third_party": 3118976,
+      "listed": 271976
+     },
+     "ablated": {
+      "page": 7056414,
+      "third_party": 2905560,
+      "listed": 58552
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "moved": {
+      "cdn.amplitude.com": 212997,
+      "rum-fast.hostinger.com": 10727,
+      "rum-fra.hostinger.com": -10726,
+      "hostinger.com": 796,
+      "www.hostinger.com": -695,
+      "sr-client-cfg.eu.amplitude.com": 427,
+      "cdnjs.cloudflare.com": -6,
+      "accounts.google.com": -2,
+      "rum.hostinger.com": 1,
+      "widget.trustpilot.com": 0,
+      "challenges.cloudflare.com": 0,
+      "static.cloudflareinsights.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 212997,
+     "control": {
+      "page": 7269400,
+      "third_party": 3117657,
+      "listed": 271974
+     },
+     "ablated": {
+      "page": 7055164,
+      "third_party": 2903613,
+      "listed": 58552
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "moved": {
+      "cdn.amplitude.com": 212997,
+      "rum-fast.hostinger.com": 10727,
+      "rum-jnb.hostinger.com": -10726,
+      "rum-int.hostinger.com": -10726,
+      "rum-dus.hostinger.com": 10726,
+      "customer-l1i0l3fn06n7hp6n.cloudflarestream.com": 672,
+      "sr-client-cfg.eu.amplitude.com": 427,
+      "www.hostinger.com": 191,
+      "accounts.google.com": -30,
+      "challenges.cloudflare.com": -28,
+      "cdnjs.cloudflare.com": 8,
+      "sr-client-cfg.amplitude.com": -2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     522,
+     1239
+    ],
+    "third_party": [
+     419,
+     1047
+    ],
+    "listed": [
+     427,
+     425
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 880.5,
+     "sd": 506.9955621107546,
+     "se": 358.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 733,
+     "sd": 444.06305858515185,
+     "se": 314.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 426,
+     "sd": 1.4142135623730951,
+     "se": 1.0
+    }
+   },
+   "own_mean": 212997
+  },
+  "widget.trustpilot.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 38361,
+     "control": {
+      "page": 7270450,
+      "third_party": 3118963,
+      "listed": 271976
+     },
+     "ablated": {
+      "page": 7231693,
+      "third_party": 3080625,
+      "listed": 233615
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "widget.trustpilot.com": 38361,
+      "rum-fast.hostinger.com": 10727,
+      "rum-dus.hostinger.com": -10726,
+      "rum-srv.hostinger.com": -10726,
+      "rum-bnk.hostinger.com": 10726,
+      "www.hostinger.com": 417,
+      "accounts.google.com": -15,
+      "www.googletagmanager.com": -4,
+      "cdnjs.cloudflare.com": -4,
+      "hostinger.com": 1,
+      "cdn.amplitude.com": 0,
+      "challenges.cloudflare.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 38361,
+     "control": {
+      "page": 7270530,
+      "third_party": 3118982,
+      "listed": 271975
+     },
+     "ablated": {
+      "page": 7231425,
+      "third_party": 3080655,
+      "listed": 233615
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "widget.trustpilot.com": 38361,
+      "rum-fra.hostinger.com": 10726,
+      "rum-srv.hostinger.com": -10726,
+      "www.hostinger.com": 777,
+      "challenges.cloudflare.com": -61,
+      "accounts.google.com": 22,
+      "cdnjs.cloudflare.com": 6,
+      "cdn.amplitude.com": -1,
+      "rum.hostinger.com": 1,
+      "rum-fast.hostinger.com": 0,
+      "static.cloudflareinsights.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     396,
+     744
+    ],
+    "third_party": [
+     -23,
+     -34
+    ],
+    "listed": [
+     0,
+     -1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 570,
+     "sd": 246.07315985291854,
+     "se": 174.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -28.5,
+     "sd": 7.7781745930520225,
+     "se": 5.499999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 38361
+  },
+  "static.cloudflareinsights.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 7270989,
+      "third_party": 3119047,
+      "listed": 271976
+     },
+     "ablated": {
+      "page": 7258220,
+      "third_party": 3105807,
+      "listed": 259157
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "rum-jnb.hostinger.com": 10726,
+      "rum-int.hostinger.com": -10726,
+      "rum-dus.hostinger.com": 10726,
+      "rum-bnk.hostinger.com": -10726,
+      "static.cloudflareinsights.com": 10495,
+      "cloudflareinsights.com": 2324,
+      "www.hostinger.com": -470,
+      "challenges.cloudflare.com": 404,
+      "accounts.google.com": 19,
+      "cdnjs.cloudflare.com": -2,
+      "hostinger.com": -1,
+      "widget.trustpilot.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 7270338,
+      "third_party": 3119052,
+      "listed": 271975
+     },
+     "ablated": {
+      "page": 7255559,
+      "third_party": 3105507,
+      "listed": 259157
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "rum-fast.hostinger.com": 10727,
+      "rum-fra.hostinger.com": -10726,
+      "rum-int.hostinger.com": -10726,
+      "rum-bnk.hostinger.com": 10726,
+      "static.cloudflareinsights.com": 10495,
+      "cloudflareinsights.com": 2324,
+      "hostinger.com": 795,
+      "customer-l1i0l3fn06n7hp6n.cloudflarestream.com": 654,
+      "www.hostinger.com": 435,
+      "challenges.cloudflare.com": 61,
+      "cdnjs.cloudflare.com": 14,
+      "accounts.google.com": -13
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2274,
+     4284
+    ],
+    "third_party": [
+     2745,
+     3050
+    ],
+    "listed": [
+     2324,
+     2323
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3279,
+     "sd": 1421.2846301849606,
+     "se": 1005.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2897.5,
+     "sd": 215.667568261897,
+     "se": 152.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2323.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 10495
+  }
+ },
+ "candidates": [
+  "cdn.amplitude.com",
+  "widget.trustpilot.com",
+  "static.cloudflareinsights.com"
+ ],
+ "category": "productivity",
+ "domain": "hostinger.com",
+ "n_blocked_tracking": 162.0,
+ "elapsed_s": 91.2
+}

@@ -1,0 +1,404 @@
+{
+ "url": "https://globo.com/",
+ "hosts": [
+  "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+  "securepubads.g.doubleclick.net",
+  "connect.facebook.net",
+  "cdn.pendo.io",
+  "ads.rubiconproject.com",
+  "pagead2.googlesyndication.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "ads.rubiconproject.com",
+    "connect.facebook.net",
+    "securepubads.g.doubleclick.net",
+    "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+    "pagead2.googlesyndication.com",
+    "cdn.pendo.io"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 10100104,
+      "third_party": 9605276,
+      "listed": 2445206
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "ads.rubiconproject.com"
+     ],
+     "bytes": {
+      "page": 10108962,
+      "third_party": 9615448,
+      "listed": 2353925
+     },
+     "own": 171394,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": -8858,
+      "third_party": -10172,
+      "listed": 91281
+     },
+     "cascade": {
+      "page": -180252,
+      "third_party": -181566,
+      "listed": -80113
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 9732881,
+      "third_party": 9239426,
+      "listed": 2133036
+     },
+     "own": 375327,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 367223,
+      "third_party": 365850,
+      "listed": 312170
+     },
+     "cascade": {
+      "page": -8104,
+      "third_party": -9477,
+      "listed": -63157
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 8923760,
+      "third_party": 8430313,
+      "listed": 1549698
+     },
+     "own": 632528,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 1176344,
+      "third_party": 1174963,
+      "listed": 895508
+     },
+     "cascade": {
+      "page": 543816,
+      "third_party": 542435,
+      "listed": 262980
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app"
+     ],
+     "bytes": {
+      "page": 7808761,
+      "third_party": 7315769,
+      "listed": 441143
+     },
+     "own": 1442453,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 2291343,
+      "third_party": 2289507,
+      "listed": 2004063
+     },
+     "cascade": {
+      "page": 848890,
+      "third_party": 847054,
+      "listed": 561610
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 7909788,
+      "third_party": 7416412,
+      "listed": 383338
+     },
+     "own": 1548748,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 2190316,
+      "third_party": 2188864,
+      "listed": 2061868
+     },
+     "cascade": {
+      "page": 641568,
+      "third_party": 640116,
+      "listed": 513120
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+      "pagead2.googlesyndication.com",
+      "cdn.pendo.io"
+     ],
+     "bytes": {
+      "page": 7713092,
+      "third_party": 7220108,
+      "listed": 185058
+     },
+     "own": 1745032,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 2387012,
+      "third_party": 2385168,
+      "listed": 2260148
+     },
+     "cascade": {
+      "page": 641980,
+      "third_party": 640136,
+      "listed": 515116
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "ads.rubiconproject.com",
+    "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+    "securepubads.g.doubleclick.net",
+    "pagead2.googlesyndication.com",
+    "connect.facebook.net",
+    "cdn.pendo.io"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 10179238,
+      "third_party": 9684717,
+      "listed": 2717004
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "ads.rubiconproject.com"
+     ],
+     "bytes": {
+      "page": 9850513,
+      "third_party": 9356964,
+      "listed": 2362617
+     },
+     "own": 171394,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 328725,
+      "third_party": 327753,
+      "listed": 354387
+     },
+     "cascade": {
+      "page": 157331,
+      "third_party": 156359,
+      "listed": 182993
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app"
+     ],
+     "bytes": {
+      "page": 8960738,
+      "third_party": 8467776,
+      "listed": 1346999
+     },
+     "own": 985135,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 1218500,
+      "third_party": 1216941,
+      "listed": 1370005
+     },
+     "cascade": {
+      "page": 233365,
+      "third_party": 231806,
+      "listed": 384870
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 8174601,
+      "third_party": 7681227,
+      "listed": 646426
+     },
+     "own": 1241001,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 2004637,
+      "third_party": 2003490,
+      "listed": 2070578
+     },
+     "cascade": {
+      "page": 763636,
+      "third_party": 762489,
+      "listed": 829577
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+      "securepubads.g.doubleclick.net",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 7958584,
+      "third_party": 7465602,
+      "listed": 587726
+     },
+     "own": 1427118,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 2220654,
+      "third_party": 2219115,
+      "listed": 2129278
+     },
+     "cascade": {
+      "page": 793536,
+      "third_party": 791997,
+      "listed": 702160
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+      "securepubads.g.doubleclick.net",
+      "pagead2.googlesyndication.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 7912167,
+      "third_party": 7419211,
+      "listed": 384000
+     },
+     "own": 1631051,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 2267071,
+      "third_party": 2265506,
+      "listed": 2333004
+     },
+     "cascade": {
+      "page": 636020,
+      "third_party": 634455,
+      "listed": 701953
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "ads.rubiconproject.com",
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+      "securepubads.g.doubleclick.net",
+      "pagead2.googlesyndication.com",
+      "connect.facebook.net",
+      "cdn.pendo.io"
+     ],
+     "bytes": {
+      "page": 7715801,
+      "third_party": 7222791,
+      "listed": 185020
+     },
+     "own": 1827336,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 2463437,
+      "third_party": 2461926,
+      "listed": 2531984
+     },
+     "cascade": {
+      "page": 636101,
+      "third_party": 634590,
+      "listed": 704648
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "globo.com",
+ "elapsed_s": 226.7
+}

@@ -1,0 +1,225 @@
+{
+ "url": "https://pornhub.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 838,
+     "control": {
+      "page": 2920201,
+      "third_party": 2735876,
+      "listed": 230817
+     },
+     "ablated": {
+      "page": 2602638,
+      "third_party": 2418998,
+      "listed": 209249
+     },
+     "n_aborted": 1,
+     "moved": {
+      "hw-cdn2.ang-content.com": 289667,
+      "pix-ht.trafficjunky.net": 72467,
+      "pix-cdn77.trafficjunky.net": -44679,
+      "pix-fl.phncdn.com": -33557,
+      "ei.phncdn.com": 33297,
+      "a.adtng.com": -7060,
+      "pix-cdn77.phncdn.com": 5908,
+      "region1.google-analytics.com": 838,
+      "www.pornhub.com": 686,
+      "accounts.google.com": -5,
+      "hw-cdn2.adtng.com": 2,
+      "pornhub.com": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 838,
+     "control": {
+      "page": 3096846,
+      "third_party": 2912777,
+      "listed": 236856
+     },
+     "ablated": {
+      "page": 3181803,
+      "third_party": 2998080,
+      "listed": 243376
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pix-ht.trafficjunky.net": -141568,
+      "pix-cdn77.trafficjunky.net": 134202,
+      "hw-cdn2.ang-content.com": -63245,
+      "pix-cdn77.phncdn.com": -14849,
+      "pix-fl.phncdn.com": -9818,
+      "ei.phncdn.com": 9129,
+      "region1.google-analytics.com": 838,
+      "www.pornhub.com": 346,
+      "hw-cdn2.adtng.com": 4,
+      "a.adtng.com": 3,
+      "media.trafficjunky.net": 1,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     316725,
+     -85795
+    ],
+    "third_party": [
+     316040,
+     -86141
+    ],
+    "listed": [
+     20730,
+     -7358
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 115465,
+     "sd": 284624.6215632091,
+     "se": 201259.99999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 114949.5,
+     "sd": 284384.9123643869,
+     "se": 201090.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 6686,
+     "sd": 19861.215269967746,
+     "se": 14043.999999999998
+    }
+   },
+   "own_mean": 838
+  },
+  "media.trafficjunky.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 484,
+     "control": {
+      "page": 2980543,
+      "third_party": 2797128,
+      "listed": 224577
+     },
+     "ablated": {
+      "page": 2624015,
+      "third_party": 2440080,
+      "listed": 242123
+     },
+     "n_aborted": 2,
+     "moved": {
+      "hw-cdn2.ang-content.com": 381394,
+      "pix-cdn77.trafficjunky.net": -75147,
+      "pix-ht.trafficjunky.net": 57112,
+      "pix-fl.phncdn.com": -13096,
+      "pix-cdn77.phncdn.com": 6296,
+      "www.pornhub.com": -888,
+      "media.trafficjunky.net": 484,
+      "pornhub.com": 368,
+      "ei.phncdn.com": 20,
+      "accounts.google.com": -20,
+      "a.adtng.com": 3,
+      "hw-cdn2.adtng.com": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 484,
+     "control": {
+      "page": 3087220,
+      "third_party": 2902964,
+      "listed": 239184
+     },
+     "ablated": {
+      "page": 3018454,
+      "third_party": 2834333,
+      "listed": 227797
+     },
+     "n_aborted": 2,
+     "moved": {
+      "hw-cdn2.ang-content.com": 65146,
+      "ei.phncdn.com": 22345,
+      "pix-fl.phncdn.com": -20307,
+      "pix-cdn77.phncdn.com": -9934,
+      "pix-cdn77.trafficjunky.net": 8698,
+      "pix-ht.trafficjunky.net": 2199,
+      "media.trafficjunky.net": 484,
+      "www.pornhub.com": 135,
+      "www.googletagmanager.com": -13,
+      "accounts.google.com": 7,
+      "a.adtng.com": 6,
+      "region1.google-analytics.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     356044,
+     68282
+    ],
+    "third_party": [
+     356564,
+     68147
+    ],
+    "listed": [
+     -18030,
+     10903
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 212163,
+     "sd": 203478.4615678033,
+     "se": 143881.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 212355.5,
+     "sd": 203941.6165094805,
+     "se": 144208.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -3563.5,
+     "sd": 20458.72050007038,
+     "se": 14466.5
+    }
+   },
+   "own_mean": 484
+  }
+ },
+ "candidates": [
+  "region1.google-analytics.com",
+  "media.trafficjunky.net"
+ ],
+ "category": "entertainment",
+ "domain": "pornhub.com",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 61.2
+}

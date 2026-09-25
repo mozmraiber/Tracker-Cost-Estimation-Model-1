@@ -1,0 +1,404 @@
+{
+ "url": "https://nbcnews.com/",
+ "hosts": [
+  "cdn.taboola.com",
+  "securepubads.g.doubleclick.net",
+  "www.lightboxcdn.com",
+  "pagead2.googlesyndication.com",
+  "c.amazon-adsystem.com",
+  "mssl.fwmrm.net"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "c.amazon-adsystem.com",
+    "www.lightboxcdn.com",
+    "securepubads.g.doubleclick.net",
+    "cdn.taboola.com",
+    "mssl.fwmrm.net",
+    "pagead2.googlesyndication.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 7226537,
+      "third_party": 4876910,
+      "listed": 2210691
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 7132515,
+      "third_party": 4782732,
+      "listed": 2112768
+     },
+     "own": 98956,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 94022,
+      "third_party": 94178,
+      "listed": 97923
+     },
+     "cascade": {
+      "page": -4934,
+      "third_party": -4778,
+      "listed": -1033
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "www.lightboxcdn.com"
+     ],
+     "bytes": {
+      "page": 6990637,
+      "third_party": 4640914,
+      "listed": 1970955
+     },
+     "own": 245993,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 235900,
+      "third_party": 235996,
+      "listed": 239736
+     },
+     "cascade": {
+      "page": -10093,
+      "third_party": -9997,
+      "listed": -6257
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "www.lightboxcdn.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 6172047,
+      "third_party": 3822507,
+      "listed": 1155288
+     },
+     "own": 500747,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 1054490,
+      "third_party": 1054403,
+      "listed": 1055403
+     },
+     "cascade": {
+      "page": 553743,
+      "third_party": 553656,
+      "listed": 554656
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "www.lightboxcdn.com",
+      "securepubads.g.doubleclick.net",
+      "cdn.taboola.com"
+     ],
+     "bytes": {
+      "page": 5702656,
+      "third_party": 3352888,
+      "listed": 685988
+     },
+     "own": 868920,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 1523881,
+      "third_party": 1524022,
+      "listed": 1524703
+     },
+     "cascade": {
+      "page": 654961,
+      "third_party": 655102,
+      "listed": 655783
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "www.lightboxcdn.com",
+      "securepubads.g.doubleclick.net",
+      "cdn.taboola.com",
+      "mssl.fwmrm.net"
+     ],
+     "bytes": {
+      "page": 5832633,
+      "third_party": 3483037,
+      "listed": 590858
+     },
+     "own": 964452,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1393904,
+      "third_party": 1393873,
+      "listed": 1619833
+     },
+     "cascade": {
+      "page": 429452,
+      "third_party": 429421,
+      "listed": 655381
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "www.lightboxcdn.com",
+      "securepubads.g.doubleclick.net",
+      "cdn.taboola.com",
+      "mssl.fwmrm.net",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 5833100,
+      "third_party": 3483169,
+      "listed": 591074
+     },
+     "own": 1083133,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1393437,
+      "third_party": 1393741,
+      "listed": 1619617
+     },
+     "cascade": {
+      "page": 310304,
+      "third_party": 310608,
+      "listed": 536484
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "c.amazon-adsystem.com",
+    "cdn.taboola.com",
+    "securepubads.g.doubleclick.net",
+    "mssl.fwmrm.net",
+    "www.lightboxcdn.com",
+    "pagead2.googlesyndication.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 7634618,
+      "third_party": 5284898,
+      "listed": 2613639
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 7134679,
+      "third_party": 4784808,
+      "listed": 2114367
+     },
+     "own": 98956,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 499939,
+      "third_party": 500090,
+      "listed": 499272
+     },
+     "cascade": {
+      "page": 400983,
+      "third_party": 401134,
+      "listed": 400316
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "cdn.taboola.com"
+     ],
+     "bytes": {
+      "page": 6667271,
+      "third_party": 4317628,
+      "listed": 1646919
+     },
+     "own": 467129,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 967347,
+      "third_party": 967270,
+      "listed": 966720
+     },
+     "cascade": {
+      "page": 500218,
+      "third_party": 500141,
+      "listed": 499591
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "cdn.taboola.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 5850782,
+      "third_party": 3501377,
+      "listed": 833574
+     },
+     "own": 723125,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 1783836,
+      "third_party": 1783521,
+      "listed": 1780065
+     },
+     "cascade": {
+      "page": 1060711,
+      "third_party": 1060396,
+      "listed": 1056940
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "cdn.taboola.com",
+      "securepubads.g.doubleclick.net",
+      "mssl.fwmrm.net"
+     ],
+     "bytes": {
+      "page": 5979769,
+      "third_party": 3630605,
+      "listed": 738635
+     },
+     "own": 818657,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 1654849,
+      "third_party": 1654293,
+      "listed": 1875004
+     },
+     "cascade": {
+      "page": 836192,
+      "third_party": 835636,
+      "listed": 1056347
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "cdn.taboola.com",
+      "securepubads.g.doubleclick.net",
+      "mssl.fwmrm.net",
+      "www.lightboxcdn.com"
+     ],
+     "bytes": {
+      "page": 5832479,
+      "third_party": 3483092,
+      "listed": 590907
+     },
+     "own": 965672,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 1802139,
+      "third_party": 1801806,
+      "listed": 2022732
+     },
+     "cascade": {
+      "page": 836467,
+      "third_party": 836134,
+      "listed": 1057060
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "c.amazon-adsystem.com",
+      "cdn.taboola.com",
+      "securepubads.g.doubleclick.net",
+      "mssl.fwmrm.net",
+      "www.lightboxcdn.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 5832533,
+      "third_party": 3482997,
+      "listed": 590925
+     },
+     "own": 1083345,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 1802085,
+      "third_party": 1801901,
+      "listed": 2022714
+     },
+     "cascade": {
+      "page": 718740,
+      "third_party": 718556,
+      "listed": 939369
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "nbcnews.com",
+ "elapsed_s": 131.2
+}

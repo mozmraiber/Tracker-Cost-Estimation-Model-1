@@ -1,0 +1,205 @@
+{
+ "url": "https://unesco.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "tag.aticdn.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 27433,
+     "control": {
+      "page": 2216587,
+      "third_party": 697663,
+      "listed": 29107
+     },
+     "ablated": {
+      "page": 2190028,
+      "third_party": 671131,
+      "listed": 1674
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "tag.aticdn.net": 27433,
+      "www.googletagmanager.com": -1361,
+      "skmgwqf.pa-cd.com": 460,
+      "www.unesco.org": 27,
+      "unesco.org": 0,
+      "region1.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 27433,
+     "control": {
+      "page": 2216747,
+      "third_party": 697663,
+      "listed": 29107
+     },
+     "ablated": {
+      "page": 2187781,
+      "third_party": 669770,
+      "listed": 1674
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "tag.aticdn.net": 27433,
+      "www.unesco.org": 1073,
+      "skmgwqf.pa-cd.com": 460,
+      "unesco.org": 0,
+      "region1.google-analytics.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -874,
+     1533
+    ],
+    "third_party": [
+     -901,
+     460
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 329.5,
+     "sd": 1702.0060223160199,
+     "se": 1203.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -220.5,
+     "sd": 962.3723291948912,
+     "se": 680.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 27433
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1674,
+     "control": {
+      "page": 2215958,
+      "third_party": 697698,
+      "listed": 29107
+     },
+     "ablated": {
+      "page": 2215327,
+      "third_party": 696911,
+      "listed": 27433
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "region1.google-analytics.com": 1674,
+      "www.googletagmanager.com": -887,
+      "www.unesco.org": -156,
+      "tag.aticdn.net": 0,
+      "unesco.org": 0,
+      "skmgwqf.pa-cd.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1674,
+     "control": {
+      "page": 2216243,
+      "third_party": 697663,
+      "listed": 29107
+     },
+     "ablated": {
+      "page": 2214683,
+      "third_party": 695989,
+      "listed": 27433
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "region1.google-analytics.com": 1674,
+      "www.unesco.org": -114,
+      "tag.aticdn.net": 0,
+      "unesco.org": 0,
+      "skmgwqf.pa-cd.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1043,
+     -114
+    ],
+    "third_party": [
+     -887,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -578.5,
+     "sd": 656.9021997223026,
+     "se": 464.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -443.5,
+     "sd": 627.2037149124676,
+     "se": 443.49999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1674
+  }
+ },
+ "candidates": [
+  "tag.aticdn.net",
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "unesco.org",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 58.5
+}

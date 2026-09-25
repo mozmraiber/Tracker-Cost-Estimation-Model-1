@@ -1,0 +1,331 @@
+{
+ "url": "https://nbcnews.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "cdn.taboola.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 368224,
+     "control": {
+      "page": 8142892,
+      "third_party": 5782009,
+      "listed": 2177838
+     },
+     "ablated": {
+      "page": 7717251,
+      "third_party": 5354980,
+      "listed": 1750887
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.taboola.com": 368224,
+      "trc.taboola.com": 34790,
+      "pm-widget.taboola.com": 22617,
+      "7a4b379244412d37b25fb2b8f5250aec.safeframe.googlesyndication.com": 3811,
+      "eb24445aeb45ad38391f260a95dd426b.safeframe.googlesyndication.com": -3811,
+      "pagead2.googlesyndication.com": -1780,
+      "www.nbcnews.com": -1360,
+      "am-trc-events.taboola.com": 1126,
+      "pub.doubleverify.com": 649,
+      "dis.criteo.com": 565,
+      "cm.g.doubleclick.net": 520,
+      "media3.s-nbcnews.com": 502
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 368242,
+     "control": {
+      "page": 8184721,
+      "third_party": 5824003,
+      "listed": 2219159
+     },
+     "ablated": {
+      "page": 7604876,
+      "third_party": 5243796,
+      "listed": 1643452
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.taboola.com": 368242,
+      "c.amazon-adsystem.com": 95479,
+      "trc.taboola.com": 41755,
+      "vidstat.taboola.com": 34054,
+      "pm-widget.taboola.com": 22617,
+      "cdn.cxense.com": 6989,
+      "c2.piano.io": 4109,
+      "76e774ba8a75e066cdb50242606cfe73.safeframe.googlesyndication.com": 3811,
+      "a2548dccee7eeefd81a88909924ef78f.safeframe.googlesyndication.com": -3811,
+      "securepubads.g.doubleclick.net": 1293,
+      "config.aps.amazon-adsystem.com": 1022,
+      "am-trc-events.taboola.com": 979
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     57417,
+     211603
+    ],
+    "third_party": [
+     58805,
+     211965
+    ],
+    "listed": [
+     58727,
+     207465
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 134510,
+     "sd": 109025.96616402901,
+     "se": 77093.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 135385,
+     "sd": 108300.47460653161,
+     "se": 76579.99999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 133096,
+     "sd": 105173.64842012471,
+     "se": 74369.0
+    }
+   },
+   "own_mean": 368233
+  },
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256102,
+     "control": {
+      "page": 8183038,
+      "third_party": 5822637,
+      "listed": 2218324
+     },
+     "ablated": {
+      "page": 7357859,
+      "third_party": 4997476,
+      "listed": 1395617
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256102,
+      "cdn.doubleverify.com": 206804,
+      "static.polarcdn.com": 138047,
+      "pagead2.googlesyndication.com": 118796,
+      "micro.rubiconproject.com": 47616,
+      "ep2.adtrafficquality.google": 14645,
+      "ep1.adtrafficquality.google": 14346,
+      "polarcdn-terrax.com": 10446,
+      "trc.taboola.com": 6491,
+      "0cd4f40a28ba3c538e3d8e2ba4165122.safeframe.googlesyndication.com": 3811,
+      "polarcdn-engine.com": 2668,
+      "bw-prod.plrsrvcs.com": 2527
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256107,
+     "control": {
+      "page": 8187500,
+      "third_party": 5827040,
+      "listed": 2223222
+     },
+     "ablated": {
+      "page": 7364790,
+      "third_party": 5004715,
+      "listed": 1403053
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256107,
+      "cdn.doubleverify.com": 206804,
+      "static.polarcdn.com": 138047,
+      "pagead2.googlesyndication.com": 118714,
+      "micro.rubiconproject.com": 47616,
+      "ep2.adtrafficquality.google": 14645,
+      "ep1.adtrafficquality.google": 14221,
+      "polarcdn-terrax.com": 10446,
+      "f4451a4d11ece7d852c846bc34b1633e.safeframe.googlesyndication.com": 3811,
+      "polarcdn-engine.com": 2668,
+      "bw-prod.plrsrvcs.com": 2596,
+      "pub.doubleverify.com": 2162
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     569077,
+     566603
+    ],
+    "third_party": [
+     569059,
+     566218
+    ],
+    "listed": [
+     566605,
+     564062
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 567840,
+     "sd": 1749.3821766555186,
+     "se": 1237.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 567638.5,
+     "sd": 2008.8903653509815,
+     "se": 1420.4999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 565333.5,
+     "sd": 1798.1725445573904,
+     "se": 1271.5
+    }
+   },
+   "own_mean": 256104.5
+  },
+  "www.lightboxcdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 147063,
+     "control": {
+      "page": 8188583,
+      "third_party": 5827837,
+      "listed": 2223834
+     },
+     "ablated": {
+      "page": 8037482,
+      "third_party": 5676745,
+      "listed": 2072906
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.lightboxcdn.com": 147063,
+      "c1707902fc24091857a4502d4dd33b75.safeframe.googlesyndication.com": -3811,
+      "a5b930a0109233c7847c8adb29dcd120.safeframe.googlesyndication.com": 3811,
+      "cm.g.doubleclick.net": 1231,
+      "ad.doubleclick.net": 1151,
+      "api.lightboxcdn.com": 1094,
+      "cdn.taboola.com": 824,
+      "pub.doubleverify.com": -646,
+      "media3.s-nbcnews.com": 502,
+      "bw-prod.plrsrvcs.com": -359,
+      "am-vid-events.taboola.com": 105,
+      "pagead2.googlesyndication.com": 89
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 147078,
+     "control": {
+      "page": 8181426,
+      "third_party": 5821209,
+      "listed": 2216498
+     },
+     "ablated": {
+      "page": 8026295,
+      "third_party": 5665767,
+      "listed": 2061832
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.lightboxcdn.com": 147078,
+      "d54c71ec9a1be3c1ae19572bb241a087.safeframe.googlesyndication.com": 3811,
+      "6cd265cd60c4f9ae4cd423074f65ae46.safeframe.googlesyndication.com": -3811,
+      "cdn.taboola.com": 2365,
+      "cm.g.doubleclick.net": 1283,
+      "securepubads.g.doubleclick.net": 1240,
+      "api.lightboxcdn.com": 1093,
+      "pub.doubleverify.com": 724,
+      "media3.s-nbcnews.com": 502,
+      "pagead2.googlesyndication.com": 393,
+      "mid.rkdms.com": 319,
+      "nbcnews.com": -293
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     4038,
+     8053
+    ],
+    "third_party": [
+     4029,
+     8364
+    ],
+    "listed": [
+     3865,
+     7588
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 6045.5,
+     "sd": 2839.0337264639884,
+     "se": 2007.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 6196.5,
+     "sd": 3065.3078964436836,
+     "se": 2167.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 5726.5,
+     "sd": 2632.558546357516,
+     "se": 1861.4999999999998
+    }
+   },
+   "own_mean": 147070.5
+  }
+ },
+ "candidates": [
+  "cdn.taboola.com",
+  "securepubads.g.doubleclick.net",
+  "www.lightboxcdn.com"
+ ],
+ "category": "news",
+ "domain": "nbcnews.com",
+ "n_blocked_tracking": 360.0,
+ "elapsed_s": 120.0
+}

@@ -1,0 +1,337 @@
+{
+ "url": "https://oxylabs.io/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 232453,
+     "control": {
+      "page": 3920951,
+      "third_party": 1157155,
+      "listed": 782291
+     },
+     "ablated": {
+      "page": 977414,
+      "third_party": 808670,
+      "listed": 0
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "oxylabs.io": 2453572,
+      "challenges.cloudflare.com": -807840,
+      "www.googletagmanager.com": 371566,
+      "connect.facebook.net": 232453,
+      "consent.cookiebot.com": 139108,
+      "chat.oxylabs.io": 130070,
+      "us-assets.i.posthog.com": 86616,
+      "sleeknotestaticcontent.sleeknote.com": 60438,
+      "snap.licdn.com": 47783,
+      "www.clickcease.com": 45211,
+      "static.ads-twitter.com": 35752,
+      "scripts.clarity.ms": 26110
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 232443,
+     "control": {
+      "page": 13660590,
+      "third_party": 1157306,
+      "listed": 782175
+     },
+     "ablated": {
+      "page": 3692892,
+      "third_party": 932445,
+      "listed": 557581
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "public-files.oxylabs.io": 9742434,
+      "connect.facebook.net": 232443,
+      "consent.cookiebot.com": -9284,
+      "www.facebook.com": 1440,
+      "z.clarity.ms": 822,
+      "j.clarity.ms": -822,
+      "oxylabs.io": 396,
+      "www.googletagmanager.com": 267,
+      "www.clarity.ms": 41,
+      "us-assets.i.posthog.com": -34,
+      "sleeknotestaticcontent.sleeknote.com": -26,
+      "us.i.posthog.com": 22
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2711084,
+     9735255
+    ],
+    "third_party": [
+     116032,
+     -7582
+    ],
+    "listed": [
+     549838,
+     -7849
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 6223169.5,
+     "sd": 4966838.9463138925,
+     "se": 3512085.4999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 54225,
+     "sd": 87408.2976495939,
+     "se": 61807.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 270994.5,
+     "sd": 394344.25947958214,
+     "se": 278843.5
+    }
+   },
+   "own_mean": 232448
+  },
+  "us-assets.i.posthog.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 86778,
+     "control": {
+      "page": 13586143,
+      "third_party": 1085065,
+      "listed": 709934
+     },
+     "ablated": {
+      "page": 13489768,
+      "third_party": 988687,
+      "listed": 613823
+     },
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "moved": {
+      "us-assets.i.posthog.com": 86778,
+      "consent.cookiebot.com": 9284,
+      "n.clarity.ms": -822,
+      "r.clarity.ms": 822,
+      "www.googletagmanager.com": 267,
+      "chat.oxylabs.io": -203,
+      "oxylabs.io": 202,
+      "us.i.posthog.com": 52,
+      "consentcdn.cookiebot.com": 3,
+      "t.co": -3,
+      "shared-api.oxylabs.io": -2,
+      "px.ads.linkedin.com": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 86793,
+     "control": {
+      "page": 13669703,
+      "third_party": 1166375,
+      "listed": 791510
+     },
+     "ablated": {
+      "page": 3848185,
+      "third_party": 1083287,
+      "listed": 704925
+     },
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "moved": {
+      "public-files.oxylabs.io": 9742434,
+      "us-assets.i.posthog.com": 86793,
+      "oxylabs.io": -4050,
+      "rum.uptime.com": -2560,
+      "t.clarity.ms": -1096,
+      "rumcollector.uptime.com": -938,
+      "o.clarity.ms": 822,
+      "chat.oxylabs.io": 47,
+      "www.clarity.ms": 41,
+      "us.i.posthog.com": -27,
+      "consent.cookiebot.com": 24,
+      "sleeknotestaticcontent.sleeknote.com": 20
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     9597,
+     9734725
+    ],
+    "third_party": [
+     9600,
+     -3705
+    ],
+    "listed": [
+     9333,
+     -208
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 4872161,
+     "sd": 6876703.9567071665,
+     "se": 4862564.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2947.5,
+     "sd": 9408.055723687015,
+     "se": 6652.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 4562.5,
+     "sd": 6746.5057993008495,
+     "se": 4770.499999999999
+    }
+   },
+   "own_mean": 86785.5
+  },
+  "snap.licdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 47783,
+     "control": {
+      "page": 13636021,
+      "third_party": 1165980,
+      "listed": 791116
+     },
+     "ablated": {
+      "page": 13609341,
+      "third_party": 1105369,
+      "listed": 730505
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "snap.licdn.com": 47783,
+      "public-files.oxylabs.io": -32768,
+      "consent.cookiebot.com": 9284,
+      "px.ads.linkedin.com": 3225,
+      "oxylabs.io": -1096,
+      "j.clarity.ms": 822,
+      "k.clarity.ms": -822,
+      "px4.ads.linkedin.com": 761,
+      "c.clarity.ms": -724,
+      "consentcdn.cookiebot.com": 270,
+      "us-assets.i.posthog.com": -89,
+      "chat.oxylabs.io": -66
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 47783,
+     "control": {
+      "page": 3923858,
+      "third_party": 1160550,
+      "listed": 782188
+     },
+     "ablated": {
+      "page": 976245,
+      "third_party": 806427,
+      "listed": 0
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "oxylabs.io": 2452005,
+      "challenges.cloudflare.com": -805597,
+      "www.googletagmanager.com": 371566,
+      "connect.facebook.net": 232450,
+      "consent.cookiebot.com": 139108,
+      "chat.oxylabs.io": 130074,
+      "us-assets.i.posthog.com": 86777,
+      "sleeknotestaticcontent.sleeknote.com": 60406,
+      "snap.licdn.com": 47783,
+      "www.clickcease.com": 45210,
+      "static.ads-twitter.com": 35752,
+      "scripts.clarity.ms": 26110
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -21103,
+     2899830
+    ],
+    "third_party": [
+     12828,
+     306340
+    ],
+    "listed": [
+     12828,
+     734405
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1439363.5,
+     "sd": 2065411.5316915659,
+     "se": 1460466.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 159584,
+     "sd": 207544.32555962593,
+     "se": 146755.99999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 373616.5,
+     "sd": 510231.9898482454,
+     "se": 360788.5
+    }
+   },
+   "own_mean": 47783
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "us-assets.i.posthog.com",
+  "snap.licdn.com"
+ ],
+ "category": "productivity",
+ "domain": "oxylabs.io",
+ "n_blocked_tracking": 190.0,
+ "elapsed_s": 100.1
+}

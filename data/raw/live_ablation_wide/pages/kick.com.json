@@ -1,0 +1,331 @@
+{
+ "url": "https://kick.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 258975,
+     "control": {
+      "page": 6755545,
+      "third_party": 2248700,
+      "listed": 1098279
+     },
+     "ablated": {
+      "page": 6502362,
+      "third_party": 1987963,
+      "listed": 837889
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 258975,
+      "web.kick.com": -4265,
+      "kick.com": -2675,
+      "realtime.us-east-1.platform.kick.com": -1612,
+      "realtime.us-west-2.platform.kick.com": 1594,
+      "pagead2.googlesyndication.com": 1241,
+      "assets.kick.com": -576,
+      "www.facebook.com": 489,
+      "2c-1138a2e087744ef69e662051fe044c44.ecs.us-west-1.on.aws": 346,
+      "analytics.tiktok.com": -289,
+      "m.stripe.network": -26,
+      "websockets.kick.com": -10
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 258995,
+     "control": {
+      "page": 6763391,
+      "third_party": 2263630,
+      "listed": 1098770
+     },
+     "ablated": {
+      "page": 6487792,
+      "third_party": 1989116,
+      "listed": 839086
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 258995,
+      "js.stripe.com": 14480,
+      "assets.kick.com": 1725,
+      "realtime.us-east-1.platform.kick.com": 1601,
+      "web.kick.com": -949,
+      "realtime.us-west-2.platform.kick.com": -850,
+      "www.facebook.com": 488,
+      "2c-1138a2e087744ef69e662051fe044c44.ecs.us-west-1.on.aws": 346,
+      "files.kick.com": -260,
+      "kick.com": -149,
+      "pagead2.googlesyndication.com": 82,
+      "analytics.tiktok.com": 65
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -5792,
+     16604
+    ],
+    "third_party": [
+     1762,
+     15519
+    ],
+    "listed": [
+     1415,
+     689
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 5406,
+     "sd": 15836.363471453918,
+     "se": 11198.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 8640.5,
+     "sd": 9727.667988783334,
+     "se": 6878.499999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1052,
+     "sd": 513.3595231414336,
+     "se": 363.0
+    }
+   },
+   "own_mean": 258985
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256709,
+     "control": {
+      "page": 7387081,
+      "third_party": 2262417,
+      "listed": 1097437
+     },
+     "ablated": {
+      "page": 7125040,
+      "third_party": 2005576,
+      "listed": 840715
+     },
+     "n_aborted": 5,
+     "moved": {
+      "pagead2.googlesyndication.com": 256709,
+      "web.kick.com": 8951,
+      "kick.com": -5755,
+      "realtime.us-east-1.platform.kick.com": 2354,
+      "realtime.us-west-2.platform.kick.com": -1609,
+      "assets.kick.com": 1349,
+      "js.stripe.com": 104,
+      "images.kick.com": -79,
+      "prod.ivs-device-config.live-video.net": 20,
+      "analytics.tiktok.com": 15,
+      "flags.kick.com": -10,
+      "websockets.kick.com": 9
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 258458,
+     "control": {
+      "page": 7512282,
+      "third_party": 2266936,
+      "listed": 1101913
+     },
+     "ablated": {
+      "page": 8107942,
+      "third_party": 2009796,
+      "listed": 843567
+     },
+     "n_aborted": 5,
+     "moved": {
+      "images.kick.com": -516224,
+      "web.kick.com": -333523,
+      "pagead2.googlesyndication.com": 258458,
+      "files.kick.com": -32193,
+      "kick.com": 28062,
+      "realtime.us-west-2.platform.kick.com": 1618,
+      "realtime.us-east-1.platform.kick.com": -1600,
+      "assets.kick.com": 1057,
+      "reporting.cdndex.io": -1054,
+      "www.googletagmanager.com": -314,
+      "js.stripe.com": 163,
+      "connect.facebook.net": -85
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     5332,
+     -854118
+    ],
+    "third_party": [
+     132,
+     -1318
+    ],
+    "listed": [
+     13,
+     -112
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -424393,
+     "sd": 607722.9230907783,
+     "se": 429725.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -593,
+     "sd": 1025.304832720494,
+     "se": 725.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -49.5,
+     "sd": 88.38834764831844,
+     "se": 62.5
+    }
+   },
+   "own_mean": 257583.5
+  },
+  "analytics.tiktok.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 166636,
+     "control": {
+      "page": 7486318,
+      "third_party": 2252256,
+      "listed": 1101891
+     },
+     "ablated": {
+      "page": 7308739,
+      "third_party": 2081663,
+      "listed": 932506
+     },
+     "n_aborted": 1,
+     "moved": {
+      "analytics.tiktok.com": 166636,
+      "kick.com": 7413,
+      "m.stripe.network": 2829,
+      "analytics-ipv6.tiktokw.us": 1461,
+      "assets.kick.com": -369,
+      "www.googletagmanager.com": -201,
+      "a.quora.com": -63,
+      "js.stripe.com": -52,
+      "web.kick.com": -52,
+      "images.kick.com": -46,
+      "realtime.us-east-1.platform.kick.com": 34,
+      "connect.facebook.net": -24
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 166699,
+     "control": {
+      "page": 7452721,
+      "third_party": 2249096,
+      "listed": 1098649
+     },
+     "ablated": {
+      "page": 7299144,
+      "third_party": 2081419,
+      "listed": 932455
+     },
+     "n_aborted": 1,
+     "moved": {
+      "analytics.tiktok.com": 166699,
+      "kick.com": -10648,
+      "realtime.us-west-2.platform.kick.com": -3123,
+      "assets.kick.com": -1934,
+      "realtime.us-east-1.platform.kick.com": 1623,
+      "analytics-ipv6.tiktokw.us": 1458,
+      "pagead2.googlesyndication.com": -558,
+      "a.quora.com": 65,
+      "prod.ivs-device-config.live-video.net": 20,
+      "connect.facebook.net": -18,
+      "web.kick.com": -15,
+      "ext.cdn.kick.com": -14
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     10943,
+     -13122
+    ],
+    "third_party": [
+     3957,
+     978
+    ],
+    "listed": [
+     2749,
+     -505
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1089.5,
+     "sd": 17016.524689254267,
+     "se": 12032.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2467.5,
+     "sd": 2106.471101154725,
+     "se": 1489.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1122,
+     "sd": 2300.925465981026,
+     "se": 1627.0
+    }
+   },
+   "own_mean": 166667.5
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "pagead2.googlesyndication.com",
+  "analytics.tiktok.com"
+ ],
+ "category": "entertainment",
+ "domain": "kick.com",
+ "n_blocked_tracking": 90.0,
+ "elapsed_s": 110.7
+}

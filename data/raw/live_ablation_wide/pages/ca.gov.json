@@ -1,0 +1,107 @@
+{
+ "url": "https://ca.gov/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1646,
+     "control": {
+      "page": 577877,
+      "third_party": 359626,
+      "listed": 1646
+     },
+     "ablated": {
+      "page": 567958,
+      "third_party": 357914,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.ca.gov": 8207,
+      "region1.google-analytics.com": 1646,
+      "www.googletagmanager.com": 66,
+      "alert.cdt.ca.gov": 0,
+      "ca.gov": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1666,
+     "control": {
+      "page": 567317,
+      "third_party": 359646,
+      "listed": 1666
+     },
+     "ablated": {
+      "page": 587602,
+      "third_party": 357980,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.ca.gov": -21951,
+      "region1.google-analytics.com": 1666,
+      "alert.cdt.ca.gov": 0,
+      "ca.gov": 0,
+      "www.googletagmanager.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     8273,
+     -21951
+    ],
+    "third_party": [
+     66,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -6839,
+     "sd": 21371.595354582212,
+     "se": 15111.999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 33,
+     "sd": 46.66904755831214,
+     "se": 33.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1656
+  }
+ },
+ "candidates": [
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "ca.gov",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 34.9
+}

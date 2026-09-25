@@ -1,0 +1,331 @@
+{
+ "url": "https://docker.io/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35423,
+     "control": {
+      "page": 3670634,
+      "third_party": 3670464,
+      "listed": 223823
+     },
+     "ablated": {
+      "page": 3633484,
+      "third_party": 3633314,
+      "listed": 186647
+     },
+     "n_aborted": 2,
+     "moved": {
+      "js-agent.newrelic.com": 35423,
+      "bam.nr-data.net": 1757,
+      "www.google.com": -39,
+      "www.docker.com": 13,
+      "dpm.demdex.net": -4,
+      "fonts.googleapis.com": 0,
+      "docker.io": 0,
+      "www.googletagmanager.com": 0,
+      "marlin-2.docker.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35422,
+     "control": {
+      "page": 3670506,
+      "third_party": 3670336,
+      "listed": 223823
+     },
+     "ablated": {
+      "page": 3633194,
+      "third_party": 3633194,
+      "listed": 186645
+     },
+     "n_aborted": 2,
+     "moved": {
+      "js-agent.newrelic.com": 35422,
+      "bam.nr-data.net": 1757,
+      "docker.io": 170,
+      "www.google.com": -19,
+      "www.docker.com": -17,
+      "dpm.demdex.net": -1,
+      "fonts.googleapis.com": 0,
+      "www.googletagmanager.com": 0,
+      "marlin-2.docker.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0,
+      "www.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1727,
+     1890
+    ],
+    "third_party": [
+     1727,
+     1720
+    ],
+    "listed": [
+     1753,
+     1756
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1808.5,
+     "sd": 115.25840533340725,
+     "se": 81.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1723.5,
+     "sd": 4.949747468305833,
+     "se": 3.4999999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1754.5,
+     "sd": 2.1213203435596424,
+     "se": 1.4999999999999998
+    }
+   },
+   "own_mean": 35422.5
+  },
+  "dpm.demdex.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2114,
+     "control": {
+      "page": 3670607,
+      "third_party": 3670437,
+      "listed": 223831
+     },
+     "ablated": {
+      "page": 3664540,
+      "third_party": 3664370,
+      "listed": 217868
+     },
+     "n_aborted": 2,
+     "moved": {
+      "docker.demdex.net": 3550,
+      "dpm.demdex.net": 2114,
+      "cm.everesttech.net": 490,
+      "bam.nr-data.net": -190,
+      "www.google.com": 103,
+      "www.docker.com": 2,
+      "js-agent.newrelic.com": -1,
+      "marlin-2.docker.com": -1,
+      "fonts.googleapis.com": 0,
+      "docker.io": 0,
+      "www.googletagmanager.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2108,
+     "control": {
+      "page": 3670653,
+      "third_party": 3670483,
+      "listed": 224015
+     },
+     "ablated": {
+      "page": 3664718,
+      "third_party": 3664548,
+      "listed": 217868
+     },
+     "n_aborted": 2,
+     "moved": {
+      "docker.demdex.net": 3550,
+      "dpm.demdex.net": 2108,
+      "cm.everesttech.net": 490,
+      "www.docker.com": -209,
+      "www.google.com": -23,
+      "www.googletagmanager.com": 20,
+      "js-agent.newrelic.com": -1,
+      "fonts.googleapis.com": 0,
+      "docker.io": 0,
+      "marlin-2.docker.com": 0,
+      "cdn.cookielaw.org": 0,
+      "bam.nr-data.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3953,
+     3827
+    ],
+    "third_party": [
+     3953,
+     3827
+    ],
+    "listed": [
+     3849,
+     4039
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3890,
+     "sd": 89.09545442950498,
+     "se": 62.99999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3890,
+     "sd": 89.09545442950498,
+     "se": 62.99999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3944,
+     "sd": 134.35028842544403,
+     "se": 95.0
+    }
+   },
+   "own_mean": 2111
+  },
+  "bam.nr-data.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2757,
+     "control": {
+      "page": 3671576,
+      "third_party": 3671406,
+      "listed": 224824
+     },
+     "ablated": {
+      "page": 3668782,
+      "third_party": 3668612,
+      "listed": 222074
+     },
+     "n_aborted": 2,
+     "moved": {
+      "bam.nr-data.net": 2757,
+      "www.google.com": 51,
+      "dpm.demdex.net": -8,
+      "www.googletagmanager.com": -4,
+      "www.docker.com": -3,
+      "js-agent.newrelic.com": 1,
+      "fonts.googleapis.com": 0,
+      "docker.io": 0,
+      "marlin-2.docker.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1947,
+     "control": {
+      "page": 3670667,
+      "third_party": 3670497,
+      "listed": 224012
+     },
+     "ablated": {
+      "page": 3668351,
+      "third_party": 3668181,
+      "listed": 221583
+     },
+     "n_aborted": 2,
+     "moved": {
+      "bam.nr-data.net": 1947,
+      "cm.everesttech.net": 490,
+      "www.google.com": -147,
+      "www.docker.com": 34,
+      "dpm.demdex.net": -9,
+      "js-agent.newrelic.com": 1,
+      "fonts.googleapis.com": 0,
+      "docker.io": 0,
+      "www.googletagmanager.com": 0,
+      "marlin-2.docker.com": 0,
+      "cdn.cookielaw.org": 0,
+      "geolocation.onetrust.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     37,
+     369
+    ],
+    "third_party": [
+     37,
+     369
+    ],
+    "listed": [
+     -7,
+     482
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 203,
+     "sd": 234.75945135393377,
+     "se": 165.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 203,
+     "sd": 234.75945135393377,
+     "se": 165.99999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 237.5,
+     "sd": 345.77521600022175,
+     "se": 244.5
+    }
+   },
+   "own_mean": 2352
+  }
+ },
+ "candidates": [
+  "js-agent.newrelic.com",
+  "dpm.demdex.net",
+  "bam.nr-data.net"
+ ],
+ "category": "infrastructure",
+ "domain": "docker.io",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 88.3
+}

@@ -1,0 +1,113 @@
+{
+ "url": "https://linktr.ee/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1647,
+     "control": {
+      "page": 4802292,
+      "third_party": 640228,
+      "listed": 1647
+     },
+     "ablated": {
+      "page": 4800649,
+      "third_party": 638584,
+      "listed": 0
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 3,
+     "moved": {
+      "pagead2.googlesyndication.com": 1647,
+      "www.googletagmanager.com": -3,
+      "linktr.ee": -1,
+      "gtm-cloud.production.linktr.ee": 0,
+      "ingress.linktr.ee": 0,
+      "assets.production.linktr.ee": 0,
+      "edge.browser-fp.production.linktr.ee": 0,
+      "api.consentjs.datagrail.io": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1647,
+     "control": {
+      "page": 4802333,
+      "third_party": 640233,
+      "listed": 1647
+     },
+     "ablated": {
+      "page": 4800678,
+      "third_party": 638586,
+      "listed": 0
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 3,
+     "moved": {
+      "pagead2.googlesyndication.com": 1647,
+      "linktr.ee": 9,
+      "assets.production.linktr.ee": -1,
+      "gtm-cloud.production.linktr.ee": 0,
+      "ingress.linktr.ee": 0,
+      "edge.browser-fp.production.linktr.ee": 0,
+      "www.googletagmanager.com": 0,
+      "api.consentjs.datagrail.io": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -4,
+     8
+    ],
+    "third_party": [
+     -3,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2,
+     "sd": 8.48528137423857,
+     "se": 5.999999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1.5,
+     "sd": 2.1213203435596424,
+     "se": 1.4999999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1647
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com"
+ ],
+ "category": "social",
+ "domain": "linktr.ee",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 29.4
+}

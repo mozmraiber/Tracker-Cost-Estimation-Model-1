@@ -1,0 +1,337 @@
+{
+ "url": "https://kick.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 259011,
+     "control": {
+      "page": 11628482,
+      "third_party": 6562969,
+      "listed": 1102400
+     },
+     "ablated": {
+      "page": 11494591,
+      "third_party": 6319872,
+      "listed": 842513
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 259011,
+      "files.kick.com": -127745,
+      "fa723fc1b171.euc12.playlist.live-video.net": -59483,
+      "fa723fc1b171.euc13.playlist.live-video.net": 59454,
+      "fa723fc1b171.7d5006aab175.j.cloudfront.hls.live-video.net": -16725,
+      "realtime.us-east-1.platform.kick.com": 11057,
+      "kick.com": 8689,
+      "realtime.us-west-2.platform.kick.com": -3443,
+      "static.kick.com": 2902,
+      "assets.kick.com": -736,
+      "reporting.cdndex.io": -527,
+      "www.facebook.com": 488
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 259011,
+     "control": {
+      "page": 11071360,
+      "third_party": 6514067,
+      "listed": 1101284
+     },
+     "ablated": {
+      "page": 10782841,
+      "third_party": 6292777,
+      "listed": 840919
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 259011,
+      "files.kick.com": 80923,
+      "fa723fc1b171.7d5006aab175.j.cloudfront.hls.live-video.net": -39124,
+      "fa723fc1b171.euc11.playlist.live-video.net": -37260,
+      "fa723fc1b171.euc13.playlist.live-video.net": 36957,
+      "kick.com": -12027,
+      "realtime.us-east-1.platform.kick.com": -6335,
+      "realtime.us-west-2.platform.kick.com": 5162,
+      "pagead2.googlesyndication.com": 1192,
+      "web.kick.com": -1165,
+      "assets.kick.com": 679,
+      "www.facebook.com": 489
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -125120,
+     29508
+    ],
+    "third_party": [
+     -15914,
+     -37721
+    ],
+    "listed": [
+     876,
+     1354
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -47806,
+     "sd": 109338.50736131347,
+     "se": 77314.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -26817.5,
+     "sd": 15419.877577335043,
+     "se": 10903.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1115,
+     "sd": 337.9970414071697,
+     "se": 238.99999999999997
+    }
+   },
+   "own_mean": 259011
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256694,
+     "control": {
+      "page": 11771716,
+      "third_party": 6537907,
+      "listed": 1100365
+     },
+     "ablated": {
+      "page": 9368934,
+      "third_party": 4255005,
+      "listed": 842722
+     },
+     "n_aborted": 5,
+     "n_aborted_casc": 3,
+     "moved": {
+      "fa723fc1b171.7d5006aab175.j.cloudfront.hls.live-video.net": 2039913,
+      "pagead2.googlesyndication.com": 256694,
+      "files.kick.com": 99259,
+      "fa723fc1b171.euc11.playlist.live-video.net": -44530,
+      "fa723fc1b171.euc12.playlist.live-video.net": 29331,
+      "kick.com": 16139,
+      "realtime.us-west-2.platform.kick.com": 5436,
+      "realtime.us-east-1.platform.kick.com": -2680,
+      "websockets.kick.com": 1397,
+      "region1.google-analytics.com": 811,
+      "reporting.cdndex.io": 527,
+      "web.kick.com": 239
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 258491,
+     "control": {
+      "page": 11725872,
+      "third_party": 6636568,
+      "listed": 1099223
+     },
+     "ablated": {
+      "page": 11343552,
+      "third_party": 6216019,
+      "listed": 843567
+     },
+     "n_aborted": 5,
+     "n_aborted_casc": 3,
+     "moved": {
+      "pagead2.googlesyndication.com": 258491,
+      "fa723fc1b171.7d5006aab175.j.cloudfront.hls.live-video.net": 156936,
+      "files.kick.com": -33608,
+      "fa723fc1b171.euc13.playlist.live-video.net": 7626,
+      "realtime.us-west-2.platform.kick.com": 4651,
+      "realtime.us-east-1.platform.kick.com": -3921,
+      "kick.com": -3656,
+      "m.stripe.network": -2846,
+      "assets.kick.com": -1801,
+      "www.googletagmanager.com": 331,
+      "web.kick.com": 77,
+      "a.quora.com": 36
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2146088,
+     123829
+    ],
+    "third_party": [
+     2026208,
+     162058
+    ],
+    "listed": [
+     949,
+     -2835
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1134958.5,
+     "sd": 1429953.0522155263,
+     "se": 1011129.4999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1094133,
+     "sd": 1318153.1061489026,
+     "se": 932074.9999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -943,
+     "sd": 2675.6920600098956,
+     "se": 1891.9999999999998
+    }
+   },
+   "own_mean": 257592.5
+  },
+  "analytics.tiktok.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 166690,
+     "control": {
+      "page": 9386611,
+      "third_party": 4486185,
+      "listed": 1099225
+     },
+     "ablated": {
+      "page": 9244055,
+      "third_party": 4349402,
+      "listed": 932074
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "analytics.tiktok.com": 166690,
+      "fa723fc1b171.7d5006aab175.j.cloudfront.hls.live-video.net": -31957,
+      "fa723fc1b171.euc13.playlist.live-video.net": -29334,
+      "fa723fc1b171.euc12.playlist.live-video.net": 29130,
+      "files.kick.com": -11501,
+      "kick.com": 11294,
+      "web.kick.com": 6070,
+      "analytics-ipv6.tiktokw.us": 1468,
+      "pagead2.googlesyndication.com": 480,
+      "www.googletagmanager.com": 314,
+      "assets.kick.com": -216,
+      "realtime.us-west-2.platform.kick.com": 170
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 166703,
+     "control": {
+      "page": 11188797,
+      "third_party": 6651493,
+      "listed": 1098776
+     },
+     "ablated": {
+      "page": 10742741,
+      "third_party": 6241267,
+      "listed": 930737
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "fa723fc1b171.7d5006aab175.j.cloudfront.hls.live-video.net": 240952,
+      "analytics.tiktok.com": 166703,
+      "kick.com": 23861,
+      "files.kick.com": 12633,
+      "realtime.us-east-1.platform.kick.com": 5886,
+      "web.kick.com": -4394,
+      "realtime.us-west-2.platform.kick.com": -2612,
+      "analytics-ipv6.tiktokw.us": 1461,
+      "pagead2.googlesyndication.com": 1317,
+      "assets.kick.com": 370,
+      "fa723fc1b171.euc13.playlist.live-video.net": -164,
+      "www.googletagmanager.com": -78
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -24134,
+     279353
+    ],
+    "third_party": [
+     -29907,
+     243523
+    ],
+    "listed": [
+     461,
+     1336
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 127609.5,
+     "sd": 214597.71570196174,
+     "se": 151743.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 106808,
+     "sd": 193344.2071798377,
+     "se": 136715.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 898.5,
+     "sd": 618.7184335382291,
+     "se": 437.49999999999994
+    }
+   },
+   "own_mean": 166696.5
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "pagead2.googlesyndication.com",
+  "analytics.tiktok.com"
+ ],
+ "category": "entertainment",
+ "domain": "kick.com",
+ "n_blocked_tracking": 90.0,
+ "elapsed_s": 102.1
+}

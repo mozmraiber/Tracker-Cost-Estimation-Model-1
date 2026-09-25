@@ -1,0 +1,337 @@
+{
+ "url": "https://eset.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "bat.bing.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 52195,
+     "control": {
+      "page": 5943338,
+      "third_party": 1748112,
+      "listed": 107951
+     },
+     "ablated": {
+      "page": 5888528,
+      "third_party": 1692713,
+      "listed": 57965
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "bat.bing.com": 52195,
+      "bat.bing.net": 3084,
+      "www.google.com": 2760,
+      "pagead2.googlesyndication.com": -2760,
+      "sgtm.eset.com": -888,
+      "ad.doubleclick.net": 551,
+      "cdn.jsdelivr.net": -390,
+      "faro-azne.eset.com": 277,
+      "www.googletagmanager.com": -41,
+      "api.buy.eset.com": 20,
+      "api.cms.eset.com": 1,
+      "www.eset.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 52195,
+     "control": {
+      "page": 5945110,
+      "third_party": 1747547,
+      "listed": 110159
+     },
+     "ablated": {
+      "page": 5878404,
+      "third_party": 1692396,
+      "listed": 57965
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "bat.bing.com": 52195,
+      "www.eset.com": 8767,
+      "bat.bing.net": 3084,
+      "faro-azne.eset.com": 2770,
+      "www.googletagmanager.com": -323,
+      "cdn.jsdelivr.net": 196,
+      "sgtm.eset.com": -25,
+      "api.buy.eset.com": 22,
+      "web-assets.eset.com": 21,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": -1,
+      "assets.ubembed.com": 0,
+      "ade.googlesyndication.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2615,
+     14511
+    ],
+    "third_party": [
+     3204,
+     2956
+    ],
+    "listed": [
+     -2209,
+     -1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 8563,
+     "sd": 8411.742268995169,
+     "se": 5947.999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3080,
+     "sd": 175.36248173426378,
+     "se": 123.99999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -1105,
+     "sd": 1561.291772859897,
+     "se": 1104.0
+    }
+   },
+   "own_mean": 52195
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 3312,
+     "control": {
+      "page": 5936471,
+      "third_party": 1748692,
+      "listed": 109056
+     },
+     "ablated": {
+      "page": 5931994,
+      "third_party": 1746413,
+      "listed": 106294
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 3,
+     "moved": {
+      "pagead2.googlesyndication.com": 3312,
+      "www.google.com": -2760,
+      "www.googletagmanager.com": 2371,
+      "sgtm.eset.com": 1794,
+      "faro-azne.eset.com": 831,
+      "ad.doubleclick.net": -551,
+      "eset.com": -422,
+      "cdn.jsdelivr.net": -136,
+      "cdn.esetstatic.com": 42,
+      "api.cms.eset.com": -3,
+      "api.buy.eset.com": -2,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1656,
+     "control": {
+      "page": 5942230,
+      "third_party": 1747858,
+      "listed": 107951
+     },
+     "ablated": {
+      "page": 5941574,
+      "third_party": 1746464,
+      "listed": 106294
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 3,
+     "moved": {
+      "pagead2.googlesyndication.com": 1656,
+      "sgtm.eset.com": -460,
+      "faro-azne.eset.com": -277,
+      "cdn.jsdelivr.net": -232,
+      "www.googletagmanager.com": -31,
+      "api.cms.eset.com": 2,
+      "api.buy.eset.com": -2,
+      "www.eset.com": -1,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": 1,
+      "assets.ubembed.com": 0,
+      "ade.googlesyndication.com": 0,
+      "cdn.esetstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1165,
+     -1000
+    ],
+    "third_party": [
+     -1033,
+     -262
+    ],
+    "listed": [
+     -550,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 82.5,
+     "sd": 1530.8861812688754,
+     "se": 1082.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -647.5,
+     "sd": 545.1793282948281,
+     "se": 385.49999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": -274.5,
+     "sd": 389.6158364337877,
+     "se": 275.5
+    }
+   },
+   "own_mean": 2484
+  },
+  "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1045,
+     "control": {
+      "page": 5943120,
+      "third_party": 1748084,
+      "listed": 107951
+     },
+     "ablated": {
+      "page": 5880800,
+      "third_party": 1694311,
+      "listed": 57178
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "assets.ubembed.com": 51937,
+      "www.eset.com": 8746,
+      "www.google.com": 2760,
+      "pagead2.googlesyndication.com": -2760,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": 1045,
+      "ad.doubleclick.net": 551,
+      "eset.com": -422,
+      "faro-azne.eset.com": 277,
+      "cdn.jsdelivr.net": 232,
+      "api.cms.eset.com": -59,
+      "www.googletagmanager.com": 8,
+      "sgtm.eset.com": 5
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1045,
+     "control": {
+      "page": 5944354,
+      "third_party": 1748211,
+      "listed": 110160
+     },
+     "ablated": {
+      "page": 5881943,
+      "third_party": 1694503,
+      "listed": 57178
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "assets.ubembed.com": 51937,
+      "www.eset.com": 8746,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": 1045,
+      "www.googletagmanager.com": 644,
+      "cdn.jsdelivr.net": 82,
+      "api.buy.eset.com": -26,
+      "web-assets.eset.com": -21,
+      "sgtm.eset.com": 4,
+      "ade.googlesyndication.com": 0,
+      "cdn.esetstatic.com": 0,
+      "api.eset.com": 0,
+      "faro-azne.eset.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     61275,
+     61366
+    ],
+    "third_party": [
+     52728,
+     52663
+    ],
+    "listed": [
+     49728,
+     51937
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 61320.5,
+     "sd": 64.34671708797582,
+     "se": 45.49999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 52695.5,
+     "sd": 45.96194077712559,
+     "se": 32.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 50832.5,
+     "sd": 1561.9988796410835,
+     "se": 1104.5
+    }
+   },
+   "own_mean": 1045
+  }
+ },
+ "candidates": [
+  "bat.bing.com",
+  "pagead2.googlesyndication.com",
+  "bd89567e8d1d4727932403fd80578a58.js.ubembed.com"
+ ],
+ "category": "productivity",
+ "domain": "eset.com",
+ "n_blocked_tracking": 146.0,
+ "elapsed_s": 137.8
+}

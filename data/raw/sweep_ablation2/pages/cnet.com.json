@@ -1,0 +1,456 @@
+{
+ "url": "https://cnet.com/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "client.aps.amazon-adsystem.com",
+  "frugalfiestas.com",
+  "pub.doubleverify.com",
+  "cdn.parsely.com",
+  "experiments.parsely.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "cdn.parsely.com",
+    "frugalfiestas.com",
+    "client.aps.amazon-adsystem.com",
+    "securepubads.g.doubleclick.net",
+    "experiments.parsely.com",
+    "pub.doubleverify.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3333674,
+      "third_party": 1791974,
+      "listed": 669697
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 3307533,
+      "third_party": 1765834,
+      "listed": 643807
+     },
+     "own": 27039,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 26141,
+      "third_party": 26140,
+      "listed": 25890
+     },
+     "cascade": {
+      "page": -898,
+      "third_party": -899,
+      "listed": -1149
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com"
+     ],
+     "bytes": {
+      "page": 3259179,
+      "third_party": 1717480,
+      "listed": 594823
+     },
+     "own": 75240,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 74495,
+      "third_party": 74494,
+      "listed": 74874
+     },
+     "cascade": {
+      "page": -745,
+      "third_party": -746,
+      "listed": -366
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 3168582,
+      "third_party": 1626883,
+      "listed": 504856
+     },
+     "own": 161650,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 165092,
+      "third_party": 165091,
+      "listed": 164841
+     },
+     "cascade": {
+      "page": 3442,
+      "third_party": 3441,
+      "listed": 3191
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 2910426,
+      "third_party": 1369171,
+      "listed": 247124
+     },
+     "own": 416990,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 423248,
+      "third_party": 422803,
+      "listed": 422573
+     },
+     "cascade": {
+      "page": 6258,
+      "third_party": 5813,
+      "listed": 5583
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "experiments.parsely.com"
+     ],
+     "bytes": {
+      "page": 2901839,
+      "third_party": 1360140,
+      "listed": 237966
+     },
+     "own": 426294,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 8,
+     "aborted_types": {
+      "script": 8
+     },
+     "saved": {
+      "page": 431835,
+      "third_party": 431834,
+      "listed": 431731
+     },
+     "cascade": {
+      "page": 5541,
+      "third_party": 5540,
+      "listed": 5437
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "experiments.parsely.com",
+      "pub.doubleverify.com"
+     ],
+     "bytes": {
+      "page": 2865681,
+      "third_party": 1323982,
+      "listed": 202048
+     },
+     "own": 461797,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 9,
+     "aborted_types": {
+      "script": 9
+     },
+     "saved": {
+      "page": 467993,
+      "third_party": 467992,
+      "listed": 467649
+     },
+     "cascade": {
+      "page": 6196,
+      "third_party": 6195,
+      "listed": 5852
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "cdn.parsely.com",
+    "securepubads.g.doubleclick.net",
+    "client.aps.amazon-adsystem.com",
+    "experiments.parsely.com",
+    "frugalfiestas.com",
+    "pub.doubleverify.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3334267,
+      "third_party": 1793005,
+      "listed": 671019
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 3306704,
+      "third_party": 1765442,
+      "listed": 643291
+     },
+     "own": 27039,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 27563,
+      "third_party": 27563,
+      "listed": 27728
+     },
+     "cascade": {
+      "page": 524,
+      "third_party": 524,
+      "listed": 689
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3050589,
+      "third_party": 1509771,
+      "listed": 386312
+     },
+     "own": 283711,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 283678,
+      "third_party": 283234,
+      "listed": 284707
+     },
+     "cascade": {
+      "page": -33,
+      "third_party": -477,
+      "listed": 996
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 2959640,
+      "third_party": 1417941,
+      "listed": 295790
+     },
+     "own": 370121,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 374627,
+      "third_party": 375064,
+      "listed": 375229
+     },
+     "cascade": {
+      "page": 4506,
+      "third_party": 4943,
+      "listed": 5108
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com",
+      "experiments.parsely.com"
+     ],
+     "bytes": {
+      "page": 2950070,
+      "third_party": 1408371,
+      "listed": 286529
+     },
+     "own": 379357,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 384197,
+      "third_party": 384634,
+      "listed": 384490
+     },
+     "cascade": {
+      "page": 4840,
+      "third_party": 5277,
+      "listed": 5133
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com",
+      "experiments.parsely.com",
+      "frugalfiestas.com"
+     ],
+     "bytes": {
+      "page": 2900819,
+      "third_party": 1360001,
+      "listed": 237967
+     },
+     "own": 427547,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 8,
+     "aborted_types": {
+      "script": 8
+     },
+     "saved": {
+      "page": 433448,
+      "third_party": 433004,
+      "listed": 433052
+     },
+     "cascade": {
+      "page": 5901,
+      "third_party": 5457,
+      "listed": 5505
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com",
+      "experiments.parsely.com",
+      "frugalfiestas.com",
+      "pub.doubleverify.com"
+     ],
+     "bytes": {
+      "page": 2865811,
+      "third_party": 1324112,
+      "listed": 202048
+     },
+     "own": 463119,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 9,
+     "aborted_types": {
+      "script": 9
+     },
+     "saved": {
+      "page": 468456,
+      "third_party": 468893,
+      "listed": 468971
+     },
+     "cascade": {
+      "page": 5337,
+      "third_party": 5774,
+      "listed": 5852
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "cnet.com",
+ "elapsed_s": 92.4
+}

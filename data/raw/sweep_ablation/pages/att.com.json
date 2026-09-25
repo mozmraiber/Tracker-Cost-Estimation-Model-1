@@ -1,0 +1,404 @@
+{
+ "url": "https://att.com/",
+ "hosts": [
+  "cdn.quantummetric.com",
+  "connect.facebook.net",
+  "s2.go-mpulse.net",
+  "resources.digital-cloud-smf1.medallia.com",
+  "d.oracleinfinity.io",
+  "solutions.invocacdn.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "d.oracleinfinity.io",
+    "s2.go-mpulse.net",
+    "connect.facebook.net",
+    "cdn.quantummetric.com",
+    "solutions.invocacdn.com",
+    "resources.digital-cloud-smf1.medallia.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 7119042,
+      "third_party": 1087664,
+      "listed": 854926
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "d.oracleinfinity.io"
+     ],
+     "bytes": {
+      "page": 7052037,
+      "third_party": 1030558,
+      "listed": 797257
+     },
+     "own": 53231,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 67005,
+      "third_party": 57106,
+      "listed": 57669
+     },
+     "cascade": {
+      "page": 13774,
+      "third_party": 3875,
+      "listed": 4438
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "s2.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 6939589,
+      "third_party": 907021,
+      "listed": 674293
+     },
+     "own": 171561,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 179453,
+      "third_party": 180643,
+      "listed": 180633
+     },
+     "cascade": {
+      "page": 7892,
+      "third_party": 9082,
+      "listed": 9072
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "s2.go-mpulse.net",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 6761056,
+      "third_party": 1741208,
+      "listed": 488320
+     },
+     "own": 349930,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 357986,
+      "third_party": -653544,
+      "listed": 366606
+     },
+     "cascade": {
+      "page": 8056,
+      "third_party": -1003474,
+      "listed": 16676
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "s2.go-mpulse.net",
+      "connect.facebook.net",
+      "cdn.quantummetric.com"
+     ],
+     "bytes": {
+      "page": 6552756,
+      "third_party": 513510,
+      "listed": 281530
+     },
+     "own": 556017,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 566286,
+      "third_party": 574154,
+      "listed": 573396
+     },
+     "cascade": {
+      "page": 10269,
+      "third_party": 18137,
+      "listed": 17379
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "s2.go-mpulse.net",
+      "connect.facebook.net",
+      "cdn.quantummetric.com",
+      "solutions.invocacdn.com"
+     ],
+     "bytes": {
+      "page": 6487874,
+      "third_party": 468039,
+      "listed": 236090
+     },
+     "own": 604332,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 631168,
+      "third_party": 619625,
+      "listed": 618836
+     },
+     "cascade": {
+      "page": 26836,
+      "third_party": 15293,
+      "listed": 14504
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "s2.go-mpulse.net",
+      "connect.facebook.net",
+      "cdn.quantummetric.com",
+      "solutions.invocacdn.com",
+      "resources.digital-cloud-smf1.medallia.com"
+     ],
+     "bytes": {
+      "page": 6426377,
+      "third_party": 392384,
+      "listed": 160486
+     },
+     "own": 683880,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "saved": {
+      "page": 692665,
+      "third_party": 695280,
+      "listed": 694440
+     },
+     "cascade": {
+      "page": 8785,
+      "third_party": 11400,
+      "listed": 10560
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "d.oracleinfinity.io",
+    "cdn.quantummetric.com",
+    "connect.facebook.net",
+    "solutions.invocacdn.com",
+    "s2.go-mpulse.net",
+    "resources.digital-cloud-smf1.medallia.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 7114686,
+      "third_party": 1093519,
+      "listed": 860567
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "d.oracleinfinity.io"
+     ],
+     "bytes": {
+      "page": 7050629,
+      "third_party": 1028267,
+      "listed": 796274
+     },
+     "own": 53231,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 64057,
+      "third_party": 65252,
+      "listed": 64293
+     },
+     "cascade": {
+      "page": 10826,
+      "third_party": 12021,
+      "listed": 11062
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "cdn.quantummetric.com"
+     ],
+     "bytes": {
+      "page": 6853003,
+      "third_party": 821681,
+      "listed": 588825
+     },
+     "own": 259320,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 261683,
+      "third_party": 271838,
+      "listed": 271742
+     },
+     "cascade": {
+      "page": 2363,
+      "third_party": 12518,
+      "listed": 12422
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "cdn.quantummetric.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 6671270,
+      "third_party": 648085,
+      "listed": 415002
+     },
+     "own": 437687,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 443416,
+      "third_party": 445434,
+      "listed": 445565
+     },
+     "cascade": {
+      "page": 5729,
+      "third_party": 7747,
+      "listed": 7878
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "cdn.quantummetric.com",
+      "connect.facebook.net",
+      "solutions.invocacdn.com"
+     ],
+     "bytes": {
+      "page": 6620423,
+      "third_party": 593759,
+      "listed": 361911
+     },
+     "own": 486002,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 494263,
+      "third_party": 499760,
+      "listed": 498656
+     },
+     "cascade": {
+      "page": 8261,
+      "third_party": 13758,
+      "listed": 12654
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "cdn.quantummetric.com",
+      "connect.facebook.net",
+      "solutions.invocacdn.com",
+      "s2.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 6495519,
+      "third_party": 462731,
+      "listed": 230871
+     },
+     "own": 604332,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 619167,
+      "third_party": 630788,
+      "listed": 629696
+     },
+     "cascade": {
+      "page": 14835,
+      "third_party": 26456,
+      "listed": 25364
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "d.oracleinfinity.io",
+      "cdn.quantummetric.com",
+      "connect.facebook.net",
+      "solutions.invocacdn.com",
+      "s2.go-mpulse.net",
+      "resources.digital-cloud-smf1.medallia.com"
+     ],
+     "bytes": {
+      "page": 6412793,
+      "third_party": 393528,
+      "listed": 161788
+     },
+     "own": 683880,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "saved": {
+      "page": 701893,
+      "third_party": 699991,
+      "listed": 698779
+     },
+     "cascade": {
+      "page": 18013,
+      "third_party": 16111,
+      "listed": 14899
+     }
+    }
+   ]
+  }
+ ],
+ "category": "productivity",
+ "domain": "att.com",
+ "elapsed_s": 130.3
+}

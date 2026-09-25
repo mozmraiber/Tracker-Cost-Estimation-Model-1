@@ -1,0 +1,337 @@
+{
+ "url": "https://branch.io/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "bat.bing.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35511,
+     "control": {
+      "page": 1145589,
+      "third_party": 459398,
+      "listed": 259491
+     },
+     "ablated": {
+      "page": 1109098,
+      "third_party": 422906,
+      "listed": 224027
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "bat.bing.com": 35511,
+      "bat.bing.net": 1028,
+      "tr.snapchat.com": -51,
+      "dev.visualwebsiteoptimizer.com": 4,
+      "www.branch.io": -1,
+      "geolocation.onetrust.com": 0,
+      "client.prod.mplat-ppcprotect.com": 0,
+      "click.prod.mplat-ppcprotect.com": 0,
+      "www.googletagmanager.com": 0,
+      "tr6.snapchat.com": 0,
+      "sc-static.net": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35511,
+     "control": {
+      "page": 1145613,
+      "third_party": 459421,
+      "listed": 259514
+     },
+     "ablated": {
+      "page": 1109123,
+      "third_party": 422931,
+      "listed": 224052
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "bat.bing.com": 35511,
+      "bat.bing.net": 1028,
+      "tr.snapchat.com": -25,
+      "tr6.snapchat.com": -25,
+      "dev.visualwebsiteoptimizer.com": 1,
+      "geolocation.onetrust.com": 0,
+      "client.prod.mplat-ppcprotect.com": 0,
+      "click.prod.mplat-ppcprotect.com": 0,
+      "www.branch.io": 0,
+      "www.googletagmanager.com": 0,
+      "sc-static.net": 0,
+      "cdn.cookielaw.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     980,
+     979
+    ],
+    "third_party": [
+     981,
+     979
+    ],
+    "listed": [
+     -47,
+     -49
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 979.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 980,
+     "sd": 1.4142135623730951,
+     "se": 1.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -48,
+     "sd": 1.4142135623730951,
+     "se": 1.0
+    }
+   },
+   "own_mean": 35511
+  },
+  "sc-static.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 25611,
+     "control": {
+      "page": 1145611,
+      "third_party": 459419,
+      "listed": 259512
+     },
+     "ablated": {
+      "page": 1117221,
+      "third_party": 431029,
+      "listed": 231105
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "sc-static.net": 25611,
+      "tr.snapchat.com": 2552,
+      "tr6.snapchat.com": 311,
+      "bat.bing.com": -41,
+      "dev.visualwebsiteoptimizer.com": -26,
+      "www.googletagmanager.com": -17,
+      "bat.bing.net": 0,
+      "geolocation.onetrust.com": 0,
+      "client.prod.mplat-ppcprotect.com": 0,
+      "click.prod.mplat-ppcprotect.com": 0,
+      "www.branch.io": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 25611,
+     "control": {
+      "page": 1145661,
+      "third_party": 459470,
+      "listed": 259563
+     },
+     "ablated": {
+      "page": 1117135,
+      "third_party": 430944,
+      "listed": 231041
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "sc-static.net": 25611,
+      "tr.snapchat.com": 2577,
+      "tr6.snapchat.com": 311,
+      "dev.visualwebsiteoptimizer.com": 23,
+      "www.googletagmanager.com": 4,
+      "bat.bing.net": 0,
+      "geolocation.onetrust.com": 0,
+      "client.prod.mplat-ppcprotect.com": 0,
+      "click.prod.mplat-ppcprotect.com": 0,
+      "www.branch.io": 0,
+      "bat.bing.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2779,
+     2915
+    ],
+    "third_party": [
+     2779,
+     2915
+    ],
+    "listed": [
+     2796,
+     2911
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2847,
+     "sd": 96.16652224137046,
+     "se": 67.99999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2847,
+     "sd": 96.16652224137046,
+     "se": 67.99999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2853.5,
+     "sd": 81.31727983645297,
+     "se": 57.5
+    }
+   },
+   "own_mean": 25611
+  },
+  "dev.visualwebsiteoptimizer.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 5702,
+     "control": {
+      "page": 1145744,
+      "third_party": 459552,
+      "listed": 259487
+     },
+     "ablated": {
+      "page": 1139889,
+      "third_party": 453697,
+      "listed": 253790
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "dev.visualwebsiteoptimizer.com": 5702,
+      "www.googletagmanager.com": 158,
+      "tr.snapchat.com": -25,
+      "sc-static.net": 20,
+      "bat.bing.net": 0,
+      "geolocation.onetrust.com": 0,
+      "client.prod.mplat-ppcprotect.com": 0,
+      "click.prod.mplat-ppcprotect.com": 0,
+      "www.branch.io": 0,
+      "tr6.snapchat.com": 0,
+      "bat.bing.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 5700,
+     "control": {
+      "page": 1145609,
+      "third_party": 459417,
+      "listed": 259510
+     },
+     "ablated": {
+      "page": 1139474,
+      "third_party": 453767,
+      "listed": 253860
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "dev.visualwebsiteoptimizer.com": 5700,
+      "branch.io": 485,
+      "tr.snapchat.com": -25,
+      "tr6.snapchat.com": -25,
+      "bat.bing.net": 0,
+      "geolocation.onetrust.com": 0,
+      "client.prod.mplat-ppcprotect.com": 0,
+      "click.prod.mplat-ppcprotect.com": 0,
+      "www.branch.io": 0,
+      "www.googletagmanager.com": 0,
+      "sc-static.net": 0,
+      "bat.bing.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     153,
+     435
+    ],
+    "third_party": [
+     153,
+     -50
+    ],
+    "listed": [
+     -5,
+     -50
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 294,
+     "sd": 199.4041122946064,
+     "se": 140.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 51.5,
+     "sd": 143.54267658086914,
+     "se": 101.49999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -27.5,
+     "sd": 31.81980515339464,
+     "se": 22.5
+    }
+   },
+   "own_mean": 5701
+  }
+ },
+ "candidates": [
+  "bat.bing.com",
+  "sc-static.net",
+  "dev.visualwebsiteoptimizer.com"
+ ],
+ "category": "infrastructure",
+ "domain": "branch.io",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 81.4
+}

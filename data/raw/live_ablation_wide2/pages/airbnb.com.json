@@ -1,0 +1,111 @@
+{
+ "url": "https://airbnb.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "ad.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 553,
+     "control": {
+      "page": 4959100,
+      "third_party": 4255137,
+      "listed": 4253340
+     },
+     "ablated": {
+      "page": 5496782,
+      "third_party": 4795884,
+      "listed": 4794087
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "a0.muscache.com": -541300,
+      "www.airbnb.com": 2612,
+      "ad.doubleclick.net": 553,
+      "airbnb.com": 453,
+      "www.google.com": 0,
+      "www.googletagmanager.com": 0,
+      "d0a7e.airbnb.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 553,
+     "control": {
+      "page": 4964364,
+      "third_party": 4264670,
+      "listed": 4262873
+     },
+     "ablated": {
+      "page": 5498415,
+      "third_party": 4794932,
+      "listed": 4793135
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "a0.muscache.com": -530815,
+      "www.airbnb.com": -3340,
+      "ad.doubleclick.net": 553,
+      "airbnb.com": -453,
+      "d0a7e.airbnb.com": 4,
+      "www.google.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -538235,
+     -534604
+    ],
+    "third_party": [
+     -541300,
+     -530815
+    ],
+    "listed": [
+     -541300,
+     -530815
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -536419.5,
+     "sd": 2567.504722488354,
+     "se": 1815.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -536057.5,
+     "sd": 7414.014600740951,
+     "se": 5242.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -536057.5,
+     "sd": 7414.014600740951,
+     "se": 5242.5
+    }
+   },
+   "own_mean": 553
+  }
+ },
+ "candidates": [
+  "ad.doubleclick.net"
+ ],
+ "category": "shopping",
+ "domain": "airbnb.com",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 34.1
+}

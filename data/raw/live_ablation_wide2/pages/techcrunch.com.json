@@ -1,0 +1,337 @@
+{
+ "url": "https://techcrunch.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "public.servenobid.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 453975,
+     "control": {
+      "page": 4725717,
+      "third_party": 3761012,
+      "listed": 1270627
+     },
+     "ablated": {
+      "page": 3612053,
+      "third_party": 2647004,
+      "listed": 477487
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "public.servenobid.com": 453975,
+      "securepubads.g.doubleclick.net": 218014,
+      "fundingchoicesmessages.google.com": 159304,
+      "fonts.gstatic.com": 102171,
+      "www.googletagservices.com": 38777,
+      "rt.marphezis.com": 30851,
+      "eus.rubiconproject.com": 25234,
+      "ads.pubmatic.com": 24084,
+      "lh3.googleusercontent.com": 8739,
+      "fonts.googleapis.com": 6975,
+      "ad.impactify.io": 5900,
+      "direct.adsrvr.org": 4303
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 453975,
+     "control": {
+      "page": 4753988,
+      "third_party": 3789283,
+      "listed": 1282392
+     },
+     "ablated": {
+      "page": 3615802,
+      "third_party": 2650753,
+      "listed": 478351
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "public.servenobid.com": 453975,
+      "securepubads.g.doubleclick.net": 217265,
+      "fundingchoicesmessages.google.com": 159309,
+      "fonts.gstatic.com": 102171,
+      "rt.marphezis.com": 43793,
+      "www.googletagservices.com": 38779,
+      "eus.rubiconproject.com": 25234,
+      "ads.pubmatic.com": 24084,
+      "htlb.casalemedia.com": 13058,
+      "lh3.googleusercontent.com": 8739,
+      "fonts.googleapis.com": 6975,
+      "ad.impactify.io": 5900
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     659689,
+     684211
+    ],
+    "third_party": [
+     660033,
+     684555
+    ],
+    "listed": [
+     339165,
+     350066
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 671950,
+     "sd": 17339.672488256518,
+     "se": 12260.999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 672294,
+     "sd": 17339.672488256518,
+     "se": 12260.999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 344615.5,
+     "sd": 7708.171021714555,
+     "se": 5450.5
+    }
+   },
+   "own_mean": 453975
+  },
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 218014,
+     "control": {
+      "page": 4728776,
+      "third_party": 3763727,
+      "listed": 1276652
+     },
+     "ablated": {
+      "page": 4103672,
+      "third_party": 3138967,
+      "listed": 966887
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 218014,
+      "fundingchoicesmessages.google.com": 159299,
+      "fonts.gstatic.com": 102171,
+      "rt.marphezis.com": 30556,
+      "eus.rubiconproject.com": 25234,
+      "ads.pubmatic.com": 24084,
+      "ads.servenobid.com": 10590,
+      "lh3.googleusercontent.com": 8739,
+      "fonts.googleapis.com": 6975,
+      "ad.impactify.io": 5900,
+      "public.servenobid.com": 4734,
+      "challenges.cloudflare.com": -3716
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 217826,
+     "control": {
+      "page": 4746369,
+      "third_party": 3781664,
+      "listed": 1273087
+     },
+     "ablated": {
+      "page": 4117453,
+      "third_party": 3152748,
+      "listed": 970101
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 217826,
+      "fundingchoicesmessages.google.com": 159340,
+      "fonts.gstatic.com": 102171,
+      "rt.marphezis.com": 35823,
+      "eus.rubiconproject.com": 25234,
+      "ads.pubmatic.com": 24084,
+      "lh3.googleusercontent.com": 8739,
+      "fonts.googleapis.com": 6975,
+      "ad.impactify.io": 5906,
+      "public.servenobid.com": 4734,
+      "direct.adsrvr.org": 2771,
+      "ads.servenobid.com": 2767
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     407090,
+     411090
+    ],
+    "third_party": [
+     406746,
+     411090
+    ],
+    "listed": [
+     91751,
+     85160
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 409090,
+     "sd": 2828.42712474619,
+     "se": 2000.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 408918,
+     "sd": 3071.6718574743622,
+     "se": 2171.9999999999995
+    },
+    "listed": {
+     "n": 2,
+     "mean": 88455.5,
+     "sd": 4660.540794800535,
+     "se": 3295.5
+    }
+   },
+   "own_mean": 217920
+  },
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 203773,
+     "control": {
+      "page": 4726739,
+      "third_party": 3761690,
+      "listed": 1266272
+     },
+     "ablated": {
+      "page": 4523694,
+      "third_party": 3558989,
+      "listed": 1059847
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 203773,
+      "rt.marphezis.com": -3083,
+      "challenges.cloudflare.com": -2476,
+      "securepubads.g.doubleclick.net": 1421,
+      "ce.lijit.com": -1281,
+      "s.amazon-adsystem.com": -1111,
+      "sync.dxtech.ai": 1054,
+      "match.prod.bidr.io": 1023,
+      "www.facebook.com": 989,
+      "sync.1rx.io": 782,
+      "hbx.media.net": 684,
+      "rtb-csync.smartadserver.com": 633
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 203754,
+     "control": {
+      "page": 4752402,
+      "third_party": 3787697,
+      "listed": 1272285
+     },
+     "ablated": {
+      "page": 4531850,
+      "third_party": 3567145,
+      "listed": 1066003
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 203754,
+      "rt.marphezis.com": 12851,
+      "direct.adsrvr.org": 1914,
+      "l.clarity.ms": -1112,
+      "sync.dxtech.ai": 1050,
+      "www.facebook.com": 994,
+      "pxl.iqm.com": 876,
+      "sync-tm.everesttech.net": -805,
+      "dis.criteo.com": -709,
+      "ce.lijit.com": 700,
+      "k.clarity.ms": 556,
+      "www.googletagmanager.com": 535
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -728,
+     16798
+    ],
+    "third_party": [
+     -1072,
+     16798
+    ],
+    "listed": [
+     2652,
+     2528
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 8035,
+     "sd": 12392.753447075433,
+     "se": 8763.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 7863,
+     "sd": 12635.998179803604,
+     "se": 8935.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2590,
+     "sd": 87.68124086713189,
+     "se": 61.99999999999999
+    }
+   },
+   "own_mean": 203763.5
+  }
+ },
+ "candidates": [
+  "public.servenobid.com",
+  "securepubads.g.doubleclick.net",
+  "connect.facebook.net"
+ ],
+ "category": "news",
+ "domain": "techcrunch.com",
+ "n_blocked_tracking": 270.0,
+ "elapsed_s": 95.1
+}

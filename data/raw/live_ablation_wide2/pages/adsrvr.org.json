@@ -1,0 +1,201 @@
+{
+ "url": "https://adsrvr.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 34184,
+     "control": {
+      "page": 463345,
+      "third_party": 320905,
+      "listed": 289935
+     },
+     "ablated": {
+      "page": 427787,
+      "third_party": 285347,
+      "listed": 254377
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 34184,
+      "bam.nr-data.net": 1376,
+      "www.thetradedesk.com": -2,
+      "adsrvr.org": 0,
+      "code.jquery.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 34010,
+     "control": {
+      "page": 462813,
+      "third_party": 320373,
+      "listed": 289403
+     },
+     "ablated": {
+      "page": 427785,
+      "third_party": 285345,
+      "listed": 254375
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 34010,
+      "bam.nr-data.net": 1018,
+      "www.thetradedesk.com": 0,
+      "adsrvr.org": 0,
+      "code.jquery.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1374,
+     1018
+    ],
+    "third_party": [
+     1374,
+     1018
+    ],
+    "listed": [
+     1374,
+     1018
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1196,
+     "sd": 251.7300141024109,
+     "se": 177.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1196,
+     "sd": 251.7300141024109,
+     "se": 177.99999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1196,
+     "sd": 251.7300141024109,
+     "se": 177.99999999999997
+    }
+   },
+   "own_mean": 34097
+  },
+  "bam.nr-data.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1018,
+     "control": {
+      "page": 462813,
+      "third_party": 320373,
+      "listed": 289403
+     },
+     "ablated": {
+      "page": 461797,
+      "third_party": 319357,
+      "listed": 288387
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "bam.nr-data.net": 1018,
+      "www.thetradedesk.com": -2,
+      "js-agent.newrelic.com": 0,
+      "adsrvr.org": 0,
+      "code.jquery.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1376,
+     "control": {
+      "page": 463353,
+      "third_party": 320907,
+      "listed": 289937
+     },
+     "ablated": {
+      "page": 461771,
+      "third_party": 319355,
+      "listed": 288385
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "bam.nr-data.net": 1376,
+      "js-agent.newrelic.com": 174,
+      "adsrvr.org": 30,
+      "www.thetradedesk.com": 2,
+      "code.jquery.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -2,
+     206
+    ],
+    "third_party": [
+     -2,
+     176
+    ],
+    "listed": [
+     -2,
+     176
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 102,
+     "sd": 147.07821048680188,
+     "se": 103.99999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 87,
+     "sd": 125.86500705120545,
+     "se": 88.99999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 87,
+     "sd": 125.86500705120545,
+     "se": 88.99999999999999
+    }
+   },
+   "own_mean": 1197
+  }
+ },
+ "candidates": [
+  "js-agent.newrelic.com",
+  "bam.nr-data.net"
+ ],
+ "category": "infrastructure",
+ "domain": "adsrvr.org",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 58.1
+}

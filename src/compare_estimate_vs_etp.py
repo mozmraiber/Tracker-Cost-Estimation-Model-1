@@ -39,13 +39,28 @@ reported on its own:
      Predicted total savings against measured total savings -- the number a
      privacy dashboard would actually print.
 
+  5. estimated bytes of what ETP blocked, against the page-level delta
+     What the table predicts for every request Firefox refused -- unmatched
+     ones included, since it prices a URL and needs no control-arm twin --
+     against (control transfer - blocking transfer) on those same pages. This
+     is the only question here whose ground truth covers *all* the blocking
+     rather than the matched subset, and the only one measured the way a
+     browser would feel it.
+
 WHY THE ESTIMATE SHOULD NOT MATCH THE PAGE-LEVEL DELTA
 -----------------------------------------------------
 Total page bytes saved exceeds the bytes of the blocked requests themselves,
 because a blocked tracker never gets to inject its own subresources. The table
-estimates only the request it is handed, so it is compared against the direct
-bytes of blocked requests; the page-level delta is reported alongside as the
-wider effect it does not attempt to model.
+estimates only the request it is handed, so questions 1 and 2 compare it
+against the direct bytes of blocked requests. Question 5 sets it against the
+page-level delta anyway, because that is the quantity a user experiences, but
+the ratio there is expected to land *below* 1 and a ratio above 1 means the
+estimator is over-attributing rather than that it is finally accurate.
+
+Two loads of the same page differ even where nothing was blocked -- ads rotate,
+content churns -- so question 5 also reports a drift correction: the mean delta
+over pages ETP touched nothing on, which is pure churn by construction,
+subtracted per page from the pages it did touch.
 
 Usage:
     python src/compare_estimate_vs_etp.py \\
@@ -79,9 +94,10 @@ _UNKNOWN_INITIATOR = llm_classifier.RequestInitiator.UNKNOWN
 _UNKNOWN_METHOD = ""
 
 # ETP Standard blocks these Disconnect categories as tracking content. Content
-# is excluded (that is Strict), and Cryptomining/Fingerprinting are excluded
-# because the crawl ran them in *both* arms, so they are not savings from
-# private browsing.
+# is excluded (that is Strict), and Cryptomining/Fingerprinting are excluded to
+# keep this population the same one the ETP-blocked comparison uses, which is
+# filtered to protection=="tracking"; the crawl does block those two in its
+# blocking arm, but they are a handful of requests and a different protection.
 ETP_CATEGORIES = "Advertising,Analytics,Social"
 
 # Playwright's resource types -> the RequestContext the table was fitted on.
@@ -459,6 +475,11 @@ def main() -> int:
     etp_per_page: dict[int, list[int]] = {}
     n_etp_tracking = 0
     etp_rows: list[dict] = []
+    # Question (5) prices *every* block, matched or not: the estimator needs
+    # only the URL, and the page-level delta it is compared against was
+    # measured over all the blocking.
+    all_pred_by_page: dict[int, int] = {}
+    cascade_pred_by_page: dict[int, int] = {}
     for r in csv.DictReader(open(args.blocked)):
         if r["protection"] != "tracking":
             continue
@@ -466,11 +487,18 @@ def main() -> int:
         if idx not in clean_idx:
             continue
         n_etp_tracking += 1
-        if r["match_kind"] == "unmatched" or r["observed_bytes"] == "":
-            continue
         est, _cpu_ms = llm_classifier.estimate_resources(
             r["blocked_url"], context_for(r["resource_type"]),
             _UNKNOWN_INITIATOR, _UNKNOWN_METHOD)
+        # And again with the cascade, which is the like-for-like comparison
+        # against a page-level delta: see FOLLOWUP_BYTES_PER_REQUEST.
+        est_cascade, _cpu2 = llm_classifier.estimate_resources(
+            r["blocked_url"], context_for(r["resource_type"]),
+            _UNKNOWN_INITIATOR, _UNKNOWN_METHOD, True)
+        all_pred_by_page[idx] = all_pred_by_page.get(idx, 0) + est
+        cascade_pred_by_page[idx] = cascade_pred_by_page.get(idx, 0) + est_cascade
+        if r["match_kind"] == "unmatched" or r["observed_bytes"] == "":
+            continue
         obs = int(r["observed_bytes"])
         etp_pred.append(est)
         etp_actual.append(obs)
@@ -486,9 +514,32 @@ def main() -> int:
 
     # ------------------------------------------------------------------- (4)
     measured_page_delta = 0
+    # (5) The same delta, page by page, kept apart by whether ETP blocked
+    # anything there. Pages it never touched must show no saving, so whatever
+    # they do show is crawl-to-crawl churn and is the drift estimate.
+    delta_blocked: dict[int, int] = {}
+    delta_untouched: list[int] = []
     for r in csv.DictReader(open(args.paired)):
-        if int(r["idx"]) in clean_idx:
-            measured_page_delta += int(r["bytes_saved"])
+        idx = int(r["idx"])
+        if idx not in clean_idx:
+            continue
+        saved = int(r["bytes_saved"])
+        measured_page_delta += saved
+        if int(r["n_blocked_tracking"]) > 0:
+            delta_blocked[idx] = saved
+        else:
+            delta_untouched.append(saved)
+
+    # Only pages where both sides of the comparison exist: ETP blocked
+    # something (so there is a prediction) and the page loaded cleanly in both
+    # arms (so there is a delta).
+    q5_idx = sorted(set(delta_blocked) & set(all_pred_by_page))
+    q5_pred = sum(all_pred_by_page[i] for i in q5_idx)
+    q5_pred_cascade = sum(cascade_pred_by_page[i] for i in q5_idx)
+    q5_measured = sum(delta_blocked[i] for i in q5_idx)
+    drift_per_page = (st.fmean(delta_untouched) if delta_untouched else 0.0)
+    q5_measured_corrected = q5_measured - drift_per_page * len(q5_idx)
+    q5_per_page = [(all_pred_by_page[i], delta_blocked[i]) for i in q5_idx]
 
     report = {
         "inputs": {
@@ -536,6 +587,46 @@ def main() -> int:
                     "where every request has a size; ETP's set is what Firefox "
                     "refused, and only the matched subset has an observed size, "
                     "so its byte total is a lower bound.",
+        },
+        "q5_blocked_estimate_vs_page_delta": {
+            "n_pages": len(q5_idx),
+            "n_blocks_priced": n_etp_tracking,
+            "predicted_blocked_bytes": q5_pred,
+            "predicted_blocked_bytes_with_followups": q5_pred_cascade,
+            "measured_page_delta_bytes": q5_measured,
+            "measured_page_delta_bytes_drift_corrected":
+                round(q5_measured_corrected),
+            "drift_per_untouched_page_bytes": round(drift_per_page),
+            "n_untouched_pages": len(delta_untouched),
+            "ratio_predicted_over_measured": (
+                round(q5_pred / q5_measured, 3) if q5_measured else None),
+            "ratio_predicted_over_measured_drift_corrected": (
+                round(q5_pred / q5_measured_corrected, 3)
+                if q5_measured_corrected else None),
+            "ratio_with_followups_over_measured_drift_corrected": (
+                round(q5_pred_cascade / q5_measured_corrected, 3)
+                if q5_measured_corrected else None),
+            "n_pages_predicted_exceeds_measured": sum(
+                1 for pr, ms in q5_per_page if pr > ms),
+            "n_pages_measured_negative": sum(
+                1 for _pr, ms in q5_per_page if ms < 0),
+            "median_predicted_bytes_per_page": (
+                round(st.median([pr for pr, _ in q5_per_page]))
+                if q5_per_page else None),
+            "median_measured_bytes_per_page": (
+                round(st.median([ms for _, ms in q5_per_page]))
+                if q5_per_page else None),
+            "note": "Predicted size of every request ETP blocked (unmatched "
+                    "ones included -- the estimator needs only the URL) "
+                    "against the measured transfer delta of the pages those "
+                    "blocks happened on. Two ratios, because the estimator "
+                    "answers two questions: priced per request, it covers "
+                    "only what was refused and should sit well below 1, "
+                    "since the delta also contains the subresources a "
+                    "blocked tracker never got to request; priced with "
+                    "include_followups it estimates those too and should sit "
+                    "near 1. Pages ETP never touched give the drift "
+                    "estimate, since their delta is churn by construction.",
         },
         "q4_end_to_end": {
             "predicted_savings_bytes": sum(dc_pred),
@@ -639,6 +730,36 @@ def main() -> int:
     print(f"    measured page-level delta      "
           f"{e['measured_page_level_delta_bytes']/1e6:,.1f} MB "
           f"(includes cascades)")
+
+    q = report["q5_blocked_estimate_vs_page_delta"]
+    print()
+    print("--- (5) estimated bytes of what ETP blocked vs measured page delta")
+    print(f"    pages with blocks              {q['n_pages']:,} "
+          f"({q['n_blocks_priced']:,} blocked requests priced)")
+    print(f"    predicted blocked bytes        "
+          f"{q['predicted_blocked_bytes']/1e6:,.1f} MB")
+    print(f"    measured delta on those pages  "
+          f"{q['measured_page_delta_bytes']/1e6:,.1f} MB")
+    print(f"    drift correction               "
+          f"{q['drift_per_untouched_page_bytes']/1e3:,.1f} kB/page over "
+          f"{q['n_untouched_pages']:,} untouched pages "
+          f"-> {q['measured_page_delta_bytes_drift_corrected']/1e6:,.1f} MB")
+    print(f"    with follow-ups                "
+          f"{q['predicted_blocked_bytes_with_followups']/1e6:,.1f} MB")
+    if q["ratio_predicted_over_measured"] is not None:
+        print(f"    ratio predicted / measured     "
+              f"{q['ratio_predicted_over_measured']:.2f}x raw, "
+              f"{q['ratio_predicted_over_measured_drift_corrected']:.2f}x "
+              f"drift-corrected")
+        print(f"    same, with follow-ups          "
+              f"{q['ratio_with_followups_over_measured_drift_corrected']:.2f}x "
+              f"drift-corrected")
+    print(f"    pages where predicted > measured "
+          f"{q['n_pages_predicted_exceeds_measured']:,} of {q['n_pages']:,} "
+          f"({q['n_pages_measured_negative']:,} have a negative delta)")
+    print(f"    median per page                 "
+          f"{q['median_predicted_bytes_per_page']/1e3:,.1f} kB predicted vs "
+          f"{q['median_measured_bytes_per_page']/1e3:,.1f} kB measured")
     print()
     print(f"Wrote {out_dir/'estimate_vs_etp.json'}")
     return 0

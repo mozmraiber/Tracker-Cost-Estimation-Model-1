@@ -1,0 +1,111 @@
+{
+ "url": "https://line.me/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 834,
+     "control": {
+      "page": 26148205,
+      "third_party": 25620643,
+      "listed": 834
+     },
+     "ablated": {
+      "page": 26028834,
+      "third_party": 25501272,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "vos.line-scdn.net": 118746,
+      "region1.google-analytics.com": 834,
+      "landpress-content.line-scdn.net": -215,
+      "cdn.jsdelivr.net": 6,
+      "www.line.me": 0,
+      "line.me": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 834,
+     "control": {
+      "page": 25770957,
+      "third_party": 25243774,
+      "listed": 834
+     },
+     "ablated": {
+      "page": 29259687,
+      "third_party": 28731111,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "vos.line-scdn.net": -3488284,
+      "www.line.me": -1014,
+      "region1.google-analytics.com": 834,
+      "line.me": -379,
+      "landpress-content.line-scdn.net": 111,
+      "cdn.jsdelivr.net": 2,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     118537,
+     -3489564
+    ],
+    "third_party": [
+     118537,
+     -3488171
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1685513.5,
+     "sd": 2551312.684305963,
+     "se": 1804050.4999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1684817,
+     "sd": 2550327.6845597704,
+     "se": 1803353.9999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 834
+  }
+ },
+ "candidates": [
+  "region1.google-analytics.com"
+ ],
+ "category": "social",
+ "domain": "line.me",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 33.2
+}

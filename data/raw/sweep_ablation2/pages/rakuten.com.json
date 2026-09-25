@@ -1,0 +1,456 @@
+{
+ "url": "https://rakuten.com/",
+ "hosts": [
+  "connect.facebook.net",
+  "www.redditstatic.com",
+  "c.amazon-adsystem.com",
+  "www.googleadservices.com",
+  "www.google-analytics.com",
+  "bat.bing.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "www.google-analytics.com",
+    "c.amazon-adsystem.com",
+    "www.redditstatic.com",
+    "connect.facebook.net",
+    "bat.bing.com",
+    "www.googleadservices.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 1609891,
+      "third_party": 177984,
+      "listed": 115935
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 3680955,
+      "third_party": 2111590,
+      "listed": 516239
+     },
+     "own": 21732,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": -2071064,
+      "third_party": -1933606,
+      "listed": -400304
+     },
+     "cascade": {
+      "page": -2092796,
+      "third_party": -1955338,
+      "listed": -422036
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "www.google-analytics.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 3655220,
+      "third_party": 2085853,
+      "listed": 490503
+     },
+     "own": 21732,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": -2045329,
+      "third_party": -1907869,
+      "listed": -374568
+     },
+     "cascade": {
+      "page": -2067061,
+      "third_party": -1929601,
+      "listed": -396300
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "www.google-analytics.com",
+      "c.amazon-adsystem.com",
+      "www.redditstatic.com"
+     ],
+     "bytes": {
+      "page": 3628217,
+      "third_party": 2059088,
+      "listed": 463008
+     },
+     "own": 21732,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": -2018326,
+      "third_party": -1881104,
+      "listed": -347073
+     },
+     "cascade": {
+      "page": -2040058,
+      "third_party": -1902836,
+      "listed": -368805
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "www.google-analytics.com",
+      "c.amazon-adsystem.com",
+      "www.redditstatic.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3267991,
+      "third_party": 1699868,
+      "listed": 104857
+     },
+     "own": 113257,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": -1658100,
+      "third_party": -1521884,
+      "listed": 11078
+     },
+     "cascade": {
+      "page": -1771357,
+      "third_party": -1635141,
+      "listed": -102179
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "www.google-analytics.com",
+      "c.amazon-adsystem.com",
+      "www.redditstatic.com",
+      "connect.facebook.net",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3223375,
+      "third_party": 1654010,
+      "listed": 58493
+     },
+     "own": 113257,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": -1613484,
+      "third_party": -1476026,
+      "listed": 57442
+     },
+     "cascade": {
+      "page": -1726741,
+      "third_party": -1589283,
+      "listed": -55815
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "www.google-analytics.com",
+      "c.amazon-adsystem.com",
+      "www.redditstatic.com",
+      "connect.facebook.net",
+      "bat.bing.com",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 3190910,
+      "third_party": 1622787,
+      "listed": 29939
+     },
+     "own": 113257,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": -1581019,
+      "third_party": -1444803,
+      "listed": 85996
+     },
+     "cascade": {
+      "page": -1694276,
+      "third_party": -1558060,
+      "listed": -27261
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "www.redditstatic.com",
+    "bat.bing.com",
+    "c.amazon-adsystem.com",
+    "www.googleadservices.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3703966,
+      "third_party": 2135604,
+      "listed": 538042
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 3680930,
+      "third_party": 2112575,
+      "listed": 517194
+     },
+     "own": 21732,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 23036,
+      "third_party": 23029,
+      "listed": 20848
+     },
+     "cascade": {
+      "page": 1304,
+      "third_party": 1297,
+      "listed": -884
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "www.google-analytics.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3321773,
+      "third_party": 1753418,
+      "listed": 158218
+     },
+     "own": 377528,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 382193,
+      "third_party": 382186,
+      "listed": 379824
+     },
+     "cascade": {
+      "page": 4665,
+      "third_party": 4658,
+      "listed": 2296
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "www.google-analytics.com",
+      "connect.facebook.net",
+      "www.redditstatic.com"
+     ],
+     "bytes": {
+      "page": 3294512,
+      "third_party": 1725628,
+      "listed": 130625
+     },
+     "own": 402780,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 409454,
+      "third_party": 409976,
+      "listed": 407417
+     },
+     "cascade": {
+      "page": 6674,
+      "third_party": 7196,
+      "listed": 4637
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "www.google-analytics.com",
+      "connect.facebook.net",
+      "www.redditstatic.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3246937,
+      "third_party": 1678017,
+      "listed": 84152
+     },
+     "own": 421498,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 457029,
+      "third_party": 457587,
+      "listed": 453890
+     },
+     "cascade": {
+      "page": 35531,
+      "third_party": 36089,
+      "listed": 32392
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "www.google-analytics.com",
+      "connect.facebook.net",
+      "www.redditstatic.com",
+      "bat.bing.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 3220963,
+      "third_party": 1653088,
+      "listed": 59201
+     },
+     "own": 446316,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 483003,
+      "third_party": 482516,
+      "listed": 478841
+     },
+     "cascade": {
+      "page": 36687,
+      "third_party": 36200,
+      "listed": 32525
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "www.google-analytics.com",
+      "connect.facebook.net",
+      "www.redditstatic.com",
+      "bat.bing.com",
+      "c.amazon-adsystem.com",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 3191935,
+      "third_party": 1623817,
+      "listed": 30112
+     },
+     "own": 470982,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 512031,
+      "third_party": 511787,
+      "listed": 507930
+     },
+     "cascade": {
+      "page": 41049,
+      "third_party": 40805,
+      "listed": 36948
+     }
+    }
+   ]
+  }
+ ],
+ "category": "shopping",
+ "domain": "rakuten.com",
+ "elapsed_s": 104.8
+}

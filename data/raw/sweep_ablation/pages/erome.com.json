@@ -1,0 +1,227 @@
+{
+ "url": "https://erome.com/",
+ "hosts": [
+  "a.magsrv.com",
+  "cdn.tsyndicate.com",
+  "region1.google-analytics.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "a.magsrv.com",
+    "region1.google-analytics.com",
+    "cdn.tsyndicate.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 407849,
+      "third_party": 268609,
+      "listed": 86276
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "a.magsrv.com"
+     ],
+     "bytes": {
+      "page": 347252,
+      "third_party": 207585,
+      "listed": 25255
+     },
+     "own": 61014,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 60597,
+      "third_party": 61024,
+      "listed": 61021
+     },
+     "cascade": {
+      "page": -417,
+      "third_party": 10,
+      "listed": 7
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "a.magsrv.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 346583,
+      "third_party": 206915,
+      "listed": 24426
+     },
+     "own": 61850,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 61266,
+      "third_party": 61694,
+      "listed": 61850
+     },
+     "cascade": {
+      "page": -584,
+      "third_party": -156,
+      "listed": 0
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "a.magsrv.com",
+      "region1.google-analytics.com",
+      "cdn.tsyndicate.com"
+     ],
+     "bytes": {
+      "page": 322000,
+      "third_party": 182333,
+      "listed": 0
+     },
+     "own": 86276,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 85849,
+      "third_party": 86276,
+      "listed": 86276
+     },
+     "cascade": {
+      "page": -427,
+      "third_party": 0,
+      "listed": 0
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "region1.google-analytics.com",
+    "cdn.tsyndicate.com",
+    "a.magsrv.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 408286,
+      "third_party": 268617,
+      "listed": 86276
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 407439,
+      "third_party": 267770,
+      "listed": 85440
+     },
+     "own": 836,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 847,
+      "third_party": 847,
+      "listed": 836
+     },
+     "cascade": {
+      "page": 11,
+      "third_party": 11,
+      "listed": 0
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "region1.google-analytics.com",
+      "cdn.tsyndicate.com"
+     ],
+     "bytes": {
+      "page": 383014,
+      "third_party": 243347,
+      "listed": 61014
+     },
+     "own": 25262,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 25272,
+      "third_party": 25270,
+      "listed": 25262
+     },
+     "cascade": {
+      "page": 10,
+      "third_party": 8,
+      "listed": 0
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "region1.google-analytics.com",
+      "cdn.tsyndicate.com",
+      "a.magsrv.com"
+     ],
+     "bytes": {
+      "page": 321997,
+      "third_party": 182330,
+      "listed": 0
+     },
+     "own": 86276,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 86289,
+      "third_party": 86287,
+      "listed": 86276
+     },
+     "cascade": {
+      "page": 13,
+      "third_party": 11,
+      "listed": 0
+     }
+    }
+   ]
+  }
+ ],
+ "category": "entertainment",
+ "domain": "erome.com",
+ "elapsed_s": 55.5
+}

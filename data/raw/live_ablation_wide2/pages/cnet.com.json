@@ -1,0 +1,337 @@
+{
+ "url": "https://cnet.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256691,
+     "control": {
+      "page": 3315960,
+      "third_party": 1794270,
+      "listed": 672724
+     },
+     "ablated": {
+      "page": 3059145,
+      "third_party": 1537018,
+      "listed": 415416
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256691,
+      "pagead2.googlesyndication.com": 504,
+      "gurgle.cnet.com": -437,
+      "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev": 211,
+      "pub.doubleverify.com": -78,
+      "cdn.ziffstatic.com": -66,
+      "metrics.rapidedge.io": 30,
+      "frugalfiestas.com": -22,
+      "pixel.wp.com": -20,
+      "experiments.parsely.com": 2,
+      "platform.preprod.cnet.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256611,
+     "control": {
+      "page": 3262176,
+      "third_party": 1794049,
+      "listed": 672513
+     },
+     "ablated": {
+      "page": 3058866,
+      "third_party": 1537176,
+      "listed": 415432
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256611,
+      "www.cnet.com": -53563,
+      "pagead2.googlesyndication.com": 504,
+      "cdn.ziffstatic.com": -208,
+      "frugalfiestas.com": -40,
+      "pub.doubleverify.com": 6,
+      "platform.preprod.cnet.com": 0,
+      "www.googletagmanager.com": 0,
+      "metrics.rapidedge.io": 0,
+      "experiments.parsely.com": 0,
+      "api.parsely.com": 0,
+      "c.aps.amazon-adsystem.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     124,
+     -53301
+    ],
+    "third_party": [
+     561,
+     262
+    ],
+    "listed": [
+     617,
+     470
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -26588.5,
+     "sd": 37777.179784891305,
+     "se": 26712.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 411.5,
+     "sd": 211.4249275747777,
+     "se": 149.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 543.5,
+     "sd": 103.94469683442249,
+     "se": 73.5
+    }
+   },
+   "own_mean": 256651
+  },
+  "client.aps.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 87899,
+     "control": {
+      "page": 3316613,
+      "third_party": 1794486,
+      "listed": 672986
+     },
+     "ablated": {
+      "page": 3225164,
+      "third_party": 1703037,
+      "listed": 581293
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "client.aps.amazon-adsystem.com": 87899,
+      "c.amazon-adsystem.com": 3344,
+      "c.aps.amazon-adsystem.com": 619,
+      "cdn.ziffstatic.com": -244,
+      "securepubads.g.doubleclick.net": -186,
+      "frugalfiestas.com": 15,
+      "pub.doubleverify.com": 2,
+      "platform.preprod.cnet.com": 0,
+      "www.googletagmanager.com": 0,
+      "metrics.rapidedge.io": 0,
+      "experiments.parsely.com": 0,
+      "api.parsely.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 87899,
+     "control": {
+      "page": 3316645,
+      "third_party": 1794518,
+      "listed": 672952
+     },
+     "ablated": {
+      "page": 3224371,
+      "third_party": 1702244,
+      "listed": 580621
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "client.aps.amazon-adsystem.com": 87899,
+      "c.amazon-adsystem.com": 3344,
+      "c.aps.amazon-adsystem.com": 619,
+      "securepubads.g.doubleclick.net": 562,
+      "pub.doubleverify.com": -78,
+      "metrics.rapidedge.io": -57,
+      "frugalfiestas.com": -49,
+      "aax.amazon-adsystem.com": 34,
+      "platform.preprod.cnet.com": 0,
+      "www.googletagmanager.com": 0,
+      "cdn.ziffstatic.com": 0,
+      "experiments.parsely.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3550,
+     4375
+    ],
+    "third_party": [
+     3550,
+     4375
+    ],
+    "listed": [
+     3794,
+     4432
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3962.5,
+     "sd": 583.3630944789018,
+     "se": 412.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3962.5,
+     "sd": 583.3630944789018,
+     "se": 412.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 4113,
+     "sd": 451.1341263970173,
+     "se": 319.0
+    }
+   },
+   "own_mean": 87899
+  },
+  "frugalfiestas.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 48166,
+     "control": {
+      "page": 3316514,
+      "third_party": 1794831,
+      "listed": 673087
+     },
+     "ablated": {
+      "page": 3267705,
+      "third_party": 1745578,
+      "listed": 623955
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "frugalfiestas.com": 48166,
+      "securepubads.g.doubleclick.net": 559,
+      "cnet.com": -444,
+      "aax.amazon-adsystem.com": 412,
+      "cdn.ziffstatic.com": 178,
+      "metrics.rapidedge.io": -57,
+      "pub.doubleverify.com": -5,
+      "platform.preprod.cnet.com": 0,
+      "www.googletagmanager.com": 0,
+      "experiments.parsely.com": 0,
+      "api.parsely.com": 0,
+      "c.aps.amazon-adsystem.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 48183,
+     "control": {
+      "page": 3316723,
+      "third_party": 1794596,
+      "listed": 673107
+     },
+     "ablated": {
+      "page": 3268075,
+      "third_party": 1746385,
+      "listed": 624830
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "frugalfiestas.com": 48183,
+      "gurgle.cnet.com": 437,
+      "aax.amazon-adsystem.com": 412,
+      "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev": -211,
+      "securepubads.g.doubleclick.net": -185,
+      "pub.doubleverify.com": 80,
+      "cdn.ziffstatic.com": -66,
+      "experiments.parsely.com": -2,
+      "platform.preprod.cnet.com": 0,
+      "www.googletagmanager.com": 0,
+      "metrics.rapidedge.io": 0,
+      "api.parsely.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     643,
+     465
+    ],
+    "third_party": [
+     1087,
+     28
+    ],
+    "listed": [
+     966,
+     94
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 554,
+     "sd": 125.86500705120545,
+     "se": 88.99999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 557.5,
+     "sd": 748.8260812765539,
+     "se": 529.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 530,
+     "sd": 616.5971131946694,
+     "se": 435.99999999999994
+    }
+   },
+   "own_mean": 48174.5
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "client.aps.amazon-adsystem.com",
+  "frugalfiestas.com"
+ ],
+ "category": "news",
+ "domain": "cnet.com",
+ "n_blocked_tracking": 154.0,
+ "elapsed_s": 81.9
+}

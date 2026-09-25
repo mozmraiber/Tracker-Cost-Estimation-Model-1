@@ -1,0 +1,225 @@
+{
+ "url": "https://berkeley.edu/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "siteimproveanalytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 9898,
+     "control": {
+      "page": 14541191,
+      "third_party": 372822,
+      "listed": 11877
+     },
+     "ablated": {
+      "page": 14529347,
+      "third_party": 360978,
+      "listed": 1678
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "siteimproveanalytics.com": 9898,
+      "www.youtube.com": 1636,
+      "6294756.global.r2.siteimproveanalytics.io": 301,
+      "www.googletagmanager.com": 9,
+      "berkeley.edu": 0,
+      "fonts.googleapis.com": 0,
+      "www.google.de": 0,
+      "www.berkeley.edu": 0,
+      "fonts.gstatic.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "region1.analytics.google.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 9896,
+     "control": {
+      "page": 14539582,
+      "third_party": 371213,
+      "listed": 11875
+     },
+     "ablated": {
+      "page": 14530982,
+      "third_party": 362612,
+      "listed": 1678
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "siteimproveanalytics.com": 9896,
+      "www.youtube.com": -1614,
+      "6294756.global.r2.siteimproveanalytics.io": 301,
+      "www.googletagmanager.com": 18,
+      "berkeley.edu": -1,
+      "fonts.googleapis.com": 0,
+      "www.google.de": 0,
+      "www.berkeley.edu": 0,
+      "fonts.gstatic.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "region1.analytics.google.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1946,
+     -1296
+    ],
+    "third_party": [
+     1946,
+     -1295
+    ],
+    "listed": [
+     301,
+     301
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 325,
+     "sd": 2292.440184606787,
+     "se": 1621.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 325.5,
+     "sd": 2291.7330778256005,
+     "se": 1620.4999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 301,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 9897
+  },
+  "region1.analytics.google.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 839,
+     "control": {
+      "page": 14539543,
+      "third_party": 371173,
+      "listed": 11875
+     },
+     "ablated": {
+      "page": 14538729,
+      "third_party": 370360,
+      "listed": 11040
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "region1.analytics.google.com": 839,
+      "www.youtube.com": -22,
+      "siteimproveanalytics.com": -4,
+      "berkeley.edu": 1,
+      "fonts.googleapis.com": 0,
+      "www.google.de": 0,
+      "www.googletagmanager.com": 0,
+      "www.berkeley.edu": 0,
+      "6294756.global.r2.siteimproveanalytics.io": 0,
+      "fonts.gstatic.com": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 839,
+     "control": {
+      "page": 14539587,
+      "third_party": 371217,
+      "listed": 11881
+     },
+     "ablated": {
+      "page": 14538733,
+      "third_party": 370363,
+      "listed": 11038
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "region1.analytics.google.com": 839,
+      "www.youtube.com": 18,
+      "www.googletagmanager.com": -7,
+      "siteimproveanalytics.com": 4,
+      "berkeley.edu": 0,
+      "fonts.googleapis.com": 0,
+      "www.google.de": 0,
+      "www.berkeley.edu": 0,
+      "6294756.global.r2.siteimproveanalytics.io": 0,
+      "fonts.gstatic.com": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -25,
+     15
+    ],
+    "third_party": [
+     -26,
+     15
+    ],
+    "listed": [
+     -4,
+     4
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -5,
+     "sd": 28.284271247461902,
+     "se": 20.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -5.5,
+     "sd": 28.991378028648448,
+     "se": 20.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 5.656854249492381,
+     "se": 4.0
+    }
+   },
+   "own_mean": 839
+  }
+ },
+ "candidates": [
+  "siteimproveanalytics.com",
+  "region1.analytics.google.com"
+ ],
+ "category": "reference",
+ "domain": "berkeley.edu",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 63.8
+}

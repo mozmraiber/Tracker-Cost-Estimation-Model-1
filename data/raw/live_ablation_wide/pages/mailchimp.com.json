@@ -1,0 +1,331 @@
+{
+ "url": "https://mailchimp.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s2.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 118330,
+     "control": {
+      "page": 3593144,
+      "third_party": 994168,
+      "listed": 519170
+     },
+     "ablated": {
+      "page": 3469812,
+      "third_party": 869426,
+      "listed": 395707
+     },
+     "n_aborted": 4,
+     "moved": {
+      "s2.go-mpulse.net": 118330,
+      "c.go-mpulse.net": 2113,
+      "region1.analytics.google.com": 1672,
+      "mailchimp.com": -1410,
+      "www.google.com": 1395,
+      "googleads.g.doubleclick.net": 1352,
+      "www.google.cz": -557,
+      "fibdcafmtdnqakqcgbaaaaaaazvlki66-pqakl4-7802d8a6d-clienttons-s.akamaihd.net": 312,
+      "jubpehs44ibsg2vveppa-pqakl4-8c4bb15bc-clientnsv4-s.akamaihd.net": 312,
+      "schema-cf.bc0a.com": -161,
+      "obs.herbgreencolumn.com": 22,
+      "accounts.google.com": -22
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 118330,
+     "control": {
+      "page": 3602249,
+      "third_party": 994751,
+      "listed": 519415
+     },
+     "ablated": {
+      "page": 3473385,
+      "third_party": 873055,
+      "listed": 398148
+     },
+     "n_aborted": 4,
+     "moved": {
+      "s2.go-mpulse.net": 118330,
+      "mailchimp.com": 7168,
+      "c.go-mpulse.net": 2052,
+      "region1.analytics.google.com": 836,
+      "www.google.cz": -557,
+      "jubpehs44ibsg2vvep4a-p3v9r9-f8829e200-clientnsv4-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaaazvlki7y-p3v9r9-7e1a5469b-clienttons-s.akamaihd.net": 312,
+      "trial-eum-clienttons-s.akamaihd.net": 278,
+      "www.google.com": 69,
+      "googleads.g.doubleclick.net": 26,
+      "ad.doubleclick.net": 16,
+      "obs.herbgreencolumn.com": -15
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     5002,
+     10534
+    ],
+    "third_party": [
+     6412,
+     3366
+    ],
+    "listed": [
+     5133,
+     2937
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 7768,
+     "sd": 3911.714713523981,
+     "se": 2766.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 4889,
+     "sd": 2153.8472554942236,
+     "se": 1522.9999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 4035,
+     "sd": 1552.8064914856584,
+     "se": 1098.0
+    }
+   },
+   "own_mean": 118330
+  },
+  "bat.bing.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35115,
+     "control": {
+      "page": 3600653,
+      "third_party": 992927,
+      "listed": 517474
+     },
+     "ablated": {
+      "page": 3566524,
+      "third_party": 957518,
+      "listed": 482393
+     },
+     "n_aborted": 1,
+     "moved": {
+      "bat.bing.com": 35115,
+      "mailchimp.com": -1330,
+      "www.googleadservices.com": -1137,
+      "bat.bing.net": 1028,
+      "region1.analytics.google.com": 796,
+      "play.google.com": -599,
+      "www.google.cz": -557,
+      "accounts.google.com": -517,
+      "jubpehs44ibqw2vveqaa-pqybqp-8e57fae07-clientnsv4-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkjaa-pqybqp-2c2bf520d-clienttons-s.akamaihd.net": 312,
+      "trial-eum-clienttons-s.akamaihd.net": 278,
+      "obs.herbgreencolumn.com": 262
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35115,
+     "control": {
+      "page": 3602613,
+      "third_party": 995091,
+      "listed": 519426
+     },
+     "ablated": {
+      "page": 3573741,
+      "third_party": 959096,
+      "listed": 484364
+     },
+     "n_aborted": 1,
+     "moved": {
+      "bat.bing.com": 35115,
+      "mailchimp.com": -7073,
+      "bat.bing.net": 1028,
+      "accounts.google.com": 486,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkjaw-p2kxkg-691fbc79c-clienttons-s.akamaihd.net": -312,
+      "jubpehs44ibqw2vveqpa-pttmrk-747e90a6f-clientnsv4-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkja6-pttmrk-0dc3f53f7-clienttons-s.akamaihd.net": 312,
+      "jubpehs44ibsg2vveqla-p2kxkg-bfdec8557-clientnsv4-s.akamaihd.net": -312,
+      "trial-eum-clienttons-s.akamaihd.net": -278,
+      "trial-eum-clientnsv4-s.akamaihd.net": -266,
+      "sessions.bugsnag.com": -70,
+      "c.go-mpulse.net": 57
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -986,
+     -6243
+    ],
+    "third_party": [
+     294,
+     880
+    ],
+    "listed": [
+     -34,
+     -53
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -3614.5,
+     "sd": 3717.2603486976805,
+     "se": 2628.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 587,
+     "sd": 414.36457377531684,
+     "se": 293.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -43.5,
+     "sd": 13.435028842544403,
+     "se": 9.5
+    }
+   },
+   "own_mean": 35115
+  },
+  "cdn.segment.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 32857,
+     "control": {
+      "page": 3601286,
+      "third_party": 993664,
+      "listed": 519065
+     },
+     "ablated": {
+      "page": 3498838,
+      "third_party": 957890,
+      "listed": 485756
+     },
+     "n_aborted": 4,
+     "moved": {
+      "mailchimp.com": 65816,
+      "cdn.segment.com": 32857,
+      "uxfabric.intuitcdn.net": 2244,
+      "beacon.mailchimp.com": 858,
+      "region1.analytics.google.com": 816,
+      "www.google.de": 612,
+      "jubpehs44ibqw2vveqwq-pin9gu-912ff25b4-clientnsv4-s.akamaihd.net": -312,
+      "fibdcafmtdnqakqcgbaaaaaaazvlkjbn-pin9gu-7621c5c49-clienttons-s.akamaihd.net": -312,
+      "obs.herbgreencolumn.com": -237,
+      "schema-cf.bc0a.com": 161,
+      "www.google.com": 71,
+      "c.go-mpulse.net": -64
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 32857,
+     "control": {
+      "page": 3280685,
+      "third_party": 890733,
+      "listed": 421559
+     },
+     "ablated": {
+      "page": 3508128,
+      "third_party": 958272,
+      "listed": 485511
+     },
+     "n_aborted": 4,
+     "moved": {
+      "mailchimp.com": -160762,
+      "s2.go-mpulse.net": -59165,
+      "cdn.segment.com": 32857,
+      "www.googleadservices.com": -28220,
+      "www.google.com": -4095,
+      "region1.analytics.google.com": -4020,
+      "region1.google-analytics.com": 2468,
+      "googleads.g.doubleclick.net": -2297,
+      "uxfabric.intuitcdn.net": 2244,
+      "www.google.cz": -1691,
+      "9894771.fls.doubleclick.net": -1596,
+      "ad.doubleclick.net": -1521
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     69591,
+     -260300
+    ],
+    "third_party": [
+     2917,
+     -100396
+    ],
+    "listed": [
+     452,
+     -96809
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -95354.5,
+     "sd": 233268.16315241135,
+     "se": 164945.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -48739.5,
+     "sd": 73053.32288472579,
+     "se": 51656.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -48178.5,
+     "sd": 68773.9126449848,
+     "se": 48630.49999999999
+    }
+   },
+   "own_mean": 32857
+  }
+ },
+ "candidates": [
+  "s2.go-mpulse.net",
+  "bat.bing.com",
+  "cdn.segment.com"
+ ],
+ "category": "productivity",
+ "domain": "mailchimp.com",
+ "n_blocked_tracking": 245.0,
+ "elapsed_s": 109.3
+}

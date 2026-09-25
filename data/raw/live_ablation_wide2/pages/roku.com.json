@@ -1,0 +1,307 @@
+{
+ "url": "https://roku.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 32551,
+     "control": {
+      "page": 2421270,
+      "third_party": 234651,
+      "listed": 44881
+     },
+     "ablated": {
+      "page": 2386635,
+      "third_party": 200105,
+      "listed": 10495
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js-agent.newrelic.com": 32551,
+      "bam.nr-data.net": 1835,
+      "www.googletagmanager.com": 160,
+      "www.roku.com": 92,
+      "roku.com": -3,
+      "static.cloudflareinsights.com": 0,
+      "cigars.roku.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 32551,
+     "control": {
+      "page": 2421045,
+      "third_party": 234490,
+      "listed": 44880
+     },
+     "ablated": {
+      "page": 2386683,
+      "third_party": 200105,
+      "listed": 10495
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js-agent.newrelic.com": 32551,
+      "bam.nr-data.net": 1834,
+      "www.roku.com": -29,
+      "roku.com": 6,
+      "static.cloudflareinsights.com": 0,
+      "www.googletagmanager.com": 0,
+      "cigars.roku.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2084,
+     1811
+    ],
+    "third_party": [
+     1995,
+     1834
+    ],
+    "listed": [
+     1835,
+     1834
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1947.5,
+     "sd": 193.04015126392747,
+     "se": 136.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1914.5,
+     "sd": 113.84419177103415,
+     "se": 80.49999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1834.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 32551
+  },
+  "static.cloudflareinsights.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 2421031,
+      "third_party": 234492,
+      "listed": 44882
+     },
+     "ablated": {
+      "page": 2409283,
+      "third_party": 224877,
+      "listed": 34387
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "www.roku.com": 2138,
+      "www.googletagmanager.com": -880,
+      "roku.com": -5,
+      "bam.nr-data.net": 0,
+      "js-agent.newrelic.com": 0,
+      "cigars.roku.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 2420905,
+      "third_party": 234491,
+      "listed": 44881
+     },
+     "ablated": {
+      "page": 2408409,
+      "third_party": 223996,
+      "listed": 34386
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "www.roku.com": 2006,
+      "roku.com": -5,
+      "bam.nr-data.net": 0,
+      "js-agent.newrelic.com": 0,
+      "www.googletagmanager.com": 0,
+      "cigars.roku.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1253,
+     2001
+    ],
+    "third_party": [
+     -880,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1627,
+     "sd": 528.9158723275375,
+     "se": 373.99999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -440,
+     "sd": 622.2539674441618,
+     "se": 440.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 10495
+  },
+  "bam.nr-data.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1835,
+     "control": {
+      "page": 2421053,
+      "third_party": 234491,
+      "listed": 44881
+     },
+     "ablated": {
+      "page": 2419327,
+      "third_party": 232657,
+      "listed": 43047
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "bam.nr-data.net": 1835,
+      "www.roku.com": -107,
+      "js-agent.newrelic.com": -1,
+      "roku.com": -1,
+      "static.cloudflareinsights.com": 0,
+      "www.googletagmanager.com": 0,
+      "cigars.roku.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1835,
+     "control": {
+      "page": 2421157,
+      "third_party": 234652,
+      "listed": 44882
+     },
+     "ablated": {
+      "page": 2419416,
+      "third_party": 232656,
+      "listed": 43046
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "bam.nr-data.net": 1835,
+      "www.roku.com": -261,
+      "www.googletagmanager.com": 160,
+      "roku.com": 6,
+      "js-agent.newrelic.com": 1,
+      "static.cloudflareinsights.com": 0,
+      "cigars.roku.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -109,
+     -94
+    ],
+    "third_party": [
+     -1,
+     161
+    ],
+    "listed": [
+     -1,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -101.5,
+     "sd": 10.606601717798213,
+     "se": 7.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 80,
+     "sd": 114.5512985522207,
+     "se": 81.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 1.4142135623730951,
+     "se": 1.0
+    }
+   },
+   "own_mean": 1835
+  }
+ },
+ "candidates": [
+  "js-agent.newrelic.com",
+  "static.cloudflareinsights.com",
+  "bam.nr-data.net"
+ ],
+ "category": "entertainment",
+ "domain": "roku.com",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 87.8
+}

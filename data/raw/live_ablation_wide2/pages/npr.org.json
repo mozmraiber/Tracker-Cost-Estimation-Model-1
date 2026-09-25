@@ -1,0 +1,337 @@
+{
+ "url": "https://npr.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256430,
+     "control": {
+      "page": 6496158,
+      "third_party": 4901920,
+      "listed": 1111728
+     },
+     "ablated": {
+      "page": 6177454,
+      "third_party": 4583245,
+      "listed": 793126
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256430,
+      "cpftuhdzdstc5rz8x.ay.delivery": 61655,
+      "pagead2.googlesyndication.com": 504,
+      "www.googletagmanager.com": 57,
+      "www.npr.org": 29,
+      "www.recaptcha.net": 12,
+      "cdn.jwplayer.com": 9,
+      "js.stripe.com": 4,
+      "c2.piano.io": 2,
+      "cdn.piano.io": 1,
+      "6635101.fls.doubleclick.net": 1,
+      "api.permutive.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256514,
+     "control": {
+      "page": 6434470,
+      "third_party": 4840267,
+      "listed": 1050089
+     },
+     "ablated": {
+      "page": 6177744,
+      "third_party": 4583254,
+      "listed": 793083
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256514,
+      "pagead2.googlesyndication.com": 504,
+      "www.npr.org": -287,
+      "www.recaptcha.net": -72,
+      "cpftuhdzdstc5rz8x.ay.delivery": 60,
+      "www.googletagmanager.com": 2,
+      "c2.piano.io": 2,
+      "cdn.piano.io": 1,
+      "cdn.jwplayer.com": 1,
+      "buy.tinypass.com": 1,
+      "api.permutive.com": 0,
+      "s.go-mpulse.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     62274,
+     212
+    ],
+    "third_party": [
+     62245,
+     499
+    ],
+    "listed": [
+     62172,
+     492
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 31243,
+     "sd": 43884.46105399951,
+     "se": 31030.999999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 31372,
+     "sd": 43661.01531114456,
+     "se": 30872.999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 31332,
+     "sd": 43614.34626358625,
+     "se": 30840.0
+    }
+   },
+   "own_mean": 256472
+  },
+  "cdn.optimizely.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 128568,
+     "control": {
+      "page": 6435274,
+      "third_party": 4841069,
+      "listed": 1050903
+     },
+     "ablated": {
+      "page": 6308529,
+      "third_party": 4714329,
+      "listed": 924110
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "cdn.optimizely.com": 128568,
+      "m.stripe.network": -2863,
+      "securepubads.g.doubleclick.net": 667,
+      "www.recaptcha.net": 407,
+      "cdn.piano.io": -33,
+      "cpftuhdzdstc5rz8x.ay.delivery": 13,
+      "c2.piano.io": -7,
+      "js.stripe.com": -6,
+      "ssl.p.jwpcdn.com": -5,
+      "www.npr.org": 5,
+      "buy.tinypass.com": -2,
+      "6635101.fls.doubleclick.net": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 128568,
+     "control": {
+      "page": 6437384,
+      "third_party": 4843538,
+      "listed": 1053301
+     },
+     "ablated": {
+      "page": 6307278,
+      "third_party": 4713429,
+      "listed": 923143
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "cdn.optimizely.com": 128568,
+      "securepubads.g.doubleclick.net": 1810,
+      "www.recaptcha.net": -158,
+      "cpftuhdzdstc5rz8x.ay.delivery": -66,
+      "cdn.piano.io": -44,
+      "6635101.fls.doubleclick.net": 4,
+      "c2.piano.io": -3,
+      "www.npr.org": -3,
+      "js.stripe.com": -2,
+      "api.permutive.com": 0,
+      "s.go-mpulse.net": 0,
+      "prd.jwpltx.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1823,
+     1538
+    ],
+    "third_party": [
+     -1828,
+     1541
+    ],
+    "listed": [
+     -1775,
+     1590
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -142.5,
+     "sd": 2376.5858915679864,
+     "se": 1680.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -143.5,
+     "sd": 2382.2427458174784,
+     "se": 1684.4999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": -92.5,
+     "sd": 2379.414318692732,
+     "se": 1682.4999999999998
+    }
+   },
+   "own_mean": 128568
+  },
+  "script.crazyegg.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 70223,
+     "control": {
+      "page": 6435449,
+      "third_party": 4840277,
+      "listed": 1050155
+     },
+     "ablated": {
+      "page": 6364215,
+      "third_party": 4770009,
+      "listed": 979812
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "script.crazyegg.com": 70223,
+      "www.npr.org": 966,
+      "prd.jwpltx.com": 283,
+      "securepubads.g.doubleclick.net": -82,
+      "www.recaptcha.net": -70,
+      "cdn.piano.io": -40,
+      "www.googletagmanager.com": -17,
+      "c2.piano.io": -17,
+      "cpftuhdzdstc5rz8x.ay.delivery": -10,
+      "m.stripe.network": -1,
+      "js.stripe.com": -1,
+      "api.permutive.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 70223,
+     "control": {
+      "page": 6433208,
+      "third_party": 4839005,
+      "listed": 1048812
+     },
+     "ablated": {
+      "page": 6362947,
+      "third_party": 4768745,
+      "listed": 978606
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "script.crazyegg.com": 70223,
+      "www.recaptcha.net": -82,
+      "cpftuhdzdstc5rz8x.ay.delivery": 64,
+      "www.googletagmanager.com": 55,
+      "6635101.fls.doubleclick.net": 2,
+      "cdn.piano.io": -1,
+      "c2.piano.io": -1,
+      "js.stripe.com": 1,
+      "securepubads.g.doubleclick.net": -1,
+      "www.npr.org": 1,
+      "api.permutive.com": 0,
+      "s.go-mpulse.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1011,
+     38
+    ],
+    "third_party": [
+     45,
+     37
+    ],
+    "listed": [
+     120,
+     -17
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 524.5,
+     "sd": 688.0148980945107,
+     "se": 486.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 41,
+     "sd": 5.656854249492381,
+     "se": 4.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 51.5,
+     "sd": 96.87362902255701,
+     "se": 68.5
+    }
+   },
+   "own_mean": 70223
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "cdn.optimizely.com",
+  "script.crazyegg.com"
+ ],
+ "category": "news",
+ "domain": "npr.org",
+ "n_blocked_tracking": 141.0,
+ "elapsed_s": 85.4
+}

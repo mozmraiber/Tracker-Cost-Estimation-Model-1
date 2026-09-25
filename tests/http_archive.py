@@ -17,8 +17,23 @@ page's whole request set.
 
 A 50%-sampled export used to be registered alongside it, and was the only log
 here whose page visits contributed something close to a browser's real request
-set. It has been removed. `data/cache` may still hold its materialized
-subsample; nothing reads it.
+set. `data/http-archive-urls-50pct` is on disk again, and it is still not
+registered, for a reason that is about columns rather than size: it carries
+`url`, `resource_type`, `transfer_bytes`, `compressed_bytes`, `content_type`
+and `page_domain`, and no `initiator_type` or `http_method`. Both are in
+`REQUIRED_COLUMNS`, and both are features the shipped XGBoost artifact was
+fitted on, so reading pages from it would quietly score every request as
+though its initiator and method were unknown -- which is a different
+measurement, not a bigger one. Re-exporting it with those two columns is all
+it would take.
+
+What does read it is `llm-classifier/scripts/fit_followups.py`, which needs
+page *composition* rather than features: at one request in a hundred the 1%
+exports almost never keep two requests from the same page, and at one in two
+this one does. `data/cache` holds its materialized subsamples.
+`src/build_tranco_500_http_archive.py` also reduces it, once, to the 350-row
+`data/tranco_500_http_archive.csv` that gives `tests/top500.py` a denominator
+measured by someone other than us.
 
 The export carries `initiator_type` and `http_method`, so every column
 `train_multi_target.engineer_features` reads means the same thing here as in
@@ -80,6 +95,9 @@ EXPORTS: dict[str, Export] = {
     # 4.51M of 28.5M requests are trackers; 1 page in 45 is ~101k of them.
     "http_archive": Export(
         glob=str(ROOT / "data" / "http-archive-urls-1pct" / "*.parquet"),
+        page_modulus=45),
+    "http_archive_new": Export(
+        glob=str(ROOT / "data" / "http-archive-urls-1pct_new" / "*.parquet"),
         page_modulus=45),
 }
 

@@ -1,0 +1,337 @@
+{
+ "url": "https://soundcloud.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256754,
+     "control": {
+      "page": 5323985,
+      "third_party": 5139311,
+      "listed": 677652
+     },
+     "ablated": {
+      "page": 5093376,
+      "third_party": 4908391,
+      "listed": 420873
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256754,
+      "i1.sndcdn.com": -14803,
+      "dn0qt3r0xannq.cloudfront.net": -11589,
+      "event-ingestor.judy.pnap.aditude.cloud": 505,
+      "api-v2.soundcloud.com": -441,
+      "soundcloud.com": 157,
+      "secure.soundcloud.com": -27,
+      "i.clean.gg": 25,
+      "prodregistryv2.org": 25,
+      "geo.aditude.io": 3,
+      "style.sndcdn.com": 0,
+      "raven-static.aditude.io": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 39536,
+     "control": {
+      "page": 5006320,
+      "third_party": 4819885,
+      "listed": 460434
+     },
+     "ablated": {
+      "page": 5456491,
+      "third_party": 5270733,
+      "listed": 420369
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "edge.aditude.io": -180118,
+      "dn0qt3r0xannq.cloudfront.net": -113790,
+      "raven-static.aditude.io": -106180,
+      "cadmus.script.ac": -92355,
+      "securepubads.g.doubleclick.net": 39536,
+      "raven-edge.aditude.io": 1532,
+      "soundcloud.com": 690,
+      "pagead2.googlesyndication.com": 504,
+      "api-v2.soundcloud.com": -74,
+      "secure.soundcloud.com": 61,
+      "i.clean.gg": 25,
+      "geo.aditude.io": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -26145,
+     -489707
+    ],
+    "third_party": [
+     -25834,
+     -490384
+    ],
+    "listed": [
+     25,
+     529
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -257926,
+     "sd": 327787.83370039833,
+     "se": 231780.99999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -258109,
+     "sd": 328486.4552002107,
+     "se": 232275.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 277,
+     "sd": 356.38181771801993,
+     "se": 251.99999999999997
+    }
+   },
+   "own_mean": 148145
+  },
+  "sb.scorecardresearch.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 7575,
+     "control": {
+      "page": 5611167,
+      "third_party": 5426369,
+      "listed": 676800
+     },
+     "ablated": {
+      "page": 4995822,
+      "third_party": 4810954,
+      "listed": 452008
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 217217,
+      "edge.aditude.io": 180118,
+      "dn0qt3r0xannq.cloudfront.net": 113790,
+      "cadmus.script.ac": 92430,
+      "sb.scorecardresearch.com": 7575,
+      "raven-edge.aditude.io": 3171,
+      "notifier-configs.airbrake.io": 610,
+      "event-ingestor.judy.pnap.aditude.cloud": 505,
+      "api-v2.soundcloud.com": -115,
+      "soundcloud.com": 67,
+      "api-auth.soundcloud.com": -20,
+      "secure.soundcloud.com": -2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 7575,
+     "control": {
+      "page": 5625508,
+      "third_party": 5440701,
+      "listed": 677467
+     },
+     "ablated": {
+      "page": 5131247,
+      "third_party": 4946495,
+      "listed": 451881
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 218011,
+      "edge.aditude.io": 180118,
+      "i1.sndcdn.com": -120838,
+      "dn0qt3r0xannq.cloudfront.net": 113790,
+      "cadmus.script.ac": 92429,
+      "sb.scorecardresearch.com": 7575,
+      "raven-edge.aditude.io": 3168,
+      "api-v2.soundcloud.com": 152,
+      "secure.soundcloud.com": -99,
+      "prodregistryv2.org": -25,
+      "ams-pageview-public.s3.amazonaws.com": -20,
+      "geo.aditude.io": -2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     607770,
+     486686
+    ],
+    "third_party": [
+     607840,
+     486631
+    ],
+    "listed": [
+     217217,
+     218011
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 547228,
+     "sd": 85619.31749319192,
+     "se": 60541.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 547235.5,
+     "sd": 85707.70584084024,
+     "se": 60604.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 217614,
+     "sd": 561.4427842621187,
+     "se": 396.99999999999994
+    }
+   },
+   "own_mean": 7575
+  },
+  "htlbid.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 5630,
+     "control": {
+      "page": 5626696,
+      "third_party": 5440056,
+      "listed": 676801
+     },
+     "ablated": {
+      "page": 5217955,
+      "third_party": 5032867,
+      "listed": 667207
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "edge.aditude.io": 180118,
+      "dn0qt3r0xannq.cloudfront.net": 113790,
+      "cadmus.script.ac": 92430,
+      "raven-edge.aditude.io": 9407,
+      "htlbid.com": 5630,
+      "c.amazon-adsystem.com": 3344,
+      "soundcloud.com": 1328,
+      "api.id5-sync.com": 803,
+      "geo.aditude.io": 784,
+      "securepubads.g.doubleclick.net": -665,
+      "geo-location.prebid.cloud": 599,
+      "i.clean.gg": 482
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 5630,
+     "control": {
+      "page": 5004519,
+      "third_party": 4819519,
+      "listed": 459453
+     },
+     "ablated": {
+      "page": 5203057,
+      "third_party": 5017422,
+      "listed": 666542
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": -217348,
+      "raven-edge.aditude.io": 6239,
+      "htlbid.com": 5630,
+      "c.amazon-adsystem.com": 3344,
+      "api.id5-sync.com": 803,
+      "geo.aditude.io": 785,
+      "soundcloud.com": -618,
+      "notifier-configs.airbrake.io": 610,
+      "geo-location.prebid.cloud": 599,
+      "event-ingestor.judy.pnap.aditude.cloud": 505,
+      "i.clean.gg": 482,
+      "ams-pageview-public.s3.amazonaws.com": 448
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     403111,
+     -204168
+    ],
+    "third_party": [
+     401559,
+     -203533
+    ],
+    "listed": [
+     3964,
+     -212719
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 99471.5,
+     "sd": 429411.0989721854,
+     "se": 303639.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 99013,
+     "sd": 427864.6564417304,
+     "se": 302545.99999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": -104377.5,
+     "sd": 153218.01866784468,
+     "se": 108341.49999999999
+    }
+   },
+   "own_mean": 5630
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "sb.scorecardresearch.com",
+  "htlbid.com"
+ ],
+ "category": "entertainment",
+ "domain": "soundcloud.com",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 116.8
+}

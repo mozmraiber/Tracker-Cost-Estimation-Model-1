@@ -1,0 +1,896 @@
+{
+ "written": "2026-09-24T17:32:21",
+ "rule": "pooled ten-pass paired_pages.csv; n_blocked_tracking >= 5; top 18 per hand-labelled page category by n_blocked_tracking",
+ "params": {
+  "out": "data/raw/live_ablation_wide2",
+  "per_category": 18,
+  "min_blocks": 5,
+  "hosts": 3,
+  "reps": 2,
+  "aa_reps": 0,
+  "timeout_s": 45,
+  "settle_s": 5.0,
+  "browser_every": 5,
+  "joint": false,
+  "limit": 0,
+  "force": false,
+  "rebuild_tables": false
+ },
+ "pages": [
+  {
+   "url": "https://ted.com/",
+   "domain": "ted.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 124.0,
+   "bytes_saved_tracking": 4145570.0
+  },
+  {
+   "url": "https://disneyplus.com/",
+   "domain": "disneyplus.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 94.0,
+   "bytes_saved_tracking": 21832.0
+  },
+  {
+   "url": "https://dailymotion.com/",
+   "domain": "dailymotion.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 90.0,
+   "bytes_saved_tracking": 305766.0
+  },
+  {
+   "url": "https://kick.com/",
+   "domain": "kick.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 90.0,
+   "bytes_saved_tracking": 7189808.0
+  },
+  {
+   "url": "https://ivi.ru/",
+   "domain": "ivi.ru",
+   "category": "entertainment",
+   "n_blocked_tracking": 80.0,
+   "bytes_saved_tracking": 2557212.0
+  },
+  {
+   "url": "https://genius.com/",
+   "domain": "genius.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 59.0,
+   "bytes_saved_tracking": 5938165.0
+  },
+  {
+   "url": "https://go.com/",
+   "domain": "go.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 45.0,
+   "bytes_saved_tracking": 278616.0
+  },
+  {
+   "url": "https://erome.com/",
+   "domain": "erome.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 857311.0
+  },
+  {
+   "url": "https://pornhub.com/",
+   "domain": "pornhub.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 6664005.0
+  },
+  {
+   "url": "https://supercell.com/",
+   "domain": "supercell.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 14914.0
+  },
+  {
+   "url": "https://roblox.com/",
+   "domain": "roblox.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 23.0,
+   "bytes_saved_tracking": 10005.0
+  },
+  {
+   "url": "https://spotify.com/",
+   "domain": "spotify.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 21.0,
+   "bytes_saved_tracking": 12163.0
+  },
+  {
+   "url": "https://bandcamp.com/",
+   "domain": "bandcamp.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 180536.0
+  },
+  {
+   "url": "https://roku.com/",
+   "domain": "roku.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 449375.0
+  },
+  {
+   "url": "https://soundcloud.com/",
+   "domain": "soundcloud.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 4616944.0
+  },
+  {
+   "url": "https://chess.com/",
+   "domain": "chess.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 5005.0
+  },
+  {
+   "url": "https://onlyfans.com/",
+   "domain": "onlyfans.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 114760.0
+  },
+  {
+   "url": "https://palmplaystore.com/",
+   "domain": "palmplaystore.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 2611312.0
+  },
+  {
+   "url": "https://amzn.to/",
+   "domain": "amzn.to",
+   "category": "infrastructure",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 299829.0
+  },
+  {
+   "url": "https://fwmrm.net/",
+   "domain": "fwmrm.net",
+   "category": "infrastructure",
+   "n_blocked_tracking": 190.0,
+   "bytes_saved_tracking": 3471379.0
+  },
+  {
+   "url": "https://no-ip.com/",
+   "domain": "no-ip.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 130.0,
+   "bytes_saved_tracking": 4196387.0
+  },
+  {
+   "url": "https://imgsmail.ru/",
+   "domain": "imgsmail.ru",
+   "category": "infrastructure",
+   "n_blocked_tracking": 109.0,
+   "bytes_saved_tracking": 3846008.0
+  },
+  {
+   "url": "https://bit.ly/",
+   "domain": "bit.ly",
+   "category": "infrastructure",
+   "n_blocked_tracking": 100.0,
+   "bytes_saved_tracking": 1644900.0
+  },
+  {
+   "url": "https://abovedomains.com/",
+   "domain": "abovedomains.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 80.0,
+   "bytes_saved_tracking": 3146411.0
+  },
+  {
+   "url": "https://ipify.org/",
+   "domain": "ipify.org",
+   "category": "infrastructure",
+   "n_blocked_tracking": 80.0,
+   "bytes_saved_tracking": 1721781.0
+  },
+  {
+   "url": "https://3lift.com/",
+   "domain": "3lift.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": -1065696.0
+  },
+  {
+   "url": "https://dyndns.org/",
+   "domain": "dyndns.org",
+   "category": "infrastructure",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 455929.0
+  },
+  {
+   "url": "https://one.one/",
+   "domain": "one.one",
+   "category": "infrastructure",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 18312.0
+  },
+  {
+   "url": "https://adsrvr.org/",
+   "domain": "adsrvr.org",
+   "category": "infrastructure",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 1268362.0
+  },
+  {
+   "url": "https://branch.io/",
+   "domain": "branch.io",
+   "category": "infrastructure",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 697089.0
+  },
+  {
+   "url": "https://docker.io/",
+   "domain": "docker.io",
+   "category": "infrastructure",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 433221.0
+  },
+  {
+   "url": "https://cloudflare.net/",
+   "domain": "cloudflare.net",
+   "category": "infrastructure",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 207963.0
+  },
+  {
+   "url": "https://ntp.org/",
+   "domain": "ntp.org",
+   "category": "infrastructure",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 751587.0
+  },
+  {
+   "url": "https://cdnvideo.ru/",
+   "domain": "cdnvideo.ru",
+   "category": "infrastructure",
+   "n_blocked_tracking": 27.0,
+   "bytes_saved_tracking": 304057.0
+  },
+  {
+   "url": "https://b-cdn.net/",
+   "domain": "b-cdn.net",
+   "category": "infrastructure",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 475216.0
+  },
+  {
+   "url": "https://dnsmadeeasy.com/",
+   "domain": "dnsmadeeasy.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 48936.0
+  },
+  {
+   "url": "https://nbcnews.com/",
+   "domain": "nbcnews.com",
+   "category": "news",
+   "n_blocked_tracking": 360.0,
+   "bytes_saved_tracking": 22283302.0
+  },
+  {
+   "url": "https://mlb.com/",
+   "domain": "mlb.com",
+   "category": "news",
+   "n_blocked_tracking": 336.0,
+   "bytes_saved_tracking": 1587463.0
+  },
+  {
+   "url": "https://uol.com.br/",
+   "domain": "uol.com.br",
+   "category": "news",
+   "n_blocked_tracking": 308.0,
+   "bytes_saved_tracking": 6233097.0
+  },
+  {
+   "url": "https://techcrunch.com/",
+   "domain": "techcrunch.com",
+   "category": "news",
+   "n_blocked_tracking": 270.0,
+   "bytes_saved_tracking": 11921962.0
+  },
+  {
+   "url": "https://globo.com/",
+   "domain": "globo.com",
+   "category": "news",
+   "n_blocked_tracking": 245.0,
+   "bytes_saved_tracking": 14412135.0
+  },
+  {
+   "url": "https://hbr.org/",
+   "domain": "hbr.org",
+   "category": "news",
+   "n_blocked_tracking": 170.0,
+   "bytes_saved_tracking": 5958046.0
+  },
+  {
+   "url": "https://cnet.com/",
+   "domain": "cnet.com",
+   "category": "news",
+   "n_blocked_tracking": 154.0,
+   "bytes_saved_tracking": 4832642.0
+  },
+  {
+   "url": "https://prnewswire.com/",
+   "domain": "prnewswire.com",
+   "category": "news",
+   "n_blocked_tracking": 150.0,
+   "bytes_saved_tracking": 22262751.0
+  },
+  {
+   "url": "https://npr.org/",
+   "domain": "npr.org",
+   "category": "news",
+   "n_blocked_tracking": 141.0,
+   "bytes_saved_tracking": 6198823.0
+  },
+  {
+   "url": "https://independent.co.uk/",
+   "domain": "independent.co.uk",
+   "category": "news",
+   "n_blocked_tracking": 132.0,
+   "bytes_saved_tracking": 8093982.0
+  },
+  {
+   "url": "https://indiatimes.com/",
+   "domain": "indiatimes.com",
+   "category": "news",
+   "n_blocked_tracking": 114.0,
+   "bytes_saved_tracking": 10940858.0
+  },
+  {
+   "url": "https://mail.ru/",
+   "domain": "mail.ru",
+   "category": "news",
+   "n_blocked_tracking": 110.0,
+   "bytes_saved_tracking": 3569193.0
+  },
+  {
+   "url": "https://elpais.com/",
+   "domain": "elpais.com",
+   "category": "news",
+   "n_blocked_tracking": 90.0,
+   "bytes_saved_tracking": 1611390.0
+  },
+  {
+   "url": "https://time.com/",
+   "domain": "time.com",
+   "category": "news",
+   "n_blocked_tracking": 90.0,
+   "bytes_saved_tracking": 10915244.0
+  },
+  {
+   "url": "https://foxnews.com/",
+   "domain": "foxnews.com",
+   "category": "news",
+   "n_blocked_tracking": 88.0,
+   "bytes_saved_tracking": 2513968.0
+  },
+  {
+   "url": "https://dailymail.co.uk/",
+   "domain": "dailymail.co.uk",
+   "category": "news",
+   "n_blocked_tracking": 86.0,
+   "bytes_saved_tracking": 1828912.0
+  },
+  {
+   "url": "https://dailymail.com/",
+   "domain": "dailymail.com",
+   "category": "news",
+   "n_blocked_tracking": 84.0,
+   "bytes_saved_tracking": 1960506.0
+  },
+  {
+   "url": "https://dzen.ru/",
+   "domain": "dzen.ru",
+   "category": "news",
+   "n_blocked_tracking": 81.0,
+   "bytes_saved_tracking": 3984427.0
+  },
+  {
+   "url": "https://att.com/",
+   "domain": "att.com",
+   "category": "productivity",
+   "n_blocked_tracking": 555.0,
+   "bytes_saved_tracking": 7006429.0
+  },
+  {
+   "url": "https://amazonalexa.com/",
+   "domain": "amazonalexa.com",
+   "category": "productivity",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 281518.0
+  },
+  {
+   "url": "https://braze.com/",
+   "domain": "braze.com",
+   "category": "productivity",
+   "n_blocked_tracking": 290.0,
+   "bytes_saved_tracking": 18130562.0
+  },
+  {
+   "url": "https://smartthings.com/",
+   "domain": "smartthings.com",
+   "category": "productivity",
+   "n_blocked_tracking": 276.0,
+   "bytes_saved_tracking": 6340947.0
+  },
+  {
+   "url": "https://applovin.com/",
+   "domain": "applovin.com",
+   "category": "productivity",
+   "n_blocked_tracking": 258.0,
+   "bytes_saved_tracking": 878278.0
+  },
+  {
+   "url": "https://mailchimp.com/",
+   "domain": "mailchimp.com",
+   "category": "productivity",
+   "n_blocked_tracking": 245.0,
+   "bytes_saved_tracking": 408830.0
+  },
+  {
+   "url": "https://inmobi.com/",
+   "domain": "inmobi.com",
+   "category": "productivity",
+   "n_blocked_tracking": 240.0,
+   "bytes_saved_tracking": 2570608.0
+  },
+  {
+   "url": "https://oxylabs.io/",
+   "domain": "oxylabs.io",
+   "category": "productivity",
+   "n_blocked_tracking": 190.0,
+   "bytes_saved_tracking": 5391401.0
+  },
+  {
+   "url": "https://mediatek.com/",
+   "domain": "mediatek.com",
+   "category": "productivity",
+   "n_blocked_tracking": 170.0,
+   "bytes_saved_tracking": 3900523.0
+  },
+  {
+   "url": "https://hosting24.com/",
+   "domain": "hosting24.com",
+   "category": "productivity",
+   "n_blocked_tracking": 162.0,
+   "bytes_saved_tracking": 3020344.0
+  },
+  {
+   "url": "https://hostinger.com/",
+   "domain": "hostinger.com",
+   "category": "productivity",
+   "n_blocked_tracking": 162.0,
+   "bytes_saved_tracking": 3020443.0
+  },
+  {
+   "url": "https://base.org/",
+   "domain": "base.org",
+   "category": "productivity",
+   "n_blocked_tracking": 160.0,
+   "bytes_saved_tracking": 39271.0
+  },
+  {
+   "url": "https://usps.com/",
+   "domain": "usps.com",
+   "category": "productivity",
+   "n_blocked_tracking": 160.0,
+   "bytes_saved_tracking": 4796878.0
+  },
+  {
+   "url": "https://eset.com/",
+   "domain": "eset.com",
+   "category": "productivity",
+   "n_blocked_tracking": 146.0,
+   "bytes_saved_tracking": 913618.0
+  },
+  {
+   "url": "https://amazonaws.com/",
+   "domain": "amazonaws.com",
+   "category": "productivity",
+   "n_blocked_tracking": 145.0,
+   "bytes_saved_tracking": 79590.0
+  },
+  {
+   "url": "https://box.com/",
+   "domain": "box.com",
+   "category": "productivity",
+   "n_blocked_tracking": 140.0,
+   "bytes_saved_tracking": 15810552.0
+  },
+  {
+   "url": "https://auvik.com/",
+   "domain": "auvik.com",
+   "category": "productivity",
+   "n_blocked_tracking": 137.0,
+   "bytes_saved_tracking": 4508233.0
+  },
+  {
+   "url": "https://datadoghq.com/",
+   "domain": "datadoghq.com",
+   "category": "productivity",
+   "n_blocked_tracking": 131.0,
+   "bytes_saved_tracking": 2708006.0
+  },
+  {
+   "url": "https://creativecommons.org/",
+   "domain": "creativecommons.org",
+   "category": "reference",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 33260.0
+  },
+  {
+   "url": "https://harvard.edu/",
+   "domain": "harvard.edu",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 2065958.0
+  },
+  {
+   "url": "https://nist.gov/",
+   "domain": "nist.gov",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 359534.0
+  },
+  {
+   "url": "https://stanford.edu/",
+   "domain": "stanford.edu",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 1898662.0
+  },
+  {
+   "url": "https://berkeley.edu/",
+   "domain": "berkeley.edu",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 118789.0
+  },
+  {
+   "url": "https://consultant.ru/",
+   "domain": "consultant.ru",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 1262073.0
+  },
+  {
+   "url": "https://frontiersin.org/",
+   "domain": "frontiersin.org",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 402413.0
+  },
+  {
+   "url": "https://nasa.gov/",
+   "domain": "nasa.gov",
+   "category": "reference",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 291719.0
+  },
+  {
+   "url": "https://aboutads.info/",
+   "domain": "aboutads.info",
+   "category": "reference",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 248709.0
+  },
+  {
+   "url": "https://cornell.edu/",
+   "domain": "cornell.edu",
+   "category": "reference",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 349527.0
+  },
+  {
+   "url": "https://networkadvertising.org/",
+   "domain": "networkadvertising.org",
+   "category": "reference",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 513570.0
+  },
+  {
+   "url": "https://sagepub.com/",
+   "domain": "sagepub.com",
+   "category": "reference",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 1645547.0
+  },
+  {
+   "url": "https://un.org/",
+   "domain": "un.org",
+   "category": "reference",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 206420.0
+  },
+  {
+   "url": "https://unesco.org/",
+   "domain": "unesco.org",
+   "category": "reference",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 291066.0
+  },
+  {
+   "url": "https://ca.gov/",
+   "domain": "ca.gov",
+   "category": "reference",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 16520.0
+  },
+  {
+   "url": "https://mit.edu/",
+   "domain": "mit.edu",
+   "category": "reference",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 16460.0
+  },
+  {
+   "url": "https://nature.com/",
+   "domain": "nature.com",
+   "category": "reference",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 3704386.0
+  },
+  {
+   "url": "https://princeton.edu/",
+   "domain": "princeton.edu",
+   "category": "reference",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 8400.0
+  },
+  {
+   "url": "https://amazon.ca/",
+   "domain": "amazon.ca",
+   "category": "shopping",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 344138.0
+  },
+  {
+   "url": "https://amazon.com.br/",
+   "domain": "amazon.com.br",
+   "category": "shopping",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 271710.0
+  },
+  {
+   "url": "https://fiverr.com/",
+   "domain": "fiverr.com",
+   "category": "shopping",
+   "n_blocked_tracking": 360.0,
+   "bytes_saved_tracking": 3423271.0
+  },
+  {
+   "url": "https://rakuten.com/",
+   "domain": "rakuten.com",
+   "category": "shopping",
+   "n_blocked_tracking": 210.0,
+   "bytes_saved_tracking": 4686736.0
+  },
+  {
+   "url": "https://avito.ru/",
+   "domain": "avito.ru",
+   "category": "shopping",
+   "n_blocked_tracking": 139.0,
+   "bytes_saved_tracking": 9484704.0
+  },
+  {
+   "url": "https://dell.com/",
+   "domain": "dell.com",
+   "category": "shopping",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 2146478.0
+  },
+  {
+   "url": "https://dropcatch.com/",
+   "domain": "dropcatch.com",
+   "category": "shopping",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 22460.0
+  },
+  {
+   "url": "https://kleinanzeigen.de/",
+   "domain": "kleinanzeigen.de",
+   "category": "shopping",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 631530.0
+  },
+  {
+   "url": "https://zillow.com/",
+   "domain": "zillow.com",
+   "category": "shopping",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 1588022.0
+  },
+  {
+   "url": "https://nike.com/",
+   "domain": "nike.com",
+   "category": "shopping",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 742419.0
+  },
+  {
+   "url": "https://airbnb.com/",
+   "domain": "airbnb.com",
+   "category": "shopping",
+   "n_blocked_tracking": 30.0,
+   "bytes_saved_tracking": 1008868.0
+  },
+  {
+   "url": "https://shopee.co.id/",
+   "domain": "shopee.co.id",
+   "category": "shopping",
+   "n_blocked_tracking": 29.0,
+   "bytes_saved_tracking": 218015.0
+  },
+  {
+   "url": "https://ebay.co.uk/",
+   "domain": "ebay.co.uk",
+   "category": "shopping",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": -9406690.0
+  },
+  {
+   "url": "https://ryanair.com/",
+   "domain": "ryanair.com",
+   "category": "shopping",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 8117.0
+  },
+  {
+   "url": "https://sedo.com/",
+   "domain": "sedo.com",
+   "category": "shopping",
+   "n_blocked_tracking": 18.0,
+   "bytes_saved_tracking": 84800.0
+  },
+  {
+   "url": "https://eventbrite.com/",
+   "domain": "eventbrite.com",
+   "category": "shopping",
+   "n_blocked_tracking": 17.0,
+   "bytes_saved_tracking": 99287.0
+  },
+  {
+   "url": "https://alibaba.com/",
+   "domain": "alibaba.com",
+   "category": "shopping",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": -388.0
+  },
+  {
+   "url": "https://aliexpress.com/",
+   "domain": "aliexpress.com",
+   "category": "shopping",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 680078.0
+  },
+  {
+   "url": "https://livejournal.com/",
+   "domain": "livejournal.com",
+   "category": "social",
+   "n_blocked_tracking": 240.0,
+   "bytes_saved_tracking": 6035972.0
+  },
+  {
+   "url": "https://scribd.com/",
+   "domain": "scribd.com",
+   "category": "social",
+   "n_blocked_tracking": 150.0,
+   "bytes_saved_tracking": 230540.0
+  },
+  {
+   "url": "https://imgur.com/",
+   "domain": "imgur.com",
+   "category": "social",
+   "n_blocked_tracking": 108.0,
+   "bytes_saved_tracking": 6521822.0
+  },
+  {
+   "url": "https://linktr.ee/",
+   "domain": "linktr.ee",
+   "category": "social",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 16650.0
+  },
+  {
+   "url": "https://viber.com/",
+   "domain": "viber.com",
+   "category": "social",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 959212.0
+  },
+  {
+   "url": "https://ok.ru/",
+   "domain": "ok.ru",
+   "category": "social",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 1250483.0
+  },
+  {
+   "url": "https://pikabu.ru/",
+   "domain": "pikabu.ru",
+   "category": "social",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 4888867.0
+  },
+  {
+   "url": "https://ameblo.jp/",
+   "domain": "ameblo.jp",
+   "category": "social",
+   "n_blocked_tracking": 40.0,
+   "bytes_saved_tracking": 22390.0
+  },
+  {
+   "url": "https://slideshare.net/",
+   "domain": "slideshare.net",
+   "category": "social",
+   "n_blocked_tracking": 39.0,
+   "bytes_saved_tracking": 69765.0
+  },
+  {
+   "url": "https://disqus.com/",
+   "domain": "disqus.com",
+   "category": "social",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 12621.0
+  },
+  {
+   "url": "https://patreon.com/",
+   "domain": "patreon.com",
+   "category": "social",
+   "n_blocked_tracking": 20.0,
+   "bytes_saved_tracking": 118857.0
+  },
+  {
+   "url": "https://tumblr.com/",
+   "domain": "tumblr.com",
+   "category": "social",
+   "n_blocked_tracking": 11.0,
+   "bytes_saved_tracking": 5040.0
+  },
+  {
+   "url": "https://behance.net/",
+   "domain": "behance.net",
+   "category": "social",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 341726.0
+  },
+  {
+   "url": "https://line.me/",
+   "domain": "line.me",
+   "category": "social",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 8340.0
+  },
+  {
+   "url": "https://substack.com/",
+   "domain": "substack.com",
+   "category": "social",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 4233.0
+  },
+  {
+   "url": "https://twitter.com/",
+   "domain": "twitter.com",
+   "category": "social",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 269.0
+  },
+  {
+   "url": "https://x.com/",
+   "domain": "x.com",
+   "category": "social",
+   "n_blocked_tracking": 10.0,
+   "bytes_saved_tracking": 2526.0
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "url": "https://mlb.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "analytics.tiktok.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 679469,
+     "control": {
+      "page": 95918047,
+      "third_party": 22520738,
+      "listed": 2952767
+     },
+     "ablated": {
+      "page": 96118827,
+      "third_party": 22726910,
+      "listed": 2178069
+     },
+     "n_aborted": 5,
+     "moved": {
+      "analytics.tiktok.com": 679469,
+      "www.mlbstatic.com": -354380,
+      "img.mlbstatic.com": -217927,
+      "imasdk.googleapis.com": -158684,
+      "fonts.gstatic.com": -131324,
+      "cdn.ampproject.org": -113342,
+      "pagead2.googlesyndication.com": 87682,
+      "tpc.googlesyndication.com": 6802,
+      "ans.mlb.com": 5371,
+      "87b0a32abb5a32cec59b06047a1649eb.safeframe.googlesyndication.com": 3811,
+      "e879712f189fd6777d7f7d5c7d7655a9.safeframe.googlesyndication.com": -3811,
+      "www.googletagmanager.com": -2613
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 680725,
+     "control": {
+      "page": 101168460,
+      "third_party": 23264262,
+      "listed": 2963324
+     },
+     "ablated": {
+      "page": 24305742,
+      "third_party": 22251354,
+      "listed": 2229303
+     },
+     "n_aborted": 5,
+     "moved": {
+      "mlb-cuts-diamond.mlb.com": 75658564,
+      "analytics.tiktok.com": 680725,
+      "imasdk.googleapis.com": 476112,
+      "img.mlbstatic.com": -408343,
+      "www.mlbstatic.com": 208305,
+      "statsapi.mlb.com": 175391,
+      "tpc.googlesyndication.com": 27749,
+      "pagead2.googlesyndication.com": 16976,
+      "ans.mlb.com": 16121,
+      "f2b8d6a2321b468db1ff280e96797b0e.safeframe.googlesyndication.com": -3811,
+      "8c559586f0950aaf3a16ff3234bf29ec.safeframe.googlesyndication.com": 3811,
+      "sync-tm.everesttech.net": 3010
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -880249,
+     76181993
+    ],
+    "third_party": [
+     -885641,
+     332183
+    ],
+    "listed": [
+     95229,
+     53296
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 37650872,
+     "sd": 54491233.89163877,
+     "se": 38531120.99999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -276729,
+     "sd": 861131.608691726,
+     "se": 608911.9999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 74262.5,
+     "sd": 29651.108655495496,
+     "se": 20966.499999999996
+    }
+   },
+   "own_mean": 680097
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 576335,
+     "control": {
+      "page": 83742674,
+      "third_party": 23469645,
+      "listed": 2919973
+     },
+     "ablated": {
+      "page": 98656027,
+      "third_party": 22383733,
+      "listed": 2082556
+     },
+     "n_aborted": 14,
+     "moved": {
+      "mlb-cuts-diamond.mlb.com": -17434545,
+      "darkroom-clips.mlb.com": 1431556,
+      "pagead2.googlesyndication.com": 576335,
+      "img.mlbstatic.com": 408299,
+      "tpc.googlesyndication.com": 257329,
+      "imasdk.googleapis.com": -158684,
+      "ans.mlb.com": 4368,
+      "b279ba5500038182f4bc6d67b3210997.safeframe.googlesyndication.com": 3811,
+      "1f3df3ec228e01df784915c0f1157963.safeframe.googlesyndication.com": -3811,
+      "dsum-sec.casalemedia.com": 2245,
+      "builds.mlbstatic.com": -2019,
+      "mgln.ai": 1628
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 506350,
+     "control": {
+      "page": 96624182,
+      "third_party": 23225536,
+      "listed": 2892659
+     },
+     "ablated": {
+      "page": 56139336,
+      "third_party": 22012040,
+      "listed": 2086928
+     },
+     "n_aborted": 14,
+     "moved": {
+      "mlb-cuts-diamond.mlb.com": 39089276,
+      "pagead2.googlesyndication.com": 506350,
+      "tpc.googlesyndication.com": 303266,
+      "statsapi.mlb.com": 175376,
+      "imasdk.googleapis.com": 158684,
+      "fonts.gstatic.com": 131328,
+      "cdn.ampproject.org": 113342,
+      "ans.mlb.com": 5381,
+      "0c0c5388175f5e94779143390f82c127.safeframe.googlesyndication.com": -3811,
+      "b932f83d264614da6bc87ccec076513c.safeframe.googlesyndication.com": 3811,
+      "www.googletagmanager.com": 3458,
+      "fonts.googleapis.com": 2435
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -15489688,
+     39978496
+    ],
+    "third_party": [
+     509577,
+     707146
+    ],
+    "listed": [
+     261082,
+     299381
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 12244404,
+     "sd": 39221929.04650316,
+     "se": 27734091.999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 608361.5,
+     "sd": 139702.379652245,
+     "se": 98784.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 280231.5,
+     "sd": 27081.482612663585,
+     "se": 19149.5
+    }
+   },
+   "own_mean": 541342.5
+  },
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 291258,
+     "control": {
+      "page": 65881399,
+      "third_party": 23069980,
+      "listed": 2897445
+     },
+     "ablated": {
+      "page": 95995644,
+      "third_party": 22773835,
+      "listed": 2623466
+     },
+     "n_aborted": 1,
+     "moved": {
+      "mlb-cuts-diamond.mlb.com": -30399635,
+      "connect.facebook.net": 291258,
+      "img.mlbstatic.com": -217946,
+      "fonts.gstatic.com": 131328,
+      "cdn.ampproject.org": 113342,
+      "pagead2.googlesyndication.com": -64133,
+      "tpc.googlesyndication.com": 45917,
+      "ans.mlb.com": -10754,
+      "www.gstatic.com": -4579,
+      "af041a7a182034b54b3e54e38d15129a.safeframe.googlesyndication.com": 3811,
+      "eb2cd3e1d741982afc471ef2eead6995.safeframe.googlesyndication.com": -3811,
+      "browser-intake-us5-datadoghq.com": -2466
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 291277,
+     "control": {
+      "page": 95802494,
+      "third_party": 22580703,
+      "listed": 2854372
+     },
+     "ablated": {
+      "page": 95924630,
+      "third_party": 22702088,
+      "listed": 2618242
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.mlbstatic.com": -444079,
+      "connect.facebook.net": 291277,
+      "imasdk.googleapis.com": -158704,
+      "fonts.gstatic.com": 131328,
+      "cdn.ampproject.org": 113342,
+      "pagead2.googlesyndication.com": -75427,
+      "tpc.googlesyndication.com": 18188,
+      "4bdf8b6f920708bcfff7c6d10daac418.safeframe.googlesyndication.com": 3811,
+      "98a97d30ebcabf0203308384f1f40614.safeframe.googlesyndication.com": -3811,
+      "fonts.googleapis.com": 2435,
+      "dsum-sec.casalemedia.com": 2222,
+      "builds.mlbstatic.com": -2016
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -30405503,
+     -413413
+    ],
+    "third_party": [
+     4887,
+     -412662
+    ],
+    "listed": [
+     -17279,
+     -55147
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -15409458,
+     "sd": 21207610.220957242,
+     "se": 14996045.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -203887.5,
+     "sd": 295251.7293776617,
+     "se": 208774.49999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": -36213,
+     "sd": 26776.71958997218,
+     "se": 18934.0
+    }
+   },
+   "own_mean": 291267.5
+  }
+ },
+ "candidates": [
+  "analytics.tiktok.com",
+  "pagead2.googlesyndication.com",
+  "connect.facebook.net"
+ ],
+ "category": "news",
+ "domain": "mlb.com",
+ "n_blocked_tracking": 336.0,
+ "elapsed_s": 291.5
+}

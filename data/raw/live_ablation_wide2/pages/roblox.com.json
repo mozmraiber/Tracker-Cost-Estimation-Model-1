@@ -1,0 +1,121 @@
+{
+ "url": "https://roblox.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o293668.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 988,
+     "control": {
+      "page": 5379777,
+      "third_party": 5328986,
+      "listed": 319454
+     },
+     "ablated": {
+      "page": 5362295,
+      "third_party": 5317153,
+      "listed": 318467
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "images.rbxcdn.com": 10846,
+      "apis.roblox.com": 5670,
+      "o293668.ingest.us.sentry.io": 988,
+      "www.roblox.com": -18,
+      "locale.roblox.com": -3,
+      "client.px-cloud.net": -1,
+      "realtime.roblox.com": 0,
+      "apis.rbxcdn.com": 0,
+      "collector-pxbf8propw.px-cloud.net": 0,
+      "js.rbxcdn.com": 0,
+      "ift.px-cloud.net": 0,
+      "css.rbxcdn.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 988,
+     "control": {
+      "page": 5379787,
+      "third_party": 5328987,
+      "listed": 319455
+     },
+     "ablated": {
+      "page": 5362293,
+      "third_party": 5317153,
+      "listed": 318467
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "images.rbxcdn.com": 10846,
+      "apis.roblox.com": 5669,
+      "o293668.ingest.us.sentry.io": 988,
+      "www.roblox.com": -12,
+      "locale.roblox.com": 4,
+      "auth.roblox.com": -1,
+      "realtime.roblox.com": 0,
+      "apis.rbxcdn.com": 0,
+      "collector-pxbf8propw.px-cloud.net": 0,
+      "js.rbxcdn.com": 0,
+      "ift.px-cloud.net": 0,
+      "css.rbxcdn.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     16494,
+     16506
+    ],
+    "third_party": [
+     10845,
+     10846
+    ],
+    "listed": [
+     -1,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 16500,
+     "sd": 8.48528137423857,
+     "se": 5.999999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 10845.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 988
+  }
+ },
+ "candidates": [
+  "o293668.ingest.us.sentry.io"
+ ],
+ "category": "entertainment",
+ "domain": "roblox.com",
+ "n_blocked_tracking": 23.0,
+ "elapsed_s": 38.4
+}

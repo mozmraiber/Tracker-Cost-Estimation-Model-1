@@ -79,6 +79,15 @@ def estimate_resources(
     Supplying them is worth a lot: on the CSV extract it is the difference
     between 28.7% and 8.2% median journey error.
 
+    `llm_classifier` grew a fifth argument, `include_followups`, for the cost
+    of the requests a blocked request would itself have made. There is no
+    counterpart here and this is not a gap in the port: it is a property of
+    the tracker rather than of the response, so it would be the same constant
+    bolted onto either estimate, and this crate exists to score the booster
+    against the table on the one quantity both predict. A caller can have it
+    by scaling this function's answer the same way — see
+    `FOLLOWUP_BYTES_PER_BYTE` in `llm-classifier/src/lib.rs`.
+
     `bytes` comes from `models/per_request/xgb_transfer_bytes.json`, the
     `xgboost_shipped` artifact, compiled into the extension by
     `scripts/build_model.py`: its 370 trees transpiled to Rust by m2cgen, plus

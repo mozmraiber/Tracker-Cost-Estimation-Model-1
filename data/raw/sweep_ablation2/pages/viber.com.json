@@ -1,0 +1,328 @@
+{
+ "url": "https://viber.com/",
+ "hosts": [
+  "s.go-mpulse.net",
+  "cdn.mxpnl.com",
+  "region1.analytics.google.com",
+  "ad.doubleclick.net"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "region1.analytics.google.com",
+    "s.go-mpulse.net",
+    "cdn.mxpnl.com",
+    "ad.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 13618382,
+      "third_party": 733740,
+      "listed": 229357
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 13618315,
+      "third_party": 733984,
+      "listed": 229171
+     },
+     "own": 836,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 1
+     },
+     "saved": {
+      "page": 67,
+      "third_party": -244,
+      "listed": 186
+     },
+     "cascade": {
+      "page": -769,
+      "third_party": -1080,
+      "listed": -650
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "region1.analytics.google.com",
+      "s.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 13558322,
+      "third_party": 674360,
+      "listed": 169330
+     },
+     "own": 59683,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 60060,
+      "third_party": 59380,
+      "listed": 60027
+     },
+     "cascade": {
+      "page": 377,
+      "third_party": -303,
+      "listed": 344
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "region1.analytics.google.com",
+      "s.go-mpulse.net",
+      "cdn.mxpnl.com"
+     ],
+     "bytes": {
+      "page": 13523858,
+      "third_party": 639220,
+      "listed": 135038
+     },
+     "own": 93975,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 94524,
+      "third_party": 94520,
+      "listed": 94319
+     },
+     "cascade": {
+      "page": 549,
+      "third_party": 545,
+      "listed": 344
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "region1.analytics.google.com",
+      "s.go-mpulse.net",
+      "cdn.mxpnl.com",
+      "ad.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 13524174,
+      "third_party": 639513,
+      "listed": 134486
+     },
+     "own": 94527,
+     "n_aborted": 5,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 2,
+      "image": 1
+     },
+     "saved": {
+      "page": 94208,
+      "third_party": 94227,
+      "listed": 94871
+     },
+     "cascade": {
+      "page": -319,
+      "third_party": -300,
+      "listed": 344
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "s.go-mpulse.net",
+    "cdn.mxpnl.com",
+    "ad.doubleclick.net",
+    "region1.analytics.google.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 13617881,
+      "third_party": 733564,
+      "listed": 229382
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "s.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 13558987,
+      "third_party": 674348,
+      "listed": 170166
+     },
+     "own": 58847,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 58894,
+      "third_party": 59216,
+      "listed": 59216
+     },
+     "cascade": {
+      "page": 47,
+      "third_party": 369,
+      "listed": 369
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "s.go-mpulse.net",
+      "cdn.mxpnl.com"
+     ],
+     "bytes": {
+      "page": 13525741,
+      "third_party": 640056,
+      "listed": 135874
+     },
+     "own": 93164,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 92140,
+      "third_party": 93508,
+      "listed": 93508
+     },
+     "cascade": {
+      "page": -1024,
+      "third_party": 344,
+      "listed": 344
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "s.go-mpulse.net",
+      "cdn.mxpnl.com",
+      "ad.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 13523814,
+      "third_party": 639504,
+      "listed": 135322
+     },
+     "own": 93716,
+     "n_aborted": 4,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 1,
+      "image": 1
+     },
+     "saved": {
+      "page": 94067,
+      "third_party": 94060,
+      "listed": 94060
+     },
+     "cascade": {
+      "page": 351,
+      "third_party": 344,
+      "listed": 344
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "s.go-mpulse.net",
+      "cdn.mxpnl.com",
+      "ad.doubleclick.net",
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 13522563,
+      "third_party": 638672,
+      "listed": 134486
+     },
+     "own": 94552,
+     "n_aborted": 5,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 2,
+      "image": 1
+     },
+     "saved": {
+      "page": 95318,
+      "third_party": 94892,
+      "listed": 94896
+     },
+     "cascade": {
+      "page": 766,
+      "third_party": 340,
+      "listed": 344
+     }
+    }
+   ]
+  }
+ ],
+ "category": "social",
+ "domain": "viber.com",
+ "elapsed_s": 79.9
+}

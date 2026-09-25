@@ -1,0 +1,404 @@
+{
+ "url": "https://uol.com.br/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+  "c.amazon-adsystem.com",
+  "sdk.mrf.io",
+  "cdn.cxense.com",
+  "static.chartbeat.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "cdn.cxense.com",
+    "c.amazon-adsystem.com",
+    "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+    "securepubads.g.doubleclick.net",
+    "static.chartbeat.com",
+    "sdk.mrf.io"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4946712,
+      "third_party": 3602086,
+      "listed": 889784
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.cxense.com"
+     ],
+     "bytes": {
+      "page": 4259889,
+      "third_party": 3555182,
+      "listed": 844373
+     },
+     "own": 45763,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 686823,
+      "third_party": 46904,
+      "listed": 45411
+     },
+     "cascade": {
+      "page": 641060,
+      "third_party": 1141,
+      "listed": -352
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 5502652,
+      "third_party": 3463787,
+      "listed": 752515
+     },
+     "own": 144719,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": -555940,
+      "third_party": 138299,
+      "listed": 137269
+     },
+     "cascade": {
+      "page": -700659,
+      "third_party": -6420,
+      "listed": -7450
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app"
+     ],
+     "bytes": {
+      "page": 4583464,
+      "third_party": 3242429,
+      "listed": 531117
+     },
+     "own": 294824,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 363248,
+      "third_party": 359657,
+      "listed": 358667
+     },
+     "cascade": {
+      "page": 68424,
+      "third_party": 64833,
+      "listed": 63843
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3922870,
+      "third_party": 2886423,
+      "listed": 249721
+     },
+     "own": 550025,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 1023842,
+      "third_party": 715663,
+      "listed": 640063
+     },
+     "cascade": {
+      "page": 473817,
+      "third_party": 165638,
+      "listed": 90038
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "securepubads.g.doubleclick.net",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 3549654,
+      "third_party": 2848371,
+      "listed": 211656
+     },
+     "own": 587029,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 1397058,
+      "third_party": 753715,
+      "listed": 678128
+     },
+     "cascade": {
+      "page": 810029,
+      "third_party": 166686,
+      "listed": 91099
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "securepubads.g.doubleclick.net",
+      "static.chartbeat.com",
+      "sdk.mrf.io"
+     ],
+     "bytes": {
+      "page": 3943063,
+      "third_party": 2775852,
+      "listed": 138629
+     },
+     "own": 657394,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 1003649,
+      "third_party": 826234,
+      "listed": 751155
+     },
+     "cascade": {
+      "page": 346255,
+      "third_party": 168840,
+      "listed": 93761
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "cdn.cxense.com",
+    "securepubads.g.doubleclick.net",
+    "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+    "static.chartbeat.com",
+    "c.amazon-adsystem.com",
+    "sdk.mrf.io"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5663213,
+      "third_party": 3604492,
+      "listed": 893302
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.cxense.com"
+     ],
+     "bytes": {
+      "page": 5618690,
+      "third_party": 3558070,
+      "listed": 847982
+     },
+     "own": 45763,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 44523,
+      "third_party": 46422,
+      "listed": 45320
+     },
+     "cascade": {
+      "page": -1240,
+      "third_party": 659,
+      "listed": -443
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 4592272,
+      "third_party": 2605780,
+      "listed": 427149
+     },
+     "own": 300963,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 1070941,
+      "third_party": 998712,
+      "listed": 466153
+     },
+     "cascade": {
+      "page": 769978,
+      "third_party": 697749,
+      "listed": 165190
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app"
+     ],
+     "bytes": {
+      "page": 4369223,
+      "third_party": 2980919,
+      "listed": 350587
+     },
+     "own": 451068,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1293990,
+      "third_party": 623573,
+      "listed": 542715
+     },
+     "cascade": {
+      "page": 842922,
+      "third_party": 172505,
+      "listed": 91647
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 3554508,
+      "third_party": 2943447,
+      "listed": 313173
+     },
+     "own": 488072,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 2108705,
+      "third_party": 661045,
+      "listed": 580129
+     },
+     "cascade": {
+      "page": 1620633,
+      "third_party": 172973,
+      "listed": 92057
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 3548220,
+      "third_party": 2842778,
+      "listed": 212467
+     },
+     "own": 587028,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 2114993,
+      "third_party": 761714,
+      "listed": 680835
+     },
+     "cascade": {
+      "page": 1527965,
+      "third_party": 174686,
+      "listed": 93807
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "sdk.mrf.io"
+     ],
+     "bytes": {
+      "page": 4083245,
+      "third_party": 2278636,
+      "listed": 100902
+     },
+     "own": 657398,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 1579968,
+      "third_party": 1325856,
+      "listed": 792400
+     },
+     "cascade": {
+      "page": 922570,
+      "third_party": 668458,
+      "listed": 135002
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "uol.com.br",
+ "elapsed_s": 131.0
+}

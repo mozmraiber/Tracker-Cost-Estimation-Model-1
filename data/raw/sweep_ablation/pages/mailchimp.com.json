@@ -1,0 +1,404 @@
+{
+ "url": "https://mailchimp.com/",
+ "hosts": [
+  "s2.go-mpulse.net",
+  "bat.bing.com",
+  "cdn.segment.com",
+  "www.googleadservices.com",
+  "googleads.g.doubleclick.net",
+  "region1.analytics.google.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "googleads.g.doubleclick.net",
+    "cdn.segment.com",
+    "bat.bing.com",
+    "s2.go-mpulse.net",
+    "region1.analytics.google.com",
+    "www.googleadservices.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3605573,
+      "third_party": 994799,
+      "listed": 518409
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3600081,
+      "third_party": 986462,
+      "listed": 512639
+     },
+     "own": 7821,
+     "n_aborted": 5,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 5492,
+      "third_party": 8337,
+      "listed": 5770
+     },
+     "cascade": {
+      "page": -2329,
+      "third_party": 516,
+      "listed": -2051
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.segment.com"
+     ],
+     "bytes": {
+      "page": 3503153,
+      "third_party": 950235,
+      "listed": 478939
+     },
+     "own": 40600,
+     "n_aborted": 9,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 102420,
+      "third_party": 44564,
+      "listed": 39470
+     },
+     "cascade": {
+      "page": 61820,
+      "third_party": 3964,
+      "listed": -1130
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.segment.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3470515,
+      "third_party": 916135,
+      "listed": 443927
+     },
+     "own": 75715,
+     "n_aborted": 10,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 135058,
+      "third_party": 78664,
+      "listed": 74482
+     },
+     "cascade": {
+      "page": 59343,
+      "third_party": 2949,
+      "listed": -1233
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.segment.com",
+      "bat.bing.com",
+      "s2.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 3357697,
+      "third_party": 795437,
+      "listed": 323522
+     },
+     "own": 194045,
+     "n_aborted": 14,
+     "n_aborted_casc": 11,
+     "saved": {
+      "page": 247876,
+      "third_party": 199362,
+      "listed": 194887
+     },
+     "cascade": {
+      "page": 53831,
+      "third_party": 5317,
+      "listed": 842
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.segment.com",
+      "bat.bing.com",
+      "s2.go-mpulse.net",
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 3352071,
+      "third_party": 790395,
+      "listed": 319150
+     },
+     "own": 198085,
+     "n_aborted": 20,
+     "n_aborted_casc": 15,
+     "saved": {
+      "page": 253502,
+      "third_party": 204404,
+      "listed": 199259
+     },
+     "cascade": {
+      "page": 55417,
+      "third_party": 6319,
+      "listed": 1174
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.segment.com",
+      "bat.bing.com",
+      "s2.go-mpulse.net",
+      "region1.analytics.google.com",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 3309719,
+      "third_party": 755462,
+      "listed": 288221
+     },
+     "own": 227443,
+     "n_aborted": 21,
+     "n_aborted_casc": 16,
+     "saved": {
+      "page": 295854,
+      "third_party": 239337,
+      "listed": 230188
+     },
+     "cascade": {
+      "page": 68411,
+      "third_party": 11894,
+      "listed": 2745
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "googleads.g.doubleclick.net",
+    "s2.go-mpulse.net",
+    "bat.bing.com",
+    "region1.analytics.google.com",
+    "cdn.segment.com",
+    "www.googleadservices.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3624916,
+      "third_party": 995852,
+      "listed": 519305
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3607874,
+      "third_party": 988428,
+      "listed": 512330
+     },
+     "own": 7816,
+     "n_aborted": 5,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 17042,
+      "third_party": 7424,
+      "listed": 6975
+     },
+     "cascade": {
+      "page": 9226,
+      "third_party": -392,
+      "listed": -841
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "s2.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 3484914,
+      "third_party": 865414,
+      "listed": 390479
+     },
+     "own": 126146,
+     "n_aborted": 9,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 140002,
+      "third_party": 130438,
+      "listed": 128826
+     },
+     "cascade": {
+      "page": 13856,
+      "third_party": 4292,
+      "listed": 2680
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "s2.go-mpulse.net",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3446596,
+      "third_party": 827027,
+      "listed": 356236
+     },
+     "own": 161261,
+     "n_aborted": 10,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 178320,
+      "third_party": 168825,
+      "listed": 163069
+     },
+     "cascade": {
+      "page": 17059,
+      "third_party": 7564,
+      "listed": 1808
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "s2.go-mpulse.net",
+      "bat.bing.com",
+      "region1.analytics.google.com"
+     ],
+     "bytes": {
+      "page": 3435306,
+      "third_party": 824500,
+      "listed": 350600
+     },
+     "own": 166117,
+     "n_aborted": 16,
+     "n_aborted_casc": 11,
+     "saved": {
+      "page": 189610,
+      "third_party": 171352,
+      "listed": 168705
+     },
+     "cascade": {
+      "page": 23493,
+      "third_party": 5235,
+      "listed": 2588
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "s2.go-mpulse.net",
+      "bat.bing.com",
+      "region1.analytics.google.com",
+      "cdn.segment.com"
+     ],
+     "bytes": {
+      "page": 3352056,
+      "third_party": 790370,
+      "listed": 319212
+     },
+     "own": 198897,
+     "n_aborted": 20,
+     "n_aborted_casc": 15,
+     "saved": {
+      "page": 272860,
+      "third_party": 205482,
+      "listed": 200093
+     },
+     "cascade": {
+      "page": 73963,
+      "third_party": 6585,
+      "listed": 1196
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "s2.go-mpulse.net",
+      "bat.bing.com",
+      "region1.analytics.google.com",
+      "cdn.segment.com",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 3316696,
+      "third_party": 755074,
+      "listed": 288155
+     },
+     "own": 228269,
+     "n_aborted": 21,
+     "n_aborted_casc": 16,
+     "saved": {
+      "page": 308220,
+      "third_party": 240778,
+      "listed": 231150
+     },
+     "cascade": {
+      "page": 79951,
+      "third_party": 12509,
+      "listed": 2881
+     }
+    }
+   ]
+  }
+ ],
+ "category": "productivity",
+ "domain": "mailchimp.com",
+ "elapsed_s": 123.1
+}

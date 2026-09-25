@@ -1,0 +1,115 @@
+{
+ "url": "https://kleinanzeigen.de/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 560,
+     "control": {
+      "page": 1614715,
+      "third_party": 6280,
+      "listed": 560
+     },
+     "ablated": {
+      "page": 1599783,
+      "third_party": 4919,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "img.kleinanzeigen.de": 12518,
+      "kleinanzeigen.de": -1465,
+      "www.kleinanzeigen.de": 1408,
+      "gateway.kleinanzeigen.de": 1086,
+      "unpkg.com": 600,
+      "pagead2.googlesyndication.com": 560,
+      "www.googletagmanager.com": 201,
+      "server.sgtm-legacy.kleinanzeigen.de": 24,
+      "static.kleinanzeigen.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 560,
+     "control": {
+      "page": 1718310,
+      "third_party": 5479,
+      "listed": 560
+     },
+     "ablated": {
+      "page": 1606757,
+      "third_party": 5519,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.kleinanzeigen.de": 116616,
+      "img.kleinanzeigen.de": -7604,
+      "gateway.kleinanzeigen.de": 2547,
+      "unpkg.com": -600,
+      "pagead2.googlesyndication.com": 560,
+      "server.sgtm-legacy.kleinanzeigen.de": 34,
+      "static.kleinanzeigen.de": 0,
+      "kleinanzeigen.de": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     14372,
+     110993
+    ],
+    "third_party": [
+     801,
+     -600
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 62682.5,
+     "sd": 68321.3643050254,
+     "se": 48310.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 100.5,
+     "sd": 990.6566004423531,
+     "se": 700.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 560
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com"
+ ],
+ "category": "shopping",
+ "domain": "kleinanzeigen.de",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 40.1
+}

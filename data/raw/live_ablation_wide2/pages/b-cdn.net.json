@@ -1,0 +1,111 @@
+{
+ "url": "https://b-cdn.net/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "widget.trustpilot.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 76434,
+     "control": {
+      "page": 4947805,
+      "third_party": 2082902,
+      "listed": 515803
+     },
+     "ablated": {
+      "page": 4871347,
+      "third_party": 2006444,
+      "listed": 439344
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "widget.trustpilot.com": 76434,
+      "consent.cookiebot.com": 24,
+      "consentcdn.cookiebot.com": 1,
+      "bunny.net": -1,
+      "fonts.bunny.net": 0,
+      "b-cdn.net": 0,
+      "bunny-reddit.b-cdn.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 76434,
+     "control": {
+      "page": 4947743,
+      "third_party": 2082840,
+      "listed": 515780
+     },
+     "ablated": {
+      "page": 4871347,
+      "third_party": 2006444,
+      "listed": 439344
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "widget.trustpilot.com": 76434,
+      "bunny.net": -40,
+      "consentcdn.cookiebot.com": 2,
+      "fonts.bunny.net": 0,
+      "b-cdn.net": 0,
+      "bunny-reddit.b-cdn.net": 0,
+      "consent.cookiebot.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     24,
+     -38
+    ],
+    "third_party": [
+     24,
+     -38
+    ],
+    "listed": [
+     25,
+     2
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -7,
+     "sd": 43.840620433565945,
+     "se": 30.999999999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -7,
+     "sd": 43.840620433565945,
+     "se": 30.999999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 13.5,
+     "sd": 16.263455967290593,
+     "se": 11.5
+    }
+   },
+   "own_mean": 76434
+  }
+ },
+ "candidates": [
+  "widget.trustpilot.com"
+ ],
+ "category": "infrastructure",
+ "domain": "b-cdn.net",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 32.3
+}

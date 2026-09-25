@@ -1,0 +1,109 @@
+{
+ "url": "https://line.me/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 834,
+     "control": {
+      "page": 29474177,
+      "third_party": 28945602,
+      "listed": 834
+     },
+     "ablated": {
+      "page": 24798428,
+      "third_party": 24270867,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "vos.line-scdn.net": 4673606,
+      "www.line.me": 1014,
+      "region1.google-analytics.com": 834,
+      "landpress-content.line-scdn.net": 295,
+      "line.me": 0,
+      "www.googletagmanager.com": 0,
+      "cdn.jsdelivr.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 834,
+     "control": {
+      "page": 27613322,
+      "third_party": 27084747,
+      "listed": 834
+     },
+     "ablated": {
+      "page": 27676639,
+      "third_party": 27148064,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "vos.line-scdn.net": -64118,
+      "region1.google-analytics.com": 834,
+      "landpress-content.line-scdn.net": -33,
+      "www.line.me": 0,
+      "line.me": 0,
+      "www.googletagmanager.com": 0,
+      "cdn.jsdelivr.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     4674915,
+     -64151
+    ],
+    "third_party": [
+     4673901,
+     -64151
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2305382,
+     "sd": 3351025.705090607,
+     "se": 2369533.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2304875,
+     "sd": 3350308.698814484,
+     "se": 2369026.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 834
+  }
+ },
+ "candidates": [
+  "region1.google-analytics.com"
+ ],
+ "category": "social",
+ "domain": "line.me",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 33.7
+}

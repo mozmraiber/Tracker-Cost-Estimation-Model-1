@@ -1,0 +1,121 @@
+{
+ "url": "https://amazon.com.br/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23955,
+     "control": {
+      "page": 11945852,
+      "third_party": 11277780,
+      "listed": 57804
+     },
+     "ablated": {
+      "page": 7758700,
+      "third_party": 7119025,
+      "listed": 9738
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "m.media-amazon.com": 4110486,
+      "www.amazon.com.br": 28397,
+      "s.amazon-adsystem.com": 19484,
+      "cm.g.doubleclick.net": 7502,
+      "dsum-sec.casalemedia.com": 2340,
+      "dpm.demdex.net": 1781,
+      "1c5c1ecf7303.535706ac.eu-west-1.token.awswaf.com": -1686,
+      "capi.connatix.com": 1428,
+      "x.bidswitch.net": 1424,
+      "rtb-csync.smartadserver.com": 1294,
+      "uipglob.semasio.net": 1270,
+      "www.imdb.com": 1258
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 23955,
+     "control": {
+      "page": 7930757,
+      "third_party": 7270850,
+      "listed": 56904
+     },
+     "ablated": {
+      "page": 7950868,
+      "third_party": 7334426,
+      "listed": 9481
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "m.media-amazon.com": -112800,
+      "www.amazon.com.br": 43465,
+      "s.amazon-adsystem.com": 19484,
+      "cm.g.doubleclick.net": 7562,
+      "dsum-sec.casalemedia.com": 2304,
+      "dpm.demdex.net": 1781,
+      "capi.connatix.com": 1428,
+      "x.bidswitch.net": 1424,
+      "rtb-csync.smartadserver.com": 1294,
+      "uipglob.semasio.net": 1272,
+      "www.imdb.com": 1258,
+      "user-sync.fwmrm.net": 962
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     4163197,
+     -44066
+    ],
+    "third_party": [
+     4134800,
+     -87531
+    ],
+    "listed": [
+     24111,
+     23468
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2059565.5,
+     "sd": 2974984.1975352573,
+     "se": 2103631.4999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2023634.5,
+     "sd": 2985638.8825141764,
+     "se": 2111165.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 23789.5,
+     "sd": 454.66966030295004,
+     "se": 321.49999999999994
+    }
+   },
+   "own_mean": 23955
+  }
+ },
+ "candidates": [
+  "s.amazon-adsystem.com"
+ ],
+ "category": "shopping",
+ "domain": "amazon.com.br",
+ "n_blocked_tracking": 410.0,
+ "elapsed_s": 29.5
+}

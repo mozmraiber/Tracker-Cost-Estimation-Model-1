@@ -1,0 +1,110 @@
+{
+ "url": "https://tumblr.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o248881.ingest.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 2458244,
+      "third_party": 6389,
+      "listed": 494
+     },
+     "ablated": {
+      "page": 2457700,
+      "third_party": 5895,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "o248881.ingest.sentry.io": 494,
+      "www.tumblr.com": 50,
+      "assets.tumblr.com": 0,
+      "pixel.wp.com": 0,
+      "s0.wp.com": 0,
+      "tumblr.com": 0,
+      "64.media.tumblr.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 2587358,
+      "third_party": 6389,
+      "listed": 494
+     },
+     "ablated": {
+      "page": 2458223,
+      "third_party": 5895,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "44.media.tumblr.com": 128641,
+      "o248881.ingest.sentry.io": 494,
+      "www.tumblr.com": 1,
+      "tumblr.com": -1,
+      "pixel.wp.com": 0,
+      "s0.wp.com": 0,
+      "64.media.tumblr.com": 0,
+      "assets.tumblr.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     50,
+     128641
+    ],
+    "third_party": [
+     0,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 64345.5,
+     "sd": 90927.56809955933,
+     "se": 64295.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "o248881.ingest.sentry.io"
+ ],
+ "category": "social",
+ "domain": "tumblr.com",
+ "n_blocked_tracking": 11.0,
+ "elapsed_s": 30.4
+}

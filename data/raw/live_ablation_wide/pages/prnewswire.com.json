@@ -1,0 +1,331 @@
+{
+ "url": "https://prnewswire.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js.qualified.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 364945,
+     "control": {
+      "page": 5388931,
+      "third_party": 3685693,
+      "listed": 2238720
+     },
+     "ablated": {
+      "page": 3740465,
+      "third_party": 2036599,
+      "listed": 518498
+     },
+     "n_aborted": 1,
+     "moved": {
+      "assets.qualified.com": 1313649,
+      "js.qualified.com": 364945,
+      "cookiechimp.com": -71647,
+      "app.qualified.com": 16268,
+      "static.cloudflareinsights.com": 10495,
+      "messenger-assets.qualified.com": 9760,
+      "ws2.qualified.com": 4589,
+      "www.prnewswire.com": -628,
+      "y.clarity.ms": -564,
+      "bat.bing.net": 514,
+      "o209747.ingest.us.sentry.io": 494,
+      "vc.hotjar.io": 325
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 364945,
+     "control": {
+      "page": 5460988,
+      "third_party": 3755965,
+      "listed": 2237890
+     },
+     "ablated": {
+      "page": 3741161,
+      "third_party": 2036221,
+      "listed": 518504
+     },
+     "n_aborted": 1,
+     "moved": {
+      "assets.qualified.com": 1313657,
+      "js.qualified.com": 364945,
+      "app.qualified.com": 15411,
+      "static.cloudflareinsights.com": 10495,
+      "messenger-assets.qualified.com": 9760,
+      "ws2.qualified.com": 4631,
+      "tracking.intentsify.io": 830,
+      "a.clarity.ms": -564,
+      "u.clarity.ms": 564,
+      "bat.bing.net": -514,
+      "o209747.ingest.us.sentry.io": 494,
+      "www.prnewswire.com": 82
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1283521,
+     1354882
+    ],
+    "third_party": [
+     1284149,
+     1354799
+    ],
+    "listed": [
+     1355277,
+     1354441
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1319201.5,
+     "sd": 50459.847012253216,
+     "se": 35680.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1319474,
+     "sd": 49957.09409082958,
+     "se": 35325.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1354859,
+     "sd": 591.1412690719537,
+     "se": 417.99999999999994
+    }
+   },
+   "own_mean": 364945
+  },
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 234651,
+     "control": {
+      "page": 5496039,
+      "third_party": 3792189,
+      "listed": 2238341
+     },
+     "ablated": {
+      "page": 5225054,
+      "third_party": 3521223,
+      "listed": 2003127
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 234651,
+      "fast.wistia.net": 35705,
+      "www.facebook.com": 973,
+      "app.qualified.com": -861,
+      "y.clarity.ms": -564,
+      "n.clarity.ms": 564,
+      "vc.hotjar.io": 325,
+      "assets.qualified.com": 149,
+      "cookiechimp.com": 56,
+      "ws2.qualified.com": -42,
+      "www.clarity.ms": 41,
+      "o209747.ingest.us.sentry.io": -25
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 234628,
+     "control": {
+      "page": 5429162,
+      "third_party": 3725012,
+      "listed": 2240060
+     },
+     "ablated": {
+      "page": 5224546,
+      "third_party": 3519524,
+      "listed": 2002311
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 234628,
+      "cookiechimp.com": -71575,
+      "fast.wistia.net": 35705,
+      "fast.wistia.com": 2689,
+      "script.hotjar.com": 2518,
+      "www.facebook.com": 973,
+      "i.clarity.ms": -564,
+      "prnewswire.com": -528,
+      "bat.bing.net": 514,
+      "www.googletagmanager.com": 406,
+      "www.prnewswire.com": -344,
+      "n.clarity.ms": 282
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     36334,
+     -30012
+    ],
+    "third_party": [
+     36315,
+     -29140
+    ],
+    "listed": [
+     563,
+     3121
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3161,
+     "sd": 46913.706504602684,
+     "se": 33173.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3587.5,
+     "sd": 46283.67436256547,
+     "se": 32727.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1842,
+     "sd": 1808.7791462751886,
+     "se": 1279.0
+    }
+   },
+   "own_mean": 234639.5
+  },
+  "cdn.optimizely.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 93862,
+     "control": {
+      "page": 5461249,
+      "third_party": 3756424,
+      "listed": 2238384
+     },
+     "ablated": {
+      "page": 5368844,
+      "third_party": 3664586,
+      "listed": 2147414
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.optimizely.com": 92015,
+      "script.hotjar.com": -2518,
+      "a20151573008.cdn.optimizely.com": 1847,
+      "app.qualified.com": -858,
+      "tracking.intentsify.io": 830,
+      "www.prnewswire.com": 567,
+      "i.clarity.ms": 564,
+      "logx.optimizely.com": 564,
+      "l.clarity.ms": -564,
+      "vc.hotjar.io": -325,
+      "content.hotjar.io": 242,
+      "ws.hotjar.com": 212
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 93862,
+     "control": {
+      "page": 5458888,
+      "third_party": 3755027,
+      "listed": 2237824
+     },
+     "ablated": {
+      "page": 5369692,
+      "third_party": 3665205,
+      "listed": 2144178
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.optimizely.com": 92015,
+      "a20151573008.cdn.optimizely.com": 1847,
+      "csp-reporting.cloudflare.com": -1715,
+      "cookiechimp.com": -1296,
+      "tracking.intentsify.io": -830,
+      "trk.prnewswire.com": -820,
+      "i.clarity.ms": 564,
+      "k.clarity.ms": -564,
+      "logx.optimizely.com": 564,
+      "px.ads.linkedin.com": -266,
+      "content.hotjar.io": -242,
+      "ws.hotjar.com": -212
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1457,
+     -4666
+    ],
+    "third_party": [
+     -2024,
+     -4040
+    ],
+    "listed": [
+     -2892,
+     -216
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -3061.5,
+     "sd": 2269.105660827631,
+     "se": 1604.4999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -3032,
+     "sd": 1425.5272708720797,
+     "se": 1007.9999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -1554,
+     "sd": 1892.2177464552012,
+     "se": 1338.0
+    }
+   },
+   "own_mean": 93862
+  }
+ },
+ "candidates": [
+  "js.qualified.com",
+  "connect.facebook.net",
+  "cdn.optimizely.com"
+ ],
+ "category": "news",
+ "domain": "prnewswire.com",
+ "n_blocked_tracking": 150.0,
+ "elapsed_s": 110.0
+}

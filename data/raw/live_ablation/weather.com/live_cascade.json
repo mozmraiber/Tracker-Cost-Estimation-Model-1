@@ -1,0 +1,384 @@
+{
+ "url": "https://weather.com",
+ "reps": 6,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256305,
+     "control": {
+      "page": 3564912,
+      "third_party": 2195094,
+      "listed": 1502204
+     },
+     "ablated": {
+      "page": 2961297,
+      "third_party": 1591474,
+      "listed": 1025237
+     },
+     "n_aborted": 3
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256283,
+     "control": {
+      "page": 3318950,
+      "third_party": 1949134,
+      "listed": 1382921
+     },
+     "ablated": {
+      "page": 3196845,
+      "third_party": 1827020,
+      "listed": 1134160
+     },
+     "n_aborted": 3
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 258049,
+     "control": {
+      "page": 3320036,
+      "third_party": 1950895,
+      "listed": 1384658
+     },
+     "ablated": {
+      "page": 3185781,
+      "third_party": 1815958,
+      "listed": 1125124
+     },
+     "n_aborted": 3
+    },
+    {
+     "rep": 3,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256283,
+     "control": {
+      "page": 3315657,
+      "third_party": 1946508,
+      "listed": 1379933
+     },
+     "ablated": {
+      "page": 2971189,
+      "third_party": 1602042,
+      "listed": 1035826
+     },
+     "n_aborted": 3
+    },
+    {
+     "rep": 4,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 257571,
+     "control": {
+      "page": 3571131,
+      "third_party": 2201325,
+      "listed": 1509531
+     },
+     "ablated": {
+      "page": 2961247,
+      "third_party": 1591433,
+      "listed": 1025249
+     },
+     "n_aborted": 3
+    },
+    {
+     "rep": 5,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256239,
+     "control": {
+      "page": 3332223,
+      "third_party": 1962408,
+      "listed": 1395701
+     },
+     "ablated": {
+      "page": 2961243,
+      "third_party": 1591435,
+      "listed": 1025220
+     },
+     "n_aborted": 3
+    }
+   ],
+   "diffs": {
+    "page": [
+     347310,
+     -134178,
+     -123794,
+     88185,
+     352313,
+     114741
+    ],
+    "third_party": [
+     347315,
+     -134169,
+     -123112,
+     88183,
+     352321,
+     114734
+    ],
+    "listed": [
+     220662,
+     -7522,
+     1485,
+     87824,
+     226711,
+     114242
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 6,
+     "mean": 107429.5,
+     "sd": 214370.18574116132,
+     "se": 87516.2618552499
+    },
+    "third_party": {
+     "n": 6,
+     "mean": 107545.33333333333,
+     "sd": 214224.09821741967,
+     "se": 87456.62187342427
+    },
+    "listed": {
+     "n": 6,
+     "mean": 107233.66666666667,
+     "sd": 101900.2604641748,
+     "se": 41600.60713232173
+    }
+   },
+   "own_mean": 256788.33333333334
+  },
+  "cdn.taboola.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 350435,
+     "control": {
+      "page": 3333980,
+      "third_party": 1964169,
+      "listed": 1397975
+     },
+     "ablated": {
+      "page": 3219121,
+      "third_party": 1849305,
+      "listed": 1007603
+     },
+     "n_aborted": 1
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 349679,
+     "control": {
+      "page": 3331750,
+      "third_party": 1963647,
+      "listed": 1397448
+     },
+     "ablated": {
+      "page": 3217809,
+      "third_party": 1847996,
+      "listed": 1006248
+     },
+     "n_aborted": 1
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 349679,
+     "control": {
+      "page": 3321256,
+      "third_party": 1951441,
+      "listed": 1385210
+     },
+     "ablated": {
+      "page": 3219132,
+      "third_party": 1849317,
+      "listed": 1007593
+     },
+     "n_aborted": 1
+    },
+    {
+     "rep": 3,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 349679,
+     "control": {
+      "page": 3320849,
+      "third_party": 1951030,
+      "listed": 1384804
+     },
+     "ablated": {
+      "page": 3219166,
+      "third_party": 1849354,
+      "listed": 1007567
+     },
+     "n_aborted": 1
+    },
+    {
+     "rep": 4,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 349679,
+     "control": {
+      "page": 3329736,
+      "third_party": 1959916,
+      "listed": 1393735
+     },
+     "ablated": {
+      "page": 3220636,
+      "third_party": 1850818,
+      "listed": 1009108
+     },
+     "n_aborted": 1
+    },
+    {
+     "rep": 5,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 347087,
+     "control": {
+      "page": 3296624,
+      "third_party": 1926829,
+      "listed": 1390394
+     },
+     "ablated": {
+      "page": 3187695,
+      "third_party": 1817896,
+      "listed": 1006347
+     },
+     "n_aborted": 1
+    }
+   ],
+   "diffs": {
+    "page": [
+     -235576,
+     -235738,
+     -247555,
+     -247996,
+     -240579,
+     -238158
+    ],
+    "third_party": [
+     -235571,
+     -234028,
+     -247555,
+     -248003,
+     -240581,
+     -238154
+    ],
+    "listed": [
+     39937,
+     41521,
+     27938,
+     27558,
+     34948,
+     36960
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 6,
+     "mean": -240933.66666666666,
+     "sd": 5607.999025202008,
+     "se": 2289.45601496173
+    },
+    "third_party": {
+     "n": 6,
+     "mean": -240648.66666666666,
+     "sd": 5960.32759726063,
+     "se": 2433.2935521862364
+    },
+    "listed": {
+     "n": 6,
+     "mean": 34810.333333333336,
+     "sd": 5929.267768170592,
+     "se": 2420.613430058129
+    }
+   },
+   "own_mean": 349373
+  }
+ },
+ "aa": {
+  "diffs": {
+   "page": [
+    -1139,
+    -675,
+    34142,
+    -740,
+    48058,
+    -277421
+   ],
+   "third_party": [
+    579,
+    -669,
+    34144,
+    -739,
+    49779,
+    -278091
+   ],
+   "listed": [
+    1065,
+    -695,
+    34200,
+    -1293,
+    47805,
+    -151421
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 6,
+    "mean": -32962.5,
+    "sd": 121590.13190016696,
+    "se": 49638.96348551878
+   },
+   "third_party": {
+    "n": 6,
+    "mean": -32499.5,
+    "sd": 122182.15072546399,
+    "se": 49880.65415886872
+   },
+   "listed": {
+    "n": 6,
+    "mean": -11723.166666666666,
+    "sd": 71501.00774790987,
+    "se": 29190.16417952763
+   }
+  }
+ }
+}

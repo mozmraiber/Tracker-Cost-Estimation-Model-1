@@ -1,0 +1,109 @@
+{
+ "url": "https://b-cdn.net/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "widget.trustpilot.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 76434,
+     "control": {
+      "page": 4837427,
+      "third_party": 1972523,
+      "listed": 405172
+     },
+     "ablated": {
+      "page": 4760733,
+      "third_party": 1896092,
+      "listed": 328738
+     },
+     "n_aborted": 2,
+     "moved": {
+      "widget.trustpilot.com": 76434,
+      "b-cdn.net": 263,
+      "bunny.net": -3,
+      "fonts.bunny.net": 0,
+      "consentcdn.cookiebot.com": 0,
+      "bunny-reddit.b-cdn.net": 0,
+      "consent.cookiebot.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 76434,
+     "control": {
+      "page": 4948058,
+      "third_party": 2083154,
+      "listed": 515779
+     },
+     "ablated": {
+      "page": 4760998,
+      "third_party": 1896094,
+      "listed": 328738
+     },
+     "n_aborted": 2,
+     "moved": {
+      "consent.cookiebot.com": 110611,
+      "widget.trustpilot.com": 76434,
+      "bunny.net": 21,
+      "consentcdn.cookiebot.com": -4,
+      "fonts.bunny.net": -2,
+      "b-cdn.net": 0,
+      "bunny-reddit.b-cdn.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     260,
+     110626
+    ],
+    "third_party": [
+     -3,
+     110626
+    ],
+    "listed": [
+     0,
+     110607
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 55443,
+     "sd": 78040.5470124345,
+     "se": 55182.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 55311.5,
+     "sd": 78226.51609588656,
+     "se": 55314.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 55303.5,
+     "sd": 78210.95974670046,
+     "se": 55303.5
+    }
+   },
+   "own_mean": 76434
+  }
+ },
+ "candidates": [
+  "widget.trustpilot.com"
+ ],
+ "category": "infrastructure",
+ "domain": "b-cdn.net",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 31.8
+}

@@ -1,0 +1,401 @@
+{
+ "url": "https://amazonalexa.com/",
+ "reps": 3,
+ "aa_reps": 2,
+ "hosts": {
+  "s.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23952,
+     "control": {
+      "page": 7407993,
+      "third_party": 7407678,
+      "listed": 57112
+     },
+     "ablated": {
+      "page": 7352012,
+      "third_party": 7351697,
+      "listed": 4422
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s.amazon-adsystem.com": 23952,
+      "cm.g.doubleclick.net": 7622,
+      "dsum-sec.casalemedia.com": 2308,
+      "dpm.demdex.net": 1782,
+      "www.amazon.com": 1558,
+      "capi.connatix.com": 1428,
+      "x.bidswitch.net": 1424,
+      "rtb-csync.smartadserver.com": 1294,
+      "uipglob.semasio.net": 1271,
+      "www.imdb.com": 1258,
+      "user-sync.fwmrm.net": 962,
+      "lciapi.ninthdecimal.com": 926
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 23952,
+     "control": {
+      "page": 7404577,
+      "third_party": 7404262,
+      "listed": 56162
+     },
+     "ablated": {
+      "page": 7350636,
+      "third_party": 7350636,
+      "listed": 4422
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s.amazon-adsystem.com": 23952,
+      "cm.g.doubleclick.net": 6473,
+      "dsum-sec.casalemedia.com": 2304,
+      "dpm.demdex.net": 1781,
+      "capi.connatix.com": 1428,
+      "x.bidswitch.net": 1424,
+      "rtb-csync.smartadserver.com": 1294,
+      "uipglob.semasio.net": 1271,
+      "www.imdb.com": 1258,
+      "user-sync.fwmrm.net": 962,
+      "lciapi.ninthdecimal.com": 926,
+      "cookie-matching.mediarithmics.com": 914
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23952,
+     "control": {
+      "page": 7579692,
+      "third_party": 7579377,
+      "listed": 53507
+     },
+     "ablated": {
+      "page": 7355358,
+      "third_party": 7355043,
+      "listed": 4422
+     },
+     "n_aborted": 1,
+     "moved": {
+      "m.media-amazon.com": 176672,
+      "s.amazon-adsystem.com": 23952,
+      "cm.g.doubleclick.net": 4906,
+      "www.amazon.com": -3337,
+      "dsum-sec.casalemedia.com": 2306,
+      "dpm.demdex.net": 1782,
+      "x.bidswitch.net": 1474,
+      "capi.connatix.com": 1428,
+      "rtb-csync.smartadserver.com": 1294,
+      "www.imdb.com": 1278,
+      "user-sync.fwmrm.net": 962,
+      "lciapi.ninthdecimal.com": 951
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     32029,
+     29989,
+     200382
+    ],
+    "third_party": [
+     32029,
+     29674,
+     200382
+    ],
+    "listed": [
+     28738,
+     27788,
+     25133
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": 87466.66666666667,
+     "sd": 97792.866694526,
+     "se": 56460.73791090978
+    },
+    "third_party": {
+     "n": 3,
+     "mean": 87361.66666666667,
+     "sd": 97885.5623487618,
+     "se": 56514.255771835524
+    },
+    "listed": {
+     "n": 3,
+     "mean": 27219.666666666668,
+     "sd": 1868.4909240703669,
+     "se": 1078.773737990399
+    }
+   },
+   "own_mean": 23952
+  },
+  "images-na.ssl-images-amazon.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 4422,
+     "control": {
+      "page": 7402967,
+      "third_party": 7402652,
+      "listed": 52000
+     },
+     "ablated": {
+      "page": 7380625,
+      "third_party": 7380625,
+      "listed": 49265
+     },
+     "n_aborted": 1,
+     "moved": {
+      "m.media-amazon.com": 16330,
+      "images-na.ssl-images-amazon.com": 4422,
+      "www.amazon.com": 2584,
+      "cm.g.doubleclick.net": -1257,
+      "dsum-sec.casalemedia.com": -1043,
+      "cookie-matching.mediarithmics.com": 378,
+      "pixel.rubiconproject.com": 328,
+      "amazonalexa.com": 315,
+      "usersync.gumgum.com": 312,
+      "x.bidswitch.net": -50,
+      "sync.rfp.fout.jp": 25,
+      "uipglob.semasio.net": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 4176,
+     "control": {
+      "page": 7386312,
+      "third_party": 7385997,
+      "listed": 53255
+     },
+     "ablated": {
+      "page": 7381198,
+      "third_party": 7381198,
+      "listed": 48608
+     },
+     "n_aborted": 1,
+     "moved": {
+      "images-na.ssl-images-amazon.com": 4176,
+      "cm.g.doubleclick.net": -1277,
+      "www.imdb.com": 1258,
+      "dpm.demdex.net": 929,
+      "ih.adscale.de": 827,
+      "uipglob.semasio.net": -616,
+      "pi.ispot.tv": 572,
+      "sb.scorecardresearch.com": -431,
+      "amazonalexa.com": 315,
+      "cookie-matching.mediarithmics.com": 314,
+      "usersync.gumgum.com": -312,
+      "sync.taboola.com": -291
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 4176,
+     "control": {
+      "page": 7560744,
+      "third_party": 7560429,
+      "listed": 50838
+     },
+     "ablated": {
+      "page": 7554270,
+      "third_party": 7553955,
+      "listed": 43113
+     },
+     "n_aborted": 1,
+     "moved": {
+      "images-na.ssl-images-amazon.com": 4176,
+      "cm.g.doubleclick.net": 2406,
+      "www.amazon.com": -1612,
+      "www.imdb.com": -1258,
+      "dsum-sec.casalemedia.com": 1039,
+      "dpm.demdex.net": 929,
+      "uipglob.semasio.net": -615,
+      "capi.connatix.com": 571,
+      "x.bidswitch.net": -565,
+      "ih.adscale.de": 414,
+      "usersync.gumgum.com": 312,
+      "m.media-amazon.com": 297
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     17920,
+     938,
+     2298
+    ],
+    "third_party": [
+     17605,
+     623,
+     2298
+    ],
+    "listed": [
+     -1687,
+     471,
+     3549
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": 7052,
+     "sd": 9436.496595665152,
+     "se": 5448.163849714263
+    },
+    "third_party": {
+     "n": 3,
+     "mean": 6842,
+     "sd": 9358.580715044349,
+     "se": 5403.179095063695
+    },
+    "listed": {
+     "n": 3,
+     "mean": 777.6666666666666,
+     "sd": 2631.436363154795,
+     "se": 1519.2604926227907
+    }
+   },
+   "own_mean": 4258
+  }
+ },
+ "candidates": [
+  "s.amazon-adsystem.com",
+  "images-na.ssl-images-amazon.com"
+ ],
+ "aa": {
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 0,
+    "control": {
+     "page": 7338506,
+     "third_party": 7338191,
+     "listed": 56140
+    },
+    "ablated": {
+     "page": 7334936,
+     "third_party": 7334621,
+     "listed": 54351
+    },
+    "n_aborted": 0,
+    "moved": {
+     "cm.g.doubleclick.net": 2334,
+     "www.amazon.com": 1691,
+     "x.bidswitch.net": -834,
+     "cookie-matching.mediarithmics.com": 378,
+     "usersync.gumgum.com": 312,
+     "m.media-amazon.com": -263,
+     "geo.ads.audio.thisisdax.com": -25,
+     "us-u.openx.net": -25,
+     "odr.mookie1.com": -25,
+     "images-na.ssl-images-amazon.com": 21,
+     "dsum-sec.casalemedia.com": 4,
+     "uipglob.semasio.net": 1
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 0,
+    "control": {
+     "page": 7406255,
+     "third_party": 7405940,
+     "listed": 57721
+    },
+    "ablated": {
+     "page": 7581792,
+     "third_party": 7581477,
+     "listed": 56499
+    },
+    "n_aborted": 0,
+    "moved": {
+     "m.media-amazon.com": -176715,
+     "cm.g.doubleclick.net": 1209,
+     "www.amazon.com": -44,
+     "odr.mookie1.com": 25,
+     "dsum-sec.casalemedia.com": -10,
+     "uipglob.semasio.net": -1,
+     "dpm.demdex.net": -1,
+     "x.bidswitch.net": 0,
+     "d3exwi9yck4kcs.cloudfront.net": 0,
+     "usersync.samplicio.us": 0,
+     "id5-sync.com": 0,
+     "capi.connatix.com": 0
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    3570,
+    -175537
+   ],
+   "third_party": [
+    3570,
+    -175537
+   ],
+   "listed": [
+    1789,
+    1222
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": -85983.5,
+    "sd": 126647.77425797896,
+    "se": 89553.49999999999
+   },
+   "third_party": {
+    "n": 2,
+    "mean": -85983.5,
+    "sd": 126647.77425797896,
+    "se": 89553.49999999999
+   },
+   "listed": {
+    "n": 2,
+    "mean": 1505.5,
+    "sd": 400.92954493277244,
+    "se": 283.5
+   }
+  }
+ },
+ "category": "productivity",
+ "domain": "amazonalexa.com",
+ "n_blocked_tracking": 410.0,
+ "elapsed_s": 123.8
+}

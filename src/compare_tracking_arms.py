@@ -10,6 +10,17 @@ Reads the two output directories produced by firefox_crawl_500_tracking.py
       and CPU seconds on each side, and the deltas. This is the "what did
       blocking save on this page" table.
 
+      It carries the byte delta twice. `bytes_saved` is the whole page's, and
+      is what a user would notice; `bytes_saved_tracking` counts only requests
+      the Disconnect list matches, on either side. The second is the quieter
+      instrument by a factor of three -- a page's two loads differ mostly in
+      first-party media, carousels and lazy images, and none of that is in it
+      -- at the cost of missing whatever a blocked tracker would have pulled
+      in from a host the list does not name. Per page the two have standard
+      deviations of 0.35 MB and 1.21 MB, and the pages ETP never touched put
+      their churn at 13 kB and 55 kB. `tests/top500.py` bounds the estimator
+      against both.
+
   blocked_observed_bytes.csv
       One row per request the blocking arm refused, annotated with the byte
       size that same request actually transferred in the control arm. This is
@@ -63,9 +74,11 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 # nsresults that mean "the URL classifier stopped this", split by the
-# protection responsible. Cryptomining and fingerprinting are active in *both*
-# arms (that is ETP Standard), so they must not be counted as savings from
-# private browsing.
+# protection responsible. The control arm blocks nothing at all, so both
+# groups below are real savings; they are kept apart because the estimator is
+# a tracking-content model and the analyses downstream ask only about
+# protection=="tracking". Cryptomining and fingerprinting blocks are a handful
+# of requests, reported on their own rather than folded in.
 TRACKING_MARKERS = (
     "NS_ERROR_TRACKING_URI",
     "NS_ERROR_SOCIALTRACKING_URI",
@@ -75,6 +88,59 @@ OTHER_BLOCK_MARKERS = (
     "NS_ERROR_CRYPTOMINING_URI",
     "NS_ERROR_FINGERPRINTING_URI",
 )
+
+
+from compare_estimate_vs_etp import is_third_party
+
+try:
+    import disconnect
+except ImportError:  # pragma: no cover - the column is simply absent
+    disconnect = None
+
+_IS_TRACKER: dict[str, bool] = {}
+
+
+def _is_tracker(url: str) -> bool:
+    """Whether the Disconnect list names this URL, memoised.
+
+    The same URLs recur across both arms of a page and across pages, and the
+    lookup is the only per-request cost this script adds, so the cache earns
+    its keep. Returns False when the extension is not installed, which leaves
+    the tracking columns at zero rather than failing a run that is mostly
+    about the other columns.
+    """
+    if disconnect is None:
+        return False
+    hit = _IS_TRACKER.get(url)
+    if hit is None:
+        try:
+            hit = bool(disconnect.is_tracker(url))
+        except Exception:
+            hit = False
+        _IS_TRACKER[url] = hit
+    return hit
+
+
+def _unlisted_tp_bytes(observations: list[tuple[str, int]],
+                       page_url: str) -> int:
+    """Transfer bytes of third-party requests the Disconnect list does *not* name.
+
+    The third instrument, between the two the file already carries. The
+    whole-page delta is complete and drowns in first-party media; the
+    Disconnect-only delta is quiet and cannot see a blocked tracker's subtree
+    where it lands on a host no list names -- ad creatives, iframes, vendor
+    CDNs -- which is why `FOLLOWUP_BYTES_PER_REQUEST` is documented as a lower
+    bound. This counts exactly that missing part: everything third-party that
+    the list does not name, and none of the first-party video and imagery that
+    makes the whole-page delta unreadable.
+    """
+    return sum(size for url, size in observations
+               if not _is_tracker(url) and is_third_party(url, page_url))
+
+
+def _tracker_bytes(observations: list[tuple[str, int]]) -> int:
+    """Transfer bytes of the Disconnect-matched requests in one arm's HAR."""
+    return sum(size for url, size in observations if _is_tracker(url))
 
 
 def _strip_query(url: str) -> str:
@@ -153,6 +219,9 @@ PAIRED_COLUMNS = [
     "n_requests_normal", "n_requests_private", "n_requests_delta",
     "transfer_bytes_normal", "transfer_bytes_private",
     "bytes_saved", "pct_bytes_saved",
+    "tracker_bytes_normal", "tracker_bytes_private", "bytes_saved_tracking",
+    "unlisted_tp_bytes_normal", "unlisted_tp_bytes_private",
+    "bytes_saved_unlisted_tp",
     "cpu_s_normal", "cpu_s_private", "cpu_s_saved",
     "n_blocked_tracking", "n_blocked_other",
     "blocked_observed_bytes", "blocked_matched", "blocked_unmatched",
@@ -166,19 +235,16 @@ BLOCKED_COLUMNS = [
 ]
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser(
-        description=__doc__,
-        formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--normal", required=True, help="Control arm directory.")
-    ap.add_argument("--private", required=True, help="Blocking arm directory.")
-    ap.add_argument("--out", required=True, help="Where to write the tables.")
-    args = ap.parse_args()
+def compare(normal_dir: Path,
+            private_dir: Path) -> tuple[list[dict], list[dict]]:
+    """The paired and blocked rows for one pair of arm directories.
 
-    normal_dir, private_dir = Path(args.normal), Path(args.private)
-    out_dir = Path(args.out)
-    out_dir.mkdir(parents=True, exist_ok=True)
-
+    Split out of `main` so a caller with several repetitions of the same
+    crawl can run it once per repetition and pool the results --
+    `src/pool_tracking_reps.py` does exactly that -- without a second copy
+    of the matching rules, which are the part of this script that would be
+    expensive to get subtly different.
+    """
     n_pages, p_pages = load_pages(normal_dir), load_pages(private_dir)
     shared = sorted(set(n_pages) & set(p_pages))
     print(f"control arm:  {len(n_pages)} pages")
@@ -200,6 +266,15 @@ def main() -> int:
         n_slug = _slug_from_meta(n, normal_dir)
         obs = load_har_sizes(
             normal_dir / f"har_{idx:04d}_{n_slug}.json") if n_slug else []
+        # The blocking arm's HAR is read for one thing: the tracker-only byte
+        # delta. A blocked request is in it with no transfer, so it costs
+        # nothing on that side and the delta is what blocking actually removed
+        # from the Disconnect-matched population.
+        p_obs = load_har_sizes(
+            private_dir / f"har_{idx:04d}_{slug}.json") if slug else []
+        tracker_normal, tracker_private = _tracker_bytes(obs), _tracker_bytes(p_obs)
+        unlisted_normal = _unlisted_tp_bytes(obs, n["url"])
+        unlisted_private = _unlisted_tp_bytes(p_obs, n["url"])
 
         observed_total = 0
         n_matched = 0
@@ -286,6 +361,12 @@ def main() -> int:
             "transfer_bytes_private": pb,
             "bytes_saved": nb - pb,
             "pct_bytes_saved": round(100.0 * (nb - pb) / nb, 2) if nb else "",
+            "tracker_bytes_normal": tracker_normal,
+            "tracker_bytes_private": tracker_private,
+            "bytes_saved_tracking": tracker_normal - tracker_private,
+            "unlisted_tp_bytes_normal": unlisted_normal,
+            "unlisted_tp_bytes_private": unlisted_private,
+            "bytes_saved_unlisted_tp": unlisted_normal - unlisted_private,
             "cpu_s_normal": ncpu,
             "cpu_s_private": pcpu,
             "cpu_s_saved": (round(ncpu - pcpu, 3)
@@ -300,6 +381,25 @@ def main() -> int:
             "t_start_normal": n.get("t_start_iso"),
             "t_start_private": p.get("t_start_iso"),
         })
+
+    return paired_rows, blocked_rows
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--normal", required=True, help="Control arm directory.")
+    ap.add_argument("--private", required=True, help="Blocking arm directory.")
+    ap.add_argument("--out", required=True, help="Where to write the tables.")
+    args = ap.parse_args()
+
+    normal_dir, private_dir = Path(args.normal), Path(args.private)
+    out_dir = Path(args.out)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    paired_rows, blocked_rows = compare(normal_dir, private_dir)
+
 
     with open(out_dir / "paired_pages.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=PAIRED_COLUMNS, extrasaction="ignore")
@@ -355,9 +455,11 @@ def main() -> int:
                 r["observed_bytes"] for r in matched if r["observed_bytes"] != ""),
         },
         "caveats": [
-            "Cryptomining and fingerprinting blocking is active in BOTH arms "
-            "(ETP Standard), so those blocks are not savings from private "
-            "browsing; use protection=='tracking' for that.",
+            "The control arm blocks nothing: tracking, cryptomining and "
+            "fingerprinting protection are all off there, so every request "
+            "the page made has an observed size. The delta is therefore all "
+            "of ETP Standard's content blocking; use protection=='tracking' "
+            "to restrict it to tracking content alone.",
             "The two arms are separate page loads, so ad rotation and content "
             "churn contribute to per-page deltas, including negative ones.",
             "Unmatched blocked requests have no observed size; they are "

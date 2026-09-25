@@ -1,0 +1,109 @@
+{
+ "url": "https://onlyfans.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "static.cloudflareinsights.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 1553718,
+      "third_party": 11476,
+      "listed": 11476
+     },
+     "ablated": {
+      "page": 1542241,
+      "third_party": 0,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "cloudflareinsights.com": 981,
+      "onlyfans.com": 1,
+      "texts.onlyfans.com": 0,
+      "cdn2.onlyfans.com": 0,
+      "static2.onlyfans.com": 0,
+      "ws2.onlyfans.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 1553716,
+      "third_party": 11476,
+      "listed": 11476
+     },
+     "ablated": {
+      "page": 1542242,
+      "third_party": 0,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "cloudflareinsights.com": 981,
+      "onlyfans.com": -2,
+      "texts.onlyfans.com": 0,
+      "cdn2.onlyfans.com": 0,
+      "static2.onlyfans.com": 0,
+      "ws2.onlyfans.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     982,
+     979
+    ],
+    "third_party": [
+     981,
+     981
+    ],
+    "listed": [
+     981,
+     981
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 980.5,
+     "sd": 2.1213203435596424,
+     "se": 1.4999999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 981,
+     "sd": 0.0,
+     "se": 0.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 981,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 10495
+  }
+ },
+ "candidates": [
+  "static.cloudflareinsights.com"
+ ],
+ "category": "entertainment",
+ "domain": "onlyfans.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 29.5
+}

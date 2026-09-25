@@ -1,0 +1,462 @@
+{
+ "url": "https://oxylabs.io/",
+ "hosts": [
+  "connect.facebook.net",
+  "us-assets.i.posthog.com",
+  "snap.licdn.com",
+  "static.ads-twitter.com",
+  "www.redditstatic.com",
+  "www.googleadservices.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "www.redditstatic.com",
+    "snap.licdn.com",
+    "us-assets.i.posthog.com",
+    "connect.facebook.net",
+    "www.googleadservices.com",
+    "static.ads-twitter.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 13672554,
+      "third_party": 1169775,
+      "listed": 791154
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "www.redditstatic.com"
+     ],
+     "bytes": {
+      "page": 13584132,
+      "third_party": 1083569,
+      "listed": 708444
+     },
+     "own": 25252,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 88422,
+      "third_party": 86206,
+      "listed": 82710
+     },
+     "cascade": {
+      "page": 63170,
+      "third_party": 60954,
+      "listed": 57458
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "www.redditstatic.com",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 13586557,
+      "third_party": 1085566,
+      "listed": 711534
+     },
+     "own": 73035,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 85997,
+      "third_party": 84209,
+      "listed": 79620
+     },
+     "cascade": {
+      "page": 12962,
+      "third_party": 11174,
+      "listed": 6585
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "www.redditstatic.com",
+      "snap.licdn.com",
+      "us-assets.i.posthog.com"
+     ],
+     "bytes": {
+      "page": 13317805,
+      "third_party": 948295,
+      "listed": 570143
+     },
+     "own": 159793,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 354749,
+      "third_party": 221480,
+      "listed": 221011
+     },
+     "cascade": {
+      "page": 194956,
+      "third_party": 61687,
+      "listed": 61218
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "www.redditstatic.com",
+      "snap.licdn.com",
+      "us-assets.i.posthog.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3527307,
+      "third_party": 769105,
+      "listed": 392044
+     },
+     "own": 392257,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 8,
+     "aborted_types": {
+      "script": 8,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 10145247,
+      "third_party": 400670,
+      "listed": 399110
+     },
+     "cascade": {
+      "page": 9752990,
+      "third_party": 8413,
+      "listed": 6853
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "www.redditstatic.com",
+      "snap.licdn.com",
+      "us-assets.i.posthog.com",
+      "connect.facebook.net",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 13214020,
+      "third_party": 746171,
+      "listed": 368019
+     },
+     "own": 416175,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "n_aborted_code": 9,
+     "aborted_types": {
+      "script": 9,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 458534,
+      "third_party": 423604,
+      "listed": 423135
+     },
+     "cascade": {
+      "page": 42359,
+      "third_party": 7429,
+      "listed": 6960
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "www.redditstatic.com",
+      "snap.licdn.com",
+      "us-assets.i.posthog.com",
+      "connect.facebook.net",
+      "www.googleadservices.com",
+      "static.ads-twitter.com"
+     ],
+     "bytes": {
+      "page": 13205859,
+      "third_party": 705105,
+      "listed": 326953
+     },
+     "own": 451927,
+     "n_aborted": 12,
+     "n_aborted_casc": 12,
+     "n_aborted_code": 11,
+     "aborted_types": {
+      "script": 11,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 466695,
+      "third_party": 464670,
+      "listed": 464201
+     },
+     "cascade": {
+      "page": 14768,
+      "third_party": 12743,
+      "listed": 12274
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "www.redditstatic.com",
+    "connect.facebook.net",
+    "us-assets.i.posthog.com",
+    "www.googleadservices.com",
+    "snap.licdn.com",
+    "static.ads-twitter.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 13668733,
+      "third_party": 1165876,
+      "listed": 790753
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "www.redditstatic.com"
+     ],
+     "bytes": {
+      "page": 13646160,
+      "third_party": 1140017,
+      "listed": 764894
+     },
+     "own": 25252,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 22573,
+      "third_party": 25859,
+      "listed": 25859
+     },
+     "cascade": {
+      "page": -2679,
+      "third_party": 607,
+      "listed": 607
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "www.redditstatic.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 972422,
+      "third_party": 802874,
+      "listed": 0
+     },
+     "own": 257714,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 12696311,
+      "third_party": 363002,
+      "listed": 790753
+     },
+     "cascade": {
+      "page": 12438597,
+      "third_party": 105288,
+      "listed": 533039
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "www.redditstatic.com",
+      "connect.facebook.net",
+      "us-assets.i.posthog.com"
+     ],
+     "bytes": {
+      "page": 3582694,
+      "third_party": 822371,
+      "listed": 443750
+     },
+     "own": 344472,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 10086039,
+      "third_party": 343505,
+      "listed": 347003
+     },
+     "cascade": {
+      "page": 9741567,
+      "third_party": -967,
+      "listed": 2531
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "www.redditstatic.com",
+      "connect.facebook.net",
+      "us-assets.i.posthog.com",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 3556308,
+      "third_party": 797798,
+      "listed": 419641
+     },
+     "own": 368390,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 10112425,
+      "third_party": 368078,
+      "listed": 371112
+     },
+     "cascade": {
+      "page": 9744035,
+      "third_party": -312,
+      "listed": 2722
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "www.redditstatic.com",
+      "connect.facebook.net",
+      "us-assets.i.posthog.com",
+      "www.googleadservices.com",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 13244045,
+      "third_party": 743564,
+      "listed": 368441
+     },
+     "own": 416173,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "n_aborted_code": 9,
+     "aborted_types": {
+      "script": 9,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 424688,
+      "third_party": 422312,
+      "listed": 422312
+     },
+     "cascade": {
+      "page": 8515,
+      "third_party": 6139,
+      "listed": 6139
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "www.redditstatic.com",
+      "connect.facebook.net",
+      "us-assets.i.posthog.com",
+      "www.googleadservices.com",
+      "snap.licdn.com",
+      "static.ads-twitter.com"
+     ],
+     "bytes": {
+      "page": 13205922,
+      "third_party": 705334,
+      "listed": 326713
+     },
+     "own": 451925,
+     "n_aborted": 12,
+     "n_aborted_casc": 12,
+     "n_aborted_code": 11,
+     "aborted_types": {
+      "script": 11,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 462811,
+      "third_party": 460542,
+      "listed": 464040
+     },
+     "cascade": {
+      "page": 10886,
+      "third_party": 8617,
+      "listed": 12115
+     }
+    }
+   ]
+  }
+ ],
+ "category": "productivity",
+ "domain": "oxylabs.io",
+ "elapsed_s": 106.3
+}

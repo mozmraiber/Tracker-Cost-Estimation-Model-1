@@ -1,0 +1,111 @@
+{
+ "url": "https://sedo.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "widget.trustpilot.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 8480,
+     "control": {
+      "page": 3924261,
+      "third_party": 240747,
+      "listed": 8480
+     },
+     "ablated": {
+      "page": 3914819,
+      "third_party": 232334,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "widget.trustpilot.com": 8480,
+      "sedo.com": 1029,
+      "api.usercentrics.eu": -117,
+      "consent-api.service.consent.usercentrics.eu": 25,
+      "app.usercentrics.eu": 25,
+      "uct.service.usercentrics.eu": 0,
+      "cdn.sedo.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 8480,
+     "control": {
+      "page": 3930232,
+      "third_party": 240724,
+      "listed": 8480
+     },
+     "ablated": {
+      "page": 3915782,
+      "third_party": 232289,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "widget.trustpilot.com": 8480,
+      "sedo.com": 6015,
+      "api.usercentrics.eu": -70,
+      "app.usercentrics.eu": 50,
+      "uct.service.usercentrics.eu": -25,
+      "consent-api.service.consent.usercentrics.eu": 0,
+      "cdn.sedo.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     962,
+     5970
+    ],
+    "third_party": [
+     -67,
+     -45
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3466,
+     "sd": 3541.19076018223,
+     "se": 2504.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -56,
+     "sd": 15.556349186104045,
+     "se": 10.999999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 8480
+  }
+ },
+ "candidates": [
+  "widget.trustpilot.com"
+ ],
+ "category": "shopping",
+ "domain": "sedo.com",
+ "n_blocked_tracking": 18.0,
+ "elapsed_s": 30.8
+}

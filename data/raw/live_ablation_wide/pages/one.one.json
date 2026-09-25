@@ -1,0 +1,113 @@
+{
+ "url": "https://one.one/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1653,
+     "control": {
+      "page": 7445163,
+      "third_party": 7444960,
+      "listed": 121895
+     },
+     "ablated": {
+      "page": 7443121,
+      "third_party": 7442918,
+      "listed": 120359
+     },
+     "n_aborted": 6,
+     "moved": {
+      "pagead2.googlesyndication.com": 1653,
+      "www.one.com": 530,
+      "consent.cookiebot.eu": -117,
+      "sst.one.com": -9,
+      "www.googletagmanager.com": -9,
+      "js.hsforms.net": -6,
+      "one.one": 0,
+      "consentcdn.cookiebot.eu": 0,
+      "storefront.group-cdn.one": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1653,
+     "control": {
+      "page": 7444731,
+      "third_party": 7444528,
+      "listed": 121524
+     },
+     "ablated": {
+      "page": 7442958,
+      "third_party": 7442755,
+      "listed": 120176
+     },
+     "n_aborted": 6,
+     "moved": {
+      "pagead2.googlesyndication.com": 1653,
+      "www.one.com": 425,
+      "consent.cookiebot.eu": -304,
+      "consentcdn.cookiebot.eu": -1,
+      "js.hsforms.net": 0,
+      "one.one": 0,
+      "sst.one.com": 0,
+      "storefront.group-cdn.one": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     389,
+     120
+    ],
+    "third_party": [
+     389,
+     120
+    ],
+    "listed": [
+     -117,
+     -305
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 254.5,
+     "sd": 190.21172413918129,
+     "se": 134.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 254.5,
+     "sd": 190.21172413918129,
+     "se": 134.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -211,
+     "sd": 132.93607486307093,
+     "se": 93.99999999999999
+    }
+   },
+   "own_mean": 1653
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com"
+ ],
+ "category": "infrastructure",
+ "domain": "one.one",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 37.5
+}

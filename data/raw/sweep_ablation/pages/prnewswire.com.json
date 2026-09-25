@@ -1,0 +1,404 @@
+{
+ "url": "https://prnewswire.com/",
+ "hosts": [
+  "js.qualified.com",
+  "connect.facebook.net",
+  "cdn.optimizely.com",
+  "browser.sentry-cdn.com",
+  "snap.licdn.com",
+  "static.cloudflareinsights.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "snap.licdn.com",
+    "cdn.optimizely.com",
+    "connect.facebook.net",
+    "js.qualified.com",
+    "static.cloudflareinsights.com",
+    "browser.sentry-cdn.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5429216,
+      "third_party": 3725650,
+      "listed": 2238746
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 5435857,
+      "third_party": 3731755,
+      "listed": 2211857
+     },
+     "own": 23918,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": -6641,
+      "third_party": -6105,
+      "listed": 26889
+     },
+     "cascade": {
+      "page": -30559,
+      "third_party": -30023,
+      "listed": 2971
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5339996,
+      "third_party": 3635458,
+      "listed": 2116075
+     },
+     "own": 117800,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 89220,
+      "third_party": 90192,
+      "listed": 122671
+     },
+     "cascade": {
+      "page": -28580,
+      "third_party": -27608,
+      "listed": 4871
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 5037233,
+      "third_party": 3332445,
+      "listed": 1881461
+     },
+     "own": 352545,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 391983,
+      "third_party": 393205,
+      "listed": 357285
+     },
+     "cascade": {
+      "page": 39438,
+      "third_party": 40660,
+      "listed": 4740
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net",
+      "js.qualified.com"
+     ],
+     "bytes": {
+      "page": 3386150,
+      "third_party": 1682369,
+      "listed": 162717
+     },
+     "own": 717492,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 2043066,
+      "third_party": 2043281,
+      "listed": 2076029
+     },
+     "cascade": {
+      "page": 1325574,
+      "third_party": 1325789,
+      "listed": 1358537
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net",
+      "js.qualified.com",
+      "static.cloudflareinsights.com"
+     ],
+     "bytes": {
+      "page": 3337439,
+      "third_party": 1634097,
+      "listed": 150192
+     },
+     "own": 738482,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 2091777,
+      "third_party": 2091553,
+      "listed": 2088554
+     },
+     "cascade": {
+      "page": 1353295,
+      "third_party": 1353071,
+      "listed": 1350072
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "snap.licdn.com",
+      "cdn.optimizely.com",
+      "connect.facebook.net",
+      "js.qualified.com",
+      "static.cloudflareinsights.com",
+      "browser.sentry-cdn.com"
+     ],
+     "bytes": {
+      "page": 3313343,
+      "third_party": 1609776,
+      "listed": 125036
+     },
+     "own": 764171,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 2115873,
+      "third_party": 2115874,
+      "listed": 2113710
+     },
+     "cascade": {
+      "page": 1351702,
+      "third_party": 1351703,
+      "listed": 1349539
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "snap.licdn.com",
+    "js.qualified.com",
+    "connect.facebook.net",
+    "static.cloudflareinsights.com",
+    "cdn.optimizely.com",
+    "browser.sentry-cdn.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5461466,
+      "third_party": 3757653,
+      "listed": 2238275
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 5365904,
+      "third_party": 3661505,
+      "listed": 2211331
+     },
+     "own": 23918,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 95562,
+      "third_party": 96148,
+      "listed": 26944
+     },
+     "cascade": {
+      "page": 71644,
+      "third_party": 72230,
+      "listed": 3026
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com"
+     ],
+     "bytes": {
+      "page": 3751175,
+      "third_party": 2046235,
+      "listed": 491998
+     },
+     "own": 388866,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 1710291,
+      "third_party": 1711418,
+      "listed": 1746277
+     },
+     "cascade": {
+      "page": 1321425,
+      "third_party": 1322552,
+      "listed": 1357411
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3445910,
+      "third_party": 1741295,
+      "listed": 255400
+     },
+     "own": 623567,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 2015556,
+      "third_party": 2016358,
+      "listed": 1982875
+     },
+     "cascade": {
+      "page": 1391989,
+      "third_party": 1392791,
+      "listed": 1359308
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net",
+      "static.cloudflareinsights.com"
+     ],
+     "bytes": {
+      "page": 3468552,
+      "third_party": 1764340,
+      "listed": 245595
+     },
+     "own": 644557,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 1992914,
+      "third_party": 1993313,
+      "listed": 1992680
+     },
+     "cascade": {
+      "page": 1348357,
+      "third_party": 1348756,
+      "listed": 1348123
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net",
+      "static.cloudflareinsights.com",
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 3304972,
+      "third_party": 1601701,
+      "listed": 150643
+     },
+     "own": 738439,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 2156494,
+      "third_party": 2155952,
+      "listed": 2087632
+     },
+     "cascade": {
+      "page": 1418055,
+      "third_party": 1417513,
+      "listed": 1349193
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "snap.licdn.com",
+      "js.qualified.com",
+      "connect.facebook.net",
+      "static.cloudflareinsights.com",
+      "cdn.optimizely.com",
+      "browser.sentry-cdn.com"
+     ],
+     "bytes": {
+      "page": 3278294,
+      "third_party": 1575214,
+      "listed": 125032
+     },
+     "own": 764128,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 2183172,
+      "third_party": 2182439,
+      "listed": 2113243
+     },
+     "cascade": {
+      "page": 1419044,
+      "third_party": 1418311,
+      "listed": 1349115
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "prnewswire.com",
+ "elapsed_s": 109.4
+}

@@ -1,0 +1,331 @@
+{
+ "url": "https://uol.com.br/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 255277,
+     "control": {
+      "page": 4591270,
+      "third_party": 3876153,
+      "listed": 925321
+     },
+     "ablated": {
+      "page": 5545595,
+      "third_party": 3528328,
+      "listed": 645157
+     },
+     "n_aborted": 2,
+     "moved": {
+      "video27.mais.uol.com.br": -1430137,
+      "securepubads.g.doubleclick.net": 255277,
+      "video47.mais.uol.com.br": 130566,
+      "fundingchoicesmessages.google.com": 74343,
+      "ib.adnxs.com": 7986,
+      "conteudo.imguol.com.br": -6771,
+      "fastlane.rubiconproject.com": 6130,
+      "prg.smartadserver.com": 5358,
+      "s.seedtag.com": 4280,
+      "api.mais.uol.com.br": -2725,
+      "pagead2.googlesyndication.com": 577,
+      "gum.criteo.com": 530
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256552,
+     "control": {
+      "page": 5547214,
+      "third_party": 3875028,
+      "listed": 924750
+     },
+     "ablated": {
+      "page": 4605988,
+      "third_party": 3522120,
+      "listed": 645690
+     },
+     "n_aborted": 2,
+     "moved": {
+      "video24.mais.uol.com.br": 1087044,
+      "video37.mais.uol.com.br": -498879,
+      "securepubads.g.doubleclick.net": 256552,
+      "fundingchoicesmessages.google.com": 74039,
+      "ib.adnxs.com": 7986,
+      "fastlane.rubiconproject.com": 6130,
+      "prg.smartadserver.com": 4840,
+      "s.seedtag.com": 4180,
+      "events.newsroom.bi": -709,
+      "api.mais.uol.com.br": 681,
+      "gum.criteo.com": -530,
+      "pagead2.googlesyndication.com": 514
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1209602,
+     684674
+    ],
+    "third_party": [
+     92548,
+     96356
+    ],
+    "listed": [
+     24887,
+     22508
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -262464,
+     "sd": 1339455.4050389286,
+     "se": 947138.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 94452,
+     "sd": 2692.662622758373,
+     "se": 1903.9999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 23697.5,
+     "sd": 1682.2070324427966,
+     "se": 1189.5
+    }
+   },
+   "own_mean": 255914.5
+  },
+  "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 150233,
+     "control": {
+      "page": 4615384,
+      "third_party": 2950404,
+      "listed": 743111
+     },
+     "ablated": {
+      "page": 4797976,
+      "third_party": 2737289,
+      "listed": 530142
+     },
+     "n_aborted": 2,
+     "moved": {
+      "video23.mais.uol.com.br": -1484485,
+      "video48.mais.uol.com.br": 1091244,
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app": 150233,
+      "cdn.permutive.com": 56834,
+      "cm.g.doubleclick.net": 2776,
+      "api.mais.uol.com.br": -2726,
+      "api.permutive.com": 2114,
+      "region1.analytics.google.com": -817,
+      "secure.adnxs.com": 777,
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.prmutv.co": 534,
+      "ib.adnxs.com": 388,
+      "croupier.mais.uol.com.br": 240
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 150233,
+     "control": {
+      "page": 9439533,
+      "third_party": 3761351,
+      "listed": 928085
+     },
+     "ablated": {
+      "page": 8423758,
+      "third_party": 2710018,
+      "listed": 533668
+     },
+     "n_aborted": 2,
+     "moved": {
+      "video42.mais.uol.com.br": -5152831,
+      "video41.mais.uol.com.br": 5092988,
+      "imasdk.googleapis.com": 744171,
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app": 150233,
+      "c.amazon-adsystem.com": 98823,
+      "stc.uol.com": -86503,
+      "cdn.permutive.com": 56834,
+      "pagead2.googlesyndication.com": 40994,
+      "s0.2mdn.net": 17425,
+      "api.mais.uol.com.br": 13290,
+      "player.fantascope.uol.com.br": 10986,
+      "ib.adnxs.com": 6196
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -332825,
+     865542
+    ],
+    "third_party": [
+     62882,
+     901100
+    ],
+    "listed": [
+     62736,
+     244184
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 266358.5,
+     "sd": 847373.4320501793,
+     "se": 599183.4999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 481991,
+     "sd": 592709.6319126255,
+     "se": 419109.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 153460,
+     "sd": 128303.11123273667,
+     "se": 90723.99999999999
+    }
+   },
+   "own_mean": 150233
+  },
+  "c.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 5029794,
+      "third_party": 2949555,
+      "listed": 744192
+     },
+     "ablated": {
+      "page": 5866651,
+      "third_party": 2953467,
+      "listed": 746269
+     },
+     "n_aborted": 0,
+     "moved": {
+      "video23.mais.uol.com.br": -2337247,
+      "video38.mais.uol.com.br": 1504364,
+      "tm.jsuol.com.br": -1346,
+      "events.newsroom.bi": -1180,
+      "api.permutive.com": -1045,
+      "securepubads.g.doubleclick.net": 746,
+      "experiences.newsroom.bi": -621,
+      "geoip.home.uol.com": -419,
+      "croupier.mais.uol.com.br": 236,
+      "uol.com.br": -154,
+      "www.uol.com.br": -143,
+      "www.googletagmanager.com": -40
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 98823,
+     "control": {
+      "page": 6227325,
+      "third_party": 3875397,
+      "listed": 931495
+     },
+     "ablated": {
+      "page": 5218117,
+      "third_party": 3768071,
+      "listed": 822900
+     },
+     "n_aborted": 1,
+     "moved": {
+      "video30.mais.uol.com.br": 1765153,
+      "video25.mais.uol.com.br": -864459,
+      "c.amazon-adsystem.com": 98823,
+      "sdk.mrf.io": 4348,
+      "api.mais.uol.com.br": 2725,
+      "pagead2.googlesyndication.com": 1781,
+      "www.uol.com.br": -1480,
+      "tm.jsuol.com.br": -1396,
+      "config.aps.amazon-adsystem.com": 1066,
+      "region1.analytics.google.com": 817,
+      "events.newsroom.bi": 709,
+      "web-banner.ads.aps.amazon-adsystem.com": 673
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -836857,
+     910385
+    ],
+    "third_party": [
+     -3912,
+     8503
+    ],
+    "listed": [
+     -2077,
+     9772
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 36764,
+     "sd": 1235486.6665739457,
+     "se": 873620.9999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2295.5,
+     "sd": 8778.730688430987,
+     "se": 6207.499999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3847.5,
+     "sd": 8378.508250279401,
+     "se": 5924.499999999999
+    }
+   },
+   "own_mean": 49411.5
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+  "c.amazon-adsystem.com"
+ ],
+ "category": "news",
+ "domain": "uol.com.br",
+ "n_blocked_tracking": 308.0,
+ "elapsed_s": 222.2
+}

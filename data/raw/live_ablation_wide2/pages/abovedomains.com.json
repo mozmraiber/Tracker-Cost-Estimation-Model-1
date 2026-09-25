@@ -1,0 +1,337 @@
+{
+ "url": "https://abovedomains.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 202437,
+     "control": {
+      "page": 4692715,
+      "third_party": 4692529,
+      "listed": 317521
+     },
+     "ablated": {
+      "page": 4491097,
+      "third_party": 4490911,
+      "listed": 114912
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 202437,
+      "www.googletagmanager.com": -960,
+      "www.facebook.com": 493,
+      "track.hubspot.com": -320,
+      "www.google.com": -50,
+      "static.hsappstatic.net": 30,
+      "app.hubspot.com": -16,
+      "js.hs-analytics.net": 13,
+      "js.hs-scripts.com": -10,
+      "api.hubspot.com": 7,
+      "cdn1.hubspot.net": -5,
+      "api.hubapi.com": -4
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 202413,
+     "control": {
+      "page": 4692965,
+      "third_party": 4692965,
+      "listed": 317496
+     },
+     "ablated": {
+      "page": 4488043,
+      "third_party": 4487857,
+      "listed": 114595
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 202413,
+      "app.hubspot.com": 2177,
+      "www.facebook.com": 494,
+      "abovedomains.com": -186,
+      "static.hsappstatic.net": 40,
+      "exceptions.hubspot.com": -8,
+      "api.hubapi.com": -6,
+      "js.hubspot.com": 5,
+      "cdn1.hubspot.net": -4,
+      "track.hubspot.com": -2,
+      "cta-service-cms2.hubspot.com": -2,
+      "js.hs-banner.com": -2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -819,
+     2509
+    ],
+    "third_party": [
+     -819,
+     2695
+    ],
+    "listed": [
+     172,
+     488
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 845,
+     "sd": 2353.25136778883,
+     "se": 1663.9999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 938,
+     "sd": 2484.773229089528,
+     "se": 1756.9999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 330,
+     "sd": 223.44574285494903,
+     "se": 158.0
+    }
+   },
+   "own_mean": 202425
+  },
+  "js.hs-analytics.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 43890,
+     "control": {
+      "page": 4691480,
+      "third_party": 4691294,
+      "listed": 317842
+     },
+     "ablated": {
+      "page": 4647323,
+      "third_party": 4647137,
+      "listed": 272622
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hs-analytics.net": 43890,
+      "track.hubspot.com": 1325,
+      "www.googletagmanager.com": -960,
+      "www.google.com": -92,
+      "connect.facebook.net": 23,
+      "cta-service-cms2.hubspot.com": -19,
+      "api.hubspot.com": -11,
+      "exceptions.hubspot.com": -9,
+      "static.hsappstatic.net": 7,
+      "api.hubapi.com": 2,
+      "js.hs-scripts.com": -1,
+      "cdn1.hubspot.net": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 43888,
+     "control": {
+      "page": 4691514,
+      "third_party": 4691328,
+      "listed": 317529
+     },
+     "ablated": {
+      "page": 4646234,
+      "third_party": 4646048,
+      "listed": 272598
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hs-analytics.net": 43888,
+      "track.hubspot.com": 1010,
+      "www.google.com": 199,
+      "www.googletagmanager.com": 174,
+      "connect.facebook.net": 19,
+      "static.hsappstatic.net": -18,
+      "cta-service-cms2.hubspot.com": 10,
+      "app.hubspot.com": -8,
+      "api.hubspot.com": 5,
+      "exceptions.hubspot.com": -4,
+      "api.hubapi.com": 3,
+      "cdn1.hubspot.net": 2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     267,
+     1392
+    ],
+    "third_party": [
+     267,
+     1392
+    ],
+    "listed": [
+     1330,
+     1043
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 829.5,
+     "sd": 795.4951288348659,
+     "se": 562.4999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 829.5,
+     "sd": 795.4951288348659,
+     "se": 562.4999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1186.5,
+     "sd": 202.93964620053913,
+     "se": 143.49999999999997
+    }
+   },
+   "own_mean": 43889
+  },
+  "js.hubspot.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 29640,
+     "control": {
+      "page": 4693109,
+      "third_party": 4693109,
+      "listed": 317523
+     },
+     "ablated": {
+      "page": 4660980,
+      "third_party": 4660794,
+      "listed": 286593
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hubspot.com": 29640,
+      "app.hubspot.com": 2178,
+      "www.googletagmanager.com": -1926,
+      "cta-service-cms2.hubspot.com": 1618,
+      "perf-na1.hsforms.com": 1036,
+      "track.hubspot.com": -329,
+      "abovedomains.com": -186,
+      "www.google.com": 90,
+      "static.hsappstatic.net": 21,
+      "api.hubspot.com": -10,
+      "api.hubapi.com": 2,
+      "exceptions.hubspot.com": -2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 29636,
+     "control": {
+      "page": 4690872,
+      "third_party": 4690872,
+      "listed": 317521
+     },
+     "ablated": {
+      "page": 4658848,
+      "third_party": 4658662,
+      "listed": 286257
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hubspot.com": 29636,
+      "cta-service-cms2.hubspot.com": 1608,
+      "perf-na1.hsforms.com": 1036,
+      "abovedomains.com": -186,
+      "fonts.gstatic.com": -42,
+      "www.google.com": -25,
+      "static.hsappstatic.net": -22,
+      "exceptions.hubspot.com": 9,
+      "js.hs-scripts.com": 9,
+      "js.hs-analytics.net": 9,
+      "api.hubspot.com": -7,
+      "cdn1.hubspot.net": -6
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2489,
+     2388
+    ],
+    "third_party": [
+     2675,
+     2574
+    ],
+    "listed": [
+     1290,
+     1628
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2438.5,
+     "sd": 71.4177848998413,
+     "se": 50.49999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2624.5,
+     "sd": 71.4177848998413,
+     "se": 50.49999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1459,
+     "sd": 239.00209204105306,
+     "se": 169.0
+    }
+   },
+   "own_mean": 29638
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "js.hs-analytics.net",
+  "js.hubspot.com"
+ ],
+ "category": "infrastructure",
+ "domain": "abovedomains.com",
+ "n_blocked_tracking": 80.0,
+ "elapsed_s": 121.4
+}

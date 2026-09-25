@@ -1,0 +1,458 @@
+{
+ "url": "https://applovin.com/",
+ "hosts": [
+  "connect.facebook.net",
+  "snap.licdn.com",
+  "js.hs-analytics.net",
+  "us-assets.i.posthog.com",
+  "js.hubspot.com",
+  "js.hs-banner.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "js.hubspot.com",
+    "js.hs-analytics.net",
+    "snap.licdn.com",
+    "connect.facebook.net",
+    "js.hs-banner.com",
+    "us-assets.i.posthog.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 20157057,
+      "third_party": 13808273,
+      "listed": 2186032
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 20123306,
+      "third_party": 13774647,
+      "listed": 2153451
+     },
+     "own": 31121,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 33751,
+      "third_party": 33626,
+      "listed": 32581
+     },
+     "cascade": {
+      "page": 2630,
+      "third_party": 2505,
+      "listed": 1460
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js.hubspot.com",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 20079860,
+      "third_party": 13729551,
+      "listed": 2108336
+     },
+     "own": 75047,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 77197,
+      "third_party": 78722,
+      "listed": 77696
+     },
+     "cascade": {
+      "page": 2150,
+      "third_party": 3675,
+      "listed": 2649
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 20027357,
+      "third_party": 13679392,
+      "listed": 2056465
+     },
+     "own": 122889,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 129700,
+      "third_party": 128881,
+      "listed": 129567
+     },
+     "cascade": {
+      "page": 6811,
+      "third_party": 5992,
+      "listed": 6678
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "snap.licdn.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 19767479,
+      "third_party": 13418797,
+      "listed": 1797568
+     },
+     "own": 381749,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 389578,
+      "third_party": 389476,
+      "listed": 388464
+     },
+     "cascade": {
+      "page": 7829,
+      "third_party": 7727,
+      "listed": 6715
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "snap.licdn.com",
+      "connect.facebook.net",
+      "js.hs-banner.com"
+     ],
+     "bytes": {
+      "page": 19553815,
+      "third_party": 13205060,
+      "listed": 1775400
+     },
+     "own": 401882,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 603242,
+      "third_party": 603213,
+      "listed": 410632
+     },
+     "cascade": {
+      "page": 201360,
+      "third_party": 201331,
+      "listed": 8750
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "snap.licdn.com",
+      "connect.facebook.net",
+      "js.hs-banner.com",
+      "us-assets.i.posthog.com"
+     ],
+     "bytes": {
+      "page": 19518768,
+      "third_party": 13168663,
+      "listed": 1739039
+     },
+     "own": 438095,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 638289,
+      "third_party": 639610,
+      "listed": 446993
+     },
+     "cascade": {
+      "page": 200194,
+      "third_party": 201515,
+      "listed": 8898
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "js.hubspot.com",
+    "connect.facebook.net",
+    "snap.licdn.com",
+    "js.hs-banner.com",
+    "js.hs-analytics.net",
+    "us-assets.i.posthog.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 20158142,
+      "third_party": 13807981,
+      "listed": 2185226
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 20123417,
+      "third_party": 13774684,
+      "listed": 2153457
+     },
+     "own": 31118,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 34725,
+      "third_party": 33297,
+      "listed": 31769
+     },
+     "cascade": {
+      "page": 3607,
+      "third_party": 2179,
+      "listed": 651
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js.hubspot.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 19865290,
+      "third_party": 13516561,
+      "listed": 1893673
+     },
+     "own": 289954,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 292852,
+      "third_party": 291420,
+      "listed": 291553
+     },
+     "cascade": {
+      "page": 2898,
+      "third_party": 1466,
+      "listed": 1599
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js.hubspot.com",
+      "connect.facebook.net",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 19811920,
+      "third_party": 13463137,
+      "listed": 1841966
+     },
+     "own": 337796,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 346222,
+      "third_party": 344844,
+      "listed": 343260
+     },
+     "cascade": {
+      "page": 8426,
+      "third_party": 7048,
+      "listed": 5464
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js.hubspot.com",
+      "connect.facebook.net",
+      "snap.licdn.com",
+      "js.hs-banner.com"
+     ],
+     "bytes": {
+      "page": 19601028,
+      "third_party": 13252367,
+      "listed": 1820997
+     },
+     "own": 357929,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 557114,
+      "third_party": 555614,
+      "listed": 364229
+     },
+     "cascade": {
+      "page": 199185,
+      "third_party": 197685,
+      "listed": 6300
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "js.hubspot.com",
+      "connect.facebook.net",
+      "snap.licdn.com",
+      "js.hs-banner.com",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 19555404,
+      "third_party": 13206693,
+      "listed": 1775311
+     },
+     "own": 401854,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 602738,
+      "third_party": 601288,
+      "listed": 409915
+     },
+     "cascade": {
+      "page": 200884,
+      "third_party": 199434,
+      "listed": 8061
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "js.hubspot.com",
+      "connect.facebook.net",
+      "snap.licdn.com",
+      "js.hs-banner.com",
+      "js.hs-analytics.net",
+      "us-assets.i.posthog.com"
+     ],
+     "bytes": {
+      "page": 19519580,
+      "third_party": 13169445,
+      "listed": 1739828
+     },
+     "own": 438014,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 638562,
+      "third_party": 638536,
+      "listed": 445398
+     },
+     "cascade": {
+      "page": 200548,
+      "third_party": 200522,
+      "listed": 7384
+     }
+    }
+   ]
+  }
+ ],
+ "category": "productivity",
+ "domain": "applovin.com",
+ "elapsed_s": 135.8
+}

@@ -1,0 +1,321 @@
+{
+ "url": "https://cdnvideo.ru/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "mc.yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 92008,
+     "control": {
+      "page": 13497822,
+      "third_party": 2490576,
+      "listed": 176469
+     },
+     "ablated": {
+      "page": 6793178,
+      "third_party": 1728688,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.cdnvideo.ru": 5982716,
+      "core-renderer-tiles.maps.yandex.net": 529543,
+      "mc.yandex.ru": 92008,
+      "top-fwz1.mail.ru": 55058,
+      "yastatic.net": 54873,
+      "cdnvideo.ru": -39960,
+      "privacy-cs.mail.ru": 23352,
+      "mc.yandex.com": 5648,
+      "api-maps.yandex.ru": 1089,
+      "ad.mail.ru": 403,
+      "www.google.com": -86,
+      "api.sypexgeo.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 3830746,
+      "third_party": 817643,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 5252852,
+      "third_party": 1723832,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "yastatic.net": -906299,
+      "www.cdnvideo.ru": -515918,
+      "www.google.com": 111,
+      "api.sypexgeo.net": -1,
+      "cdnvideo.ru": 1,
+      "www.gstatic.com": 0,
+      "top-fwz1.mail.ru": 0,
+      "api-maps.yandex.ru": 0,
+      "api.yadrocrm.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     6612636,
+     -1422106
+    ],
+    "third_party": [
+     669880,
+     -906189
+    ],
+    "listed": [
+     84461,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2595265,
+     "sd": 5681420.553284363,
+     "se": 4017370.9999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -118154.5,
+     "sd": 1114449.0775179008,
+     "se": 788034.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 42230.5,
+     "sd": 59722.94584579699,
+     "se": 42230.49999999999
+    }
+   },
+   "own_mean": 46004
+  },
+  "top-fwz1.mail.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 3942314,
+      "third_party": 1723902,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 6233981,
+      "third_party": 1728647,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.cdnvideo.ru": -2286924,
+      "yastatic.net": -4732,
+      "www.google.com": -26,
+      "api-maps.yandex.ru": 16,
+      "api.sypexgeo.net": -3,
+      "cdnvideo.ru": 2,
+      "www.gstatic.com": 0,
+      "top-fwz1.mail.ru": 0,
+      "api.yadrocrm.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 5123819,
+      "third_party": 1728761,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 5329038,
+      "third_party": 817711,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.cdnvideo.ru": -1116267,
+      "yastatic.net": 911031,
+      "www.google.com": 22,
+      "api-maps.yandex.ru": -7,
+      "api.sypexgeo.net": 4,
+      "cdnvideo.ru": -2,
+      "www.gstatic.com": 0,
+      "top-fwz1.mail.ru": 0,
+      "api.yadrocrm.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -2291667,
+     -205219
+    ],
+    "third_party": [
+     -4745,
+     911050
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1248443,
+     "sd": 1475341.5293931097,
+     "se": 1043223.9999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 453152.5,
+     "sd": 647564.8546767343,
+     "se": 457897.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 0
+  },
+  "mc.yandex.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 6249443,
+      "third_party": 1728753,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 5148592,
+      "third_party": 1728754,
+      "listed": 0
+     },
+     "n_aborted": 0,
+     "moved": {
+      "www.cdnvideo.ru": 1100851,
+      "yastatic.net": -8,
+      "www.google.com": 7,
+      "cdnvideo.ru": 1,
+      "api.sypexgeo.net": 0,
+      "www.gstatic.com": 0,
+      "top-fwz1.mail.ru": 0,
+      "api-maps.yandex.ru": 0,
+      "api.yadrocrm.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 4610512,
+      "third_party": 1728597,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 5331161,
+      "third_party": 1728579,
+      "listed": 0
+     },
+     "n_aborted": 0,
+     "moved": {
+      "www.cdnvideo.ru": -720667,
+      "www.google.com": 26,
+      "yastatic.net": -8,
+      "api.sypexgeo.net": 0,
+      "www.gstatic.com": 0,
+      "top-fwz1.mail.ru": 0,
+      "api-maps.yandex.ru": 0,
+      "cdnvideo.ru": 0,
+      "api.yadrocrm.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1100851,
+     -720649
+    ],
+    "third_party": [
+     -1,
+     18
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 190101,
+     "sd": 1287995.0019312964,
+     "se": 910750.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 8.5,
+     "sd": 13.435028842544403,
+     "se": 9.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 0
+  }
+ },
+ "candidates": [
+  "mc.yandex.ru",
+  "top-fwz1.mail.ru",
+  "mc.yandex.com"
+ ],
+ "category": "infrastructure",
+ "domain": "cdnvideo.ru",
+ "n_blocked_tracking": 27.0,
+ "elapsed_s": 96.2
+}

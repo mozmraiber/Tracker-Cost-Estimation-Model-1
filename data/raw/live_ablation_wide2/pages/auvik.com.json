@@ -1,0 +1,337 @@
+{
+ "url": "https://auvik.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "dev.visualwebsiteoptimizer.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 232529,
+     "control": {
+      "page": 16455697,
+      "third_party": 2446974,
+      "listed": 665904
+     },
+     "ablated": {
+      "page": 15673183,
+      "third_party": 2178790,
+      "listed": 433289
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.auvik.com": 515221,
+      "dev.visualwebsiteoptimizer.com": 232529,
+      "fast.wistia.com": 35707,
+      "auvik.com": -886,
+      "fonts.googleapis.com": -158,
+      "connect.facebook.net": 84,
+      "consent.cookiebot.com": -24,
+      "px.ads.linkedin.com": 24,
+      "app.getsignals.ai": 15,
+      "z.auvik.com": -5,
+      "cdn-fainj.nitrocdn.com": 5,
+      "consentcdn.cookiebot.com": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 232440,
+     "control": {
+      "page": 13429303,
+      "third_party": 2413130,
+      "listed": 667668
+     },
+     "ablated": {
+      "page": 14100402,
+      "third_party": 2179254,
+      "listed": 433839
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.auvik.com": -904940,
+      "dev.visualwebsiteoptimizer.com": 232440,
+      "connect.facebook.net": 3552,
+      "px.ads.linkedin.com": -2165,
+      "app.getsignals.ai": 42,
+      "z.auvik.com": -35,
+      "pipedream.wistia.com": 3,
+      "consentcdn.cookiebot.com": 1,
+      "cdn-fainj.nitrocdn.com": 1,
+      "fast.wistia.com": 1,
+      "px4.ads.linkedin.com": 1,
+      "api.ipify.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     549985,
+     -903539
+    ],
+    "third_party": [
+     35655,
+     1436
+    ],
+    "listed": [
+     86,
+     1389
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -176777,
+     "sd": 1027796.6770173953,
+     "se": 726761.9999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 18545.5,
+     "sd": 24196.486945422468,
+     "se": 17109.499999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 737.5,
+     "sd": 921.3601358860715,
+     "se": 651.5
+    }
+   },
+   "own_mean": 232484.5
+  },
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 204915,
+     "control": {
+      "page": 15050056,
+      "third_party": 2447017,
+      "listed": 666054
+     },
+     "ablated": {
+      "page": 14284827,
+      "third_party": 2206179,
+      "listed": 460781
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.auvik.com": 524411,
+      "connect.facebook.net": 204915,
+      "fast.wistia.com": 35709,
+      "px.ads.linkedin.com": 269,
+      "app.getsignals.ai": -142,
+      "dev.visualwebsiteoptimizer.com": 98,
+      "z.auvik.com": -20,
+      "static.cloudflareinsights.com": -12,
+      "pipedream.wistia.com": -3,
+      "api.ipify.org": 2,
+      "cdn-fainj.nitrocdn.com": 1,
+      "px4.ads.linkedin.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 204916,
+     "control": {
+      "page": 15919332,
+      "third_party": 2411178,
+      "listed": 665961
+     },
+     "ablated": {
+      "page": 14651326,
+      "third_party": 2205797,
+      "listed": 461156
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.auvik.com": 1062623,
+      "connect.facebook.net": 204916,
+      "pipedream.wistia.com": 537,
+      "px4.ads.linkedin.com": -269,
+      "px.ads.linkedin.com": 242,
+      "dev.visualwebsiteoptimizer.com": -79,
+      "app.getsignals.ai": 30,
+      "cdn-fainj.nitrocdn.com": 7,
+      "consentcdn.cookiebot.com": -5,
+      "z.auvik.com": 3,
+      "fast.wistia.com": 3,
+      "to.getnitropack.com": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     560314,
+     1063090
+    ],
+    "third_party": [
+     35923,
+     465
+    ],
+    "listed": [
+     358,
+     -111
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 811702,
+     "sd": 355516.3190178476,
+     "se": 251387.99999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 18194,
+     "sd": 25072.5922473126,
+     "se": 17728.999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 123.5,
+     "sd": 331.6330803764908,
+     "se": 234.5
+    }
+   },
+   "own_mean": 204915.5
+  },
+  "browser.sentry-cdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 25688,
+     "control": {
+      "page": 17408651,
+      "third_party": 2411882,
+      "listed": 665841
+     },
+     "ablated": {
+      "page": 16022236,
+      "third_party": 2384507,
+      "listed": 639220
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.auvik.com": 1359040,
+      "browser.sentry-cdn.com": 25688,
+      "region1.google-analytics.com": 816,
+      "www.googletagmanager.com": 740,
+      "dev.visualwebsiteoptimizer.com": 155,
+      "consent.cookiebot.com": -24,
+      "connect.facebook.net": -19,
+      "app.getsignals.ai": 15,
+      "api.ipify.org": 4,
+      "to.getnitropack.com": -2,
+      "consentcdn.cookiebot.com": 1,
+      "fast.wistia.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 25689,
+     "control": {
+      "page": 11820940,
+      "third_party": 2410497,
+      "listed": 665731
+     },
+     "ablated": {
+      "page": 12877523,
+      "third_party": 2383828,
+      "listed": 638404
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.auvik.com": -1081340,
+      "browser.sentry-cdn.com": 25689,
+      "z.auvik.com": -1912,
+      "px.ads.linkedin.com": 1605,
+      "pipedream.wistia.com": -537,
+      "app.getsignals.ai": -119,
+      "dev.visualwebsiteoptimizer.com": 29,
+      "connect.facebook.net": 5,
+      "cdn-fainj.nitrocdn.com": -4,
+      "consentcdn.cookiebot.com": -1,
+      "to.getnitropack.com": 1,
+      "fast.wistia.com": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1360727,
+     -1082272
+    ],
+    "third_party": [
+     1687,
+     980
+    ],
+    "listed": [
+     933,
+     1638
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 139227.5,
+     "sd": 1727461.1593319543,
+     "se": 1221499.4999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1333.5,
+     "sd": 499.9244942988891,
+     "se": 353.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1285.5,
+     "sd": 498.510280736516,
+     "se": 352.49999999999994
+    }
+   },
+   "own_mean": 25688.5
+  }
+ },
+ "candidates": [
+  "dev.visualwebsiteoptimizer.com",
+  "connect.facebook.net",
+  "browser.sentry-cdn.com"
+ ],
+ "category": "productivity",
+ "domain": "auvik.com",
+ "n_blocked_tracking": 137.0,
+ "elapsed_s": 144.5
+}

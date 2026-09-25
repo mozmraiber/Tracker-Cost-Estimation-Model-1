@@ -1,0 +1,109 @@
+{
+ "url": "https://sedo.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "widget.trustpilot.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 8480,
+     "control": {
+      "page": 3929073,
+      "third_party": 240423,
+      "listed": 8480
+     },
+     "ablated": {
+      "page": 3915609,
+      "third_party": 231919,
+      "listed": 0
+     },
+     "n_aborted": 2,
+     "moved": {
+      "widget.trustpilot.com": 8480,
+      "sedo.com": 4960,
+      "app.usercentrics.eu": 25,
+      "api.usercentrics.eu": -1,
+      "cdn.sedo.com": 0,
+      "uct.service.usercentrics.eu": 0,
+      "consent-api.service.consent.usercentrics.eu": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 8480,
+     "control": {
+      "page": 3922684,
+      "third_party": 240425,
+      "listed": 8480
+     },
+     "ablated": {
+      "page": 1438651,
+      "third_party": 0,
+      "listed": 0
+     },
+     "n_aborted": 0,
+     "moved": {
+      "cdn.sedo.com": 3624432,
+      "sedo.com": -1380824,
+      "app.usercentrics.eu": 214298,
+      "api.usercentrics.eu": 16906,
+      "widget.trustpilot.com": 8480,
+      "uct.service.usercentrics.eu": 375,
+      "consent-api.service.consent.usercentrics.eu": 366
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     4984,
+     2475553
+    ],
+    "third_party": [
+     24,
+     231945
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1240268.5,
+     "sd": 1746956.0932892675,
+     "se": 1235284.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 115984.5,
+     "sd": 163992.91179956528,
+     "se": 115960.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 8480
+  }
+ },
+ "candidates": [
+  "widget.trustpilot.com"
+ ],
+ "category": "shopping",
+ "domain": "sedo.com",
+ "n_blocked_tracking": 18.0,
+ "elapsed_s": 52.3
+}

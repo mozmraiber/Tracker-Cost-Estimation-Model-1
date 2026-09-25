@@ -1,0 +1,331 @@
+{
+ "url": "https://ted.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256392,
+     "control": {
+      "page": 4616815,
+      "third_party": 2445347,
+      "listed": 520850
+     },
+     "ablated": {
+      "page": 4348099,
+      "third_party": 2177636,
+      "listed": 263950
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256392,
+      "api.idsequoia.ai": 10654,
+      "mixpanel-proxy.ted.com": 678,
+      "pagead2.googlesyndication.com": 504,
+      "ted.com": 401,
+      "static.fundraiseup.com": 180,
+      "gql.ted.com": -75,
+      "cdn.yourbow.com": -25,
+      "fndrsp.net": 4,
+      "pi.tedcdn.com": 2,
+      "www.ted.com": 1,
+      "ak.sail-horizon.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 256949,
+     "control": {
+      "page": 4617902,
+      "third_party": 2446566,
+      "listed": 521839
+     },
+     "ablated": {
+      "page": 4350169,
+      "third_party": 2177479,
+      "listed": 263952
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256949,
+      "api.idsequoia.ai": 10658,
+      "www.ted.com": -886,
+      "static.fundraiseup.com": 519,
+      "pagead2.googlesyndication.com": 504,
+      "bam.nr-data.net": 437,
+      "ted.com": -402,
+      "gql.ted.com": -66,
+      "cdn.yourbow.com": 26,
+      "fndrsp.net": -4,
+      "pa.tedcdn.com": -2,
+      "cdn.fundraiseup.com": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     12324,
+     10784
+    ],
+    "third_party": [
+     11319,
+     12138
+    ],
+    "listed": [
+     508,
+     938
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 11554,
+     "sd": 1088.9444430272831,
+     "se": 769.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 11728.5,
+     "sd": 579.1204537917824,
+     "se": 409.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 723,
+     "sd": 304.05591591021545,
+     "se": 215.0
+    }
+   },
+   "own_mean": 256670.5
+  },
+  "api.sail-personalize.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 104823,
+     "control": {
+      "page": 4616513,
+      "third_party": 2443899,
+      "listed": 519601
+     },
+     "ablated": {
+      "page": 4407880,
+      "third_party": 2339249,
+      "listed": 415209
+     },
+     "n_aborted": 9,
+     "moved": {
+      "api.sail-personalize.com": 104823,
+      "gql.ted.com": 102183,
+      "www.ted.com": 1799,
+      "bam.nr-data.net": -436,
+      "static.fundraiseup.com": 262,
+      "fndrsp.net": 6,
+      "api.idsequoia.ai": -4,
+      "pl.tedcdn.com": 3,
+      "pa.tedcdn.com": -2,
+      "pi.tedcdn.com": -2,
+      "securepubads.g.doubleclick.net": -1,
+      "ted.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 104823,
+     "control": {
+      "page": 4619210,
+      "third_party": 2443971,
+      "listed": 519835
+     },
+     "ablated": {
+      "page": 4410024,
+      "third_party": 2341162,
+      "listed": 417019
+     },
+     "n_aborted": 9,
+     "moved": {
+      "api.sail-personalize.com": 104823,
+      "gql.ted.com": 102202,
+      "www.ted.com": 3773,
+      "cmp.osano.com": -1569,
+      "bam.nr-data.net": -436,
+      "ted.com": 402,
+      "cdn.fundraiseup.com": -47,
+      "static.fundraiseup.com": 38,
+      "cdn.yourbow.com": 17,
+      "api.idsequoia.ai": -15,
+      "fndrsp.net": -2,
+      "securepubads.g.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     103810,
+     104363
+    ],
+    "third_party": [
+     -173,
+     -2014
+    ],
+    "listed": [
+     -431,
+     -2007
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 104086.5,
+     "sd": 391.03004999616076,
+     "se": 276.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1093.5,
+     "sd": 1301.783584164434,
+     "se": 920.4999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -1219,
+     "sd": 1114.4002871499988,
+     "se": 787.9999999999999
+    }
+   },
+   "own_mean": 104823
+  },
+  "ak.sail-horizon.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 49611,
+     "control": {
+      "page": 4617365,
+      "third_party": 2445606,
+      "listed": 521284
+     },
+     "ablated": {
+      "page": 4567042,
+      "third_party": 2392494,
+      "listed": 468200
+     },
+     "n_aborted": 1,
+     "moved": {
+      "ak.sail-horizon.com": 49611,
+      "api.sail-personalize.com": 4205,
+      "www.ted.com": -2774,
+      "securepubads.g.doubleclick.net": -742,
+      "cdn.fundraiseup.com": -123,
+      "static.fundraiseup.com": 96,
+      "api.idsequoia.ai": 29,
+      "cdn.yourbow.com": 25,
+      "gql.ted.com": -15,
+      "fndrsp.net": 10,
+      "pa.tedcdn.com": 1,
+      "tedconf.prismic.io": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 49611,
+     "control": {
+      "page": 4619970,
+      "third_party": 2444771,
+      "listed": 520281
+     },
+     "ablated": {
+      "page": 4564456,
+      "third_party": 2391779,
+      "listed": 467549
+     },
+     "n_aborted": 1,
+     "moved": {
+      "ak.sail-horizon.com": 49611,
+      "api.sail-personalize.com": 4209,
+      "www.ted.com": 1848,
+      "cmp.osano.com": -1569,
+      "mixpanel-proxy.ted.com": 678,
+      "securepubads.g.doubleclick.net": 476,
+      "static.fundraiseup.com": 258,
+      "api.idsequoia.ai": 7,
+      "gql.ted.com": -4,
+      "bam.nr-data.net": 3,
+      "pl.tedcdn.com": -3,
+      "cdn.fundraiseup.com": -2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     712,
+     5903
+    ],
+    "third_party": [
+     3501,
+     3381
+    ],
+    "listed": [
+     3473,
+     3121
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3307.5,
+     "sd": 3670.591301139368,
+     "se": 2595.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3441,
+     "sd": 84.8528137423857,
+     "se": 60.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3297,
+     "sd": 248.90158697766472,
+     "se": 175.99999999999997
+    }
+   },
+   "own_mean": 49611
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "api.sail-personalize.com",
+  "ak.sail-horizon.com"
+ ],
+ "category": "entertainment",
+ "domain": "ted.com",
+ "n_blocked_tracking": 124.0,
+ "elapsed_s": 86.6
+}

@@ -1,0 +1,120 @@
+{
+ "url": "https://eventbrite.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js.zi-scripts.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 7080,
+     "control": {
+      "page": 3887354,
+      "third_party": 1040504,
+      "listed": 9351
+     },
+     "ablated": {
+      "page": 3872884,
+      "third_party": 1031196,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.zi-scripts.com": 7080,
+      "www.eventbrite.com": 5225,
+      "ws.zoominfo.com": 2271,
+      "cdntranscend.eventbrite.com": -63,
+      "eventbrite-build.s3.amazonaws.com": -40,
+      "img.evbuc.com": -2,
+      "bzr.openai.com": -1,
+      "eventbrite.com": 0,
+      "cdn.evbstatic.com": 0,
+      "www.googletagmanager.com": 0,
+      "bzrcdn.openai.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 7080,
+     "control": {
+      "page": 3893783,
+      "third_party": 1047317,
+      "listed": 9351
+     },
+     "ablated": {
+      "page": 3865449,
+      "third_party": 1023705,
+      "listed": 4176
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "img.evbuc.com": 18474,
+      "js.zi-scripts.com": 7080,
+      "www.eventbrite.com": 4617,
+      "browser-intake-datadoghq.com": -4176,
+      "ws.zoominfo.com": 2271,
+      "cdntranscend.eventbrite.com": 105,
+      "eventbrite-build.s3.amazonaws.com": -40,
+      "bzr.openai.com": 2,
+      "bzrcdn.openai.com": 1,
+      "eventbrite.com": 0,
+      "cdn.evbstatic.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     7390,
+     21254
+    ],
+    "third_party": [
+     2228,
+     16532
+    ],
+    "listed": [
+     2271,
+     -1905
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 14322,
+     "sd": 9803.328414370295,
+     "se": 6932.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 9380,
+     "sd": 10114.455398092376,
+     "se": 7151.999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 183,
+     "sd": 2952.8779182350227,
+     "se": 2088.0
+    }
+   },
+   "own_mean": 7080
+  }
+ },
+ "candidates": [
+  "js.zi-scripts.com"
+ ],
+ "category": "shopping",
+ "domain": "eventbrite.com",
+ "n_blocked_tracking": 17.0,
+ "elapsed_s": 33.1
+}

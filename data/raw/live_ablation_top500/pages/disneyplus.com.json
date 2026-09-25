@@ -1,0 +1,401 @@
+{
+ "url": "https://disneyplus.com/",
+ "reps": 3,
+ "aa_reps": 2,
+ "hosts": {
+  "cdn.cookielaw.org": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 360501,
+     "control": {
+      "page": 5498440,
+      "third_party": 5390870,
+      "listed": 362357
+     },
+     "ablated": {
+      "page": 4989191,
+      "third_party": 4881039,
+      "listed": 1856
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.cookielaw.org": 360501,
+      "static-assets.bamgrid.com": 143063,
+      "login.disney.com": 6315,
+      "disneyplus.com": -582,
+      "www.google.com": -48,
+      "browser-intake-datadoghq.com": 0,
+      "prod-static.disney-plus.net": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0,
+      "client-sdk-configs.bamgrid.com": 0,
+      "dcf.espn.com": 0,
+      "www.disneyplus.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 360501,
+     "control": {
+      "page": 5495722,
+      "third_party": 5387545,
+      "listed": 362357
+     },
+     "ablated": {
+      "page": 5145103,
+      "third_party": 4881105,
+      "listed": 1856
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.cookielaw.org": 360501,
+      "www.disneyplus.com": -155846,
+      "static-assets.bamgrid.com": 143063,
+      "login.disney.com": 3088,
+      "www.google.com": -207,
+      "disneyplus.com": 25,
+      "disney.api.edge.bamgrid.com": -5,
+      "browser-intake-datadoghq.com": 0,
+      "prod-static.disney-plus.net": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0,
+      "client-sdk-configs.bamgrid.com": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 360501,
+     "control": {
+      "page": 5877534,
+      "third_party": 5549317,
+      "listed": 361893
+     },
+     "ablated": {
+      "page": 4995112,
+      "third_party": 4886935,
+      "listed": 1392
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.cookielaw.org": 360501,
+      "static-assets.bamgrid.com": 237893,
+      "www.disneyplus.com": 220065,
+      "prod-static.disney-plus.net": 67279,
+      "login.disney.com": -3227,
+      "www.google.com": -65,
+      "disneyplus.com": -25,
+      "disney.api.edge.bamgrid.com": 1,
+      "browser-intake-datadoghq.com": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0,
+      "client-sdk-configs.bamgrid.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     148748,
+     -9882,
+     521921
+    ],
+    "third_party": [
+     149330,
+     145939,
+     301881
+    ],
+    "listed": [
+     0,
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": 220262.33333333334,
+     "sd": 273018.9235315628,
+     "se": 157627.54899480965
+    },
+    "third_party": {
+     "n": 3,
+     "mean": 199050,
+     "sd": 89070.39710813016,
+     "se": 51424.817747205816
+    },
+    "listed": {
+     "n": 3,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 360501
+  },
+  "browser-intake-datadoghq.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1392,
+     "control": {
+      "page": 5495585,
+      "third_party": 5387433,
+      "listed": 361893
+     },
+     "ablated": {
+      "page": 5497255,
+      "third_party": 5389103,
+      "listed": 360501
+     },
+     "n_aborted": 8,
+     "moved": {
+      "login.disney.com": -3224,
+      "browser-intake-datadoghq.com": 1392,
+      "www.google.com": 111,
+      "disney.api.edge.bamgrid.com": 51,
+      "cdn.cookielaw.org": 0,
+      "static-assets.bamgrid.com": 0,
+      "disneyplus.com": 0,
+      "prod-static.disney-plus.net": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0,
+      "client-sdk-configs.bamgrid.com": 0,
+      "dcf.espn.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1856,
+     "control": {
+      "page": 5492854,
+      "third_party": 5384702,
+      "listed": 362357
+     },
+     "ablated": {
+      "page": 5493363,
+      "third_party": 5385793,
+      "listed": 360501
+     },
+     "n_aborted": 8,
+     "moved": {
+      "login.disney.com": -3086,
+      "browser-intake-datadoghq.com": 1856,
+      "disneyplus.com": 582,
+      "www.google.com": 153,
+      "disney.api.edge.bamgrid.com": -15,
+      "static-assets.bamgrid.com": 1,
+      "cdn.cookielaw.org": 0,
+      "prod-static.disney-plus.net": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0,
+      "client-sdk-configs.bamgrid.com": 0,
+      "dcf.espn.com": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1856,
+     "control": {
+      "page": 5495213,
+      "third_party": 5387643,
+      "listed": 362357
+     },
+     "ablated": {
+      "page": 5629236,
+      "third_party": 5389120,
+      "listed": 360501
+     },
+     "n_aborted": 8,
+     "moved": {
+      "www.disneyplus.com": -131964,
+      "login.disney.com": -3227,
+      "browser-intake-datadoghq.com": 1856,
+      "disneyplus.com": -582,
+      "www.google.com": -85,
+      "disney.api.edge.bamgrid.com": -21,
+      "cdn.cookielaw.org": 0,
+      "static-assets.bamgrid.com": 0,
+      "prod-static.disney-plus.net": 0,
+      "disney.images.edge.bamgrid.com": 0,
+      "log.go.com": 0,
+      "client-sdk-configs.bamgrid.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -3062,
+     -2365,
+     -135879
+    ],
+    "third_party": [
+     -3062,
+     -2947,
+     -3333
+    ],
+    "listed": [
+     0,
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": -47102,
+     "sd": 76883.92711744113,
+     "se": 44388.9560176102
+    },
+    "third_party": {
+     "n": 3,
+     "mean": -3114,
+     "sd": 198.1842576997477,
+     "se": 114.4217345320955
+    },
+    "listed": {
+     "n": 3,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1701.3333333333333
+  }
+ },
+ "candidates": [
+  "cdn.cookielaw.org",
+  "browser-intake-datadoghq.com"
+ ],
+ "aa": {
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 0,
+    "control": {
+     "page": 5817927,
+     "third_party": 5490314,
+     "listed": 366997
+    },
+    "ablated": {
+     "page": 5499024,
+     "third_party": 5390847,
+     "listed": 362357
+    },
+    "n_aborted": 0,
+    "moved": {
+     "www.disneyplus.com": 220043,
+     "static-assets.bamgrid.com": 94830,
+     "browser-intake-datadoghq.com": 4640,
+     "disneyplus.com": -607,
+     "disney.api.edge.bamgrid.com": -28,
+     "www.google.com": 26,
+     "login.disney.com": -1,
+     "cdn.cookielaw.org": 0,
+     "prod-static.disney-plus.net": 0,
+     "disney.images.edge.bamgrid.com": 0,
+     "log.go.com": 0,
+     "client-sdk-configs.bamgrid.com": 0
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 0,
+    "control": {
+     "page": 5504169,
+     "third_party": 5396017,
+     "listed": 367461
+    },
+    "ablated": {
+     "page": 5499030,
+     "third_party": 5390878,
+     "listed": 362357
+    },
+    "n_aborted": 0,
+    "moved": {
+     "browser-intake-datadoghq.com": 5104,
+     "www.google.com": 33,
+     "disney.api.edge.bamgrid.com": 2,
+     "cdn.cookielaw.org": 0,
+     "static-assets.bamgrid.com": 0,
+     "disneyplus.com": 0,
+     "prod-static.disney-plus.net": 0,
+     "disney.images.edge.bamgrid.com": 0,
+     "log.go.com": 0,
+     "client-sdk-configs.bamgrid.com": 0,
+     "dcf.espn.com": 0,
+     "www.disneyplus.com": 0
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    318903,
+    5139
+   ],
+   "third_party": [
+    99467,
+    5139
+   ],
+   "listed": [
+    4640,
+    5104
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": 162021,
+    "sd": 221864.6520922159,
+    "se": 156882.0
+   },
+   "third_party": {
+    "n": 2,
+    "mean": 52303,
+    "sd": 66699.96845576465,
+    "se": 47163.99999999999
+   },
+   "listed": {
+    "n": 2,
+    "mean": 4872,
+    "sd": 328.09754647055803,
+    "se": 231.99999999999997
+   }
+  }
+ },
+ "category": "entertainment",
+ "domain": "disneyplus.com",
+ "n_blocked_tracking": 94.0,
+ "elapsed_s": 108.3
+}

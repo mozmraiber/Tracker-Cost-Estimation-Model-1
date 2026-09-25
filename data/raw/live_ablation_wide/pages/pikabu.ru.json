@@ -1,0 +1,331 @@
+{
+ "url": "https://pikabu.ru/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 561379,
+     "control": {
+      "page": 5388716,
+      "third_party": 1331119,
+      "listed": 566682
+     },
+     "ablated": {
+      "page": 4121744,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "n_aborted": 5,
+     "moved": {
+      "yastatic.net": 599203,
+      "yandex.ru": 464188,
+      "avatars.mds.yandex.net": 112743,
+      "mc.yandex.ru": 92008,
+      "cs5.pikabu.ru": -68552,
+      "cs17.pikabu.ru": 49366,
+      "cs19.pikabu.ru": -24280,
+      "favicon.yandex.net": 12232,
+      "mc.yandex.com": 10587,
+      "cs45.pikabu.ru": 4833,
+      "autofill.yandex.ru": 4830,
+      "pikabu.ru": 1280
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 369195,
+     "control": {
+      "page": 5201298,
+      "third_party": 1229800,
+      "listed": 384186
+     },
+     "ablated": {
+      "page": 4038307,
+      "third_party": 26795,
+      "listed": 0
+     },
+     "n_aborted": 5,
+     "moved": {
+      "yastatic.net": 570319,
+      "yandex.ru": 275508,
+      "avatars.mds.yandex.net": 235901,
+      "mc.yandex.ru": 92008,
+      "cs17.pikabu.ru": -45205,
+      "mc.yandex.com": 10606,
+      "favicon.yandex.net": 8641,
+      "cs19.pikabu.ru": 6259,
+      "cs.pikabu.ru": -5075,
+      "cs45.pikabu.ru": 3222,
+      "autofill.yandex.ru": 1325,
+      "px.adhigh.net": 1093
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     705593,
+     793796
+    ],
+    "third_party": [
+     742946,
+     833810
+    ],
+    "listed": [
+     5303,
+     14991
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 749694.5,
+     "sd": 62368.93942099705,
+     "se": 44101.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 788378,
+     "sd": 64250.550565734455,
+     "se": 45432.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 10147,
+     "sd": 6850.450496135272,
+     "se": 4844.0
+    }
+   },
+   "own_mean": 465287
+  },
+  "mc.yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 92008,
+     "control": {
+      "page": 5815062,
+      "third_party": 1781973,
+      "listed": 575840
+     },
+     "ablated": {
+      "page": 5059469,
+      "third_party": 1064522,
+      "listed": 401190
+     },
+     "n_aborted": 2,
+     "moved": {
+      "yastatic.net": 324873,
+      "avatars.mds.yandex.net": 125701,
+      "mc.yandex.ru": 92008,
+      "strm-fra-01.strm.yandex.net": 86750,
+      "cs16.pikabu.ru": 73182,
+      "yandex.ru": 71507,
+      "cs19.pikabu.ru": -39209,
+      "mc.yandex.com": 10770,
+      "pikabu.ru": 4169,
+      "autofill.yandex.ru": 3506,
+      "vk.ru": 1475,
+      "strm.yandex.ru": 1359
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 92008,
+     "control": {
+      "page": 5321127,
+      "third_party": 1256073,
+      "listed": 551924
+     },
+     "ablated": {
+      "page": 6631783,
+      "third_party": 2649962,
+      "listed": 418184
+     },
+     "n_aborted": 3,
+     "moved": {
+      "strm-fra-03.strm.yandex.net": -985054,
+      "yastatic.net": -279033,
+      "avatars.mds.yandex.net": -265088,
+      "mc.yandex.ru": 92008,
+      "pikabu.ru": 34737,
+      "cs16.pikabu.ru": 29457,
+      "yandex.ru": 26417,
+      "mc.yandex.com": 15887,
+      "cs17.pikabu.ru": 13964,
+      "favicon.yandex.net": 5076,
+      "cs.pikabu.ru": 5075,
+      "strm.yandex.ru": -2718
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     663585,
+     -1402664
+    ],
+    "third_party": [
+     625443,
+     -1485897
+    ],
+    "listed": [
+     82642,
+     41732
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -369539.5,
+     "sd": 1461058.6795199227,
+     "se": 1033124.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -430227,
+     "sd": 1492942.8313904053,
+     "se": 1055670.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 62187,
+     "sd": 28927.738418341658,
+     "se": 20454.999999999996
+    }
+   },
+   "own_mean": 92008
+  },
+  "mc.yandex.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 10583,
+     "control": {
+      "page": 6065396,
+      "third_party": 2040652,
+      "listed": 701399
+     },
+     "ablated": {
+      "page": 5633363,
+      "third_party": 1586443,
+      "listed": 401250
+     },
+     "n_aborted": 7,
+     "moved": {
+      "avatars.mds.yandex.net": 353649,
+      "mc.yandex.ru": 183716,
+      "strm-fra-01.strm.yandex.net": -170553,
+      "yandex.ru": 105484,
+      "cs20.pikabu.ru": -71399,
+      "cs16.pikabu.ru": 43725,
+      "yastatic.net": -34286,
+      "mc.yandex.com": 10583,
+      "cs19.pikabu.ru": 5274,
+      "autofill.yandex.ru": 3509,
+      "favicon.yandex.net": 1977,
+      "vk.ru": 1474
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 10588,
+     "control": {
+      "page": 5985305,
+      "third_party": 1956007,
+      "listed": 610091
+     },
+     "ablated": {
+      "page": 5536057,
+      "third_party": 1520050,
+      "listed": 429209
+     },
+     "n_aborted": 7,
+     "moved": {
+      "yastatic.net": 213330,
+      "mc.yandex.ru": 92043,
+      "strm-fra-01.strm.yandex.net": -82007,
+      "yandex.ru": 78618,
+      "strm-ams28.strm.yandex.net": 71123,
+      "cs20.pikabu.ru": -46403,
+      "avatars.mds.yandex.net": 45357,
+      "cs16.pikabu.ru": 43155,
+      "cs19.pikabu.ru": 29554,
+      "cs17.pikabu.ru": -18511,
+      "mc.yandex.com": 10588,
+      "cs.pikabu.ru": 5075
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     421450,
+     438660
+    ],
+    "third_party": [
+     443626,
+     425369
+    ],
+    "listed": [
+     289566,
+     170294
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 430055,
+     "sd": 12169.307704220482,
+     "se": 8604.999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 434497.5,
+     "sd": 12909.648504122799,
+     "se": 9128.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 229930,
+     "sd": 84338.04000568189,
+     "se": 59635.99999999999
+    }
+   },
+   "own_mean": 10585.5
+  }
+ },
+ "candidates": [
+  "yandex.ru",
+  "mc.yandex.ru",
+  "mc.yandex.com"
+ ],
+ "category": "social",
+ "domain": "pikabu.ru",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 103.9
+}

@@ -1,0 +1,331 @@
+{
+ "url": "https://inmobi.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "snap.licdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 47783,
+     "control": {
+      "page": 2138436,
+      "third_party": 1808230,
+      "listed": 998143
+     },
+     "ablated": {
+      "page": 2089074,
+      "third_party": 1758869,
+      "listed": 948804
+     },
+     "n_aborted": 2,
+     "moved": {
+      "snap.licdn.com": 47783,
+      "px.ads.linkedin.com": 2057,
+      "web.inmobicdn.net": -725,
+      "px4.ads.linkedin.com": 299,
+      "pixel.tapad.com": -50,
+      "us-u.openx.net": -25,
+      "i.l-dsp.inmobicdn.net": 25,
+      "ml314.com": -25,
+      "x-stg.glance-cdn.com": 20,
+      "tag.demandbase.com": 6,
+      "js.hubspot.com": -3,
+      "qvdt3feo.com": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 47783,
+     "control": {
+      "page": 2136792,
+      "third_party": 1806586,
+      "listed": 996318
+     },
+     "ablated": {
+      "page": 2088507,
+      "third_party": 1758299,
+      "listed": 948159
+     },
+     "n_aborted": 2,
+     "moved": {
+      "snap.licdn.com": 47783,
+      "px.ads.linkedin.com": 2591,
+      "d.adroll.com": -2462,
+      "px4.ads.linkedin.com": 567,
+      "web.inmobicdn.net": -425,
+      "www.googletagmanager.com": 147,
+      "x.bidswitch.net": 50,
+      "s.company-target.com": 25,
+      "i.l-dsp.inmobicdn.net": 25,
+      "x-stg.glance-cdn.com": -20,
+      "cta-service-cms2.hubspot.com": 3,
+      "qvdt3feo.com": 2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1579,
+     502
+    ],
+    "third_party": [
+     1578,
+     504
+    ],
+    "listed": [
+     1556,
+     376
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1040.5,
+     "sd": 761.5540033379117,
+     "se": 538.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1041,
+     "sd": 759.432682994352,
+     "se": 537.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 966,
+     "sd": 834.3860018001261,
+     "se": 590.0
+    }
+   },
+   "own_mean": 47783
+  },
+  "js.hs-analytics.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 44094,
+     "control": {
+      "page": 2136765,
+      "third_party": 1806894,
+      "listed": 996808
+     },
+     "ablated": {
+      "page": 2091479,
+      "third_party": 1761273,
+      "listed": 951187
+     },
+     "n_aborted": 1,
+     "moved": {
+      "js.hs-analytics.net": 44094,
+      "track.hubspot.com": 1339,
+      "px.ads.linkedin.com": 1147,
+      "web.inmobicdn.net": -700,
+      "inmobi.com": -334,
+      "tags.srv.stackadapt.com": -238,
+      "d.adroll.com": -54,
+      "pixel.tapad.com": 50,
+      "s.company-target.com": 25,
+      "ml314.com": -25,
+      "dsum-sec.casalemedia.com": -12,
+      "js.hubspot.com": -6
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 44094,
+     "control": {
+      "page": 2134466,
+      "third_party": 1804260,
+      "listed": 994175
+     },
+     "ablated": {
+      "page": 2092126,
+      "third_party": 1761921,
+      "listed": 951246
+     },
+     "n_aborted": 1,
+     "moved": {
+      "js.hs-analytics.net": 44094,
+      "d.adroll.com": -2678,
+      "track.hubspot.com": 1323,
+      "px.ads.linkedin.com": 591,
+      "www.googletagmanager.com": -588,
+      "web.inmobicdn.net": -375,
+      "snap.licdn.com": 59,
+      "x.bidswitch.net": -50,
+      "s.company-target.com": -25,
+      "pixel.tapad.com": 25,
+      "ml314.com": -25,
+      "dsum-sec.casalemedia.com": -4
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1192,
+     -1754
+    ],
+    "third_party": [
+     1527,
+     -1755
+    ],
+    "listed": [
+     1527,
+     -1165
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -281,
+     "sd": 2083.1365773755692,
+     "se": 1473.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -114,
+     "sd": 2320.724455854249,
+     "se": 1640.9999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 181,
+     "sd": 1903.5314549541858,
+     "se": 1345.9999999999998
+    }
+   },
+   "own_mean": 44094
+  },
+  "s.adroll.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35152,
+     "control": {
+      "page": 2134541,
+      "third_party": 1804335,
+      "listed": 994249
+     },
+     "ablated": {
+      "page": 2071274,
+      "third_party": 1741073,
+      "listed": 930405
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s.adroll.com": 35152,
+      "d.adroll.com": 18697,
+      "pixel.tapad.com": 2196,
+      "px.ads.linkedin.com": 1745,
+      "dsum-sec.casalemedia.com": 1183,
+      "px4.ads.linkedin.com": 860,
+      "image2.pubmatic.com": 844,
+      "ipv4.d.adroll.com": 798,
+      "www.googletagmanager.com": -583,
+      "x.bidswitch.net": 570,
+      "ml314.com": 397,
+      "us-u.openx.net": 390
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35152,
+     "control": {
+      "page": 2133119,
+      "third_party": 1802917,
+      "listed": 992827
+     },
+     "ablated": {
+      "page": 2071649,
+      "third_party": 1741777,
+      "listed": 930984
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s.adroll.com": 35152,
+      "d.adroll.com": 17558,
+      "pixel.tapad.com": 2196,
+      "px.ads.linkedin.com": 1479,
+      "dsum-sec.casalemedia.com": 1043,
+      "px4.ads.linkedin.com": 861,
+      "image2.pubmatic.com": 844,
+      "ipv4.d.adroll.com": 798,
+      "web.inmobicdn.net": -750,
+      "www.googletagmanager.com": -707,
+      "cm.g.doubleclick.net": 660,
+      "x.bidswitch.net": 520
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     28115,
+     26318
+    ],
+    "third_party": [
+     28110,
+     25988
+    ],
+    "listed": [
+     28692,
+     26691
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 27216.5,
+     "sd": 1270.6708857922258,
+     "se": 898.4999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 27049,
+     "sd": 1500.480589677854,
+     "se": 1061.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 27691.5,
+     "sd": 1414.9206691542815,
+     "se": 1000.4999999999999
+    }
+   },
+   "own_mean": 35152
+  }
+ },
+ "candidates": [
+  "snap.licdn.com",
+  "js.hs-analytics.net",
+  "s.adroll.com"
+ ],
+ "category": "productivity",
+ "domain": "inmobi.com",
+ "n_blocked_tracking": 240.0,
+ "elapsed_s": 108.5
+}

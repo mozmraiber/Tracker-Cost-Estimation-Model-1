@@ -1,0 +1,337 @@
+{
+ "url": "https://cdnvideo.ru/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "mc.yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 92008,
+     "control": {
+      "page": 13496908,
+      "third_party": 2490690,
+      "listed": 176329
+     },
+     "ablated": {
+      "page": 13400924,
+      "third_party": 2392962,
+      "listed": 78812
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "mc.yandex.ru": 92008,
+      "mc.yandex.com": 5507,
+      "www.cdnvideo.ru": -1742,
+      "www.google.com": 200,
+      "api-maps.yandex.ru": 11,
+      "cdnvideo.ru": -2,
+      "privacy-cs.mail.ru": 2,
+      "api.yadrocrm.ru": 0,
+      "yastatic.net": 0,
+      "api.sypexgeo.net": 0,
+      "top-fwz1.mail.ru": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 92008,
+     "control": {
+      "page": 13497986,
+      "third_party": 2490550,
+      "listed": 176269
+     },
+     "ablated": {
+      "page": 13400781,
+      "third_party": 2392993,
+      "listed": 78814
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "mc.yandex.ru": 92008,
+      "mc.yandex.com": 5447,
+      "www.cdnvideo.ru": -352,
+      "www.google.com": 103,
+      "api.sypexgeo.net": -1,
+      "cdnvideo.ru": 0,
+      "api-maps.yandex.ru": 0,
+      "api.yadrocrm.ru": 0,
+      "yastatic.net": 0,
+      "top-fwz1.mail.ru": 0,
+      "www.gstatic.com": 0,
+      "privacy-cs.mail.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3976,
+     5197
+    ],
+    "third_party": [
+     5720,
+     5549
+    ],
+    "listed": [
+     5509,
+     5447
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 4586.5,
+     "sd": 863.3773798287746,
+     "se": 610.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 5634.5,
+     "sd": 120.91525958289962,
+     "se": 85.49999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 5478,
+     "sd": 43.840620433565945,
+     "se": 30.999999999999996
+    }
+   },
+   "own_mean": 92008
+  },
+  "top-fwz1.mail.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 55058,
+     "control": {
+      "page": 13498453,
+      "third_party": 2490403,
+      "listed": 176288
+     },
+     "ablated": {
+      "page": 13419313,
+      "third_party": 2411443,
+      "listed": 97415
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "top-fwz1.mail.ru": 55058,
+      "privacy-cs.mail.ru": 23351,
+      "ad.mail.ru": 403,
+      "www.cdnvideo.ru": 179,
+      "www.google.com": 86,
+      "mc.yandex.com": 61,
+      "api-maps.yandex.ru": 4,
+      "api.sypexgeo.net": -3,
+      "cdnvideo.ru": 1,
+      "api.yadrocrm.ru": 0,
+      "yastatic.net": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 55058,
+     "control": {
+      "page": 13497665,
+      "third_party": 2490425,
+      "listed": 176246
+     },
+     "ablated": {
+      "page": 13419626,
+      "third_party": 2411745,
+      "listed": 97616
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "top-fwz1.mail.ru": 55058,
+      "privacy-cs.mail.ru": 23352,
+      "cdnvideo.ru": -679,
+      "ad.mail.ru": 403,
+      "mc.yandex.ru": -181,
+      "www.google.com": 47,
+      "www.cdnvideo.ru": 38,
+      "yastatic.net": 8,
+      "www.gstatic.com": -5,
+      "api.sypexgeo.net": 4,
+      "core-renderer-tiles.maps.yandex.net": -4,
+      "mc.yandex.com": -2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     24082,
+     22981
+    ],
+    "third_party": [
+     23902,
+     23622
+    ],
+    "listed": [
+     23815,
+     23572
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 23531.5,
+     "sd": 778.5245660863889,
+     "se": 550.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 23762,
+     "sd": 197.9898987322333,
+     "se": 140.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 23693.5,
+     "sd": 171.82694782833104,
+     "se": 121.49999999999999
+    }
+   },
+   "own_mean": 55058
+  },
+  "mc.yandex.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 5416,
+     "control": {
+      "page": 13498289,
+      "third_party": 2490294,
+      "listed": 176237
+     },
+     "ablated": {
+      "page": 13497746,
+      "third_party": 2489710,
+      "listed": 170821
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 3,
+     "moved": {
+      "mc.yandex.com": 5416,
+      "www.gstatic.com": -4573,
+      "www.google.com": -258,
+      "www.cdnvideo.ru": -42,
+      "cdnvideo.ru": 1,
+      "api-maps.yandex.ru": -1,
+      "api.yadrocrm.ru": 0,
+      "yastatic.net": 0,
+      "api.sypexgeo.net": 0,
+      "top-fwz1.mail.ru": 0,
+      "mc.yandex.ru": 0,
+      "privacy-cs.mail.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 5693,
+     "control": {
+      "page": 13498534,
+      "third_party": 2490698,
+      "listed": 176514
+     },
+     "ablated": {
+      "page": 13492312,
+      "third_party": 2485080,
+      "listed": 170821
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 3,
+     "moved": {
+      "mc.yandex.com": 5693,
+      "cdnvideo.ru": 679,
+      "www.google.com": -76,
+      "www.cdnvideo.ru": -75,
+      "api-maps.yandex.ru": 1,
+      "api.yadrocrm.ru": 0,
+      "yastatic.net": 0,
+      "api.sypexgeo.net": 0,
+      "top-fwz1.mail.ru": 0,
+      "www.gstatic.com": 0,
+      "mc.yandex.ru": 0,
+      "privacy-cs.mail.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -4873,
+     529
+    ],
+    "third_party": [
+     -4832,
+     -75
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -2172,
+     "sd": 3819.79083196973,
+     "se": 2701.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -2453.5,
+     "sd": 3363.7069581044066,
+     "se": 2378.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 5554.5
+  }
+ },
+ "candidates": [
+  "mc.yandex.ru",
+  "top-fwz1.mail.ru",
+  "mc.yandex.com"
+ ],
+ "category": "infrastructure",
+ "domain": "cdnvideo.ru",
+ "n_blocked_tracking": 27.0,
+ "elapsed_s": 220.9
+}

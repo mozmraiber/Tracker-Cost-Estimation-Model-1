@@ -1,0 +1,331 @@
+{
+ "url": "https://independent.co.uk/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 272880,
+     "control": {
+      "page": 6771087,
+      "third_party": 1910573,
+      "listed": 823138
+     },
+     "ablated": {
+      "page": 6500938,
+      "third_party": 1638277,
+      "listed": 550864
+     },
+     "n_aborted": 1,
+     "moved": {
+      "5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app": 272880,
+      "www.independent.co.uk": -2147,
+      "securepubads.g.doubleclick.net": -567,
+      "assets.the-independent.com": 177,
+      "www.googletagmanager.com": -154,
+      "vi.ml314.com": -25,
+      "spellknight.com": -13,
+      "www.npttech.com": 7,
+      "uk-script.dotmetrics.net": -6,
+      "pub.doubleverify.com": -2,
+      "code.jquery.com": -1,
+      "cmpv2.independent.co.uk": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 272880,
+     "control": {
+      "page": 6773656,
+      "third_party": 1910326,
+      "listed": 823136
+     },
+     "ablated": {
+      "page": 6499092,
+      "third_party": 1637424,
+      "listed": 550333
+     },
+     "n_aborted": 1,
+     "moved": {
+      "5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app": 272880,
+      "cmpv2.independent.co.uk": 1058,
+      "www.independent.co.uk": 564,
+      "assets.the-independent.com": 99,
+      "pub.doubleverify.com": -66,
+      "static.independent.co.uk": 40,
+      "www.npttech.com": -13,
+      "securepubads.g.doubleclick.net": -5,
+      "spellknight.com": 5,
+      "uk-script.dotmetrics.net": 2,
+      "rm-script.dotmetrics.net": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -2731,
+     1684
+    ],
+    "third_party": [
+     -584,
+     22
+    ],
+    "listed": [
+     -606,
+     -77
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -523.5,
+     "sd": 3121.8764389386074,
+     "se": 2207.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -281,
+     "sd": 428.5067093990478,
+     "se": 303.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -341.5,
+     "sd": 374.05948724768365,
+     "se": 264.5
+    }
+   },
+   "own_mean": 272880
+  },
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 257275,
+     "control": {
+      "page": 6772478,
+      "third_party": 1910818,
+      "listed": 823729
+     },
+     "ablated": {
+      "page": 6516205,
+      "third_party": 1653152,
+      "listed": 565965
+     },
+     "n_aborted": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 257275,
+      "www.independent.co.uk": -1354,
+      "pagead2.googlesyndication.com": 504,
+      "assets.the-independent.com": -96,
+      "pub.doubleverify.com": -50,
+      "static.independent.co.uk": -39,
+      "vi.ml314.com": 25,
+      "spellknight.com": 16,
+      "uk-script.dotmetrics.net": -5,
+      "code.jquery.com": -2,
+      "www.npttech.com": -1,
+      "rm-script.dotmetrics.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 255470,
+     "control": {
+      "page": 6771435,
+      "third_party": 1909403,
+      "listed": 822052
+     },
+     "ablated": {
+      "page": 6513484,
+      "third_party": 1652910,
+      "listed": 565902
+     },
+     "n_aborted": 2,
+     "moved": {
+      "securepubads.g.doubleclick.net": 255470,
+      "independent.co.uk": 1019,
+      "pagead2.googlesyndication.com": 504,
+      "www.independent.co.uk": 437,
+      "feedback.adrecover.com": 402,
+      "www.googletagmanager.com": -122,
+      "pub.doubleverify.com": 67,
+      "assets.the-independent.com": 63,
+      "spellknight.com": 63,
+      "vi.ml314.com": 25,
+      "www.npttech.com": 18,
+      "uk-script.dotmetrics.net": 3
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1002,
+     2481
+    ],
+    "third_party": [
+     391,
+     1023
+    ],
+    "listed": [
+     489,
+     680
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 739.5,
+     "sd": 2462.8529188727452,
+     "se": 1741.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 707,
+     "sd": 446.89148570989806,
+     "se": 316.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 584.5,
+     "sd": 135.0573952066306,
+     "se": 95.5
+    }
+   },
+   "own_mean": 256372.5
+  },
+  "ats-wrapper.privacymanager.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 79905,
+     "control": {
+      "page": 6771981,
+      "third_party": 1910723,
+      "listed": 823689
+     },
+     "ablated": {
+      "page": 6690261,
+      "third_party": 1827996,
+      "listed": 740821
+     },
+     "n_aborted": 2,
+     "moved": {
+      "ats-wrapper.privacymanager.io": 79905,
+      "securepubads.g.doubleclick.net": 1761,
+      "geo.privacymanager.io": 1194,
+      "independent.co.uk": -1019,
+      "assets.the-independent.com": -153,
+      "www.googletagmanager.com": 12,
+      "www.independent.co.uk": 10,
+      "www.npttech.com": 8,
+      "uk-script.dotmetrics.net": -3,
+      "spellknight.com": 3,
+      "static.independent.co.uk": 2,
+      "rm-script.dotmetrics.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 79905,
+     "control": {
+      "page": 6773168,
+      "third_party": 1910390,
+      "listed": 823263
+     },
+     "ablated": {
+      "page": 6691774,
+      "third_party": 1829407,
+      "listed": 742111
+     },
+     "n_aborted": 2,
+     "moved": {
+      "ats-wrapper.privacymanager.io": 79905,
+      "geo.privacymanager.io": 1194,
+      "www.independent.co.uk": 408,
+      "assets.the-independent.com": -112,
+      "spellknight.com": 63,
+      "delivery.adrecover.com": -40,
+      "assets.monetizationos.com": -17,
+      "www.npttech.com": -6,
+      "static.independent.co.uk": 3,
+      "pub.doubleverify.com": -3,
+      "uk-script.dotmetrics.net": -2,
+      "securepubads.g.doubleclick.net": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1815,
+     1489
+    ],
+    "third_party": [
+     2822,
+     1078
+    ],
+    "listed": [
+     2963,
+     1247
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1652,
+     "sd": 230.5168106668145,
+     "se": 163.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1950,
+     "sd": 1233.1942263893388,
+     "se": 871.9999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2105,
+     "sd": 1213.3952365161156,
+     "se": 858.0
+    }
+   },
+   "own_mean": 79905
+  }
+ },
+ "candidates": [
+  "5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app",
+  "securepubads.g.doubleclick.net",
+  "ats-wrapper.privacymanager.io"
+ ],
+ "category": "news",
+ "domain": "independent.co.uk",
+ "n_blocked_tracking": 132.0,
+ "elapsed_s": 94.6
+}

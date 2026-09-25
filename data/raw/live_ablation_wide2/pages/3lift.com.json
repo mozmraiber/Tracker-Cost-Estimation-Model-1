@@ -1,0 +1,337 @@
+{
+ "url": "https://3lift.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js.adsrvr.org": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 34388,
+     "control": {
+      "page": 3861775,
+      "third_party": 3861118,
+      "listed": 2605745
+     },
+     "ablated": {
+      "page": 3822767,
+      "third_party": 3822110,
+      "listed": 2566696
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "js.adsrvr.org": 34388,
+      "match.adsrvr.org": 2512,
+      "insight.adsrvr.org": 2240,
+      "triplelift.com": -91,
+      "consent-api.service.consent.usercentrics.eu": -25,
+      "app.usercentrics.eu": 25,
+      "web.cmp.usercentrics.eu": -25,
+      "api.usercentrics.eu": -23,
+      "js.hsforms.net": 5,
+      "v1.api.service.cmp.usercentrics.eu": -3,
+      "bzr.openai.com": 2,
+      "forms.hsforms.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 33370,
+     "control": {
+      "page": 3860069,
+      "third_party": 3859412,
+      "listed": 2603728
+     },
+     "ablated": {
+      "page": 3822968,
+      "third_party": 3822311,
+      "listed": 2566824
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "js.adsrvr.org": 33370,
+      "insight.adsrvr.org": 1904,
+      "match.adsrvr.org": 1884,
+      "triplelift.com": -254,
+      "web.cmp.usercentrics.eu": -225,
+      "app.usercentrics.eu": 200,
+      "api.usercentrics.eu": 75,
+      "uct.service.usercentrics.eu": 75,
+      "v1.api.service.cmp.usercentrics.eu": 75,
+      "bzrcdn.openai.com": -3,
+      "js.hsforms.net": 2,
+      "forms.hsforms.com": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     4620,
+     3731
+    ],
+    "third_party": [
+     4620,
+     3731
+    ],
+    "listed": [
+     4661,
+     3534
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 4175.5,
+     "sd": 628.6179284748407,
+     "se": 444.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 4175.5,
+     "sd": 628.6179284748407,
+     "se": 444.49999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 4097.5,
+     "sd": 796.909342397239,
+     "se": 563.4999999999999
+    }
+   },
+   "own_mean": 33879
+  },
+  "insight.adsrvr.org": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2443,
+     "control": {
+      "page": 3861835,
+      "third_party": 3861178,
+      "listed": 2605932
+     },
+     "ablated": {
+      "page": 3852734,
+      "third_party": 3852077,
+      "listed": 2596654
+     },
+     "n_aborted": 9,
+     "n_aborted_casc": 8,
+     "moved": {
+      "js.adsrvr.org": 4072,
+      "match.adsrvr.org": 2512,
+      "insight.adsrvr.org": 2443,
+      "triplelift.com": 251,
+      "web.cmp.usercentrics.eu": -220,
+      "consent-api.service.consent.usercentrics.eu": 25,
+      "app.usercentrics.eu": 25,
+      "js.hsforms.net": -12,
+      "bzrcdn.openai.com": 3,
+      "forms.hsforms.com": 2,
+      "bzr.openai.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2443,
+     "control": {
+      "page": 3861907,
+      "third_party": 3861250,
+      "listed": 2605791
+     },
+     "ablated": {
+      "page": 3853240,
+      "third_party": 3852583,
+      "listed": 2596914
+     },
+     "n_aborted": 9,
+     "n_aborted_casc": 8,
+     "moved": {
+      "js.adsrvr.org": 4072,
+      "match.adsrvr.org": 2512,
+      "insight.adsrvr.org": 2443,
+      "www.googletagmanager.com": -326,
+      "app.usercentrics.eu": 250,
+      "triplelift.com": -150,
+      "web.cmp.usercentrics.eu": -142,
+      "js.hsforms.net": 5,
+      "bzr.openai.com": 4,
+      "bzrcdn.openai.com": 4,
+      "forms.hsforms.com": -3,
+      "forms-na1.hsforms.com": -2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     6658,
+     6224
+    ],
+    "third_party": [
+     6658,
+     6224
+    ],
+    "listed": [
+     6835,
+     6434
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 6441,
+     "sd": 306.8843430349616,
+     "se": 216.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 6441,
+     "sd": 306.8843430349616,
+     "se": 216.99999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 6634.5,
+     "sd": 283.5498192558056,
+     "se": 200.5
+    }
+   },
+   "own_mean": 2443
+  },
+  "match.adsrvr.org": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2512,
+     "control": {
+      "page": 3862209,
+      "third_party": 3861552,
+      "listed": 2605809
+     },
+     "ablated": {
+      "page": 3861970,
+      "third_party": 3861313,
+      "listed": 2605978
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "app.usercentrics.eu": 225,
+      "triplelift.com": -169,
+      "web.cmp.usercentrics.eu": 150,
+      "api.usercentrics.eu": 120,
+      "v1.api.service.cmp.usercentrics.eu": -75,
+      "js.hsforms.net": -13,
+      "bzr.openai.com": 2,
+      "forms-na1.hsforms.com": -1,
+      "forms.hsforms.com": -1,
+      "bzrcdn.openai.com": 1,
+      "consent-api.service.consent.usercentrics.eu": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2512,
+     "control": {
+      "page": 3862122,
+      "third_party": 3861465,
+      "listed": 2605731
+     },
+     "ablated": {
+      "page": 3861855,
+      "third_party": 3861198,
+      "listed": 2605698
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "www.googletagmanager.com": 201,
+      "triplelift.com": 33,
+      "consent-api.service.consent.usercentrics.eu": 25,
+      "js.hsforms.net": 6,
+      "forms.hsforms.com": 3,
+      "bzr.openai.com": -2,
+      "bzrcdn.openai.com": 1,
+      "insight.adsrvr.org": 0,
+      "cdn.jsdelivr.net": 0,
+      "js.adsrvr.org": 0,
+      "match.adsrvr.org": 0,
+      "3lift.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -2273,
+     -2245
+    ],
+    "third_party": [
+     -2273,
+     -2245
+    ],
+    "listed": [
+     -2681,
+     -2479
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -2259,
+     "sd": 19.79898987322333,
+     "se": 13.999999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -2259,
+     "sd": 19.79898987322333,
+     "se": 13.999999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": -2580,
+     "sd": 142.8355697996826,
+     "se": 100.99999999999999
+    }
+   },
+   "own_mean": 2512
+  }
+ },
+ "candidates": [
+  "js.adsrvr.org",
+  "insight.adsrvr.org",
+  "match.adsrvr.org"
+ ],
+ "category": "infrastructure",
+ "domain": "3lift.com",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 88.5
+}

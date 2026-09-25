@@ -1,0 +1,313 @@
+{
+ "url": "https://consultant.ru/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "mc.yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 147738,
+     "control": {
+      "page": 454764,
+      "third_party": 206613,
+      "listed": 206613
+     },
+     "ablated": {
+      "page": 297387,
+      "third_party": 50733,
+      "listed": 50733
+     },
+     "n_aborted": 2,
+     "moved": {
+      "mc.yandex.ru": 147738,
+      "mc.yandex.com": 8143,
+      "banner.consultant.ru": 1529,
+      "www.consultant.ru": -32,
+      "privacy-cs.mail.ru": -1,
+      "storage.consultant.ru": 0,
+      "consultant.ru": 0,
+      "top-fwz1.mail.ru": 0,
+      "counter.yadro.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 147738,
+     "control": {
+      "page": 533370,
+      "third_party": 209074,
+      "listed": 209074
+     },
+     "ablated": {
+      "page": 298891,
+      "third_party": 50732,
+      "listed": 50732
+     },
+     "n_aborted": 2,
+     "moved": {
+      "mc.yandex.ru": 147738,
+      "banner.consultant.ru": 76123,
+      "mc.yandex.com": 10604,
+      "www.consultant.ru": 14,
+      "storage.consultant.ru": 0,
+      "privacy-cs.mail.ru": 0,
+      "consultant.ru": 0,
+      "top-fwz1.mail.ru": 0,
+      "counter.yadro.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     9639,
+     86741
+    ],
+    "third_party": [
+     8142,
+     10604
+    ],
+    "listed": [
+     8142,
+     10604
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 48190,
+     "sd": 54519.347043045185,
+     "se": 38550.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 9373,
+     "sd": 1740.89689528128,
+     "se": 1231.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 9373,
+     "sd": 1740.89689528128,
+     "se": 1231.0
+    }
+   },
+   "own_mean": 147738
+  },
+  "top-fwz1.mail.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 26971,
+     "control": {
+      "page": 454930,
+      "third_party": 207680,
+      "listed": 207680
+     },
+     "ablated": {
+      "page": 480532,
+      "third_party": 156266,
+      "listed": 156266
+     },
+     "n_aborted": 1,
+     "moved": {
+      "banner.consultant.ru": -77004,
+      "top-fwz1.mail.ru": 26971,
+      "privacy-cs.mail.ru": 23356,
+      "mc.yandex.com": 1087,
+      "www.consultant.ru": -12,
+      "storage.consultant.ru": 0,
+      "consultant.ru": 0,
+      "counter.yadro.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 26971,
+     "control": {
+      "page": 454954,
+      "third_party": 206793,
+      "listed": 206793
+     },
+     "ablated": {
+      "page": 397196,
+      "third_party": 156285,
+      "listed": 156285
+     },
+     "n_aborted": 1,
+     "moved": {
+      "top-fwz1.mail.ru": 26971,
+      "privacy-cs.mail.ru": 23357,
+      "banner.consultant.ru": 7250,
+      "mc.yandex.com": 180,
+      "storage.consultant.ru": 0,
+      "www.consultant.ru": 0,
+      "consultant.ru": 0,
+      "counter.yadro.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -52573,
+     30787
+    ],
+    "third_party": [
+     24443,
+     23537
+    ],
+    "listed": [
+     24443,
+     23537
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -10893,
+     "sd": 58944.4212797106,
+     "se": 41680.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 23990,
+     "sd": 640.638743755012,
+     "se": 452.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 23990,
+     "sd": 640.638743755012,
+     "se": 452.99999999999994
+    }
+   },
+   "own_mean": 26971
+  },
+  "mc.yandex.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 8142,
+     "control": {
+      "page": 530373,
+      "third_party": 206612,
+      "listed": 206612
+     },
+     "ablated": {
+      "page": 522748,
+      "third_party": 198470,
+      "listed": 198470
+     },
+     "n_aborted": 7,
+     "moved": {
+      "mc.yandex.com": 8142,
+      "consultant.ru": -465,
+      "www.consultant.ru": -53,
+      "banner.consultant.ru": 1,
+      "storage.consultant.ru": 0,
+      "privacy-cs.mail.ru": 0,
+      "top-fwz1.mail.ru": 0,
+      "counter.yadro.ru": 0,
+      "mc.yandex.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 7282,
+     "control": {
+      "page": 453155,
+      "third_party": 205783,
+      "listed": 205783
+     },
+     "ablated": {
+      "page": 445716,
+      "third_party": 198470,
+      "listed": 198470
+     },
+     "n_aborted": 7,
+     "moved": {
+      "mc.yandex.com": 7282,
+      "banner.consultant.ru": 119,
+      "mc.yandex.ru": 31,
+      "www.consultant.ru": 7,
+      "storage.consultant.ru": 0,
+      "privacy-cs.mail.ru": 0,
+      "consultant.ru": 0,
+      "top-fwz1.mail.ru": 0,
+      "counter.yadro.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -517,
+     157
+    ],
+    "third_party": [
+     0,
+     31
+    ],
+    "listed": [
+     0,
+     31
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -180,
+     "sd": 476.589970519733,
+     "se": 336.99999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 15.5,
+     "sd": 21.920310216782973,
+     "se": 15.499999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 15.5,
+     "sd": 21.920310216782973,
+     "se": 15.499999999999998
+    }
+   },
+   "own_mean": 7712
+  }
+ },
+ "candidates": [
+  "mc.yandex.ru",
+  "top-fwz1.mail.ru",
+  "mc.yandex.com"
+ ],
+ "category": "reference",
+ "domain": "consultant.ru",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 96.2
+}

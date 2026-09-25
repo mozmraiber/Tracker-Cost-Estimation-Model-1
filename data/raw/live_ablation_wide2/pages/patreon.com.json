@@ -1,0 +1,337 @@
+{
+ "url": "https://patreon.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "static.cloudflareinsights.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 45031044,
+      "third_party": 366926,
+      "listed": 13309
+     },
+     "ablated": {
+      "page": 45021275,
+      "third_party": 354926,
+      "listed": 1332
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "www.patreon.com": -2225,
+      "cloudflareinsights.com": 1482,
+      "transcend-cdn.com": 21,
+      "c5.patreon.com": -8,
+      "patreon.com": 5,
+      "c14.patreon.com": -3,
+      "flagcdn.com": 2,
+      "o83571.ingest.sentry.io": 0,
+      "jobs.ashbyhq.com": 0,
+      "region1.google-analytics.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 45032628,
+      "third_party": 366319,
+      "listed": 12840
+     },
+     "ablated": {
+      "page": 45019618,
+      "third_party": 355346,
+      "listed": 1332
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "www.patreon.com": 2045,
+      "cloudflareinsights.com": 988,
+      "www.googletagmanager.com": -325,
+      "transcend-cdn.com": -204,
+      "o83571.ingest.sentry.io": 25,
+      "c14.patreon.com": -15,
+      "flagcdn.com": -6,
+      "patreon.com": 5,
+      "c5.patreon.com": 2,
+      "jobs.ashbyhq.com": 0,
+      "region1.google-analytics.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -726,
+     2515
+    ],
+    "third_party": [
+     1505,
+     478
+    ],
+    "listed": [
+     1482,
+     1013
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 894.5,
+     "sd": 2291.7330778256005,
+     "se": 1620.4999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 991.5,
+     "sd": 726.1986642785843,
+     "se": 513.4999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1247.5,
+     "sd": 331.6330803764908,
+     "se": 234.5
+    }
+   },
+   "own_mean": 10495
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 838,
+     "control": {
+      "page": 45031119,
+      "third_party": 367125,
+      "listed": 13309
+     },
+     "ablated": {
+      "page": 45031360,
+      "third_party": 365592,
+      "listed": 11977
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.patreon.com": -1770,
+      "region1.google-analytics.com": 838,
+      "cloudflareinsights.com": 494,
+      "www.googletagmanager.com": 201,
+      "flagcdn.com": 6,
+      "transcend-cdn.com": -5,
+      "c14.patreon.com": 5,
+      "patreon.com": -5,
+      "c5.patreon.com": -4,
+      "jobs.ashbyhq.com": -1,
+      "o83571.ingest.sentry.io": 0,
+      "static.cloudflareinsights.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 838,
+     "control": {
+      "page": 45032860,
+      "third_party": 366968,
+      "listed": 12815
+     },
+     "ablated": {
+      "page": 45030200,
+      "third_party": 366168,
+      "listed": 12496
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "patreon.com": 1095,
+      "region1.google-analytics.com": 838,
+      "www.patreon.com": 765,
+      "cloudflareinsights.com": -494,
+      "www.googletagmanager.com": 325,
+      "transcend-cdn.com": 154,
+      "o83571.ingest.sentry.io": -25,
+      "flagcdn.com": 2,
+      "jobs.ashbyhq.com": 0,
+      "static.cloudflareinsights.com": 0,
+      "c14.patreon.com": 0,
+      "c5.patreon.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1079,
+     1822
+    ],
+    "third_party": [
+     695,
+     -38
+    ],
+    "listed": [
+     494,
+     -519
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 371.5,
+     "sd": 2051.316772222174,
+     "se": 1450.4999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 328.5,
+     "sd": 518.3092706097393,
+     "se": 366.49999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": -12.5,
+     "sd": 716.2991693419726,
+     "se": 506.49999999999994
+    }
+   },
+   "own_mean": 838
+  },
+  "o83571.ingest.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 45032007,
+      "third_party": 366896,
+      "listed": 13309
+     },
+     "ablated": {
+      "page": 45030483,
+      "third_party": 366447,
+      "listed": 12815
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.patreon.com": 1086,
+      "o83571.ingest.sentry.io": 494,
+      "transcend-cdn.com": -48,
+      "c14.patreon.com": -29,
+      "c5.patreon.com": 12,
+      "patreon.com": 6,
+      "www.googletagmanager.com": 3,
+      "jobs.ashbyhq.com": 0,
+      "region1.google-analytics.com": 0,
+      "static.cloudflareinsights.com": 0,
+      "flagcdn.com": 0,
+      "cloudflareinsights.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 45032097,
+      "third_party": 366980,
+      "listed": 13309
+     },
+     "ablated": {
+      "page": 45032982,
+      "third_party": 366344,
+      "listed": 12815
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.patreon.com": -1460,
+      "o83571.ingest.sentry.io": 494,
+      "transcend-cdn.com": 146,
+      "c14.patreon.com": -51,
+      "c5.patreon.com": -6,
+      "flagcdn.com": -4,
+      "patreon.com": -4,
+      "jobs.ashbyhq.com": 0,
+      "region1.google-analytics.com": 0,
+      "static.cloudflareinsights.com": 0,
+      "www.googletagmanager.com": 0,
+      "cloudflareinsights.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1030,
+     -1379
+    ],
+    "third_party": [
+     -45,
+     142
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -174.5,
+     "sd": 1703.420235878393,
+     "se": 1204.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 48.5,
+     "sd": 132.22896808188437,
+     "se": 93.49999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "static.cloudflareinsights.com",
+  "region1.google-analytics.com",
+  "o83571.ingest.sentry.io"
+ ],
+ "category": "social",
+ "domain": "patreon.com",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 152.5
+}

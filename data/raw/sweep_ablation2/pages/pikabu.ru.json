@@ -1,0 +1,262 @@
+{
+ "url": "https://pikabu.ru/",
+ "hosts": [
+  "yandex.ru",
+  "mc.yandex.ru",
+  "mc.yandex.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "yandex.ru",
+    "mc.yandex.com",
+    "mc.yandex.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5900135,
+      "third_party": 2346964,
+      "listed": 432761
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 3583692,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "own": 427580,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 2316443,
+      "third_party": 2320170,
+      "listed": 432761
+     },
+     "cascade": {
+      "page": 1888863,
+      "third_party": 1892590,
+      "listed": 5181
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "yandex.ru",
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 3565950,
+      "third_party": 26795,
+      "listed": 0
+     },
+     "own": 438164,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 2334185,
+      "third_party": 2320169,
+      "listed": 432761
+     },
+     "cascade": {
+      "page": 1896021,
+      "third_party": 1882005,
+      "listed": -5403
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "yandex.ru",
+      "mc.yandex.com",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 3644305,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "own": 530172,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 2255830,
+      "third_party": 2320170,
+      "listed": 432761
+     },
+     "cascade": {
+      "page": 1725658,
+      "third_party": 1789998,
+      "listed": -97411
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "mc.yandex.com",
+    "mc.yandex.ru",
+    "yandex.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5297180,
+      "third_party": 1681504,
+      "listed": 686967
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 4848875,
+      "third_party": 1227407,
+      "listed": 470833
+     },
+     "own": 49854,
+     "n_aborted": 10,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "image": 1,
+      "fetch": 3,
+      "xhr": 3,
+      "script": 3
+     },
+     "saved": {
+      "page": 448305,
+      "third_party": 454097,
+      "listed": 216134
+     },
+     "cascade": {
+      "page": 398451,
+      "third_party": 404243,
+      "listed": 166280
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 5254850,
+      "third_party": 1598736,
+      "listed": 378839
+     },
+     "own": 399447,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 42330,
+      "third_party": 82768,
+      "listed": 308128
+     },
+     "cascade": {
+      "page": -357117,
+      "third_party": -316679,
+      "listed": -91319
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru",
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 3603894,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "own": 1037693,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 1693286,
+      "third_party": 1654710,
+      "listed": 686967
+     },
+     "cascade": {
+      "page": 655593,
+      "third_party": 617017,
+      "listed": -350726
+     }
+    }
+   ]
+  }
+ ],
+ "category": "social",
+ "domain": "pikabu.ru",
+ "elapsed_s": 70.2
+}

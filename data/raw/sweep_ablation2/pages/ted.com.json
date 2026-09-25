@@ -1,0 +1,468 @@
+{
+ "url": "https://ted.com/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "api.sail-personalize.com",
+  "ak.sail-horizon.com",
+  "bam.nr-data.net",
+  "fndrsp.net",
+  "pagead2.googlesyndication.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "fndrsp.net",
+    "ak.sail-horizon.com",
+    "api.sail-personalize.com",
+    "securepubads.g.doubleclick.net",
+    "pagead2.googlesyndication.com",
+    "bam.nr-data.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4704024,
+      "third_party": 2531804,
+      "listed": 521767
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "fndrsp.net"
+     ],
+     "bytes": {
+      "page": 4702366,
+      "third_party": 2531818,
+      "listed": 521658
+     },
+     "own": 702,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 1
+     },
+     "saved": {
+      "page": 1658,
+      "third_party": -14,
+      "listed": 109
+     },
+     "cascade": {
+      "page": 956,
+      "third_party": -716,
+      "listed": -593
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "fndrsp.net",
+      "ak.sail-horizon.com"
+     ],
+     "bytes": {
+      "page": 4647668,
+      "third_party": 2477436,
+      "listed": 467817
+     },
+     "own": 50338,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 56356,
+      "third_party": 54368,
+      "listed": 53950
+     },
+     "cascade": {
+      "page": 6018,
+      "third_party": 4030,
+      "listed": 3612
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "fndrsp.net",
+      "ak.sail-horizon.com",
+      "api.sail-personalize.com"
+     ],
+     "bytes": {
+      "page": 4444218,
+      "third_party": 2376437,
+      "listed": 366523
+     },
+     "own": 155657,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "fetch": 9
+     },
+     "saved": {
+      "page": 259806,
+      "third_party": 155367,
+      "listed": 155244
+     },
+     "cascade": {
+      "page": 104149,
+      "third_party": -290,
+      "listed": -413
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "fndrsp.net",
+      "ak.sail-horizon.com",
+      "api.sail-personalize.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 4179402,
+      "third_party": 2108176,
+      "listed": 109061
+     },
+     "own": 412610,
+     "n_aborted": 11,
+     "n_aborted_casc": 11,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 9
+     },
+     "saved": {
+      "page": 524622,
+      "third_party": 423628,
+      "listed": 412706
+     },
+     "cascade": {
+      "page": 112012,
+      "third_party": 11018,
+      "listed": 96
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "fndrsp.net",
+      "ak.sail-horizon.com",
+      "api.sail-personalize.com",
+      "securepubads.g.doubleclick.net",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 4179963,
+      "third_party": 2108309,
+      "listed": 109061
+     },
+     "own": 413114,
+     "n_aborted": 11,
+     "n_aborted_casc": 11,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 9
+     },
+     "saved": {
+      "page": 524061,
+      "third_party": 423495,
+      "listed": 412706
+     },
+     "cascade": {
+      "page": 110947,
+      "third_party": 10381,
+      "listed": -408
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "fndrsp.net",
+      "ak.sail-horizon.com",
+      "api.sail-personalize.com",
+      "securepubads.g.doubleclick.net",
+      "pagead2.googlesyndication.com",
+      "bam.nr-data.net"
+     ],
+     "bytes": {
+      "page": 4177734,
+      "third_party": 2106141,
+      "listed": 106329
+     },
+     "own": 415438,
+     "n_aborted": 13,
+     "n_aborted_casc": 13,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 9,
+      "xhr": 2
+     },
+     "saved": {
+      "page": 526290,
+      "third_party": 425663,
+      "listed": 415438
+     },
+     "cascade": {
+      "page": 110852,
+      "third_party": 10225,
+      "listed": 0
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "fndrsp.net",
+    "securepubads.g.doubleclick.net",
+    "api.sail-personalize.com",
+    "pagead2.googlesyndication.com",
+    "ak.sail-horizon.com",
+    "bam.nr-data.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4701814,
+      "third_party": 2529911,
+      "listed": 519951
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "fndrsp.net"
+     ],
+     "bytes": {
+      "page": 4703207,
+      "third_party": 2530818,
+      "listed": 520910
+     },
+     "own": 698,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 1
+     },
+     "saved": {
+      "page": -1393,
+      "third_party": -907,
+      "listed": -959
+     },
+     "cascade": {
+      "page": -2091,
+      "third_party": -1605,
+      "listed": -1657
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "fndrsp.net",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 4435440,
+      "third_party": 2265184,
+      "listed": 264017
+     },
+     "own": 255841,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 266374,
+      "third_party": 264727,
+      "listed": 255934
+     },
+     "cascade": {
+      "page": 10533,
+      "third_party": 8886,
+      "listed": 93
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "fndrsp.net",
+      "securepubads.g.doubleclick.net",
+      "api.sail-personalize.com"
+     ],
+     "bytes": {
+      "page": 4229506,
+      "third_party": 2157913,
+      "listed": 158697
+     },
+     "own": 361158,
+     "n_aborted": 11,
+     "n_aborted_casc": 11,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "fetch": 10,
+      "script": 1
+     },
+     "saved": {
+      "page": 472308,
+      "third_party": 371998,
+      "listed": 361254
+     },
+     "cascade": {
+      "page": 111150,
+      "third_party": 10840,
+      "listed": 96
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "fndrsp.net",
+      "securepubads.g.doubleclick.net",
+      "api.sail-personalize.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 4229456,
+      "third_party": 2157853,
+      "listed": 158717
+     },
+     "own": 361662,
+     "n_aborted": 11,
+     "n_aborted_casc": 11,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "fetch": 10,
+      "script": 1
+     },
+     "saved": {
+      "page": 472358,
+      "third_party": 372058,
+      "listed": 361234
+     },
+     "cascade": {
+      "page": 110696,
+      "third_party": 10396,
+      "listed": -428
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "fndrsp.net",
+      "securepubads.g.doubleclick.net",
+      "api.sail-personalize.com",
+      "pagead2.googlesyndication.com",
+      "ak.sail-horizon.com"
+     ],
+     "bytes": {
+      "page": 4176104,
+      "third_party": 2108328,
+      "listed": 109061
+     },
+     "own": 411298,
+     "n_aborted": 11,
+     "n_aborted_casc": 11,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 9
+     },
+     "saved": {
+      "page": 525710,
+      "third_party": 421583,
+      "listed": 410890
+     },
+     "cascade": {
+      "page": 114412,
+      "third_party": 10285,
+      "listed": -408
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "fndrsp.net",
+      "securepubads.g.doubleclick.net",
+      "api.sail-personalize.com",
+      "pagead2.googlesyndication.com",
+      "ak.sail-horizon.com",
+      "bam.nr-data.net"
+     ],
+     "bytes": {
+      "page": 4177437,
+      "third_party": 2105845,
+      "listed": 106329
+     },
+     "own": 413622,
+     "n_aborted": 13,
+     "n_aborted_casc": 13,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 9,
+      "xhr": 2
+     },
+     "saved": {
+      "page": 524377,
+      "third_party": 424066,
+      "listed": 413622
+     },
+     "cascade": {
+      "page": 110755,
+      "third_party": 10444,
+      "listed": 0
+     }
+    }
+   ]
+  }
+ ],
+ "category": "entertainment",
+ "domain": "ted.com",
+ "elapsed_s": 96.9
+}

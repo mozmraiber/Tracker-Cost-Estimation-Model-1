@@ -1,0 +1,213 @@
+{
+ "url": "https://aboutads.info/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "www.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 22654,
+     "control": {
+      "page": 576597,
+      "third_party": 575888,
+      "listed": 24873
+     },
+     "ablated": {
+      "page": 553220,
+      "third_party": 552517,
+      "listed": 2219
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.google-analytics.com": 22654,
+      "www.googletagmanager.com": 720,
+      "aboutads.info": 6,
+      "youradchoices.com": -3,
+      "stats.g.doubleclick.net": 0,
+      "fonts.googleapis.com": 0,
+      "region1.analytics.google.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 22654,
+     "control": {
+      "page": 575867,
+      "third_party": 575166,
+      "listed": 24873
+     },
+     "ablated": {
+      "page": 553204,
+      "third_party": 552503,
+      "listed": 2219
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.google-analytics.com": 22654,
+      "www.googletagmanager.com": 10,
+      "youradchoices.com": -1,
+      "stats.g.doubleclick.net": 0,
+      "aboutads.info": 0,
+      "fonts.googleapis.com": 0,
+      "region1.analytics.google.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.google.de": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     723,
+     9
+    ],
+    "third_party": [
+     717,
+     9
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 366,
+     "sd": 504.8742417671949,
+     "se": 356.99999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 363,
+     "sd": 500.63160108007565,
+     "se": 354.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 22654
+  },
+  "region1.analytics.google.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1379,
+     "control": {
+      "page": 575873,
+      "third_party": 575166,
+      "listed": 24873
+     },
+     "ablated": {
+      "page": 574489,
+      "third_party": 573790,
+      "listed": 23494
+     },
+     "n_aborted": 2,
+     "moved": {
+      "region1.analytics.google.com": 1379,
+      "aboutads.info": 8,
+      "youradchoices.com": -3,
+      "stats.g.doubleclick.net": 0,
+      "fonts.googleapis.com": 0,
+      "www.google-analytics.com": 0,
+      "www.googletagmanager.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1379,
+     "control": {
+      "page": 575871,
+      "third_party": 575170,
+      "listed": 24873
+     },
+     "ablated": {
+      "page": 575225,
+      "third_party": 574508,
+      "listed": 23494
+     },
+     "n_aborted": 2,
+     "moved": {
+      "region1.analytics.google.com": 1379,
+      "www.googletagmanager.com": -720,
+      "aboutads.info": -16,
+      "youradchoices.com": 3,
+      "stats.g.doubleclick.net": 0,
+      "fonts.googleapis.com": 0,
+      "www.google-analytics.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.google.de": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     5,
+     -733
+    ],
+    "third_party": [
+     -3,
+     -717
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -364,
+     "sd": 521.8448045156721,
+     "se": 369.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -360,
+     "sd": 504.8742417671949,
+     "se": 356.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1379
+  }
+ },
+ "candidates": [
+  "www.google-analytics.com",
+  "region1.analytics.google.com"
+ ],
+ "category": "reference",
+ "domain": "aboutads.info",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 60.3
+}

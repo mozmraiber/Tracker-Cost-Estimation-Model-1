@@ -1,0 +1,257 @@
+{
+ "url": "https://dailymotion.com/",
+ "hosts": [
+  "pagead2.googlesyndication.com",
+  "s0.2mdn.net",
+  "securepubads.g.doubleclick.net"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "pagead2.googlesyndication.com",
+    "securepubads.g.doubleclick.net",
+    "s0.2mdn.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3553253,
+      "third_party": 1486082,
+      "listed": 37219
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 3535344,
+      "third_party": 1468177,
+      "listed": 19313
+     },
+     "own": 17909,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 17909,
+      "third_party": 17905,
+      "listed": 17906
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": -4,
+      "listed": -3
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "pagead2.googlesyndication.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3235850,
+      "third_party": 1268149,
+      "listed": 0
+     },
+     "own": 19794,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 1
+     },
+     "saved": {
+      "page": 317403,
+      "third_party": 217933,
+      "listed": 37219
+     },
+     "cascade": {
+      "page": 297609,
+      "third_party": 198139,
+      "listed": 17425
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "pagead2.googlesyndication.com",
+      "securepubads.g.doubleclick.net",
+      "s0.2mdn.net"
+     ],
+     "bytes": {
+      "page": 3235732,
+      "third_party": 1268149,
+      "listed": 0
+     },
+     "own": 37219,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 1
+     },
+     "saved": {
+      "page": 317521,
+      "third_party": 217933,
+      "listed": 37219
+     },
+     "cascade": {
+      "page": 280302,
+      "third_party": 180714,
+      "listed": 0
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "securepubads.g.doubleclick.net",
+    "s0.2mdn.net",
+    "pagead2.googlesyndication.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3552894,
+      "third_party": 1485719,
+      "listed": 37223
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3551069,
+      "third_party": 1483826,
+      "listed": 35334
+     },
+     "own": 1889,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 1
+     },
+     "saved": {
+      "page": 1825,
+      "third_party": 1893,
+      "listed": 1889
+     },
+     "cascade": {
+      "page": -64,
+      "third_party": 4,
+      "listed": 0
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "securepubads.g.doubleclick.net",
+      "s0.2mdn.net"
+     ],
+     "bytes": {
+      "page": 3533981,
+      "third_party": 1466773,
+      "listed": 17909
+     },
+     "own": 19314,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 18913,
+      "third_party": 18946,
+      "listed": 19314
+     },
+     "cascade": {
+      "page": -401,
+      "third_party": -368,
+      "listed": 0
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "securepubads.g.doubleclick.net",
+      "s0.2mdn.net",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 3516028,
+      "third_party": 1448871,
+      "listed": 0
+     },
+     "own": 37223,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 36866,
+      "third_party": 36848,
+      "listed": 37223
+     },
+     "cascade": {
+      "page": -357,
+      "third_party": -375,
+      "listed": 0
+     }
+    }
+   ]
+  }
+ ],
+ "category": "entertainment",
+ "domain": "dailymotion.com",
+ "elapsed_s": 62.6
+}

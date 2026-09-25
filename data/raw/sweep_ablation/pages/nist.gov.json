@@ -1,0 +1,284 @@
+{
+ "url": "https://nist.gov/",
+ "hosts": [
+  "js-agent.newrelic.com",
+  "static.cloudflareinsights.com",
+  "bam.nr-data.net",
+  "region1.google-analytics.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "bam.nr-data.net",
+    "js-agent.newrelic.com",
+    "static.cloudflareinsights.com",
+    "region1.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 6237776,
+      "third_party": 5747749,
+      "listed": 36179
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "bam.nr-data.net"
+     ],
+     "bytes": {
+      "page": 6235254,
+      "third_party": 5745995,
+      "listed": 34994
+     },
+     "own": 1165,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 2522,
+      "third_party": 1754,
+      "listed": 1185
+     },
+     "cascade": {
+      "page": 1357,
+      "third_party": 589,
+      "listed": 20
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "bam.nr-data.net",
+      "js-agent.newrelic.com"
+     ],
+     "bytes": {
+      "page": 6213076,
+      "third_party": 5723315,
+      "listed": 12165
+     },
+     "own": 24014,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 24700,
+      "third_party": 24434,
+      "listed": 24014
+     },
+     "cascade": {
+      "page": 686,
+      "third_party": 420,
+      "listed": 0
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "bam.nr-data.net",
+      "js-agent.newrelic.com",
+      "static.cloudflareinsights.com"
+     ],
+     "bytes": {
+      "page": 6203017,
+      "third_party": 5713638,
+      "listed": 1670
+     },
+     "own": 34509,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 34759,
+      "third_party": 34111,
+      "listed": 34509
+     },
+     "cascade": {
+      "page": 250,
+      "third_party": -398,
+      "listed": 0
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "bam.nr-data.net",
+      "js-agent.newrelic.com",
+      "static.cloudflareinsights.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 6200575,
+      "third_party": 5711345,
+      "listed": 0
+     },
+     "own": 36179,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 37201,
+      "third_party": 36404,
+      "listed": 36179
+     },
+     "cascade": {
+      "page": 1022,
+      "third_party": 225,
+      "listed": 0
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "js-agent.newrelic.com",
+    "static.cloudflareinsights.com",
+    "region1.google-analytics.com",
+    "bam.nr-data.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 6237122,
+      "third_party": 5747221,
+      "listed": 36179
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js-agent.newrelic.com"
+     ],
+     "bytes": {
+      "page": 6212908,
+      "third_party": 5723504,
+      "listed": 12165
+     },
+     "own": 22849,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 24214,
+      "third_party": 23717,
+      "listed": 24014
+     },
+     "cascade": {
+      "page": 1365,
+      "third_party": 868,
+      "listed": 1165
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js-agent.newrelic.com",
+      "static.cloudflareinsights.com"
+     ],
+     "bytes": {
+      "page": 6202760,
+      "third_party": 5713067,
+      "listed": 1670
+     },
+     "own": 33344,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 34362,
+      "third_party": 34154,
+      "listed": 34509
+     },
+     "cascade": {
+      "page": 1018,
+      "third_party": 810,
+      "listed": 1165
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js-agent.newrelic.com",
+      "static.cloudflareinsights.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 6200421,
+      "third_party": 5711338,
+      "listed": 0
+     },
+     "own": 35014,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 36701,
+      "third_party": 35883,
+      "listed": 36179
+     },
+     "cascade": {
+      "page": 1687,
+      "third_party": 869,
+      "listed": 1165
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js-agent.newrelic.com",
+      "static.cloudflareinsights.com",
+      "region1.google-analytics.com",
+      "bam.nr-data.net"
+     ],
+     "bytes": {
+      "page": 6200277,
+      "third_party": 5710992,
+      "listed": 0
+     },
+     "own": 36179,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 36845,
+      "third_party": 36229,
+      "listed": 36179
+     },
+     "cascade": {
+      "page": 666,
+      "third_party": 50,
+      "listed": 0
+     }
+    }
+   ]
+  }
+ ],
+ "category": "reference",
+ "domain": "nist.gov",
+ "elapsed_s": 79.0
+}

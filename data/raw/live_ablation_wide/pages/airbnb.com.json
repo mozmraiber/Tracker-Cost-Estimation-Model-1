@@ -1,0 +1,109 @@
+{
+ "url": "https://airbnb.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "ad.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 553,
+     "control": {
+      "page": 5437714,
+      "third_party": 4783767,
+      "listed": 4781970
+     },
+     "ablated": {
+      "page": 5363882,
+      "third_party": 4710479,
+      "listed": 4708682
+     },
+     "n_aborted": 2,
+     "moved": {
+      "a0.muscache.com": 72735,
+      "www.airbnb.com": 995,
+      "ad.doubleclick.net": 553,
+      "airbnb.com": -453,
+      "d0a7e.airbnb.com": 2,
+      "www.google.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 553,
+     "control": {
+      "page": 5437839,
+      "third_party": 4783461,
+      "listed": 4781664
+     },
+     "ablated": {
+      "page": 5446987,
+      "third_party": 4793460,
+      "listed": 4791663
+     },
+     "n_aborted": 2,
+     "moved": {
+      "a0.muscache.com": -10552,
+      "www.airbnb.com": 853,
+      "ad.doubleclick.net": 553,
+      "d0a7e.airbnb.com": -2,
+      "airbnb.com": 0,
+      "www.google.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     73279,
+     -9701
+    ],
+    "third_party": [
+     72735,
+     -10552
+    ],
+    "listed": [
+     72735,
+     -10552
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 31789,
+     "sd": 58675.72070285971,
+     "se": 41489.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 31091.5,
+     "sd": 58892.80248468398,
+     "se": 41643.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 31091.5,
+     "sd": 58892.80248468398,
+     "se": 41643.5
+    }
+   },
+   "own_mean": 553
+  }
+ },
+ "candidates": [
+  "ad.doubleclick.net"
+ ],
+ "category": "shopping",
+ "domain": "airbnb.com",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 32.9
+}

@@ -1,0 +1,404 @@
+{
+ "url": "https://techcrunch.com/",
+ "hosts": [
+  "public.servenobid.com",
+  "securepubads.g.doubleclick.net",
+  "connect.facebook.net",
+  "ak.sail-horizon.com",
+  "eus.rubiconproject.com",
+  "ads.pubmatic.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "eus.rubiconproject.com",
+    "connect.facebook.net",
+    "securepubads.g.doubleclick.net",
+    "public.servenobid.com",
+    "ads.pubmatic.com",
+    "ak.sail-horizon.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4749876,
+      "third_party": 3753671,
+      "listed": 1270012
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "eus.rubiconproject.com"
+     ],
+     "bytes": {
+      "page": 4688881,
+      "third_party": 3737315,
+      "listed": 1245510
+     },
+     "own": 25232,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 60995,
+      "third_party": 16356,
+      "listed": 24502
+     },
+     "cascade": {
+      "page": 35763,
+      "third_party": -8876,
+      "listed": -730
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 4493478,
+      "third_party": 3497273,
+      "listed": 1038442
+     },
+     "own": 229036,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 256398,
+      "third_party": 256398,
+      "listed": 231570
+     },
+     "cascade": {
+      "page": 27362,
+      "third_party": 27362,
+      "listed": 2534
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3881803,
+      "third_party": 2929222,
+      "listed": 764755
+     },
+     "own": 446384,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 868073,
+      "third_party": 824449,
+      "listed": 505257
+     },
+     "cascade": {
+      "page": 421689,
+      "third_party": 378065,
+      "listed": 58873
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net",
+      "public.servenobid.com"
+     ],
+     "bytes": {
+      "page": 3402839,
+      "third_party": 2449914,
+      "listed": 273643
+     },
+     "own": 900611,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 1347037,
+      "third_party": 1303757,
+      "listed": 996369
+     },
+     "cascade": {
+      "page": 446426,
+      "third_party": 403146,
+      "listed": 95758
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net",
+      "public.servenobid.com",
+      "ads.pubmatic.com"
+     ],
+     "bytes": {
+      "page": 3424614,
+      "third_party": 2427050,
+      "listed": 273628
+     },
+     "own": 924692,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 1325262,
+      "third_party": 1326621,
+      "listed": 996384
+     },
+     "cascade": {
+      "page": 400570,
+      "third_party": 401929,
+      "listed": 71692
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "connect.facebook.net",
+      "securepubads.g.doubleclick.net",
+      "public.servenobid.com",
+      "ads.pubmatic.com",
+      "ak.sail-horizon.com"
+     ],
+     "bytes": {
+      "page": 3405046,
+      "third_party": 2407482,
+      "listed": 223361
+     },
+     "own": 974328,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1344830,
+      "third_party": 1346189,
+      "listed": 1046651
+     },
+     "cascade": {
+      "page": 370502,
+      "third_party": 371861,
+      "listed": 72323
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "eus.rubiconproject.com",
+    "public.servenobid.com",
+    "securepubads.g.doubleclick.net",
+    "ads.pubmatic.com",
+    "connect.facebook.net",
+    "ak.sail-horizon.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4737255,
+      "third_party": 3741050,
+      "listed": 1271142
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "eus.rubiconproject.com"
+     ],
+     "bytes": {
+      "page": 4706091,
+      "third_party": 3753510,
+      "listed": 1247270
+     },
+     "own": 25232,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 31164,
+      "third_party": -12460,
+      "listed": 23872
+     },
+     "cascade": {
+      "page": 5932,
+      "third_party": -37692,
+      "listed": -1360
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "public.servenobid.com"
+     ],
+     "bytes": {
+      "page": 3629244,
+      "third_party": 2631680,
+      "listed": 479206
+     },
+     "own": 479459,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 1108011,
+      "third_party": 1109370,
+      "listed": 791936
+     },
+     "cascade": {
+      "page": 628552,
+      "third_party": 629911,
+      "listed": 312477
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "public.servenobid.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3637552,
+      "third_party": 2639644,
+      "listed": 478394
+     },
+     "own": 696724,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 1099703,
+      "third_party": 1101406,
+      "listed": 792748
+     },
+     "cascade": {
+      "page": 402979,
+      "third_party": 404682,
+      "listed": 96024
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "public.servenobid.com",
+      "securepubads.g.doubleclick.net",
+      "ads.pubmatic.com"
+     ],
+     "bytes": {
+      "page": 3633711,
+      "third_party": 2635803,
+      "listed": 478330
+     },
+     "own": 720805,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 1103544,
+      "third_party": 1105247,
+      "listed": 792812
+     },
+     "cascade": {
+      "page": 382739,
+      "third_party": 384442,
+      "listed": 72007
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "public.servenobid.com",
+      "securepubads.g.doubleclick.net",
+      "ads.pubmatic.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 3389855,
+      "third_party": 2438633,
+      "listed": 273632
+     },
+     "own": 924609,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 1347400,
+      "third_party": 1302417,
+      "listed": 997510
+     },
+     "cascade": {
+      "page": 422791,
+      "third_party": 377808,
+      "listed": 72901
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "eus.rubiconproject.com",
+      "public.servenobid.com",
+      "securepubads.g.doubleclick.net",
+      "ads.pubmatic.com",
+      "connect.facebook.net",
+      "ak.sail-horizon.com"
+     ],
+     "bytes": {
+      "page": 3336424,
+      "third_party": 2384856,
+      "listed": 222812
+     },
+     "own": 974245,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1400831,
+      "third_party": 1356194,
+      "listed": 1048330
+     },
+     "cascade": {
+      "page": 426586,
+      "third_party": 381949,
+      "listed": 74085
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "techcrunch.com",
+ "elapsed_s": 109.2
+}

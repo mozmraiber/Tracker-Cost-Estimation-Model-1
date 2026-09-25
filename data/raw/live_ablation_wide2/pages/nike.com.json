@@ -1,0 +1,337 @@
+{
+ "url": "https://nike.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35423,
+     "control": {
+      "page": 3117621,
+      "third_party": 138215,
+      "listed": 74243
+     },
+     "ablated": {
+      "page": 3039825,
+      "third_party": 67135,
+      "listed": 35364
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 35423,
+      "nikeconsumerservices.my.salesforce-scrt.com": 32201,
+      "www.nike.com": 6355,
+      "bam.nr-data.net": 3456,
+      "nike.com": 442,
+      "content.services.nike.com": -70,
+      "static.nike.com": -6,
+      "api.nike.com": -5,
+      "s.go-mpulse.net": 0,
+      "reporting.cdndex.io": 0,
+      "nikeconsumerservices.my.site.com": 0,
+      "c.go-mpulse.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35423,
+     "control": {
+      "page": 3099325,
+      "third_party": 138214,
+      "listed": 74243
+     },
+     "ablated": {
+      "page": 3096223,
+      "third_party": 109444,
+      "listed": 35364
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 35423,
+      "www.nike.com": -25729,
+      "nikeconsumerservices.my.site.com": -10379,
+      "bam.nr-data.net": 3456,
+      "nikeconsumerservices.my.salesforce-scrt.com": 270,
+      "content.services.nike.com": 67,
+      "api.nike.com": -6,
+      "s.go-mpulse.net": 0,
+      "static.nike.com": 0,
+      "nike.com": 0,
+      "reporting.cdndex.io": 0,
+      "c.go-mpulse.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     42373,
+     -32321
+    ],
+    "third_party": [
+     35657,
+     -6653
+    ],
+    "listed": [
+     3456,
+     3456
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 5026,
+     "sd": 52816.63391394798,
+     "se": 37347.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 14502,
+     "sd": 29917.687912002824,
+     "se": 21154.999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3456,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 35423
+  },
+  "s.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35020,
+     "control": {
+      "page": 3117817,
+      "third_party": 148323,
+      "listed": 74242
+     },
+     "ablated": {
+      "page": 3100984,
+      "third_party": 112954,
+      "listed": 38873
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "s.go-mpulse.net": 35020,
+      "www.nike.com": -18127,
+      "nike.com": -442,
+      "c.go-mpulse.net": 344,
+      "content.services.nike.com": 33,
+      "bam.nr-data.net": 5,
+      "nikeconsumerservices.my.site.com": -1,
+      "nikeconsumerservices.my.salesforce-scrt.com": 1,
+      "static.nike.com": 0,
+      "api.nike.com": 0,
+      "reporting.cdndex.io": 0,
+      "js-agent.newrelic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35020,
+     "control": {
+      "page": 3123481,
+      "third_party": 138214,
+      "listed": 74243
+     },
+     "ablated": {
+      "page": 3103493,
+      "third_party": 113001,
+      "listed": 38878
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "s.go-mpulse.net": 35020,
+      "nikeconsumerservices.my.site.com": -10152,
+      "www.nike.com": -5252,
+      "c.go-mpulse.net": 344,
+      "content.services.nike.com": 35,
+      "api.nike.com": -8,
+      "js-agent.newrelic.com": 1,
+      "static.nike.com": 0,
+      "nike.com": 0,
+      "reporting.cdndex.io": 0,
+      "bam.nr-data.net": 0,
+      "nikeconsumerservices.my.salesforce-scrt.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -18187,
+     -15032
+    ],
+    "third_party": [
+     349,
+     -9807
+    ],
+    "listed": [
+     349,
+     345
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -16609.5,
+     "sd": 2230.9218946435576,
+     "se": 1577.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -4729,
+     "sd": 7181.376469730577,
+     "se": 5078.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 347,
+     "sd": 2.8284271247461903,
+     "se": 2.0
+    }
+   },
+   "own_mean": 35020
+  },
+  "bam.nr-data.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 3456,
+     "control": {
+      "page": 3131444,
+      "third_party": 148095,
+      "listed": 74243
+     },
+     "ablated": {
+      "page": 3124575,
+      "third_party": 144640,
+      "listed": 70786
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "bam.nr-data.net": 3456,
+      "www.nike.com": 3414,
+      "api.nike.com": 2,
+      "content.services.nike.com": -2,
+      "nikeconsumerservices.my.site.com": -1,
+      "nikeconsumerservices.my.salesforce-scrt.com": -1,
+      "js-agent.newrelic.com": 1,
+      "s.go-mpulse.net": 0,
+      "static.nike.com": 0,
+      "nike.com": 0,
+      "reporting.cdndex.io": 0,
+      "c.go-mpulse.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 3456,
+     "control": {
+      "page": 3138361,
+      "third_party": 148094,
+      "listed": 74242
+     },
+     "ablated": {
+      "page": 3126984,
+      "third_party": 144640,
+      "listed": 70786
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "www.nike.com": 7476,
+      "bam.nr-data.net": 3456,
+      "nike.com": 442,
+      "api.nike.com": 4,
+      "nikeconsumerservices.my.site.com": -2,
+      "content.services.nike.com": 1,
+      "s.go-mpulse.net": 0,
+      "static.nike.com": 0,
+      "reporting.cdndex.io": 0,
+      "nikeconsumerservices.my.salesforce-scrt.com": 0,
+      "js-agent.newrelic.com": 0,
+      "c.go-mpulse.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3413,
+     7921
+    ],
+    "third_party": [
+     -1,
+     -2
+    ],
+    "listed": [
+     1,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 5667,
+     "sd": 3187.637369588956,
+     "se": 2253.9999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 3456
+  }
+ },
+ "candidates": [
+  "js-agent.newrelic.com",
+  "s.go-mpulse.net",
+  "bam.nr-data.net"
+ ],
+ "category": "shopping",
+ "domain": "nike.com",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 93.6
+}

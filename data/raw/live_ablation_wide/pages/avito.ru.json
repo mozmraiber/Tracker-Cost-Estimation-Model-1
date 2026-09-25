@@ -1,0 +1,331 @@
+{
+ "url": "https://avito.ru/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 570586,
+     "control": {
+      "page": 8981633,
+      "third_party": 8620187,
+      "listed": 7247389
+     },
+     "ablated": {
+      "page": 9812227,
+      "third_party": 9255876,
+      "listed": 8549927
+     },
+     "n_aborted": 11,
+     "moved": {
+      "90.img.avito.st": -576716,
+      "www.avito.st": 519558,
+      "yandex.ru": 404155,
+      "yastatic.net": 381733,
+      "80.img.avito.st": -346594,
+      "10.img.avito.st": -316170,
+      "avatars.mds.yandex.net": 308829,
+      "60.img.avito.st": -304454,
+      "70.img.avito.st": -257947,
+      "www.avito.ru": -192504,
+      "30.img.avito.st": -190393,
+      "mc.yandex.ru": 165877
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 403573,
+     "control": {
+      "page": 9354437,
+      "third_party": 8931409,
+      "listed": 7954844
+     },
+     "ablated": {
+      "page": 8078366,
+      "third_party": 7731336,
+      "listed": 7046694
+     },
+     "n_aborted": 6,
+     "moved": {
+      "www.avito.st": -520989,
+      "60.img.avito.st": 469313,
+      "yastatic.net": 306105,
+      "b00.img.avito.st": 266211,
+      "50.img.avito.st": 256790,
+      "yandex.ru": 236134,
+      "20.img.avito.st": 204385,
+      "mc.yandex.ru": 165727,
+      "b50.img.avito.st": -133441,
+      "b30.img.avito.st": 118149,
+      "10.img.avito.st": 114134,
+      "90.img.avito.st": -91146
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1401180,
+     872498
+    ],
+    "third_party": [
+     -1206275,
+     796500
+    ],
+    "listed": [
+     -1873124,
+     504577
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -264341,
+     "sd": 1607733.132034667,
+     "se": 1136839.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -204887.5,
+     "sd": 1416175.7836908877,
+     "se": 1001387.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -684273.5,
+     "sd": 1681288.5007340352,
+     "se": 1188850.4999999998
+    }
+   },
+   "own_mean": 487079.5
+  },
+  "static.a.mts.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 170368,
+     "control": {
+      "page": 12789583,
+      "third_party": 12376106,
+      "listed": 9022771
+     },
+     "ablated": {
+      "page": 9090525,
+      "third_party": 8743052,
+      "listed": 7271045
+     },
+     "n_aborted": 2,
+     "moved": {
+      "strm-fra-02.strm.yandex.net": 1708233,
+      "www.avito.st": 657452,
+      "50.img.avito.st": 302646,
+      "yastatic.net": 235811,
+      "60.img.avito.st": 226654,
+      "20.img.avito.st": 196655,
+      "70.img.avito.st": -193336,
+      "static.a.mts.ru": 170368,
+      "b00.img.avito.st": 138632,
+      "90.img.avito.st": 137624,
+      "30.img.avito.st": 132063,
+      "40.img.avito.st": -119186
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 170368,
+     "control": {
+      "page": 10258823,
+      "third_party": 9866553,
+      "listed": 8564648
+     },
+     "ablated": {
+      "page": 10705778,
+      "third_party": 10249254,
+      "listed": 8925103
+     },
+     "n_aborted": 2,
+     "moved": {
+      "80.img.avito.st": -458713,
+      "90.img.avito.st": 283660,
+      "b00.img.avito.st": -248298,
+      "10.img.avito.st": -177945,
+      "static.a.mts.ru": 170368,
+      "50.img.avito.st": -162293,
+      "40.img.avito.st": 157522,
+      "30.img.avito.st": 131872,
+      "00.img.avito.st": -89272,
+      "b50.img.avito.st": 88510,
+      "b30.img.avito.st": -69604,
+      "www.avito.st": -64215
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3528690,
+     -617323
+    ],
+    "third_party": [
+     3462686,
+     -553069
+    ],
+    "listed": [
+     1581358,
+     -530823
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1455683.5,
+     "sd": 2931673.9071875815,
+     "se": 2073006.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1454808.5,
+     "sd": 2839567.5920837843,
+     "se": 2007877.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 525267.5,
+     "sd": 1493537.5081933832,
+     "se": 1056090.5
+    }
+   },
+   "own_mean": 170368
+  },
+  "mc.yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 165877,
+     "control": {
+      "page": 10339829,
+      "third_party": 9949416,
+      "listed": 7950846
+     },
+     "ablated": {
+      "page": 10344547,
+      "third_party": 9917011,
+      "listed": 8527026
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.avito.st": -829929,
+      "avatars.mds.yandex.net": 602618,
+      "yandex.ru": 351980,
+      "30.img.avito.st": 292310,
+      "40.img.avito.st": -249390,
+      "20.img.avito.st": -237180,
+      "mc.yandex.ru": 165877,
+      "80.img.avito.st": -123343,
+      "10.img.avito.st": -78947,
+      "60.img.avito.st": 76228,
+      "b50.img.avito.st": 72789,
+      "b20.img.avito.st": -63102
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 165877,
+     "control": {
+      "page": 9329139,
+      "third_party": 8913372,
+      "listed": 7500889
+     },
+     "ablated": {
+      "page": 9525116,
+      "third_party": 9215945,
+      "listed": 7906743
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.avito.st": -646626,
+      "60.img.avito.st": -181094,
+      "mc.yandex.ru": 165877,
+      "10.img.avito.st": 123025,
+      "avatars.mds.yandex.net": 118531,
+      "70.img.avito.st": 114107,
+      "www.avito.ru": 108844,
+      "90.img.avito.st": 97109,
+      "40.img.avito.st": -93562,
+      "00.img.avito.st": 71702,
+      "20.img.avito.st": -45219,
+      "b50.img.avito.st": -42781
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -170595,
+     -361854
+    ],
+    "third_party": [
+     -133472,
+     -468450
+    ],
+    "listed": [
+     -742057,
+     -571731
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -266224.5,
+     "sd": 135240.53586295788,
+     "se": 95629.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -300961,
+     "sd": 236865.2153483073,
+     "se": 167488.99999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": -656894,
+     "sd": 120438.66961237989,
+     "se": 85162.99999999999
+    }
+   },
+   "own_mean": 165877
+  }
+ },
+ "candidates": [
+  "yandex.ru",
+  "static.a.mts.ru",
+  "mc.yandex.ru"
+ ],
+ "category": "shopping",
+ "domain": "avito.ru",
+ "n_blocked_tracking": 139.0,
+ "elapsed_s": 447.3
+}

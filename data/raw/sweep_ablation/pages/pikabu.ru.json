@@ -1,0 +1,227 @@
+{
+ "url": "https://pikabu.ru/",
+ "hosts": [
+  "yandex.ru",
+  "mc.yandex.ru",
+  "mc.yandex.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "yandex.ru",
+    "mc.yandex.com",
+    "mc.yandex.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5537030,
+      "third_party": 1981447,
+      "listed": 560686
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 3781087,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "own": 547419,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1755943,
+      "third_party": 1954653,
+      "listed": 560686
+     },
+     "cascade": {
+      "page": 1208524,
+      "third_party": 1407234,
+      "listed": 13267
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "yandex.ru",
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 3791822,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "own": 558006,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1745208,
+      "third_party": 1954653,
+      "listed": 560686
+     },
+     "cascade": {
+      "page": 1187202,
+      "third_party": 1396647,
+      "listed": 2680
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "yandex.ru",
+      "mc.yandex.com",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 3636736,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "own": 650014,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 1900294,
+      "third_party": 1954653,
+      "listed": 560686
+     },
+     "cascade": {
+      "page": 1250280,
+      "third_party": 1304639,
+      "listed": -89328
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "mc.yandex.com",
+    "mc.yandex.ru",
+    "yandex.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 6399176,
+      "third_party": 2775204,
+      "listed": 665668
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 5933373,
+      "third_party": 2380687,
+      "listed": 511306
+     },
+     "own": 12101,
+     "n_aborted": 10,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 465803,
+      "third_party": 394517,
+      "listed": 154362
+     },
+     "cascade": {
+      "page": 453702,
+      "third_party": 382416,
+      "listed": 142261
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 7921148,
+      "third_party": 4376207,
+      "listed": 382212
+     },
+     "own": 287825,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": -1521972,
+      "third_party": -1601003,
+      "listed": 283456
+     },
+     "cascade": {
+      "page": -1809797,
+      "third_party": -1888828,
+      "listed": -4369
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru",
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 3568155,
+      "third_party": 26794,
+      "listed": 0
+     },
+     "own": 953885,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 2831021,
+      "third_party": 2748410,
+      "listed": 665668
+     },
+     "cascade": {
+      "page": 1877136,
+      "third_party": 1794525,
+      "listed": -288217
+     }
+    }
+   ]
+  }
+ ],
+ "category": "social",
+ "domain": "pikabu.ru",
+ "elapsed_s": 68.3
+}

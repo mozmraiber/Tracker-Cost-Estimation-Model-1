@@ -1,0 +1,441 @@
+{
+ "url": "https://harvard.edu/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 161611,
+     "control": {
+      "page": 3140266,
+      "third_party": 685655,
+      "listed": 207596
+     },
+     "ablated": {
+      "page": 2977955,
+      "third_party": 523542,
+      "listed": 45471
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 161611,
+      "www.facebook.com": 474,
+      "harvard.edu": 198,
+      "www.google-analytics.com": 40,
+      "www.googletagmanager.com": -14,
+      "cse.google.com": 3,
+      "www.google.com": -1,
+      "news.harvard.edu": 0,
+      "region1.analytics.google.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "stats.wp.com": 0,
+      "cdn.parsely.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 161611,
+     "control": {
+      "page": 3135972,
+      "third_party": 681361,
+      "listed": 207597
+     },
+     "ablated": {
+      "page": 2973878,
+      "third_party": 519267,
+      "listed": 45511
+     },
+     "n_aborted": 1,
+     "moved": {
+      "connect.facebook.net": 161611,
+      "www.facebook.com": 475,
+      "www.googletagmanager.com": 8,
+      "news.harvard.edu": 0,
+      "harvard.edu": 0,
+      "region1.analytics.google.com": 0,
+      "cse.google.com": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "stats.wp.com": 0,
+      "cdn.parsely.com": 0,
+      "clients1.google.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     700,
+     483
+    ],
+    "third_party": [
+     502,
+     483
+    ],
+    "listed": [
+     514,
+     475
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 591.5,
+     "sd": 153.4421715174808,
+     "se": 108.49999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 492.5,
+     "sd": 13.435028842544403,
+     "se": 9.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 494.5,
+     "sd": 27.577164466275352,
+     "se": 19.499999999999996
+    }
+   },
+   "own_mean": 161611
+  },
+  "www.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23572,
+     "control": {
+      "page": 3135945,
+      "third_party": 681334,
+      "listed": 207577
+     },
+     "ablated": {
+      "page": 3112904,
+      "third_party": 658491,
+      "listed": 184004
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.google-analytics.com": 23572,
+      "www.googletagmanager.com": -728,
+      "harvard.edu": 198,
+      "www.facebook.com": 1,
+      "cse.google.com": -1,
+      "www.google.com": -1,
+      "news.harvard.edu": 0,
+      "region1.analytics.google.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "stats.wp.com": 0,
+      "cdn.parsely.com": 0,
+      "clients1.google.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 23572,
+     "control": {
+      "page": 3135946,
+      "third_party": 681335,
+      "listed": 207577
+     },
+     "ablated": {
+      "page": 3112394,
+      "third_party": 657783,
+      "listed": 184005
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.google-analytics.com": 23572,
+      "pixel.wp.com": -20,
+      "www.googletagmanager.com": 0,
+      "news.harvard.edu": 0,
+      "www.facebook.com": 0,
+      "harvard.edu": 0,
+      "region1.analytics.google.com": 0,
+      "cse.google.com": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "stats.wp.com": 0,
+      "cdn.parsely.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -531,
+     -20
+    ],
+    "third_party": [
+     -729,
+     -20
+    ],
+    "listed": [
+     1,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -275.5,
+     "sd": 361.3315651863258,
+     "se": 255.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -374.5,
+     "sd": 501.3387078612622,
+     "se": 354.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 23572
+  },
+  "cdn.parsely.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 20034,
+     "control": {
+      "page": 3135768,
+      "third_party": 681355,
+      "listed": 207601
+     },
+     "ablated": {
+      "page": 3115684,
+      "third_party": 661073,
+      "listed": 187314
+     },
+     "n_aborted": 2,
+     "moved": {
+      "cdn.parsely.com": 20034,
+      "p1.parsely.com": 229,
+      "harvard.edu": -198,
+      "connect.facebook.net": 24,
+      "cse.google.com": -5,
+      "www.googletagmanager.com": 0,
+      "news.harvard.edu": 0,
+      "www.facebook.com": 0,
+      "region1.analytics.google.com": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "stats.wp.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 20034,
+     "control": {
+      "page": 3135988,
+      "third_party": 681377,
+      "listed": 207620
+     },
+     "ablated": {
+      "page": 3115654,
+      "third_party": 661043,
+      "listed": 187273
+     },
+     "n_aborted": 2,
+     "moved": {
+      "cdn.parsely.com": 20034,
+      "p1.parsely.com": 229,
+      "connect.facebook.net": 44,
+      "www.google-analytics.com": 40,
+      "www.googletagmanager.com": -13,
+      "news.harvard.edu": 0,
+      "www.facebook.com": 0,
+      "harvard.edu": 0,
+      "region1.analytics.google.com": 0,
+      "cse.google.com": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     50,
+     300
+    ],
+    "third_party": [
+     248,
+     300
+    ],
+    "listed": [
+     253,
+     313
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 175,
+     "sd": 176.7766952966369,
+     "se": 125.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 274,
+     "sd": 36.76955262170047,
+     "se": 25.999999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 283,
+     "sd": 42.42640687119285,
+     "se": 30.0
+    }
+   },
+   "own_mean": 20034
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "www.google-analytics.com",
+  "cdn.parsely.com"
+ ],
+ "joint": {
+  "hosts": [
+   "connect.facebook.net",
+   "www.google-analytics.com",
+   "cdn.parsely.com"
+  ],
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 205198,
+    "control": {
+     "page": 3135482,
+     "third_party": 680871,
+     "listed": 207103
+    },
+    "ablated": {
+     "page": 2930040,
+     "third_party": 475429,
+     "listed": 1676
+    },
+    "n_aborted": 4,
+    "moved": {
+     "connect.facebook.net": 161592,
+     "www.google-analytics.com": 23572,
+     "cdn.parsely.com": 20034,
+     "p1.parsely.com": 229,
+     "cse.google.com": 15,
+     "www.googletagmanager.com": 0,
+     "news.harvard.edu": 0,
+     "www.facebook.com": 0,
+     "harvard.edu": 0,
+     "region1.analytics.google.com": 0,
+     "www.google.com": 0,
+     "stats.g.doubleclick.net": 0
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 205197,
+    "control": {
+     "page": 3135942,
+     "third_party": 681331,
+     "listed": 207576
+    },
+    "ablated": {
+     "page": 2930032,
+     "third_party": 475421,
+     "listed": 1676
+    },
+    "n_aborted": 4,
+    "moved": {
+     "connect.facebook.net": 161591,
+     "www.google-analytics.com": 23572,
+     "cdn.parsely.com": 20034,
+     "www.facebook.com": 474,
+     "p1.parsely.com": 229,
+     "www.googletagmanager.com": 12,
+     "cse.google.com": -3,
+     "www.google.com": 1,
+     "news.harvard.edu": 0,
+     "harvard.edu": 0,
+     "region1.analytics.google.com": 0,
+     "stats.g.doubleclick.net": 0
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    244,
+    713
+   ],
+   "third_party": [
+    244,
+    713
+   ],
+   "listed": [
+    229,
+    703
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": 478.5,
+    "sd": 331.6330803764908,
+    "se": 234.5
+   },
+   "third_party": {
+    "n": 2,
+    "mean": 478.5,
+    "sd": 331.6330803764908,
+    "se": 234.5
+   },
+   "listed": {
+    "n": 2,
+    "mean": 466,
+    "sd": 335.1686142824235,
+    "se": 236.99999999999997
+   }
+  },
+  "own_mean": 205197.5
+ },
+ "category": "reference",
+ "domain": "harvard.edu",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 108.3
+}

@@ -1,0 +1,543 @@
+{
+ "url": "https://ted.com/",
+ "reps": 3,
+ "aa_reps": 2,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256453,
+     "control": {
+      "page": 4618944,
+      "third_party": 2443641,
+      "listed": 519234
+     },
+     "ablated": {
+      "page": 4350487,
+      "third_party": 2177332,
+      "listed": 263851
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256453,
+      "api.idsequoia.ai": 10656,
+      "cmp.osano.com": -1569,
+      "www.ted.com": 977,
+      "mixpanel-proxy.ted.com": 678,
+      "pagead2.googlesyndication.com": 504,
+      "ted.com": 402,
+      "static.fundraiseup.com": 322,
+      "gql.ted.com": 91,
+      "cdn.fundraiseup.com": -49,
+      "fndrsp.net": -4,
+      "pi.tedcdn.com": -2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 255113,
+     "control": {
+      "page": 4617953,
+      "third_party": 2442634,
+      "listed": 518307
+     },
+     "ablated": {
+      "page": 4348536,
+      "third_party": 2177866,
+      "listed": 263845
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 255113,
+      "api.idsequoia.ai": 10660,
+      "www.ted.com": 3884,
+      "cmp.osano.com": -1569,
+      "mixpanel-proxy.ted.com": 678,
+      "pagead2.googlesyndication.com": 504,
+      "bam.nr-data.net": 408,
+      "static.fundraiseup.com": -300,
+      "gql.ted.com": 86,
+      "cdn.fundraiseup.com": -56,
+      "fndrsp.net": 4,
+      "pi.tedcdn.com": 2
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256445,
+     "control": {
+      "page": 4618070,
+      "third_party": 2445789,
+      "listed": 520795
+     },
+     "ablated": {
+      "page": 4352235,
+      "third_party": 2177665,
+      "listed": 263847
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 256445,
+      "api.idsequoia.ai": 10658,
+      "www.ted.com": -2944,
+      "mixpanel-proxy.ted.com": 678,
+      "static.fundraiseup.com": 507,
+      "pagead2.googlesyndication.com": 504,
+      "gql.ted.com": -24,
+      "cdn.yourbow.com": 10,
+      "cdn.fundraiseup.com": 2,
+      "fndrsp.net": -2,
+      "api.sail-personalize.com": 1,
+      "ted.com": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     12004,
+     14304,
+     9390
+    ],
+    "third_party": [
+     9856,
+     9655,
+     11679
+    ],
+    "listed": [
+     -1070,
+     -651,
+     503
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": 11899.333333333334,
+     "sd": 2458.6714569729183,
+     "se": 1419.5146275321638
+    },
+    "third_party": {
+     "n": 3,
+     "mean": 10396.666666666666,
+     "sd": 1115.0714476361295,
+     "se": 643.7868004583851
+    },
+    "listed": {
+     "n": 3,
+     "mean": -406,
+     "sd": 814.617087962191,
+     "se": 470.3193950214401
+    }
+   },
+   "own_mean": 256003.66666666666
+  },
+  "api.sail-personalize.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 104882,
+     "control": {
+      "page": 4619449,
+      "third_party": 2445316,
+      "listed": 520707
+     },
+     "ablated": {
+      "page": 4413578,
+      "third_party": 2340545,
+      "listed": 416339
+     },
+     "n_aborted": 9,
+     "moved": {
+      "api.sail-personalize.com": 104882,
+      "gql.ted.com": 102172,
+      "mixpanel-proxy.ted.com": -678,
+      "bam.nr-data.net": -408,
+      "ted.com": -401,
+      "static.fundraiseup.com": 353,
+      "securepubads.g.doubleclick.net": -80,
+      "cdn.fundraiseup.com": 52,
+      "cmp.osano.com": -20,
+      "www.ted.com": 7,
+      "fndrsp.net": -6,
+      "pa.tedcdn.com": -2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 104882,
+     "control": {
+      "page": 4617079,
+      "third_party": 2444950,
+      "listed": 520813
+     },
+     "ablated": {
+      "page": 4412927,
+      "third_party": 2340535,
+      "listed": 416235
+     },
+     "n_aborted": 9,
+     "moved": {
+      "api.sail-personalize.com": 104882,
+      "gql.ted.com": 102119,
+      "www.ted.com": -1981,
+      "bam.nr-data.net": -408,
+      "ted.com": -401,
+      "static.fundraiseup.com": -248,
+      "securepubads.g.doubleclick.net": 104,
+      "cdn.fundraiseup.com": 52,
+      "cdn.yourbow.com": 25,
+      "api.idsequoia.ai": 9,
+      "pi.tedcdn.com": -1,
+      "cmp.osano.com": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 104872,
+     "control": {
+      "page": 4620004,
+      "third_party": 2445469,
+      "listed": 520783
+     },
+     "ablated": {
+      "page": 4409052,
+      "third_party": 2340471,
+      "listed": 416323
+     },
+     "n_aborted": 9,
+     "moved": {
+      "api.sail-personalize.com": 104872,
+      "gql.ted.com": 102180,
+      "www.ted.com": 3774,
+      "static.fundraiseup.com": 476,
+      "bam.nr-data.net": -408,
+      "cdn.yourbow.com": 49,
+      "api.idsequoia.ai": 13,
+      "securepubads.g.doubleclick.net": -4,
+      "pl.tedcdn.com": 2,
+      "pa.tedcdn.com": -2,
+      "pi.tedcdn.com": 0,
+      "cmp.osano.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     100989,
+     99270,
+     106080
+    ],
+    "third_party": [
+     -111,
+     -467,
+     126
+    ],
+    "listed": [
+     -514,
+     -304,
+     -412
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": 102113,
+     "sd": 3541.40607668762,
+     "se": 2044.631751685374
+    },
+    "third_party": {
+     "n": 3,
+     "mean": -150.66666666666666,
+     "sd": 298.4833887058597,
+     "se": 172.3294648179598
+    },
+    "listed": {
+     "n": 3,
+     "mean": -410,
+     "sd": 105.01428474260061,
+     "se": 60.63002556489648
+    }
+   },
+   "own_mean": 104878.66666666667
+  },
+  "cmp.osano.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 106329,
+     "control": {
+      "page": 4614557,
+      "third_party": 2443826,
+      "listed": 519498
+     },
+     "ablated": {
+      "page": 5125932,
+      "third_party": 2950701,
+      "listed": 1023145
+     },
+     "n_aborted": 1,
+     "moved": {
+      "tpc.googlesyndication.com": -331322,
+      "pagead2.googlesyndication.com": -138233,
+      "cmp.osano.com": 106329,
+      "c.amazon-adsystem.com": -98878,
+      "ep2.adtrafficquality.google": -14646,
+      "ep1.adtrafficquality.google": -14204,
+      "sb.scorecardresearch.com": -7558,
+      "www.ted.com": -3821,
+      "e834d616aae9bbbe3b70c02c79c51639.safeframe.googlesyndication.com": -3811,
+      "api.idsequoia.ai": -1820,
+      "config.aps.amazon-adsystem.com": -911,
+      "api.panxo.ai": -829
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 106329,
+     "control": {
+      "page": 4616269,
+      "third_party": 2445230,
+      "listed": 520813
+     },
+     "ablated": {
+      "page": 5188881,
+      "third_party": 3014248,
+      "listed": 1088391
+     },
+     "n_aborted": 1,
+     "moved": {
+      "tpc.googlesyndication.com": -331322,
+      "pagead2.googlesyndication.com": -201740,
+      "cmp.osano.com": 106329,
+      "c.amazon-adsystem.com": -98878,
+      "ep2.adtrafficquality.google": -14646,
+      "ep1.adtrafficquality.google": -14306,
+      "sb.scorecardresearch.com": -7558,
+      "www.ted.com": -3894,
+      "e7d9bf2a01e5336c53b1bd2dc47f9f74.safeframe.googlesyndication.com": -3811,
+      "config.aps.amazon-adsystem.com": -911,
+      "api.panxo.ai": -824,
+      "bam.nr-data.net": -816
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 104760,
+     "control": {
+      "page": 4619418,
+      "third_party": 2444579,
+      "listed": 520115
+     },
+     "ablated": {
+      "page": 5125583,
+      "third_party": 2952963,
+      "listed": 1025176
+     },
+     "n_aborted": 1,
+     "moved": {
+      "tpc.googlesyndication.com": -331302,
+      "pagead2.googlesyndication.com": -138270,
+      "cmp.osano.com": 104760,
+      "c.amazon-adsystem.com": -98878,
+      "ep2.adtrafficquality.google": -14646,
+      "ep1.adtrafficquality.google": -14256,
+      "sb.scorecardresearch.com": -7558,
+      "e9c1fbe2f6c0667918f8c9eaeaf3a2ce.safeframe.googlesyndication.com": -3811,
+      "www.ted.com": 1942,
+      "api.idsequoia.ai": -1855,
+      "config.aps.amazon-adsystem.com": -911,
+      "api.panxo.ai": -822
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -617704,
+     -678941,
+     -610925
+    ],
+    "third_party": [
+     -613204,
+     -675347,
+     -613144
+    ],
+    "listed": [
+     -609976,
+     -673907,
+     -609821
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": -635856.6666666666,
+     "sd": 37465.76496394186,
+     "se": 21630.869487327083
+    },
+    "third_party": {
+     "n": 3,
+     "mean": -633898.3333333334,
+     "sd": 35895.61082268044,
+     "se": 20724.3405712006
+    },
+    "listed": {
+     "n": 3,
+     "mean": -631234.6666666666,
+     "sd": 36955.40596899638,
+     "se": 21336.213584211964
+    }
+   },
+   "own_mean": 105806
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "api.sail-personalize.com",
+  "cmp.osano.com"
+ ],
+ "aa": {
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 0,
+    "control": {
+     "page": 4618269,
+     "third_party": 2445652,
+     "listed": 521274
+    },
+    "ablated": {
+     "page": 4620480,
+     "third_party": 2445882,
+     "listed": 521456
+    },
+    "n_aborted": 0,
+    "moved": {
+     "www.ted.com": -1944,
+     "securepubads.g.doubleclick.net": -186,
+     "gql.ted.com": -36,
+     "cdn.yourbow.com": -25,
+     "static.fundraiseup.com": -24,
+     "api.idsequoia.ai": 4,
+     "fndrsp.net": 4,
+     "pi.tedcdn.com": -2,
+     "ted.com": -1,
+     "pa.tedcdn.com": -1,
+     "api.sail-personalize.com": 0,
+     "cmp.osano.com": 0
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 0,
+    "control": {
+     "page": 4617635,
+     "third_party": 2445017,
+     "listed": 520714
+    },
+    "ablated": {
+     "page": 4616031,
+     "third_party": 2444991,
+     "listed": 520813
+    },
+    "n_aborted": 0,
+    "moved": {
+     "www.ted.com": 1868,
+     "mixpanel-proxy.ted.com": -678,
+     "ted.com": 402,
+     "static.fundraiseup.com": 183,
+     "securepubads.g.doubleclick.net": -104,
+     "cdn.fundraiseup.com": -52,
+     "cdn.yourbow.com": -25,
+     "api.idsequoia.ai": 17,
+     "gql.ted.com": -14,
+     "fndrsp.net": 6,
+     "pl.tedcdn.com": 2,
+     "api.sail-personalize.com": -1
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    -2211,
+    1604
+   ],
+   "third_party": [
+    -230,
+    26
+   ],
+   "listed": [
+    -182,
+    -99
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": -303.5,
+    "sd": 2697.6123702266786,
+    "se": 1907.4999999999998
+   },
+   "third_party": {
+    "n": 2,
+    "mean": -102,
+    "sd": 181.01933598375618,
+    "se": 128.0
+   },
+   "listed": {
+    "n": 2,
+    "mean": -140.5,
+    "sd": 58.68986283848344,
+    "se": 41.49999999999999
+   }
+  }
+ },
+ "category": "entertainment",
+ "domain": "ted.com",
+ "n_blocked_tracking": 124.0,
+ "elapsed_s": 151.1
+}

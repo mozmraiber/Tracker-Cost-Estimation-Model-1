@@ -1,0 +1,398 @@
+{
+ "url": "https://bit.ly/",
+ "hosts": [
+  "cdn.optimizely.com",
+  "bat.bing.com",
+  "region1.google-analytics.com",
+  "pagead2.googlesyndication.com",
+  "cdn3.optimizely.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "region1.google-analytics.com",
+    "bat.bing.com",
+    "cdn.optimizely.com",
+    "cdn3.optimizely.com",
+    "pagead2.googlesyndication.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5836531,
+      "third_party": 5836166,
+      "listed": 354566
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 5835988,
+      "third_party": 5835623,
+      "listed": 352852
+     },
+     "own": 1664,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 4
+     },
+     "saved": {
+      "page": 543,
+      "third_party": 543,
+      "listed": 1714
+     },
+     "cascade": {
+      "page": -1121,
+      "third_party": -1121,
+      "listed": 50
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 5796543,
+      "third_party": 5796178,
+      "listed": 317109
+     },
+     "own": 37407,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "fetch": 4,
+      "script": 1
+     },
+     "saved": {
+      "page": 39988,
+      "third_party": 39988,
+      "listed": 37457
+     },
+     "cascade": {
+      "page": 2581,
+      "third_party": 2581,
+      "listed": 50
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5671123,
+      "third_party": 5670758,
+      "listed": 191894
+     },
+     "own": 161135,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 3
+     },
+     "saved": {
+      "page": 165408,
+      "third_party": 165408,
+      "listed": 162672
+     },
+     "cascade": {
+      "page": 4273,
+      "third_party": 4273,
+      "listed": 1537
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "cdn.optimizely.com",
+      "cdn3.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5671625,
+      "third_party": 5671625,
+      "listed": 191894
+     },
+     "own": 161512,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 3
+     },
+     "saved": {
+      "page": 164906,
+      "third_party": 164541,
+      "listed": 162672
+     },
+     "cascade": {
+      "page": 3394,
+      "third_party": 3029,
+      "listed": 1160
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "cdn.optimizely.com",
+      "cdn3.optimizely.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 5669488,
+      "third_party": 5669123,
+      "listed": 190247
+     },
+     "own": 163159,
+     "n_aborted": 12,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 6,
+      "image": 3
+     },
+     "saved": {
+      "page": 167043,
+      "third_party": 167043,
+      "listed": 164319
+     },
+     "cascade": {
+      "page": 3884,
+      "third_party": 3884,
+      "listed": 1160
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "cdn.optimizely.com",
+    "region1.google-analytics.com",
+    "bat.bing.com",
+    "pagead2.googlesyndication.com",
+    "cdn3.optimizely.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5836226,
+      "third_party": 5835861,
+      "listed": 356212
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5710381,
+      "third_party": 5710016,
+      "listed": 230113
+     },
+     "own": 123730,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 125845,
+      "third_party": 125845,
+      "listed": 126099
+     },
+     "cascade": {
+      "page": 2115,
+      "third_party": 2115,
+      "listed": 2369
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 5710662,
+      "third_party": 5710272,
+      "listed": 227637
+     },
+     "own": 127038,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 3
+     },
+     "saved": {
+      "page": 125564,
+      "third_party": 125589,
+      "listed": 128575
+     },
+     "cascade": {
+      "page": -1474,
+      "third_party": -1449,
+      "listed": 1537
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 5672447,
+      "third_party": 5672082,
+      "listed": 191894
+     },
+     "own": 162781,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 3
+     },
+     "saved": {
+      "page": 163779,
+      "third_party": 163779,
+      "listed": 164318
+     },
+     "cascade": {
+      "page": 998,
+      "third_party": 998,
+      "listed": 1537
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 5672910,
+      "third_party": 5672520,
+      "listed": 190247
+     },
+     "own": 164428,
+     "n_aborted": 12,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 6,
+      "image": 3
+     },
+     "saved": {
+      "page": 163316,
+      "third_party": 163341,
+      "listed": 165965
+     },
+     "cascade": {
+      "page": -1112,
+      "third_party": -1087,
+      "listed": 1537
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "pagead2.googlesyndication.com",
+      "cdn3.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5673608,
+      "third_party": 5673218,
+      "listed": 190247
+     },
+     "own": 164805,
+     "n_aborted": 12,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 6,
+      "image": 3
+     },
+     "saved": {
+      "page": 162618,
+      "third_party": 162643,
+      "listed": 165965
+     },
+     "cascade": {
+      "page": -2187,
+      "third_party": -2162,
+      "listed": 1160
+     }
+    }
+   ]
+  }
+ ],
+ "category": "infrastructure",
+ "domain": "bit.ly",
+ "elapsed_s": 95.3
+}

@@ -1,0 +1,404 @@
+{
+ "url": "https://hbr.org/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "b-code.liadm.com",
+  "ak.sail-horizon.com",
+  "snap.licdn.com",
+  "www.google-analytics.com",
+  "bat.bing.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "www.google-analytics.com",
+    "ak.sail-horizon.com",
+    "b-code.liadm.com",
+    "securepubads.g.doubleclick.net",
+    "bat.bing.com",
+    "snap.licdn.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3626348,
+      "third_party": 2589299,
+      "listed": 530964
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 3602868,
+      "third_party": 2565829,
+      "listed": 508556
+     },
+     "own": 21732,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 23480,
+      "third_party": 23470,
+      "listed": 22408
+     },
+     "cascade": {
+      "page": 1748,
+      "third_party": 1738,
+      "listed": 676
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "www.google-analytics.com",
+      "ak.sail-horizon.com"
+     ],
+     "bytes": {
+      "page": 3554244,
+      "third_party": 2517193,
+      "listed": 459429
+     },
+     "own": 71368,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 72104,
+      "third_party": 72106,
+      "listed": 71535
+     },
+     "cascade": {
+      "page": 736,
+      "third_party": 738,
+      "listed": 167
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "www.google-analytics.com",
+      "ak.sail-horizon.com",
+      "b-code.liadm.com"
+     ],
+     "bytes": {
+      "page": 3497228,
+      "third_party": 2460173,
+      "listed": 402350
+     },
+     "own": 124308,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 129120,
+      "third_party": 129126,
+      "listed": 128614
+     },
+     "cascade": {
+      "page": 4812,
+      "third_party": 4818,
+      "listed": 4306
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "www.google-analytics.com",
+      "ak.sail-horizon.com",
+      "b-code.liadm.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 2990845,
+      "third_party": 1953801,
+      "listed": 147181
+     },
+     "own": 380968,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 635503,
+      "third_party": 635498,
+      "listed": 383783
+     },
+     "cascade": {
+      "page": 254535,
+      "third_party": 254530,
+      "listed": 2815
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "www.google-analytics.com",
+      "ak.sail-horizon.com",
+      "b-code.liadm.com",
+      "securepubads.g.doubleclick.net",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 6548384,
+      "third_party": 1904926,
+      "listed": 99644
+     },
+     "own": 399686,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": -2922036,
+      "third_party": 684373,
+      "listed": 431320
+     },
+     "cascade": {
+      "page": -3321722,
+      "third_party": 284687,
+      "listed": 31634
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "www.google-analytics.com",
+      "ak.sail-horizon.com",
+      "b-code.liadm.com",
+      "securepubads.g.doubleclick.net",
+      "bat.bing.com",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 2916030,
+      "third_party": 1878987,
+      "listed": 72937
+     },
+     "own": 423604,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 710318,
+      "third_party": 710312,
+      "listed": 458027
+     },
+     "cascade": {
+      "page": 286714,
+      "third_party": 286708,
+      "listed": 34423
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "www.google-analytics.com",
+    "securepubads.g.doubleclick.net",
+    "b-code.liadm.com",
+    "bat.bing.com",
+    "ak.sail-horizon.com",
+    "snap.licdn.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 7231825,
+      "third_party": 2588370,
+      "listed": 531118
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 7210948,
+      "third_party": 2567492,
+      "listed": 510250
+     },
+     "own": 21732,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 20877,
+      "third_party": 20878,
+      "listed": 20868
+     },
+     "cascade": {
+      "page": -855,
+      "third_party": -854,
+      "listed": -864
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "www.google-analytics.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3093791,
+      "third_party": 2056747,
+      "listed": 251445
+     },
+     "own": 278572,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 4138034,
+      "third_party": 531623,
+      "listed": 279673
+     },
+     "cascade": {
+      "page": 3859462,
+      "third_party": 253051,
+      "listed": 1101
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "www.google-analytics.com",
+      "securepubads.g.doubleclick.net",
+      "b-code.liadm.com"
+     ],
+     "bytes": {
+      "page": 3043539,
+      "third_party": 2006493,
+      "listed": 195449
+     },
+     "own": 331512,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 4188286,
+      "third_party": 581877,
+      "listed": 335669
+     },
+     "cascade": {
+      "page": 3856774,
+      "third_party": 250365,
+      "listed": 4157
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "www.google-analytics.com",
+      "securepubads.g.doubleclick.net",
+      "b-code.liadm.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 6598482,
+      "third_party": 1955021,
+      "listed": 150533
+     },
+     "own": 350230,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 633343,
+      "third_party": 633349,
+      "listed": 380585
+     },
+     "cascade": {
+      "page": 283113,
+      "third_party": 283119,
+      "listed": 30355
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "www.google-analytics.com",
+      "securepubads.g.doubleclick.net",
+      "b-code.liadm.com",
+      "bat.bing.com",
+      "ak.sail-horizon.com"
+     ],
+     "bytes": {
+      "page": 2941379,
+      "third_party": 1904331,
+      "listed": 99192
+     },
+     "own": 399866,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 4290446,
+      "third_party": 684039,
+      "listed": 431926
+     },
+     "cascade": {
+      "page": 3890580,
+      "third_party": 284173,
+      "listed": 32060
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "www.google-analytics.com",
+      "securepubads.g.doubleclick.net",
+      "b-code.liadm.com",
+      "bat.bing.com",
+      "ak.sail-horizon.com",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 6521570,
+      "third_party": 1878118,
+      "listed": 73664
+     },
+     "own": 423725,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 710255,
+      "third_party": 710252,
+      "listed": 457454
+     },
+     "cascade": {
+      "page": 286530,
+      "third_party": 286527,
+      "listed": 33729
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "hbr.org",
+ "elapsed_s": 125.3
+}

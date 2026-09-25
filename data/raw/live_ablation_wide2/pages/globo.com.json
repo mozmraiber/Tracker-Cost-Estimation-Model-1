@@ -1,0 +1,337 @@
+{
+ "url": "https://globo.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 807775,
+     "control": {
+      "page": 10209454,
+      "third_party": 9715711,
+      "listed": 2436414
+     },
+     "ablated": {
+      "page": 8985655,
+      "third_party": 8490820,
+      "listed": 1369051
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app": 807775,
+      "cdn.permutive.com": 290150,
+      "www.googletagmanager.com": 156908,
+      "pagead2.googlesyndication.com": -31685,
+      "prg.smartadserver.com": -5475,
+      "6cb3108001d004baa1220608304783ea.safeframe.googlesyndication.com": 3811,
+      "e04670b020e800ea42f18a9350929238.safeframe.googlesyndication.com": -3811,
+      "api.permutive.com": 2471,
+      "sync.1rx.io": 2027,
+      "c1.adform.net": 1867,
+      "ab.g.globo": 1596,
+      "secure.adnxs.com": 1554
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 807817,
+     "control": {
+      "page": 9976180,
+      "third_party": 9481493,
+      "listed": 2549427
+     },
+     "ablated": {
+      "page": 9005731,
+      "third_party": 8511952,
+      "listed": 1582528
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app": 807817,
+      "cdn.permutive.com": 290150,
+      "s0.2mdn.net": -169734,
+      "imagesnep.admaster.cc": 18135,
+      "pagead2.googlesyndication.com": 7667,
+      "3e2ba05d2b5010b47e767c4ec2a7668f.safeframe.googlesyndication.com": -7622,
+      "e4d9297ef70cda5475499409c6d8df45.safeframe.googlesyndication.com": 7622,
+      "prg.smartadserver.com": 6245,
+      "s3.glbimg.com": 2726,
+      "api.permutive.com": 2471,
+      "c1.adform.net": 1867,
+      "secure.adnxs.com": 1554
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     416024,
+     162632
+    ],
+    "third_party": [
+     417116,
+     161724
+    ],
+    "listed": [
+     259588,
+     159082
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 289328,
+     "sd": 179175.20149842164,
+     "se": 126695.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 289420,
+     "sd": 180589.41506079474,
+     "se": 127695.99999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 209335,
+     "sd": 71068.47414993515,
+     "se": 50253.0
+    }
+   },
+   "own_mean": 807796
+  },
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 255876,
+     "control": {
+      "page": 10030557,
+      "third_party": 9534284,
+      "listed": 2603602
+     },
+     "ablated": {
+      "page": 9421252,
+      "third_party": 8925906,
+      "listed": 1924754
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 255876,
+      "www.googletagmanager.com": -156074,
+      "pagead2.googlesyndication.com": 128471,
+      "s0.2mdn.net": 91645,
+      "fundingchoicesmessages.google.com": 80360,
+      "cdn.id5-sync.com": 35911,
+      "acdn.adnxs.com": 17430,
+      "ep2.adtrafficquality.google": 14646,
+      "ep1.adtrafficquality.google": 14408,
+      "static.criteo.net": 14217,
+      "tags.crwdcntrl.net": 14186,
+      "gum.criteo.com": 11532
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 255923,
+     "control": {
+      "page": 10077515,
+      "third_party": 9583378,
+      "listed": 2654073
+     },
+     "ablated": {
+      "page": 9421569,
+      "third_party": 8927591,
+      "listed": 1923529
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 255923,
+      "www.googletagmanager.com": -157004,
+      "s0.2mdn.net": 146273,
+      "pagead2.googlesyndication.com": 127964,
+      "fundingchoicesmessages.google.com": 82168,
+      "cdn.id5-sync.com": 35820,
+      "acdn.adnxs.com": 17430,
+      "ep2.adtrafficquality.google": 14646,
+      "static.criteo.net": 14217,
+      "tags.crwdcntrl.net": 14186,
+      "ep1.adtrafficquality.google": 14114,
+      "gum.criteo.com": 12433
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     353429,
+     400023
+    ],
+    "third_party": [
+     352502,
+     399864
+    ],
+    "listed": [
+     422972,
+     474621
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 376726,
+     "sd": 32946.933362605996,
+     "se": 23297.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 376183,
+     "sd": 33489.99137055726,
+     "se": 23680.999999999996
+    },
+    "listed": {
+     "n": 2,
+     "mean": 448796.5,
+     "sd": 36521.358141503995,
+     "se": 25824.5
+    }
+   },
+   "own_mean": 255899.5
+  },
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 203952,
+     "control": {
+      "page": 10296621,
+      "third_party": 9803158,
+      "listed": 2716421
+     },
+     "ablated": {
+      "page": 10096104,
+      "third_party": 9601001,
+      "listed": 2512311
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 203952,
+      "pagead2.googlesyndication.com": -13030,
+      "s0.2mdn.net": 8303,
+      "11fcdd1534d19a076a5bb2bf8003b97f.safeframe.googlesyndication.com": -7622,
+      "3182599a21f69a5e141385f504ae2ea6.safeframe.googlesyndication.com": 7622,
+      "prg.smartadserver.com": 5668,
+      "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app": -5639,
+      "ab.g.globo": -1596,
+      "api.permutive.com": -1575,
+      "cm.g.doubleclick.net": 1441,
+      "sync.1rx.io": 1411,
+      "sync-tm.everesttech.net": 1344
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 203952,
+     "control": {
+      "page": 10268181,
+      "third_party": 9774293,
+      "listed": 2686893
+     },
+     "ablated": {
+      "page": 9770953,
+      "third_party": 9275905,
+      "listed": 2357139
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 203952,
+      "s0.2mdn.net": 182746,
+      "www.googletagmanager.com": 156369,
+      "images.mediago.io": -21027,
+      "pagead2.googlesyndication.com": -20630,
+      "prg.smartadserver.com": -11707,
+      "38623a09fc0750419076f01a2020edb8.safeframe.googlesyndication.com": -7622,
+      "f10812e7d536a43d7673cd6bb90029bb.safeframe.googlesyndication.com": 7622,
+      "mab.g.globo": 7590,
+      "sdk-metrics.g.globo": 5776,
+      "securepubads.g.doubleclick.net": 1817,
+      "t.adx.opera.com": -1342
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -3435,
+     293276
+    ],
+    "third_party": [
+     -1795,
+     294436
+    ],
+    "listed": [
+     158,
+     125802
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 144920.5,
+     "sd": 209806.3601526417,
+     "se": 148355.49999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 146320.5,
+     "sd": 209466.94889767215,
+     "se": 148115.49999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 62980,
+     "sd": 88843.72441540258,
+     "se": 62822.0
+    }
+   },
+   "own_mean": 203952
+  }
+ },
+ "candidates": [
+  "d39f98ec-9259-4f8b-896d-7ab58be1f900.edge.permutive.app",
+  "securepubads.g.doubleclick.net",
+  "connect.facebook.net"
+ ],
+ "category": "news",
+ "domain": "globo.com",
+ "n_blocked_tracking": 245.0,
+ "elapsed_s": 198.8
+}

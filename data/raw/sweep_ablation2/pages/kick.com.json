@@ -1,0 +1,401 @@
+{
+ "url": "https://kick.com/",
+ "hosts": [
+  "connect.facebook.net",
+  "pagead2.googlesyndication.com",
+  "analytics.tiktok.com",
+  "a.quora.com",
+  "region1.google-analytics.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "analytics.tiktok.com",
+    "pagead2.googlesyndication.com",
+    "connect.facebook.net",
+    "region1.google-analytics.com",
+    "a.quora.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 10103901,
+      "third_party": 5764608,
+      "listed": 1102346
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "analytics.tiktok.com"
+     ],
+     "bytes": {
+      "page": 10050469,
+      "third_party": 5694303,
+      "listed": 934887
+     },
+     "own": 166858,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 53432,
+      "third_party": 70305,
+      "listed": 167459
+     },
+     "cascade": {
+      "page": -113426,
+      "third_party": -96553,
+      "listed": 601
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "analytics.tiktok.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 9968021,
+      "third_party": 5603303,
+      "listed": 677107
+     },
+     "own": 425343,
+     "n_aborted": 6,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 2,
+      "image": 2
+     },
+     "saved": {
+      "page": 135880,
+      "third_party": 161305,
+      "listed": 425239
+     },
+     "cascade": {
+      "page": -289463,
+      "third_party": -264038,
+      "listed": -104
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "analytics.tiktok.com",
+      "pagead2.googlesyndication.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 8728696,
+      "third_party": 3500597,
+      "listed": 417586
+     },
+     "own": 684270,
+     "n_aborted": 7,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 2,
+      "image": 2
+     },
+     "saved": {
+      "page": 1375205,
+      "third_party": 2264011,
+      "listed": 684760
+     },
+     "cascade": {
+      "page": 690935,
+      "third_party": 1579741,
+      "listed": 490
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "analytics.tiktok.com",
+      "pagead2.googlesyndication.com",
+      "connect.facebook.net",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 9672885,
+      "third_party": 5323448,
+      "listed": 415945
+     },
+     "own": 685912,
+     "n_aborted": 9,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "fetch": 4,
+      "script": 3,
+      "image": 2
+     },
+     "saved": {
+      "page": 431016,
+      "third_party": 441160,
+      "listed": 686401
+     },
+     "cascade": {
+      "page": -254896,
+      "third_party": -244752,
+      "listed": 489
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "analytics.tiktok.com",
+      "pagead2.googlesyndication.com",
+      "connect.facebook.net",
+      "region1.google-analytics.com",
+      "a.quora.com"
+     ],
+     "bytes": {
+      "page": 9699983,
+      "third_party": 4463203,
+      "listed": 400440
+     },
+     "own": 701416,
+     "n_aborted": 10,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "fetch": 4,
+      "script": 4,
+      "image": 2
+     },
+     "saved": {
+      "page": 403918,
+      "third_party": 1301405,
+      "listed": 701906
+     },
+     "cascade": {
+      "page": -297498,
+      "third_party": 599989,
+      "listed": 490
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "connect.facebook.net",
+    "analytics.tiktok.com",
+    "pagead2.googlesyndication.com",
+    "a.quora.com",
+    "region1.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 10290970,
+      "third_party": 5946502,
+      "listed": 1101455
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 10341123,
+      "third_party": 5948876,
+      "listed": 840966
+     },
+     "own": 258927,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": -50153,
+      "third_party": -2374,
+      "listed": 260489
+     },
+     "cascade": {
+      "page": -309080,
+      "third_party": -261301,
+      "listed": 1562
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "connect.facebook.net",
+      "analytics.tiktok.com"
+     ],
+     "bytes": {
+      "page": 9928063,
+      "third_party": 5553653,
+      "listed": 674290
+     },
+     "own": 425396,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 362907,
+      "third_party": 392849,
+      "listed": 427165
+     },
+     "cascade": {
+      "page": -62489,
+      "third_party": -32547,
+      "listed": 1769
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "connect.facebook.net",
+      "analytics.tiktok.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 9607119,
+      "third_party": 5222478,
+      "listed": 417586
+     },
+     "own": 683380,
+     "n_aborted": 7,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 2,
+      "image": 2
+     },
+     "saved": {
+      "page": 683851,
+      "third_party": 724024,
+      "listed": 683869
+     },
+     "cascade": {
+      "page": 471,
+      "third_party": 40644,
+      "listed": 489
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "connect.facebook.net",
+      "analytics.tiktok.com",
+      "pagead2.googlesyndication.com",
+      "a.quora.com"
+     ],
+     "bytes": {
+      "page": 10635550,
+      "third_party": 5381053,
+      "listed": 402084
+     },
+     "own": 698884,
+     "n_aborted": 8,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 2,
+      "image": 2
+     },
+     "saved": {
+      "page": -344580,
+      "third_party": 565449,
+      "listed": 699371
+     },
+     "cascade": {
+      "page": -1043464,
+      "third_party": -133435,
+      "listed": 487
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "connect.facebook.net",
+      "analytics.tiktok.com",
+      "pagead2.googlesyndication.com",
+      "a.quora.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 7971160,
+      "third_party": 3590683,
+      "listed": 400443
+     },
+     "own": 700526,
+     "n_aborted": 10,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "fetch": 4,
+      "script": 4,
+      "image": 2
+     },
+     "saved": {
+      "page": 2319810,
+      "third_party": 2355819,
+      "listed": 701012
+     },
+     "cascade": {
+      "page": 1619284,
+      "third_party": 1655293,
+      "listed": 486
+     }
+    }
+   ]
+  }
+ ],
+ "category": "entertainment",
+ "domain": "kick.com",
+ "elapsed_s": 103.9
+}

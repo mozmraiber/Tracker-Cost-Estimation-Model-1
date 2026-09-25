@@ -1,0 +1,331 @@
+{
+ "url": "https://mail.ru/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 753912,
+     "control": {
+      "page": 12546889,
+      "third_party": 12062332,
+      "listed": 734870
+     },
+     "ablated": {
+      "page": 9065991,
+      "third_party": 8596581,
+      "listed": 43786
+     },
+     "n_aborted": 6,
+     "moved": {
+      "r.mradx.net": 2744393,
+      "avatars.dzeninfra.ru": -880160,
+      "vd622.okcdn.ru": 865232,
+      "vd359.okcdn.ru": -687064,
+      "yandex.ru": 598292,
+      "vd640.okcdn.ru": 529069,
+      "vd676.okcdn.ru": -482320,
+      "yastatic.net": 388480,
+      "avatars.mds.yandex.net": 202751,
+      "mc.yandex.ru": 152038,
+      "mc.yandex.com": 25474,
+      "ad.mail.ru": 14374
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 820689,
+     "control": {
+      "page": 9259686,
+      "third_party": 8789876,
+      "listed": 786242
+     },
+     "ablated": {
+      "page": 8721686,
+      "third_party": 8255736,
+      "listed": 43538
+     },
+     "n_aborted": 6,
+     "moved": {
+      "avatars.dzeninfra.ru": -848945,
+      "vd359.okcdn.ru": -687066,
+      "yandex.ru": 665070,
+      "vd644.okcdn.ru": 553138,
+      "vd640.okcdn.ru": 529071,
+      "vd678.okcdn.ru": -485917,
+      "vd676.okcdn.ru": -482326,
+      "vd539.okcdn.ru": 408817,
+      "yastatic.net": 382760,
+      "avatars.mds.yandex.net": 378734,
+      "mc.yandex.ru": 152038,
+      "r.mradx.net": -67031
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2726986,
+     -282689
+    ],
+    "third_party": [
+     2711839,
+     -286549
+    ],
+    "listed": [
+     -62828,
+     -77985
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1222148.5,
+     "sd": 2128161.6016676226,
+     "se": 1504837.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1212645,
+     "sd": 2120180.48742837,
+     "se": 1499194.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -70406.5,
+     "sd": 10717.6174824445,
+     "se": 7578.499999999999
+    }
+   },
+   "own_mean": 787300.5
+  },
+  "mc.yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 152038,
+     "control": {
+      "page": 11135142,
+      "third_party": 10660126,
+      "listed": 635612
+     },
+     "ablated": {
+      "page": 11208297,
+      "third_party": 10727409,
+      "listed": 479042
+     },
+     "n_aborted": 3,
+     "moved": {
+      "vd676.okcdn.ru": -482319,
+      "vd432.okcdn.ru": 408814,
+      "yastatic.net": -235811,
+      "r.mradx.net": 166358,
+      "mc.yandex.ru": 152038,
+      "avatars.dzeninfra.ru": -99574,
+      "mc.yandex.com": 25295,
+      "yandex.ru": -15457,
+      "avatars.mds.yandex.net": 11626,
+      "mail.ru": -8665,
+      "favicon.yandex.net": 2496,
+      "ad.mail.ru": 2047
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 152038,
+     "control": {
+      "page": 9746734,
+      "third_party": 9276707,
+      "listed": 858293
+     },
+     "ablated": {
+      "page": 11866142,
+      "third_party": 11386645,
+      "listed": 546938
+     },
+     "n_aborted": 3,
+     "moved": {
+      "r.mradx.net": -2071056,
+      "vd749.okcdn.ru": -627079,
+      "vd644.okcdn.ru": -553136,
+      "vd668.okcdn.ru": -531527,
+      "vd640.okcdn.ru": 529071,
+      "vd676.okcdn.ru": 482325,
+      "vd539.okcdn.ru": 408814,
+      "mc.yandex.ru": 152038,
+      "yandex.ru": 132322,
+      "avatars.mds.yandex.net": -84551,
+      "avatars.dzeninfra.ru": 42837,
+      "mc.yandex.com": 25481
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -225193,
+     -2271446
+    ],
+    "third_party": [
+     -219321,
+     -2261976
+    ],
+    "listed": [
+     4532,
+     159317
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1248319.5,
+     "sd": 1446919.3723233165,
+     "se": 1023126.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1240648.5,
+     "sd": 1444375.2021246073,
+     "se": 1021327.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 81924.5,
+     "sd": 109449.52312595976,
+     "se": 77392.5
+    }
+   },
+   "own_mean": 152038
+  },
+  "vk.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 39553,
+     "control": {
+      "page": 9967320,
+      "third_party": 9497177,
+      "listed": 745664
+     },
+     "ablated": {
+      "page": 11143083,
+      "third_party": 10669754,
+      "listed": 611488
+     },
+     "n_aborted": 2,
+     "moved": {
+      "r.mradx.net": -1312362,
+      "vd622.okcdn.ru": 865234,
+      "vd676.okcdn.ru": 482322,
+      "vd274.okcdn.ru": -437558,
+      "vd292.okcdn.ru": -430795,
+      "avatars.dzeninfra.ru": -256590,
+      "yastatic.net": -235811,
+      "yandex.ru": 105210,
+      "vk.com": 37277,
+      "avatars.mds.yandex.net": 6311,
+      "ad.mail.ru": -5866,
+      "media-trend.mail.ru": 4248
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 41229,
+     "control": {
+      "page": 11625488,
+      "third_party": 11145733,
+      "listed": 778088
+     },
+     "ablated": {
+      "page": 12393147,
+      "third_party": 11907806,
+      "listed": 662173
+     },
+     "n_aborted": 2,
+     "moved": {
+      "vd359.okcdn.ru": -687070,
+      "vd668.okcdn.ru": -531534,
+      "vd678.okcdn.ru": 485917,
+      "r.mradx.net": -468736,
+      "vd539.okcdn.ru": 408816,
+      "avatars.dzeninfra.ru": -114296,
+      "yandex.ru": 73041,
+      "vk.com": 38953,
+      "avatars.mds.yandex.net": 33941,
+      "media-trend.mail.ru": -3399,
+      "login.vk.com": 2276,
+      "imgs2.imgsmail.ru": -1951
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1215316,
+     -808888
+    ],
+    "third_party": [
+     -1212130,
+     -803302
+    ],
+    "listed": [
+     94623,
+     74686
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1012102,
+     "sd": 287387.99486408615,
+     "se": 203214.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1007716,
+     "sd": 289085.05113893386,
+     "se": 204414.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 84654.5,
+     "sd": 14097.587896516197,
+     "se": 9968.499999999998
+    }
+   },
+   "own_mean": 40391
+  }
+ },
+ "candidates": [
+  "yandex.ru",
+  "mc.yandex.ru",
+  "vk.com"
+ ],
+ "category": "news",
+ "domain": "mail.ru",
+ "n_blocked_tracking": 110.0,
+ "elapsed_s": 146.8
+}

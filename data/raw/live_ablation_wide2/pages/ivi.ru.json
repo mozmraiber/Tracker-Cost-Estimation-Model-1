@@ -1,0 +1,337 @@
+{
+ "url": "https://ivi.ru/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "mc.yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 92008,
+     "control": {
+      "page": 2809493,
+      "third_party": 735901,
+      "listed": 278676
+     },
+     "ablated": {
+      "page": 2820561,
+      "third_party": 636111,
+      "listed": 181010
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "thumbs.dfs.ivi.ru": -110522,
+      "mc.yandex.ru": 92008,
+      "mc.yandex.com": 5601,
+      "www.ivi.tv": 2124,
+      "www.ivi.ru": -327,
+      "ad.adriver.ru": 55,
+      "api2.ivi.ru": -7,
+      "content.adriver.ru": 2,
+      "api.ivi.ru": -2,
+      "privacy-cs.mail.ru": -1,
+      "api.flocktory.com": 1,
+      "ev.adriver.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 92008,
+     "control": {
+      "page": 2809789,
+      "third_party": 735757,
+      "listed": 278525
+     },
+     "ablated": {
+      "page": 2712195,
+      "third_party": 638169,
+      "listed": 180938
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "mc.yandex.ru": 92008,
+      "mc.yandex.com": 5582,
+      "api2.ivi.ru": 8,
+      "api.ivi.ru": -2,
+      "api.flocktory.com": -2,
+      "eye.targetads.io": 2,
+      "www.ivi.tv": -1,
+      "privacy-cs.mail.ru": -1,
+      "ad.adriver.ru": 0,
+      "content.adriver.ru": 0,
+      "ev.adriver.ru": 0,
+      "rocket.ivi.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -103076,
+     5586
+    ],
+    "third_party": [
+     7782,
+     5580
+    ],
+    "listed": [
+     5658,
+     5579
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -48745,
+     "sd": 76835.63705729262,
+     "se": 54330.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 6681,
+     "sd": 1557.0491321727777,
+     "se": 1101.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 5618.5,
+     "sd": 55.86143571373726,
+     "se": 39.5
+    }
+   },
+   "own_mean": 92008
+  },
+  "api.flocktory.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 78750,
+     "control": {
+      "page": 2809620,
+      "third_party": 735949,
+      "listed": 278729
+     },
+     "ablated": {
+      "page": 2824028,
+      "third_party": 655381,
+      "listed": 199719
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "thumbs.dfs.ivi.ru": -94667,
+      "api.flocktory.com": 78750,
+      "www.ivi.tv": 2276,
+      "www.googletagmanager.com": -720,
+      "www.ivi.ru": -327,
+      "mc.yandex.com": 204,
+      "ad.adriver.ru": 55,
+      "api2.ivi.ru": 18,
+      "eye.targetads.io": 2,
+      "privacy-cs.mail.ru": 1,
+      "content.adriver.ru": 0,
+      "ev.adriver.ru": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 78751,
+     "control": {
+      "page": 2902137,
+      "third_party": 733427,
+      "listed": 278476
+     },
+     "ablated": {
+      "page": 2731980,
+      "third_party": 657949,
+      "listed": 200716
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "thumbs.dfs.ivi.ru": 94667,
+      "api.flocktory.com": 78751,
+      "www.ivi.tv": -2277,
+      "www.tns-counter.ru": -607,
+      "mc.yandex.com": -207,
+      "top-fwz1.mail.ru": -127,
+      "ad.adriver.ru": -51,
+      "api2.ivi.ru": 12,
+      "www.googletagmanager.com": -9,
+      "eye.targetads.io": 4,
+      "privacy-cs.mail.ru": 1,
+      "content.adriver.ru": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -93158,
+     91406
+    ],
+    "third_party": [
+     1818,
+     -3273
+    ],
+    "listed": [
+     260,
+     -991
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -876,
+     "sd": 130506.45596291395,
+     "se": 92281.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -727.5,
+     "sd": 3599.8806230207133,
+     "se": 2545.4999999999995
+    },
+    "listed": {
+     "n": 2,
+     "mean": -365.5,
+     "sd": 884.5905832643709,
+     "se": 625.5
+    }
+   },
+   "own_mean": 78750.5
+  },
+  "top-fwz1.mail.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 54943,
+     "control": {
+      "page": 2808754,
+      "third_party": 734974,
+      "listed": 277754
+     },
+     "ablated": {
+      "page": 2823820,
+      "third_party": 655188,
+      "listed": 200242
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "thumbs.dfs.ivi.ru": -94667,
+      "top-fwz1.mail.ru": 54943,
+      "privacy-cs.mail.ru": 23348,
+      "www.ivi.tv": 2276,
+      "ad.adriver.ru": -802,
+      "www.ivi.ru": -327,
+      "s3.dfs.ivi.ru": 84,
+      "api.ivi.ru": 57,
+      "mc.yandex.com": 21,
+      "content.adriver.ru": 2,
+      "eye.targetads.io": -2,
+      "api2.ivi.ru": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 374,
+      "third_party": 0,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 2823751,
+      "third_party": 655370,
+      "listed": 200423
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "s3.dfs.ivi.ru": -1488620,
+      "thumbs.dfs.ivi.ru": -469587,
+      "www.googletagmanager.com": -363688,
+      "solea-parent.dfs.ivi.ru": -103327,
+      "mc.yandex.ru": -92008,
+      "ds-parent.dfs.ivi.ru": -85185,
+      "api.flocktory.com": -78750,
+      "www.ivi.tv": -56972,
+      "cdn.targetads.io": -27257,
+      "content.adriver.ru": -17472,
+      "api2.ivi.ru": -15777,
+      "mc.yandex.com": -5764
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -70009,
+     -2823377
+    ],
+    "third_party": [
+     24843,
+     -655370
+    ],
+    "listed": [
+     22569,
+     -200423
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1446693,
+     "sd": 1946925.183902042,
+     "se": 1376684.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -315263.5,
+     "sd": 480983.22495124507,
+     "se": 340106.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -88927,
+     "sd": 157679.1553503506,
+     "se": 111495.99999999999
+    }
+   },
+   "own_mean": 27471.5
+  }
+ },
+ "candidates": [
+  "mc.yandex.ru",
+  "api.flocktory.com",
+  "top-fwz1.mail.ru"
+ ],
+ "category": "entertainment",
+ "domain": "ivi.ru",
+ "n_blocked_tracking": 80.0,
+ "elapsed_s": 156.1
+}

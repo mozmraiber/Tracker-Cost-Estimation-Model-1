@@ -1,0 +1,331 @@
+{
+ "url": "https://indiatimes.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 507317,
+     "control": {
+      "page": 2856441,
+      "third_party": 2333647,
+      "listed": 1365654
+     },
+     "ablated": {
+      "page": 2097071,
+      "third_party": 1574284,
+      "listed": 613617
+     },
+     "n_aborted": 5,
+     "moved": {
+      "pagead2.googlesyndication.com": 507317,
+      "imagesnep.admaster.cc": 152202,
+      "images.mediago.io": 30829,
+      "tpc.googlesyndication.com": 20935,
+      "64a93ae8619f655faf5296e0236fe606.safeframe.googlesyndication.com": 15244,
+      "htlb.casalemedia.com": 12266,
+      "ads.pubmatic.com": 8028,
+      "prebid.timesofindia.com": 7343,
+      "04e36d426f16ebbd9dd5950751d5cbb5.safeframe.googlesyndication.com": -3811,
+      "static.admaster.cc": 2098,
+      "gtracenep.admaster.cc": 1841,
+      "web-banner.ads.aps.amazon-adsystem.com": 1568
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 322856,
+     "control": {
+      "page": 3024282,
+      "third_party": 2501478,
+      "listed": 1529881
+     },
+     "ablated": {
+      "page": 2127988,
+      "third_party": 1605195,
+      "listed": 637218
+     },
+     "n_aborted": 6,
+     "moved": {
+      "imagesnep.admaster.cc": 360706,
+      "pagead2.googlesyndication.com": 322856,
+      "static.teads.tv": 147868,
+      "a.teads.tv": 18364,
+      "tpc.googlesyndication.com": 13950,
+      "95d0b978e6d10f5115e56134ae24f5ea.safeframe.googlesyndication.com": 11433,
+      "dsp.outbrainimg.com": 7804,
+      "t2.teads.tv": 5544,
+      "1f39bec06fa66280c36d928e3b087cf2.safeframe.googlesyndication.com": -3811,
+      "cdn.jsdelivr.net": 3585,
+      "static.admaster.cc": 2532,
+      "gtracenep.admaster.cc": 1916
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     252053,
+     573438
+    ],
+    "third_party": [
+     252046,
+     573427
+    ],
+    "listed": [
+     244720,
+     569807
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 412745.5,
+     "sd": 227253.51287163858,
+     "se": 160692.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 412736.5,
+     "sd": 227250.68444451384,
+     "se": 160690.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 407263.5,
+     "sd": 229871.2221755912,
+     "se": 162543.5
+    }
+   },
+   "own_mean": 415086.5
+  },
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 258855,
+     "control": {
+      "page": 2888387,
+      "third_party": 2365575,
+      "listed": 1397569
+     },
+     "ablated": {
+      "page": 1696726,
+      "third_party": 1173930,
+      "listed": 224544
+     },
+     "n_aborted": 2,
+     "moved": {
+      "imagesnep.admaster.cc": 381957,
+      "pagead2.googlesyndication.com": 337219,
+      "securepubads.g.doubleclick.net": 258855,
+      "cdn.id5-sync.com": 35658,
+      "tpc.googlesyndication.com": 20935,
+      "8ce367ab849938b654fa88869cbb6928.safeframe.googlesyndication.com": 15244,
+      "ep2.adtrafficquality.google": 14646,
+      "ep1.adtrafficquality.google": 14290,
+      "static.criteo.net": 14217,
+      "tags.crwdcntrl.net": 14186,
+      "htlb.casalemedia.com": 12198,
+      "oa.openxcdn.net": 10773
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 259220,
+     "control": {
+      "page": 2564354,
+      "third_party": 2041544,
+      "listed": 1073608
+     },
+     "ablated": {
+      "page": 1696792,
+      "third_party": 1173977,
+      "listed": 224450
+     },
+     "n_aborted": 2,
+     "moved": {
+      "pagead2.googlesyndication.com": 336283,
+      "securepubads.g.doubleclick.net": 259220,
+      "imagesnep.admaster.cc": 58767,
+      "cdn.id5-sync.com": 35897,
+      "tpc.googlesyndication.com": 20895,
+      "bd64d0d6642d45331208c5ede38e180d.safeframe.googlesyndication.com": 15244,
+      "ep2.adtrafficquality.google": 14646,
+      "ep1.adtrafficquality.google": 14448,
+      "static.criteo.net": 14217,
+      "tags.crwdcntrl.net": 14186,
+      "htlb.casalemedia.com": 11933,
+      "oa.openxcdn.net": 10773
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     932806,
+     608342
+    ],
+    "third_party": [
+     932790,
+     608347
+    ],
+    "listed": [
+     914170,
+     589938
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 770574,
+     "sd": 229430.69465091196,
+     "se": 162232.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 770568.5,
+     "sd": 229415.84540850704,
+     "se": 162221.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 752054,
+     "sd": 229266.64587767667,
+     "se": 162115.99999999997
+    }
+   },
+   "own_mean": 259037.5
+  },
+  "c.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 98824,
+     "control": {
+      "page": 2678547,
+      "third_party": 2155732,
+      "listed": 1187705
+     },
+     "ablated": {
+      "page": 2372206,
+      "third_party": 1849419,
+      "listed": 884970
+     },
+     "n_aborted": 2,
+     "moved": {
+      "imagesnep.admaster.cc": 109750,
+      "c.amazon-adsystem.com": 98824,
+      "cdn.id5-sync.com": 35516,
+      "images.mediago.io": 22651,
+      "secure.cdn.fastclick.net": 22359,
+      "ee7dd4e8174f7b48b3d0df30013d81f0.safeframe.googlesyndication.com": -15244,
+      "ab9cc216e83a1224e31bedaf01bfbc9e.safeframe.googlesyndication.com": 15244,
+      "config.aps.amazon-adsystem.com": 4695,
+      "web-banner.ads.aps.amazon-adsystem.com": 1915,
+      "static.admaster.cc": -1852,
+      "id5-sync.com": 1597,
+      "pagead2.googlesyndication.com": 1577
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 98824,
+     "control": {
+      "page": 3131776,
+      "third_party": 2609742,
+      "listed": 1641617
+     },
+     "ablated": {
+      "page": 2816775,
+      "third_party": 2293962,
+      "listed": 1331206
+     },
+     "n_aborted": 2,
+     "moved": {
+      "pagead2.googlesyndication.com": 107987,
+      "c.amazon-adsystem.com": 98824,
+      "cdn.id5-sync.com": 35590,
+      "secure.cdn.fastclick.net": 22359,
+      "imagesnep.admaster.cc": 21206,
+      "84d13a0bd5e2ad755fa0c4e96096072c.safeframe.googlesyndication.com": 15244,
+      "4545d13bbd0501e0975549d06fda16dc.safeframe.googlesyndication.com": -11433,
+      "tpc.googlesyndication.com": 6965,
+      "config.aps.amazon-adsystem.com": 4695,
+      "web-banner.ads.aps.amazon-adsystem.com": 1918,
+      "prebid.timesofindia.com": 1868,
+      "id5-sync.com": 1597
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     207517,
+     216177
+    ],
+    "third_party": [
+     207489,
+     216956
+    ],
+    "listed": [
+     203911,
+     211587
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 211847,
+     "sd": 6123.544725075501,
+     "se": 4330.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 212222.5,
+     "sd": 6694.179897493045,
+     "se": 4733.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 207749,
+     "sd": 5427.7516523879385,
+     "se": 3837.9999999999995
+    }
+   },
+   "own_mean": 98824
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com",
+  "securepubads.g.doubleclick.net",
+  "c.amazon-adsystem.com"
+ ],
+ "category": "news",
+ "domain": "indiatimes.com",
+ "n_blocked_tracking": 114.0,
+ "elapsed_s": 89.5
+}

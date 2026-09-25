@@ -1,0 +1,331 @@
+{
+ "url": "https://frontiersin.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35422,
+     "control": {
+      "page": 3727568,
+      "third_party": 1620249,
+      "listed": 230094
+     },
+     "ablated": {
+      "page": 3690177,
+      "third_party": 1582876,
+      "listed": 192604
+     },
+     "n_aborted": 2,
+     "moved": {
+      "js-agent.newrelic.com": 35422,
+      "bam.nr-data.net": 2807,
+      "googleads.g.doubleclick.net": -739,
+      "www.youtube.com": -116,
+      "tag-manager.frontiersin.org": 17,
+      "www.frontiersin.org": 1,
+      "www.google.com": -1,
+      "d2csxpduxe849s.cloudfront.net": 0,
+      "www.googletagmanager.com": 0,
+      "geolocation.onetrust.com": 0,
+      "brand.frontiersin.org": 0,
+      "frontiersin.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35423,
+     "control": {
+      "page": 3728581,
+      "third_party": 1621252,
+      "listed": 230095
+     },
+     "ablated": {
+      "page": 3689513,
+      "third_party": 1582194,
+      "listed": 191865
+     },
+     "n_aborted": 2,
+     "moved": {
+      "js-agent.newrelic.com": 35423,
+      "bam.nr-data.net": 2807,
+      "www.googletagmanager.com": 720,
+      "www.youtube.com": 108,
+      "tag-manager.frontiersin.org": 11,
+      "www.frontiersin.org": -1,
+      "d2csxpduxe849s.cloudfront.net": 0,
+      "geolocation.onetrust.com": 0,
+      "brand.frontiersin.org": 0,
+      "frontiersin.org": 0,
+      "jnn-pa.googleapis.com": 0,
+      "static2.frontiersin.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1969,
+     3645
+    ],
+    "third_party": [
+     1951,
+     3635
+    ],
+    "listed": [
+     2068,
+     2807
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2807,
+     "sd": 1185.1109652686537,
+     "se": 838.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2793,
+     "sd": 1190.767819518146,
+     "se": 842.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2437.5,
+     "sd": 522.5519112968586,
+     "se": 369.5
+    }
+   },
+   "own_mean": 35422.5
+  },
+  "bam.nr-data.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2807,
+     "control": {
+      "page": 3946798,
+      "third_party": 1736159,
+      "listed": 230834
+     },
+     "ablated": {
+      "page": 3800361,
+      "third_party": 1618145,
+      "listed": 228026
+     },
+     "n_aborted": 2,
+     "moved": {
+      "d2csxpduxe849s.cloudfront.net": 115319,
+      "brand.frontiersin.org": 28174,
+      "bam.nr-data.net": 2807,
+      "tag-manager.frontiersin.org": 325,
+      "www.youtube.com": -114,
+      "frontiersin.org": -93,
+      "www.frontiersin.org": 17,
+      "js-agent.newrelic.com": 1,
+      "www.google.com": 1,
+      "www.googletagmanager.com": 0,
+      "geolocation.onetrust.com": 0,
+      "jnn-pa.googleapis.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2807,
+     "control": {
+      "page": 3733089,
+      "third_party": 1625774,
+      "listed": 230834
+     },
+     "ablated": {
+      "page": 3760722,
+      "third_party": 1622191,
+      "listed": 227288
+     },
+     "n_aborted": 2,
+     "moved": {
+      "brand.frontiersin.org": -31211,
+      "bam.nr-data.net": 2807,
+      "googleads.g.doubleclick.net": 739,
+      "www.youtube.com": 38,
+      "www.frontiersin.org": -5,
+      "www.google.com": -1,
+      "d2csxpduxe849s.cloudfront.net": 0,
+      "www.googletagmanager.com": 0,
+      "geolocation.onetrust.com": 0,
+      "frontiersin.org": 0,
+      "jnn-pa.googleapis.com": 0,
+      "static2.frontiersin.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     143630,
+     -30440
+    ],
+    "third_party": [
+     115207,
+     776
+    ],
+    "listed": [
+     1,
+     739
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 56595,
+     "sd": 123086.07740114233,
+     "se": 87035.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 57991.5,
+     "sd": 80914.93607795781,
+     "se": 57215.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 370,
+     "sd": 521.8448045156721,
+     "se": 369.0
+    }
+   },
+   "own_mean": 2807
+  },
+  "googleads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1616,
+     "control": {
+      "page": 3728281,
+      "third_party": 1620966,
+      "listed": 230834
+     },
+     "ablated": {
+      "page": 3726884,
+      "third_party": 1619549,
+      "listed": 229217
+     },
+     "n_aborted": 1,
+     "moved": {
+      "googleads.g.doubleclick.net": 1616,
+      "www.youtube.com": -201,
+      "tag-manager.frontiersin.org": -13,
+      "www.frontiersin.org": -7,
+      "js-agent.newrelic.com": 1,
+      "www.google.com": 1,
+      "d2csxpduxe849s.cloudfront.net": 0,
+      "www.googletagmanager.com": 0,
+      "bam.nr-data.net": 0,
+      "geolocation.onetrust.com": 0,
+      "brand.frontiersin.org": 0,
+      "frontiersin.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1616,
+     "control": {
+      "page": 3728484,
+      "third_party": 1621164,
+      "listed": 230833
+     },
+     "ablated": {
+      "page": 3729640,
+      "third_party": 1622297,
+      "listed": 229217
+     },
+     "n_aborted": 1,
+     "moved": {
+      "www.youtube.com": -2748,
+      "googleads.g.doubleclick.net": 1616,
+      "tag-manager.frontiersin.org": -30,
+      "www.frontiersin.org": 7,
+      "www.google.com": -1,
+      "d2csxpduxe849s.cloudfront.net": 0,
+      "www.googletagmanager.com": 0,
+      "bam.nr-data.net": 0,
+      "geolocation.onetrust.com": 0,
+      "brand.frontiersin.org": 0,
+      "frontiersin.org": 0,
+      "jnn-pa.googleapis.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -219,
+     -2772
+    ],
+    "third_party": [
+     -199,
+     -2749
+    ],
+    "listed": [
+     1,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1495.5,
+     "sd": 1805.2436123692557,
+     "se": 1276.4999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1474,
+     "sd": 1803.1222920256962,
+     "se": 1275.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 1616
+  }
+ },
+ "candidates": [
+  "js-agent.newrelic.com",
+  "bam.nr-data.net",
+  "googleads.g.doubleclick.net"
+ ],
+ "category": "reference",
+ "domain": "frontiersin.org",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 91.8
+}

@@ -1,0 +1,337 @@
+{
+ "url": "https://slideshare.net/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "survey.survicate.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 6432,
+     "control": {
+      "page": 1639718,
+      "third_party": 1505719,
+      "listed": 105453
+     },
+     "ablated": {
+      "page": 1441517,
+      "third_party": 1307514,
+      "listed": 98996
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "surveys-static-prd.survicate-cdn.com": 192326,
+      "survey.survicate.com": 6432,
+      "prodregistryv2.org": -534,
+      "www.googletagmanager.com": -49,
+      "image.slidesharecdn.com": 40,
+      "o127091.ingest.sentry.io": 25,
+      "featureassets.org": -25,
+      "public.slidesharecdn.com": -10,
+      "www.slideshare.net": -3,
+      "slideshare.net": -1,
+      "wa.slideshare.net": 0,
+      "cmp.osano.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 6440,
+     "control": {
+      "page": 1641973,
+      "third_party": 1507971,
+      "listed": 107030
+     },
+     "ablated": {
+      "page": 1441914,
+      "third_party": 1307912,
+      "listed": 100585
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "surveys-static-prd.survicate-cdn.com": 192355,
+      "survey.survicate.com": 6440,
+      "public.slidesharecdn.com": 1256,
+      "featureassets.org": 43,
+      "image.slidesharecdn.com": -40,
+      "o127091.ingest.sentry.io": 25,
+      "cmp.osano.com": -20,
+      "www.slideshare.net": 0,
+      "slideshare.net": 0,
+      "www.googletagmanager.com": 0,
+      "wa.slideshare.net": 0,
+      "prodregistryv2.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     191769,
+     193619
+    ],
+    "third_party": [
+     191773,
+     193619
+    ],
+    "listed": [
+     25,
+     5
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 192694,
+     "sd": 1308.147545195113,
+     "se": 925.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 192696,
+     "sd": 1305.3191180703668,
+     "se": 923.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 15,
+     "sd": 14.142135623730951,
+     "se": 10.0
+    }
+   },
+   "own_mean": 6436
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 558,
+     "control": {
+      "page": 1569547,
+      "third_party": 1356450,
+      "listed": 100590
+     },
+     "ablated": {
+      "page": 1788257,
+      "third_party": 1355965,
+      "listed": 100007
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.slideshare.net": -219183,
+      "pagead2.googlesyndication.com": 558,
+      "featureassets.org": -76,
+      "www.googletagmanager.com": -46,
+      "o127091.ingest.sentry.io": 25,
+      "prodregistryv2.org": 25,
+      "slideshare.net": -12,
+      "image.slidesharecdn.com": -2,
+      "public.slidesharecdn.com": 1,
+      "wa.slideshare.net": 0,
+      "cmp.osano.com": 0,
+      "survey.survicate.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 558,
+     "control": {
+      "page": 1640600,
+      "third_party": 1506600,
+      "listed": 106997
+     },
+     "ablated": {
+      "page": 1641704,
+      "third_party": 1507705,
+      "listed": 106439
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 1,
+     "moved": {
+      "public.slidesharecdn.com": -1260,
+      "pagead2.googlesyndication.com": 558,
+      "surveys-static-prd.survicate-cdn.com": -460,
+      "www.googletagmanager.com": 64,
+      "image.slidesharecdn.com": -60,
+      "featureassets.org": 53,
+      "www.slideshare.net": 1,
+      "slideshare.net": 0,
+      "o127091.ingest.sentry.io": 0,
+      "wa.slideshare.net": 0,
+      "cmp.osano.com": 0,
+      "prodregistryv2.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -219268,
+     -1662
+    ],
+    "third_party": [
+     -73,
+     -1663
+    ],
+    "listed": [
+     25,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -110465,
+     "sd": 153870.67822687986,
+     "se": 108802.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -868,
+     "sd": 1124.2997820866105,
+     "se": 794.9999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 12.5,
+     "sd": 17.67766952966369,
+     "se": 12.5
+    }
+   },
+   "own_mean": 558
+  },
+  "o127091.ingest.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 1641931,
+      "third_party": 1507926,
+      "listed": 106997
+     },
+     "ablated": {
+      "page": 1640077,
+      "third_party": 1506078,
+      "listed": 106503
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "public.slidesharecdn.com": 1268,
+      "o127091.ingest.sentry.io": 494,
+      "featureassets.org": 86,
+      "www.slideshare.net": 6,
+      "slideshare.net": 0,
+      "www.googletagmanager.com": 0,
+      "wa.slideshare.net": 0,
+      "cmp.osano.com": 0,
+      "surveys-static-prd.survicate-cdn.com": 0,
+      "prodregistryv2.org": 0,
+      "survey.survicate.com": 0,
+      "pagead2.googlesyndication.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 1640472,
+      "third_party": 1506466,
+      "listed": 107017
+     },
+     "ablated": {
+      "page": 1639983,
+      "third_party": 1505981,
+      "listed": 106503
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "prodregistryv2.org": -534,
+      "o127091.ingest.sentry.io": 494,
+      "surveys-static-prd.survicate-cdn.com": 427,
+      "www.googletagmanager.com": 64,
+      "cmp.osano.com": 20,
+      "public.slidesharecdn.com": 10,
+      "featureassets.org": 4,
+      "www.slideshare.net": 3,
+      "slideshare.net": 1,
+      "wa.slideshare.net": 0,
+      "survey.survicate.com": 0,
+      "pagead2.googlesyndication.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1360,
+     -5
+    ],
+    "third_party": [
+     1354,
+     -9
+    ],
+    "listed": [
+     0,
+     20
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 677.5,
+     "sd": 965.2007563196373,
+     "se": 682.4999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 672.5,
+     "sd": 963.7865427572643,
+     "se": 681.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 10,
+     "sd": 14.142135623730951,
+     "se": 10.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "survey.survicate.com",
+  "pagead2.googlesyndication.com",
+  "o127091.ingest.sentry.io"
+ ],
+ "category": "social",
+ "domain": "slideshare.net",
+ "n_blocked_tracking": 39.0,
+ "elapsed_s": 80.1
+}

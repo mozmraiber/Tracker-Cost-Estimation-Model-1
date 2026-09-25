@@ -1,0 +1,11 @@
+{
+ "url": "https://kleinanzeigen.de/",
+ "hosts": [
+  "pagead2.googlesyndication.com"
+ ],
+ "runs": [],
+ "skipped": "only 1 ETP-blocked hosts",
+ "category": "shopping",
+ "domain": "kleinanzeigen.de",
+ "elapsed_s": 6.6
+}

@@ -1,0 +1,113 @@
+{
+ "url": "https://twitter.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o30969.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 3638002,
+      "third_party": 3633898,
+      "listed": 114665
+     },
+     "ablated": {
+      "page": 3637029,
+      "third_party": 3632923,
+      "listed": 113707
+     },
+     "n_aborted": 1,
+     "moved": {
+      "o30969.ingest.us.sentry.io": 494,
+      "x.com": 376,
+      "api.x.com": 88,
+      "accounts.google.com": 20,
+      "abs.twimg.com": -3,
+      "twitter.com": -2,
+      "appleid.cdn-apple.com": 0,
+      "jf.x.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 3638026,
+      "third_party": 3633922,
+      "listed": 114680
+     },
+     "ablated": {
+      "page": 3637330,
+      "third_party": 3633225,
+      "listed": 113994
+     },
+     "n_aborted": 1,
+     "moved": {
+      "o30969.ingest.us.sentry.io": 494,
+      "jf.x.com": 457,
+      "x.com": -265,
+      "accounts.google.com": 14,
+      "abs.twimg.com": -3,
+      "twitter.com": -1,
+      "api.x.com": 0,
+      "appleid.cdn-apple.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     479,
+     202
+    ],
+    "third_party": [
+     481,
+     203
+    ],
+    "listed": [
+     464,
+     192
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 340.5,
+     "sd": 195.86857838867365,
+     "se": 138.49999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 342,
+     "sd": 196.5756851698602,
+     "se": 139.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 328,
+     "sd": 192.33304448274092,
+     "se": 135.99999999999997
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "o30969.ingest.us.sentry.io"
+ ],
+ "category": "social",
+ "domain": "twitter.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 36.1
+}

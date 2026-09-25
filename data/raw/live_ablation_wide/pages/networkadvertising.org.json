@@ -1,0 +1,209 @@
+{
+ "url": "https://networkadvertising.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "static.addtoany.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 30978,
+     "control": {
+      "page": 24567695,
+      "third_party": 24567359,
+      "listed": 53543
+     },
+     "ablated": {
+      "page": 24781833,
+      "third_party": 24781497,
+      "listed": 22565
+     },
+     "n_aborted": 2,
+     "moved": {
+      "thenai.org": -245118,
+      "static.addtoany.com": 30978,
+      "use.typekit.net": 2,
+      "networkadvertising.org": 0,
+      "www.google-analytics.com": 0,
+      "www.googletagmanager.com": 0,
+      "p.typekit.net": 0,
+      "region1.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 30978,
+     "control": {
+      "page": 24541764,
+      "third_party": 24541428,
+      "listed": 53543
+     },
+     "ablated": {
+      "page": 24653347,
+      "third_party": 24653011,
+      "listed": 22565
+     },
+     "n_aborted": 2,
+     "moved": {
+      "thenai.org": -142561,
+      "static.addtoany.com": 30978,
+      "use.typekit.net": 0,
+      "networkadvertising.org": 0,
+      "www.google-analytics.com": 0,
+      "www.googletagmanager.com": 0,
+      "p.typekit.net": 0,
+      "region1.google-analytics.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -245116,
+     -142561
+    ],
+    "third_party": [
+     -245116,
+     -142561
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -193838.5,
+     "sd": 72517.33594458638,
+     "se": 51277.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -193838.5,
+     "sd": 72517.33594458638,
+     "se": 51277.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 30978
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 833,
+     "control": {
+      "page": 24542683,
+      "third_party": 24542347,
+      "listed": 53543
+     },
+     "ablated": {
+      "page": 24541127,
+      "third_party": 24541127,
+      "listed": 52710
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.google-analytics.com": 833,
+      "thenai.org": 389,
+      "networkadvertising.org": 336,
+      "use.typekit.net": -2,
+      "www.google-analytics.com": 0,
+      "static.addtoany.com": 0,
+      "www.googletagmanager.com": 0,
+      "p.typekit.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 833,
+     "control": {
+      "page": 24812161,
+      "third_party": 24811825,
+      "listed": 53543
+     },
+     "ablated": {
+      "page": 24541047,
+      "third_party": 24540711,
+      "listed": 52710
+     },
+     "n_aborted": 1,
+     "moved": {
+      "thenai.org": 270292,
+      "region1.google-analytics.com": 833,
+      "www.googletagmanager.com": -11,
+      "use.typekit.net": 0,
+      "networkadvertising.org": 0,
+      "www.google-analytics.com": 0,
+      "static.addtoany.com": 0,
+      "p.typekit.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     723,
+     270281
+    ],
+    "third_party": [
+     387,
+     270281
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 135502,
+     "sd": 190606.28972308338,
+     "se": 134779.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 135334,
+     "sd": 190843.87760156207,
+     "se": 134947.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 833
+  }
+ },
+ "candidates": [
+  "static.addtoany.com",
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "networkadvertising.org",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 84.6
+}

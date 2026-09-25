@@ -87,6 +87,31 @@ impl From<RequestInitiator> for estimator::RequestInitiator {
     }
 }
 
+/// Whether this page load has already had a cascading tracker blocked on the
+/// same host.
+///
+/// Mirrors [`estimator::CascadeRoot`], which documents the variants and says
+/// why the third one is not a hedge. Unlike the two enums above this one has
+/// no counterpart in `xgb-classifier`, which has no cascade model to key it
+/// on; `estimate_resources` defaults it, so the two modules stay swappable.
+#[pyclass(eq, eq_int, frozen, hash, from_py_object)]
+#[derive(Clone, Copy, PartialEq, Eq, Hash, Debug)]
+pub enum CascadeRoot {
+    FIRST = 0,
+    REPEAT = 1,
+    UNKNOWN = 2,
+}
+
+impl From<CascadeRoot> for estimator::CascadeRoot {
+    fn from(root: CascadeRoot) -> Self {
+        match root {
+            CascadeRoot::FIRST => Self::FIRST,
+            CascadeRoot::REPEAT => Self::REPEAT,
+            CascadeRoot::UNKNOWN => Self::UNKNOWN,
+        }
+    }
+}
+
 /// Every variant of both enums holds the value the estimator gives it.
 ///
 /// The `From` impls above already make a *missing* variant a compile error;
@@ -103,34 +128,70 @@ const DISCRIMINANTS_MATCH: () = {
     }
     same!(RequestContext: SCRIPT, IMAGE, VIDEO, OTHER, AUDIO, CSS, FONT, HTML, TEXT, WASM, XML);
     same!(RequestInitiator: PARSER, SCRIPT, OTHER, UNKNOWN);
+    same!(CascadeRoot: FIRST, REPEAT, UNKNOWN);
 };
 
 /// What a tracker request would have cost, had it not been blocked:
 /// `(bytes, cpu_ms)`.
 ///
 /// [`estimator::estimate_resources`] verbatim; see it for what the arguments
-/// mean, what the estimate is, and why none of them is optional. The one thing
-/// this signature adds is that requiring all four is where it differs from
+/// mean, what the estimate is, and why none of the first four is optional.
+/// Requiring all four is where this signature differs from
 /// `xgb-classifier`'s, which defaults the last two, having grown them after
 /// the fact.
+///
+/// `include_followups` *is* defaulted, and to the answer this function gave
+/// before it existed. It does not describe the request -- every caller knows
+/// it, the way none of them reliably knows the initiator -- it chooses between
+/// two costs, and a caller that has not thought about the difference wants the
+/// direct one. Defaulting it is also what keeps this module interchangeable
+/// with `xgb_classifier`, which has no cascade model to offer.
 ///
 /// A plain tuple rather than a struct with named fields: a `#[pyclass]` costs
 /// ~18 KiB of type-object and getter machinery, which does not fit the size
 /// budget `tests/test_browsing_journey.py` holds this extension to. The same
 /// budget is why the table quantises its values into a codebook.
 #[pyfunction]
+#[pyo3(signature = (url, context, initiator, method, include_followups = false,
+                    cascade_root = CascadeRoot::UNKNOWN))]
 fn estimate_resources(
     url: &str,
     context: RequestContext,
     initiator: RequestInitiator,
     method: &str,
+    include_followups: bool,
+    cascade_root: CascadeRoot,
 ) -> PyResult<(i64, f64)> {
     Ok(estimator::estimate_resources(
         url,
         context.into(),
         initiator.into(),
         method,
+        include_followups,
+        cascade_root.into(),
     ))
+}
+
+/// How specifically the table recognised `url`, as a lower-case name.
+///
+/// [`estimator::classify`] verbatim. One of `path`, `template`, `prefix`,
+/// `host`, `host_template`, `ext_query`, `ext`, `context` or `bodyless`, most
+/// specific first; see [`estimator::UrlMatch`] for what each means and why
+/// the estimator's own fallback rung is the classification worth exposing.
+///
+/// A `&'static str` rather than an enum, and that is the size budget talking
+/// rather than taste: a third `#[pyclass]` would cost about 18 KiB of type
+/// object and getters, which is a third of the whole extension's allowance.
+/// The names are stable and `tests/top500.py` keys on them.
+#[pyfunction]
+#[pyo3(signature = (url, context, initiator, method))]
+fn classify_url(
+    url: &str,
+    context: RequestContext,
+    initiator: RequestInitiator,
+    method: &str,
+) -> PyResult<&'static str> {
+    Ok(estimator::classify(url, context.into(), initiator.into(), method).name())
 }
 
 #[pymodule]
@@ -138,6 +199,8 @@ fn llm_classifier(m: &Bound<'_, PyModule>) -> PyResult<()> {
     let () = DISCRIMINANTS_MATCH;
     m.add_class::<RequestContext>()?;
     m.add_class::<RequestInitiator>()?;
+    m.add_class::<CascadeRoot>()?;
     m.add_function(wrap_pyfunction!(estimate_resources, m)?)?;
+    m.add_function(wrap_pyfunction!(classify_url, m)?)?;
     Ok(())
 }

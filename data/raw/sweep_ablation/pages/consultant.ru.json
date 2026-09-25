@@ -1,0 +1,227 @@
+{
+ "url": "https://consultant.ru/",
+ "hosts": [
+  "mc.yandex.ru",
+  "top-fwz1.mail.ru",
+  "mc.yandex.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "mc.yandex.ru",
+    "mc.yandex.com",
+    "top-fwz1.mail.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 455728,
+      "third_party": 209292,
+      "listed": 209292
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 297188,
+      "third_party": 50739,
+      "listed": 50739
+     },
+     "own": 147738,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 158540,
+      "third_party": 158553,
+      "listed": 158553
+     },
+     "cascade": {
+      "page": 10802,
+      "third_party": 10815,
+      "listed": 10815
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "mc.yandex.ru",
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 298930,
+      "third_party": 50732,
+      "listed": 50732
+     },
+     "own": 158559,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 156798,
+      "third_party": 158560,
+      "listed": 158560
+     },
+     "cascade": {
+      "page": -1761,
+      "third_party": 1,
+      "listed": 1
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "mc.yandex.ru",
+      "mc.yandex.com",
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 324705,
+      "third_party": 405,
+      "listed": 405
+     },
+     "own": 185530,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 131023,
+      "third_party": 208887,
+      "listed": 208887
+     },
+     "cascade": {
+      "page": -54507,
+      "third_party": 23357,
+      "listed": 23357
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "mc.yandex.com",
+    "top-fwz1.mail.ru",
+    "mc.yandex.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 453868,
+      "third_party": 206593,
+      "listed": 206593
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 445525,
+      "third_party": 198470,
+      "listed": 198470
+     },
+     "own": 8123,
+     "n_aborted": 7,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 8343,
+      "third_party": 8123,
+      "listed": 8123
+     },
+     "cascade": {
+      "page": 220,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "mc.yandex.com",
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 472485,
+      "third_party": 148143,
+      "listed": 148143
+     },
+     "own": 35094,
+     "n_aborted": 8,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": -18617,
+      "third_party": 58450,
+      "listed": 58450
+     },
+     "cascade": {
+      "page": -53711,
+      "third_party": 23356,
+      "listed": 23356
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "mc.yandex.com",
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 248593,
+      "third_party": 405,
+      "listed": 405
+     },
+     "own": 182832,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 205275,
+      "third_party": 206188,
+      "listed": 206188
+     },
+     "cascade": {
+      "page": 22443,
+      "third_party": 23356,
+      "listed": 23356
+     }
+    }
+   ]
+  }
+ ],
+ "category": "reference",
+ "domain": "consultant.ru",
+ "elapsed_s": 64.7
+}

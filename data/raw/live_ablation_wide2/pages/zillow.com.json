@@ -1,0 +1,337 @@
+{
+ "url": "https://zillow.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "cdn.pubnub.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 923994,
+      "third_party": 659269,
+      "listed": 322753
+     },
+     "ablated": {
+      "page": 923972,
+      "third_party": 659247,
+      "listed": 322711
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "collector-pxhyx10rg3.px-cloud.net": 38,
+      "fonts.googleapis.com": -20,
+      "ift.px-cloud.net": 4,
+      "dvp.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "collector-pxhyx10rg3.px-client.net": 0,
+      "js.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "zillow.com": 0,
+      "www.zillowstatic.com": 0,
+      "fonts.gstatic.com": 0,
+      "client.px-cloud.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 923945,
+      "third_party": 659219,
+      "listed": 322703
+     },
+     "ablated": {
+      "page": 923945,
+      "third_party": 659219,
+      "listed": 322703
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "collector-pxhyx10rg3.px-cloud.net": 4,
+      "ift.px-cloud.net": -4,
+      "dvp.px-cloud.net": 0,
+      "fonts.googleapis.com": 0,
+      "fst-ec.perimeterx.net": 0,
+      "collector-pxhyx10rg3.px-client.net": 0,
+      "js.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "zillow.com": 0,
+      "www.zillowstatic.com": 0,
+      "fonts.gstatic.com": 0,
+      "client.px-cloud.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     22,
+     0
+    ],
+    "third_party": [
+     22,
+     0
+    ],
+    "listed": [
+     42,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 11,
+     "sd": 15.556349186104045,
+     "se": 10.999999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 11,
+     "sd": 15.556349186104045,
+     "se": 10.999999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 21,
+     "sd": 29.698484809834994,
+     "se": 20.999999999999996
+    }
+   },
+   "own_mean": 0
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 923944,
+      "third_party": 659219,
+      "listed": 322703
+     },
+     "ablated": {
+      "page": 923948,
+      "third_party": 659223,
+      "listed": 322707
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "collector-pxhyx10rg3.px-cloud.net": -4,
+      "dvp.px-cloud.net": 0,
+      "fonts.googleapis.com": 0,
+      "fst-ec.perimeterx.net": 0,
+      "collector-pxhyx10rg3.px-client.net": 0,
+      "js.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "zillow.com": 0,
+      "www.zillowstatic.com": 0,
+      "ift.px-cloud.net": 0,
+      "fonts.gstatic.com": 0,
+      "client.px-cloud.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 924006,
+      "third_party": 659281,
+      "listed": 322765
+     },
+     "ablated": {
+      "page": 923624,
+      "third_party": 659269,
+      "listed": 322753
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "zillow.com": 370,
+      "collector-pxhyx10rg3.px-cloud.net": 8,
+      "ift.px-cloud.net": 4,
+      "dvp.px-cloud.net": 0,
+      "fonts.googleapis.com": 0,
+      "fst-ec.perimeterx.net": 0,
+      "collector-pxhyx10rg3.px-client.net": 0,
+      "js.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "www.zillowstatic.com": 0,
+      "fonts.gstatic.com": 0,
+      "client.px-cloud.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -4,
+     382
+    ],
+    "third_party": [
+     -4,
+     12
+    ],
+    "listed": [
+     -4,
+     12
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 189,
+     "sd": 272.94321753800733,
+     "se": 192.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 4,
+     "sd": 11.313708498984761,
+     "se": 8.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 4,
+     "sd": 11.313708498984761,
+     "se": 8.0
+    }
+   },
+   "own_mean": 0
+  },
+  "www.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 923948,
+      "third_party": 659223,
+      "listed": 322707
+     },
+     "ablated": {
+      "page": 923630,
+      "third_party": 659275,
+      "listed": 322757
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "zillow.com": 370,
+      "collector-pxhyx10rg3.px-cloud.net": -50,
+      "crcldu.com": -2,
+      "dvp.px-cloud.net": 0,
+      "fonts.googleapis.com": 0,
+      "fst-ec.perimeterx.net": 0,
+      "collector-pxhyx10rg3.px-client.net": 0,
+      "js.px-cloud.net": 0,
+      "www.zillowstatic.com": 0,
+      "ift.px-cloud.net": 0,
+      "fonts.gstatic.com": 0,
+      "client.px-cloud.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 1001737,
+      "third_party": 737012,
+      "listed": 323302
+     },
+     "ablated": {
+      "page": 923950,
+      "third_party": 659225,
+      "listed": 322708
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "cadmus.script.ac": 77191,
+      "i.clean.gg": 507,
+      "collector-pxhyx10rg3.px-cloud.net": 92,
+      "ift.px-cloud.net": -4,
+      "crcldu.com": 2,
+      "client.px-cloud.net": -1,
+      "dvp.px-cloud.net": 0,
+      "fonts.googleapis.com": 0,
+      "fst-ec.perimeterx.net": 0,
+      "collector-pxhyx10rg3.px-client.net": 0,
+      "js.px-cloud.net": 0,
+      "zillow.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     318,
+     77787
+    ],
+    "third_party": [
+     -52,
+     77787
+    ],
+    "listed": [
+     -50,
+     594
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 39052.5,
+     "sd": 54778.85523174065,
+     "se": 38734.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 38867.5,
+     "sd": 55040.48474077967,
+     "se": 38919.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 272,
+     "sd": 455.3767670841366,
+     "se": 321.99999999999994
+    }
+   },
+   "own_mean": 0
+  }
+ },
+ "candidates": [
+  "cdn.pubnub.com",
+  "pagead2.googlesyndication.com",
+  "www.google-analytics.com"
+ ],
+ "category": "shopping",
+ "domain": "zillow.com",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 81.4
+}

@@ -1,0 +1,12 @@
+{
+ "url": "https://berkeley.edu/",
+ "hosts": [
+  "siteimproveanalytics.com",
+  "region1.analytics.google.com"
+ ],
+ "runs": [],
+ "skipped": "only 2 ETP-blocked hosts",
+ "category": "reference",
+ "domain": "berkeley.edu",
+ "elapsed_s": 7.5
+}

@@ -1,0 +1,404 @@
+{
+ "url": "https://dell.com/",
+ "hosts": [
+  "s.go-mpulse.net",
+  "nexus.ensighten.com",
+  "cdn.taboola.com",
+  "c.amazon-adsystem.com",
+  "static.ads-twitter.com",
+  "www.mczbf.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "static.ads-twitter.com",
+    "cdn.taboola.com",
+    "nexus.ensighten.com",
+    "s.go-mpulse.net",
+    "www.mczbf.com",
+    "c.amazon-adsystem.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2725770,
+      "third_party": 735826,
+      "listed": 617619
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "static.ads-twitter.com"
+     ],
+     "bytes": {
+      "page": 2699784,
+      "third_party": 707968,
+      "listed": 588871
+     },
+     "own": 17876,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 25986,
+      "third_party": 27858,
+      "listed": 28748
+     },
+     "cascade": {
+      "page": 8110,
+      "third_party": 9982,
+      "listed": 10872
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "static.ads-twitter.com",
+      "cdn.taboola.com"
+     ],
+     "bytes": {
+      "page": 2668290,
+      "third_party": 676767,
+      "listed": 558560
+     },
+     "own": 45901,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 57480,
+      "third_party": 59059,
+      "listed": 59059
+     },
+     "cascade": {
+      "page": 11579,
+      "third_party": 13158,
+      "listed": 13158
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "static.ads-twitter.com",
+      "cdn.taboola.com",
+      "nexus.ensighten.com"
+     ],
+     "bytes": {
+      "page": 2446354,
+      "third_party": 557042,
+      "listed": 476803
+     },
+     "own": 82762,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 279416,
+      "third_party": 178784,
+      "listed": 140816
+     },
+     "cascade": {
+      "page": 196654,
+      "third_party": 96022,
+      "listed": 58054
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "static.ads-twitter.com",
+      "cdn.taboola.com",
+      "nexus.ensighten.com",
+      "s.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 2382401,
+      "third_party": 493622,
+      "listed": 414273
+     },
+     "own": 143635,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 343369,
+      "third_party": 242204,
+      "listed": 203346
+     },
+     "cascade": {
+      "page": 199734,
+      "third_party": 98569,
+      "listed": 59711
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "static.ads-twitter.com",
+      "cdn.taboola.com",
+      "nexus.ensighten.com",
+      "s.go-mpulse.net",
+      "www.mczbf.com"
+     ],
+     "bytes": {
+      "page": 2366828,
+      "third_party": 478963,
+      "listed": 399892
+     },
+     "own": 158009,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 358942,
+      "third_party": 256863,
+      "listed": 217727
+     },
+     "cascade": {
+      "page": 200933,
+      "third_party": 98854,
+      "listed": 59718
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "static.ads-twitter.com",
+      "cdn.taboola.com",
+      "nexus.ensighten.com",
+      "s.go-mpulse.net",
+      "www.mczbf.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 2364429,
+      "third_party": 476044,
+      "listed": 396973
+     },
+     "own": 185749,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 361341,
+      "third_party": 259782,
+      "listed": 220646
+     },
+     "cascade": {
+      "page": 175592,
+      "third_party": 74033,
+      "listed": 34897
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "static.ads-twitter.com",
+    "s.go-mpulse.net",
+    "nexus.ensighten.com",
+    "www.mczbf.com",
+    "cdn.taboola.com",
+    "c.amazon-adsystem.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2723187,
+      "third_party": 736669,
+      "listed": 617572
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "static.ads-twitter.com"
+     ],
+     "bytes": {
+      "page": 2699198,
+      "third_party": 708389,
+      "listed": 590182
+     },
+     "own": 17876,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 23989,
+      "third_party": 28280,
+      "listed": 27390
+     },
+     "cascade": {
+      "page": 6113,
+      "third_party": 10404,
+      "listed": 9514
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "static.ads-twitter.com",
+      "s.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 2637687,
+      "third_party": 645621,
+      "listed": 527414
+     },
+     "own": 78749,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 85500,
+      "third_party": 91048,
+      "listed": 90158
+     },
+     "cascade": {
+      "page": 6751,
+      "third_party": 12299,
+      "listed": 11409
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "static.ads-twitter.com",
+      "s.go-mpulse.net",
+      "nexus.ensighten.com"
+     ],
+     "bytes": {
+      "page": 2375963,
+      "third_party": 493613,
+      "listed": 414264
+     },
+     "own": 115441,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 347224,
+      "third_party": 243056,
+      "listed": 203308
+     },
+     "cascade": {
+      "page": 231783,
+      "third_party": 127615,
+      "listed": 87867
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "static.ads-twitter.com",
+      "s.go-mpulse.net",
+      "nexus.ensighten.com",
+      "www.mczbf.com"
+     ],
+     "bytes": {
+      "page": 2360552,
+      "third_party": 478963,
+      "listed": 399892
+     },
+     "own": 129812,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 362635,
+      "third_party": 257706,
+      "listed": 217680
+     },
+     "cascade": {
+      "page": 232823,
+      "third_party": 127894,
+      "listed": 87868
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "static.ads-twitter.com",
+      "s.go-mpulse.net",
+      "nexus.ensighten.com",
+      "www.mczbf.com",
+      "cdn.taboola.com"
+     ],
+     "bytes": {
+      "page": 2361249,
+      "third_party": 479241,
+      "listed": 399892
+     },
+     "own": 157839,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 361938,
+      "third_party": 257428,
+      "listed": 217680
+     },
+     "cascade": {
+      "page": 204099,
+      "third_party": 99589,
+      "listed": 59841
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "static.ads-twitter.com",
+      "s.go-mpulse.net",
+      "nexus.ensighten.com",
+      "www.mczbf.com",
+      "cdn.taboola.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 2356859,
+      "third_party": 476322,
+      "listed": 396973
+     },
+     "own": 185579,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 366328,
+      "third_party": 260347,
+      "listed": 220599
+     },
+     "cascade": {
+      "page": 180749,
+      "third_party": 74768,
+      "listed": 35020
+     }
+    }
+   ]
+  }
+ ],
+ "category": "shopping",
+ "domain": "dell.com",
+ "elapsed_s": 106.2
+}

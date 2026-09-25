@@ -1,0 +1,456 @@
+{
+ "url": "https://uol.com.br/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+  "c.amazon-adsystem.com",
+  "sdk.mrf.io",
+  "cdn.cxense.com",
+  "static.chartbeat.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "cdn.cxense.com",
+    "c.amazon-adsystem.com",
+    "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+    "securepubads.g.doubleclick.net",
+    "static.chartbeat.com",
+    "sdk.mrf.io"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5194727,
+      "third_party": 2997824,
+      "listed": 730342
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.cxense.com"
+     ],
+     "bytes": {
+      "page": 4890870,
+      "third_party": 2953969,
+      "listed": 684663
+     },
+     "own": 45763,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 303857,
+      "third_party": 43855,
+      "listed": 45679
+     },
+     "cascade": {
+      "page": 258094,
+      "third_party": -1908,
+      "listed": -84
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 4576484,
+      "third_party": 3465173,
+      "listed": 745162
+     },
+     "own": 45763,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 618243,
+      "third_party": -467349,
+      "listed": -14820
+     },
+     "cascade": {
+      "page": 572480,
+      "third_party": -513112,
+      "listed": -60583
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app"
+     ],
+     "bytes": {
+      "page": 4423979,
+      "third_party": 3269132,
+      "listed": 530705
+     },
+     "own": 195995,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 770748,
+      "third_party": -271308,
+      "listed": 199637
+     },
+     "cascade": {
+      "page": 574753,
+      "third_party": -467303,
+      "listed": 3642
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3469290,
+      "third_party": 2895846,
+      "listed": 249904
+     },
+     "own": 452515,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 1725437,
+      "third_party": 101978,
+      "listed": 480438
+     },
+     "cascade": {
+      "page": 1272922,
+      "third_party": -350537,
+      "listed": 27923
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "securepubads.g.doubleclick.net",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 4144379,
+      "third_party": 2860206,
+      "listed": 211653
+     },
+     "own": 489519,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 1050348,
+      "third_party": 137618,
+      "listed": 518689
+     },
+     "cascade": {
+      "page": 560829,
+      "third_party": -351901,
+      "listed": 29170
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.cxense.com",
+      "c.amazon-adsystem.com",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "securepubads.g.doubleclick.net",
+      "static.chartbeat.com",
+      "sdk.mrf.io"
+     ],
+     "bytes": {
+      "page": 3419645,
+      "third_party": 2779218,
+      "listed": 138061
+     },
+     "own": 559884,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 8,
+     "aborted_types": {
+      "script": 8
+     },
+     "saved": {
+      "page": 1775082,
+      "third_party": 218606,
+      "listed": 592281
+     },
+     "cascade": {
+      "page": 1215198,
+      "third_party": -341278,
+      "listed": 32397
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "cdn.cxense.com",
+    "securepubads.g.doubleclick.net",
+    "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+    "static.chartbeat.com",
+    "c.amazon-adsystem.com",
+    "sdk.mrf.io"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4222066,
+      "third_party": 3618271,
+      "listed": 891641
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.cxense.com"
+     ],
+     "bytes": {
+      "page": 5534727,
+      "third_party": 3574401,
+      "listed": 847083
+     },
+     "own": 45763,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": -1312661,
+      "third_party": 43870,
+      "listed": 44558
+     },
+     "cascade": {
+      "page": -1358424,
+      "third_party": -1893,
+      "listed": -1205
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 5485143,
+      "third_party": 2630260,
+      "listed": 429960
+     },
+     "own": 302283,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": -1263077,
+      "third_party": 988011,
+      "listed": 461681
+     },
+     "cascade": {
+      "page": -1565360,
+      "third_party": 685728,
+      "listed": 159398
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app"
+     ],
+     "bytes": {
+      "page": 3671675,
+      "third_party": 2964159,
+      "listed": 328561
+     },
+     "own": 452515,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 550391,
+      "third_party": 654112,
+      "listed": 563080
+     },
+     "cascade": {
+      "page": 97876,
+      "third_party": 201597,
+      "listed": 110565
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 3574131,
+      "third_party": 2966240,
+      "listed": 313521
+     },
+     "own": 489519,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 647935,
+      "third_party": 652031,
+      "listed": 578120
+     },
+     "cascade": {
+      "page": 158416,
+      "third_party": 162512,
+      "listed": 88601
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 3527756,
+      "third_party": 2870541,
+      "listed": 216818
+     },
+     "own": 588344,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 694310,
+      "third_party": 747730,
+      "listed": 674823
+     },
+     "cascade": {
+      "page": 105966,
+      "third_party": 159386,
+      "listed": 86479
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.cxense.com",
+      "securepubads.g.doubleclick.net",
+      "4b91477e-f67b-4d81-86db-a9742bd41e9c.edge.permutive.app",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "sdk.mrf.io"
+     ],
+     "bytes": {
+      "page": 3896972,
+      "third_party": 2790776,
+      "listed": 138071
+     },
+     "own": 658709,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "n_aborted_code": 8,
+     "aborted_types": {
+      "script": 8
+     },
+     "saved": {
+      "page": 325094,
+      "third_party": 827495,
+      "listed": 753570
+     },
+     "cascade": {
+      "page": -333615,
+      "third_party": 168786,
+      "listed": 94861
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "uol.com.br",
+ "elapsed_s": 165.7
+}

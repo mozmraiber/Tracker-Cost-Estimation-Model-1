@@ -1,0 +1,331 @@
+{
+ "url": "https://elpais.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "sdk.mrf.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 73764,
+     "control": {
+      "page": 2271001,
+      "third_party": 1130691,
+      "listed": 373256
+     },
+     "ablated": {
+      "page": 2198016,
+      "third_party": 1057706,
+      "listed": 299573
+     },
+     "n_aborted": 1,
+     "moved": {
+      "sdk.mrf.io": 73764,
+      "playerservices.live.streamtheworld.com": -688,
+      "1790254999237f6439604afe16f347bed2c96336c43e8e189ae5fad1.trk.sensic.net": -509,
+      "179025499243637cfcf835b725fcc8cf37dc5f01f8b657c76598d7c5.trk.sensic.net": 509,
+      "cm.g.doubleclick.net": -52,
+      "sdk.privacy-center.org": -20,
+      "accounts.google.com": -11,
+      "edge.adobedc.net": -7,
+      "dpm.demdex.net": -3,
+      "prisacom.tt.omtrdc.net": 1,
+      "ak-ads-ns.prisasd.com": 1,
+      "player.prisamedia.com": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 73764,
+     "control": {
+      "page": 2261971,
+      "third_party": 1121663,
+      "listed": 373648
+     },
+     "ablated": {
+      "page": 2187096,
+      "third_party": 1046791,
+      "listed": 299490
+     },
+     "n_aborted": 1,
+     "moved": {
+      "sdk.mrf.io": 73764,
+      "cm.g.doubleclick.net": 1283,
+      "dpm.demdex.net": -935,
+      "playerservices.live.streamtheworld.com": 688,
+      "17902550057413d73a084bee162ce7ac663a1621c4f6b6edd6107012.trk.sensic.net": -509,
+      "179025501250844ba528d33eb472c4a4c593552e9a43097b791a832b.trk.sensic.net": 509,
+      "fundingchoicesmessages.google.com": 26,
+      "es-config.sensic.net": 20,
+      "sdk.privacy-center.org": 20,
+      "edge.adobedc.net": 5,
+      "publicapi.elpais.com": 2,
+      "prisacom.tt.omtrdc.net": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -779,
+     1111
+    ],
+    "third_party": [
+     -779,
+     1108
+    ],
+    "listed": [
+     -81,
+     394
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 166,
+     "sd": 1336.431816442575,
+     "se": 945.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 164.5,
+     "sd": 1334.3104960990152,
+     "se": 943.4999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 156.5,
+     "sd": 335.87572106361006,
+     "se": 237.49999999999997
+    }
+   },
+   "own_mean": 73764
+  },
+  "es-config.sensic.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 64401,
+     "control": {
+      "page": 2259653,
+      "third_party": 1119347,
+      "listed": 372032
+     },
+     "ablated": {
+      "page": 2193376,
+      "third_party": 1053068,
+      "listed": 305766
+     },
+     "n_aborted": 1,
+     "moved": {
+      "es-config.sensic.net": 64401,
+      "dpm.demdex.net": 942,
+      "179025501928455cfd06017f9fc0d7849a3a31115fba6a2f6784410b.trk.sensic.net": 509,
+      "es1-s2s.sensic.net": 417,
+      "fundingchoicesmessages.google.com": 12,
+      "edge.adobedc.net": -3,
+      "publicapi.elpais.com": -2,
+      "player.prisamedia.com": 1,
+      "prisacom.tt.omtrdc.net": 0,
+      "synchroscript.deliveryengine.adswizz.com": 0,
+      "elpais.com": 0,
+      "cm.g.doubleclick.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 64401,
+     "control": {
+      "page": 2262864,
+      "third_party": 1122557,
+      "listed": 374544
+     },
+     "ablated": {
+      "page": 2195608,
+      "third_party": 1055302,
+      "listed": 307985
+     },
+     "n_aborted": 1,
+     "moved": {
+      "es-config.sensic.net": 64401,
+      "cm.g.doubleclick.net": 1231,
+      "playerservices.live.streamtheworld.com": 688,
+      "179025503922087bbbeed401ee92f39a24009583a149381b33083a9b.trk.sensic.net": 509,
+      "es1-s2s.sensic.net": 417,
+      "accounts.google.com": 11,
+      "fundingchoicesmessages.google.com": -4,
+      "dpm.demdex.net": 3,
+      "prisacom.tt.omtrdc.net": -1,
+      "static.prisa.com": 1,
+      "static.elpais.com": 1,
+      "edge.adobedc.net": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1876,
+     2855
+    ],
+    "third_party": [
+     1878,
+     2854
+    ],
+    "listed": [
+     1865,
+     2158
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2365.5,
+     "sd": 692.25753878163,
+     "se": 489.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2366,
+     "sd": 690.1362184380704,
+     "se": 487.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2011.5,
+     "sd": 207.18228688765842,
+     "se": 146.5
+    }
+   },
+   "own_mean": 64401
+  },
+  "dpm.demdex.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 5949,
+     "control": {
+      "page": 2260016,
+      "third_party": 1119638,
+      "listed": 372320
+     },
+     "ablated": {
+      "page": 2248135,
+      "third_party": 1107757,
+      "listed": 360471
+     },
+     "n_aborted": 3,
+     "moved": {
+      "dpm.demdex.net": 5949,
+      "prisacom.demdex.net": 3550,
+      "cm.g.doubleclick.net": 1231,
+      "synchroscript.deliveryengine.adswizz.com": 593,
+      "17902550598658729109b77e2a6f42be6849e9a300005ca606ea2901.trk.sensic.net": -509,
+      "1790255053082bbeb404f6359588e6b37e6179c87d7228d73fa24a50.trk.sensic.net": 509,
+      "image6.pubmatic.com": 319,
+      "match.adsrvr.org": 203,
+      "fundingchoicesmessages.google.com": 27,
+      "edge.adobedc.net": 5,
+      "ak-ads-ns.prisasd.com": 4,
+      "prisacom.tt.omtrdc.net": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 6887,
+     "control": {
+      "page": 2263040,
+      "third_party": 1122662,
+      "listed": 374565
+     },
+     "ablated": {
+      "page": 2248172,
+      "third_party": 1107792,
+      "listed": 360498
+     },
+     "n_aborted": 3,
+     "moved": {
+      "dpm.demdex.net": 6887,
+      "prisacom.demdex.net": 3550,
+      "cm.g.doubleclick.net": 2514,
+      "playerservices.live.streamtheworld.com": 688,
+      "synchroscript.deliveryengine.adswizz.com": 593,
+      "1790255074691131384d99a89201d5e92a03fda20939ffd96fbb7119.trk.sensic.net": 509,
+      "179025506802652a8a14f4e76e449a0440d6b57ccce122f431e8d326.trk.sensic.net": -509,
+      "image6.pubmatic.com": 319,
+      "match.adsrvr.org": 203,
+      "player.prisamedia.com": 54,
+      "fundingchoicesmessages.google.com": 21,
+      "ak-ads-ns.prisasd.com": 15
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     5932,
+     7981
+    ],
+    "third_party": [
+     5932,
+     7983
+    ],
+    "listed": [
+     5900,
+     7180
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 6956.5,
+     "sd": 1448.8617946512359,
+     "se": 1024.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 6957.5,
+     "sd": 1450.276008213609,
+     "se": 1025.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 6540,
+     "sd": 905.0966799187809,
+     "se": 640.0
+    }
+   },
+   "own_mean": 6418
+  }
+ },
+ "candidates": [
+  "sdk.mrf.io",
+  "es-config.sensic.net",
+  "dpm.demdex.net"
+ ],
+ "category": "news",
+ "domain": "elpais.com",
+ "n_blocked_tracking": 90.0,
+ "elapsed_s": 96.3
+}

@@ -1,0 +1,331 @@
+{
+ "url": "https://eset.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "bat.bing.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 9904,
+      "third_party": 0,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 5938296,
+      "third_party": 1624586,
+      "listed": 3879
+     },
+     "n_aborted": 2,
+     "moved": {
+      "web-assets.eset.com": -2981028,
+      "www.googletagmanager.com": -1253447,
+      "sgtm.eset.com": -937201,
+      "www.eset.com": -321389,
+      "cdn.esetstatic.com": -281028,
+      "cdn.jsdelivr.net": -83905,
+      "api.cms.eset.com": -43955,
+      "refer.eset.com": -17347,
+      "pagead2.googlesyndication.com": -3312,
+      "cdn1.esetstatic.com": -2327,
+      "api.buy.eset.com": -1357,
+      "api.eset.com": -1159
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 9904,
+      "third_party": 0,
+      "listed": 0
+     },
+     "ablated": {
+      "page": 5948726,
+      "third_party": 1625420,
+      "listed": 4431
+     },
+     "n_aborted": 2,
+     "moved": {
+      "web-assets.eset.com": -2981112,
+      "www.googletagmanager.com": -1253447,
+      "sgtm.eset.com": -937227,
+      "www.eset.com": -330871,
+      "cdn.esetstatic.com": -281070,
+      "cdn.jsdelivr.net": -84145,
+      "api.cms.eset.com": -43955,
+      "refer.eset.com": -17347,
+      "pagead2.googlesyndication.com": -3864,
+      "cdn1.esetstatic.com": -2327,
+      "api.buy.eset.com": -1361,
+      "api.eset.com": -1159
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -5928392,
+     -5938822
+    ],
+    "third_party": [
+     -1624586,
+     -1625420
+    ],
+    "listed": [
+     -3879,
+     -4431
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -5933607,
+     "sd": 7375.123727775691,
+     "se": 5215.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1625003,
+     "sd": 589.7270555095806,
+     "se": 416.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": -4155,
+     "sd": 390.32294321497426,
+     "se": 276.0
+    }
+   },
+   "own_mean": 0
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 3864,
+     "control": {
+      "page": 6006089,
+      "third_party": 1682049,
+      "listed": 56626
+     },
+     "ablated": {
+      "page": 5963250,
+      "third_party": 1684019,
+      "listed": 55733
+     },
+     "n_aborted": 4,
+     "moved": {
+      "api.cms.eset.com": 43930,
+      "pagead2.googlesyndication.com": 3864,
+      "www.google.com": -3307,
+      "ad.doubleclick.net": -1769,
+      "www.googletagmanager.com": 1392,
+      "8117415.fls.doubleclick.net": -1222,
+      "bat.bing.net": -1028,
+      "sgtm.eset.com": 878,
+      "ade.googlesyndication.com": 567,
+      "adservice.google.com": -547,
+      "cdn.jsdelivr.net": 80,
+      "web-assets.eset.com": 21
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 3864,
+     "control": {
+      "page": 6001195,
+      "third_party": 1680617,
+      "listed": 56626
+     },
+     "ablated": {
+      "page": 5924469,
+      "third_party": 1729706,
+      "listed": 105744
+     },
+     "n_aborted": 12,
+     "moved": {
+      "sgtm.eset.com": 156499,
+      "assets.ubembed.com": -51937,
+      "www.eset.com": -31120,
+      "pagead2.googlesyndication.com": 3864,
+      "web-assets.eset.com": 2054,
+      "faro-azne.eset.com": -1939,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": -1045,
+      "www-eset-com.api.cspconsole.eset.com": 370,
+      "cdn.jsdelivr.net": 140,
+      "www.googletagmanager.com": -111,
+      "api.buy.eset.com": -25,
+      "api.cms.eset.com": -24
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     38975,
+     72862
+    ],
+    "third_party": [
+     -5834,
+     -52953
+    ],
+    "listed": [
+     -2971,
+     -52982
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 55918.5,
+     "sd": 23961.727494068535,
+     "se": 16943.499999999996
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -29393.5,
+     "sd": 33318.164422728936,
+     "se": 23559.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -27976.5,
+     "sd": 35363.11723392043,
+     "se": 25005.499999999996
+    }
+   },
+   "own_mean": 3864
+  },
+  "ad.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 5883452,
+      "third_party": 1732056,
+      "listed": 108979
+     },
+     "ablated": {
+      "page": 5957573,
+      "third_party": 1681067,
+      "listed": 56626
+     },
+     "n_aborted": 0,
+     "moved": {
+      "sgtm.eset.com": -157037,
+      "assets.ubembed.com": 51937,
+      "www.eset.com": 31119,
+      "faro-azne.eset.com": 3047,
+      "web-assets.eset.com": -1908,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": 1044,
+      "bat.bing.com": -628,
+      "cdn.jsdelivr.net": -580,
+      "bat.bing.net": -514,
+      "www-eset-com.api.cspconsole.eset.com": -370,
+      "www.googletagmanager.com": -270,
+      "api.buy.eset.com": 21
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 551,
+     "control": {
+      "page": 6000927,
+      "third_party": 1681368,
+      "listed": 54417
+     },
+     "ablated": {
+      "page": 5930317,
+      "third_party": 1734191,
+      "listed": 107400
+     },
+     "n_aborted": 2,
+     "moved": {
+      "sgtm.eset.com": 154791,
+      "assets.ubembed.com": -51937,
+      "www.eset.com": -31119,
+      "faro-azne.eset.com": -2493,
+      "web-assets.eset.com": 1928,
+      "bd89567e8d1d4727932403fd80578a58.js.ubembed.com": -1045,
+      "pagead2.googlesyndication.com": -552,
+      "ad.doubleclick.net": 551,
+      "www-eset-com.api.cspconsole.eset.com": 370,
+      "cdn.jsdelivr.net": 160,
+      "refer.eset.com": -23,
+      "api.buy.eset.com": -21
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -74121,
+     70059
+    ],
+    "third_party": [
+     50989,
+     -53374
+    ],
+    "listed": [
+     52353,
+     -53534
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -2031,
+     "sd": 101950.65571147643,
+     "se": 72090.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1192.5,
+     "sd": 73795.78500497167,
+     "se": 52181.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -590.5,
+     "sd": 74873.41573949996,
+     "se": 52943.5
+    }
+   },
+   "own_mean": 275.5
+  }
+ },
+ "candidates": [
+  "bat.bing.com",
+  "pagead2.googlesyndication.com",
+  "ad.doubleclick.net"
+ ],
+ "category": "productivity",
+ "domain": "eset.com",
+ "n_blocked_tracking": 146.0,
+ "elapsed_s": 103.2
+}

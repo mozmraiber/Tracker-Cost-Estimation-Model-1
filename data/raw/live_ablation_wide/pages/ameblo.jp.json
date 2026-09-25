@@ -1,0 +1,225 @@
+{
+ "url": "https://ameblo.jp/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.analytics.google.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 832,
+     "control": {
+      "page": 1481123,
+      "third_party": 1449552,
+      "listed": 2233
+     },
+     "ablated": {
+      "page": 1480392,
+      "third_party": 1448816,
+      "listed": 1401
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.analytics.google.com": 832,
+      "sy.amebame.com": -137,
+      "www.google.com": 32,
+      "stat100.ameba.jp": 9,
+      "ameblo.jp": -5,
+      "sy.ameba.jp": 0,
+      "sy.ameblo.jp": 0,
+      "ln.ameba.jp": 0,
+      "www.googletagmanager.com": 0,
+      "googleads.g.doubleclick.net": 0,
+      "www.google.de": 0,
+      "stat.amebame.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 832,
+     "control": {
+      "page": 1480948,
+      "third_party": 1449458,
+      "listed": 2233
+     },
+     "ablated": {
+      "page": 1480540,
+      "third_party": 1448879,
+      "listed": 1401
+     },
+     "n_aborted": 1,
+     "moved": {
+      "region1.analytics.google.com": 832,
+      "meas.ad.pr.ameba.jp": -259,
+      "www.googletagmanager.com": 201,
+      "ameblo.jp": -173,
+      "sy.ameba.jp": -147,
+      "www.google.com": -48,
+      "sy.ameblo.jp": 2,
+      "ln.ameba.jp": 0,
+      "stat100.ameba.jp": 0,
+      "googleads.g.doubleclick.net": 0,
+      "www.google.de": 0,
+      "stat.amebame.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -101,
+     -424
+    ],
+    "third_party": [
+     -96,
+     -253
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -262.5,
+     "sd": 228.39549032325485,
+     "se": 161.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -174.5,
+     "sd": 111.01576464628796,
+     "se": 78.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 832
+  },
+  "googleads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 569,
+     "control": {
+      "page": 1481364,
+      "third_party": 1450453,
+      "listed": 2233
+     },
+     "ablated": {
+      "page": 1480687,
+      "third_party": 1449091,
+      "listed": 1664
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.googletagmanager.com": 1218,
+      "sy.ameblo.jp": -766,
+      "googleads.g.doubleclick.net": 569,
+      "meas.ad.pr.ameba.jp": -259,
+      "sy.amebame.com": -137,
+      "ameblo.jp": 81,
+      "www.google.com": -28,
+      "stat100.ameba.jp": -1,
+      "sy.ameba.jp": 0,
+      "region1.analytics.google.com": 0,
+      "ln.ameba.jp": 0,
+      "www.google.de": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 569,
+     "control": {
+      "page": 1481310,
+      "third_party": 1449667,
+      "listed": 2233
+     },
+     "ablated": {
+      "page": 1478659,
+      "third_party": 1448788,
+      "listed": 1664
+     },
+     "n_aborted": 2,
+     "moved": {
+      "sy.ameblo.jp": 1663,
+      "googleads.g.doubleclick.net": 569,
+      "meas.ad.pr.ameba.jp": 259,
+      "ameblo.jp": 109,
+      "www.google.com": 46,
+      "www.googletagmanager.com": 17,
+      "stat.amebame.com": -12,
+      "sy.ameba.jp": 0,
+      "region1.analytics.google.com": 0,
+      "ln.ameba.jp": 0,
+      "stat100.ameba.jp": 0,
+      "www.google.de": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     108,
+     2082
+    ],
+    "third_party": [
+     793,
+     310
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1095,
+     "sd": 1395.8287860622447,
+     "se": 986.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 551.5,
+     "sd": 341.5325753131024,
+     "se": 241.49999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 569
+  }
+ },
+ "candidates": [
+  "region1.analytics.google.com",
+  "googleads.g.doubleclick.net"
+ ],
+ "category": "social",
+ "domain": "ameblo.jp",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 86.8
+}

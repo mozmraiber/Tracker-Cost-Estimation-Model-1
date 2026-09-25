@@ -1,0 +1,61 @@
+{
+ "url": "https://www.nbcnews.com",
+ "reps": 1,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 256528,
+     "control": {
+      "page": 8142280,
+      "third_party": 7915672,
+      "listed": 2090944
+     },
+     "ablated": {
+      "page": 7880435,
+      "third_party": 7654029,
+      "listed": 1831585
+     },
+     "n_aborted": 1
+    }
+   ],
+   "diffs": {
+    "page": [
+     5317
+    ],
+    "third_party": [
+     5115
+    ],
+    "listed": [
+     2831
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 1,
+     "mean": 5317,
+     "sd": NaN,
+     "se": NaN
+    },
+    "third_party": {
+     "n": 1,
+     "mean": 5115,
+     "sd": NaN,
+     "se": NaN
+    },
+    "listed": {
+     "n": 1,
+     "mean": 2831,
+     "sd": NaN,
+     "se": NaN
+    }
+   },
+   "own_mean": 256528
+  }
+ }
+}

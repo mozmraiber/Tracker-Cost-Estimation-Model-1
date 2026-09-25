@@ -1,0 +1,115 @@
+{
+ "url": "https://one.one/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1653,
+     "control": {
+      "page": 7445489,
+      "third_party": 7445286,
+      "listed": 121729
+     },
+     "ablated": {
+      "page": 7443702,
+      "third_party": 7443499,
+      "listed": 119928
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 3,
+     "moved": {
+      "pagead2.googlesyndication.com": 1653,
+      "consent.cookiebot.eu": 148,
+      "www.one.com": -22,
+      "js.hsforms.net": 8,
+      "consentcdn.cookiebot.eu": 0,
+      "sst.one.com": 0,
+      "www.googletagmanager.com": 0,
+      "one.one": 0,
+      "storefront.group-cdn.one": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1653,
+     "control": {
+      "page": 7445943,
+      "third_party": 7445740,
+      "listed": 122142
+     },
+     "ablated": {
+      "page": 7443625,
+      "third_party": 7443422,
+      "listed": 119869
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 3,
+     "moved": {
+      "pagead2.googlesyndication.com": 1653,
+      "consent.cookiebot.eu": 619,
+      "www.one.com": 22,
+      "sst.one.com": 19,
+      "js.hsforms.net": 4,
+      "consentcdn.cookiebot.eu": 1,
+      "www.googletagmanager.com": 0,
+      "one.one": 0,
+      "storefront.group-cdn.one": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     134,
+     665
+    ],
+    "third_party": [
+     134,
+     665
+    ],
+    "listed": [
+     148,
+     620
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 399.5,
+     "sd": 375.47370081005676,
+     "se": 265.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 399.5,
+     "sd": 375.47370081005676,
+     "se": 265.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 384,
+     "sd": 333.75440072005046,
+     "se": 236.0
+    }
+   },
+   "own_mean": 1653
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com"
+ ],
+ "category": "infrastructure",
+ "domain": "one.one",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 36.9
+}

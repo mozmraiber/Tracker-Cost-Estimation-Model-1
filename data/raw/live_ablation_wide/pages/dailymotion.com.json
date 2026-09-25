@@ -1,0 +1,331 @@
+{
+ "url": "https://dailymotion.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 18414,
+     "control": {
+      "page": 3590778,
+      "third_party": 1520824,
+      "listed": 37731
+     },
+     "ablated": {
+      "page": 3571371,
+      "third_party": 1502403,
+      "listed": 19318
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 18414,
+      "dmads.dailymotion.com": 967,
+      "www.dailymotion.com": 24,
+      "oauth2.dailymotion.com": 8,
+      "geo.dailymotion.com": -7,
+      "imasdk.googleapis.com": 7,
+      "api.dailymotion.com": -6,
+      "securepubads.g.doubleclick.net": -1,
+      "cdn.hubvisor.io": 1,
+      "consent.dailymotion.com": 0,
+      "static1.dmcdn.net": 0,
+      "vendorlist.dmcdn.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 17910,
+     "control": {
+      "page": 3589413,
+      "third_party": 1520319,
+      "listed": 37226
+     },
+     "ablated": {
+      "page": 3571707,
+      "third_party": 1502766,
+      "listed": 19315
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 17910,
+      "webed.dm-event.net": -363,
+      "dmads.dailymotion.com": 106,
+      "www.dailymotion.com": 46,
+      "geo.dailymotion.com": -18,
+      "api.dailymotion.com": 16,
+      "imasdk.googleapis.com": 5,
+      "oauth2.dailymotion.com": 3,
+      "securepubads.g.doubleclick.net": 1,
+      "consent.dailymotion.com": 0,
+      "static1.dmcdn.net": 0,
+      "cdn.hubvisor.io": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     993,
+     -204
+    ],
+    "third_party": [
+     7,
+     -357
+    ],
+    "listed": [
+     -1,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 394.5,
+     "sd": 846.4068170802974,
+     "se": 598.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -175,
+     "sd": 257.3868683519033,
+     "se": 181.99999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 1.4142135623730951,
+     "se": 1.0
+    }
+   },
+   "own_mean": 18162
+  },
+  "s0.2mdn.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 17425,
+     "control": {
+      "page": 3589258,
+      "third_party": 1520296,
+      "listed": 37226
+     },
+     "ablated": {
+      "page": 3573288,
+      "third_party": 1502875,
+      "listed": 19803
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s0.2mdn.net": 17425,
+      "dmads.dailymotion.com": -1434,
+      "www.dailymotion.com": -15,
+      "api.dailymotion.com": -4,
+      "securepubads.g.doubleclick.net": -2,
+      "cdn.hubvisor.io": -2,
+      "geo.dailymotion.com": 2,
+      "consent.dailymotion.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "oauth2.dailymotion.com": 0,
+      "static1.dmcdn.net": 0,
+      "vendorlist.dmcdn.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 17425,
+     "control": {
+      "page": 3589739,
+      "third_party": 1520298,
+      "listed": 37228
+     },
+     "ablated": {
+      "page": 3572798,
+      "third_party": 1503234,
+      "listed": 19802
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s0.2mdn.net": 17425,
+      "webed.dm-event.net": -363,
+      "dmads.dailymotion.com": -79,
+      "www.dailymotion.com": -43,
+      "api.dailymotion.com": -6,
+      "geo.dailymotion.com": 5,
+      "securepubads.g.doubleclick.net": 1,
+      "imasdk.googleapis.com": 1,
+      "consent.dailymotion.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "graphql.api.dailymotion.com": 0,
+      "static1.dmcdn.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1455,
+     -484
+    ],
+    "third_party": [
+     -4,
+     -361
+    ],
+    "listed": [
+     -2,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -969.5,
+     "sd": 686.6006845321376,
+     "se": 485.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -182.5,
+     "sd": 252.43712088359746,
+     "se": 178.49999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": -0.5,
+     "sd": 2.1213203435596424,
+     "se": 1.4999999999999998
+    }
+   },
+   "own_mean": 17425
+  },
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1891,
+     "control": {
+      "page": 3589725,
+      "third_party": 1520296,
+      "listed": 37226
+     },
+     "ablated": {
+      "page": 3587848,
+      "third_party": 1518420,
+      "listed": 35335
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 1891,
+      "www.dailymotion.com": 19,
+      "imasdk.googleapis.com": -16,
+      "api.dailymotion.com": -10,
+      "geo.dailymotion.com": -7,
+      "graphql.api.dailymotion.com": -1,
+      "cdn.hubvisor.io": 1,
+      "consent.dailymotion.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "dmads.dailymotion.com": 0,
+      "static1.dmcdn.net": 0,
+      "vendorlist.dmcdn.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1890,
+     "control": {
+      "page": 3590321,
+      "third_party": 1520676,
+      "listed": 37225
+     },
+     "ablated": {
+      "page": 3587863,
+      "third_party": 1518419,
+      "listed": 35335
+     },
+     "n_aborted": 1,
+     "moved": {
+      "securepubads.g.doubleclick.net": 1890,
+      "webed.dm-event.net": 363,
+      "api.dailymotion.com": 93,
+      "dmads.dailymotion.com": 40,
+      "static.neon-ssr.dailymotion.com": 40,
+      "www.dailymotion.com": 39,
+      "graphql.api.dailymotion.com": -20,
+      "geo.dailymotion.com": 9,
+      "imasdk.googleapis.com": 4,
+      "consent.dailymotion.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "static1.dmcdn.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -14,
+     568
+    ],
+    "third_party": [
+     -15,
+     367
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 277,
+     "sd": 411.5361466505707,
+     "se": 291.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 176,
+     "sd": 270.1147904132612,
+     "se": 191.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1890.5
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com",
+  "s0.2mdn.net",
+  "securepubads.g.doubleclick.net"
+ ],
+ "category": "entertainment",
+ "domain": "dailymotion.com",
+ "n_blocked_tracking": 90.0,
+ "elapsed_s": 83.7
+}

@@ -1,0 +1,11 @@
+{
+ "url": "https://ryanair.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {},
+ "candidates": [],
+ "category": "shopping",
+ "domain": "ryanair.com",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 6.8
+}

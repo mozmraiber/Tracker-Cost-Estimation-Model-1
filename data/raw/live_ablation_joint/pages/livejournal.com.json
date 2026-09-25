@@ -1,0 +1,441 @@
+{
+ "url": "https://livejournal.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "yandex.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 220677,
+     "control": {
+      "page": 3200789,
+      "third_party": 2784552,
+      "listed": 641263
+     },
+     "ablated": {
+      "page": 2638503,
+      "third_party": 2223265,
+      "listed": 420805
+     },
+     "n_aborted": 3,
+     "moved": {
+      "yastatic.net": 306105,
+      "yandex.ru": 146345,
+      "mc.yandex.ru": 73869,
+      "avatars.mds.yandex.net": 24600,
+      "mc.yandex.com": 4502,
+      "cs.rambler.ru": 2823,
+      "sync.upravel.com": 1877,
+      "st.top100.ru": 1539,
+      "vk.ru": -1477,
+      "id.sber.ru": 1407,
+      "favicon.yandex.net": 875,
+      "sync.bumlam.com": -762
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 222734,
+     "control": {
+      "page": 3179366,
+      "third_party": 2763226,
+      "listed": 638829
+     },
+     "ablated": {
+      "page": 2640801,
+      "third_party": 2225247,
+      "listed": 421696
+     },
+     "n_aborted": 3,
+     "moved": {
+      "yastatic.net": 306105,
+      "yandex.ru": 148402,
+      "mc.yandex.ru": 73869,
+      "avatars.mds.yandex.net": 4801,
+      "mc.yandex.com": 3616,
+      "cs.rambler.ru": 2822,
+      "sync.upravel.com": -2603,
+      "favicon.yandex.net": 1531,
+      "sync.bumlam.com": 1515,
+      "ad.adriver.ru": -1433,
+      "x.bidswitch.net": -881,
+      "x01.aidata.io": 763
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     341609,
+     315831
+    ],
+    "third_party": [
+     340610,
+     315245
+    ],
+    "listed": [
+     -219,
+     -5601
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 328720,
+     "sd": 18227.798605426822,
+     "se": 12889.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 327927.5,
+     "sd": 17935.763504796778,
+     "se": 12682.499999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": -2910,
+     "sd": 3805.648696345999,
+     "se": 2691.0
+    }
+   },
+   "own_mean": 221705.5
+  },
+  "ssp.rambler.ru": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 107676,
+     "control": {
+      "page": 3357398,
+      "third_party": 2941158,
+      "listed": 669149
+     },
+     "ablated": {
+      "page": 2418260,
+      "third_party": 2002745,
+      "listed": 246043
+     },
+     "n_aborted": 2,
+     "moved": {
+      "yastatic.net": 381733,
+      "yandex.ru": 176478,
+      "ssp.rambler.ru": 107676,
+      "mc.yandex.ru": 73869,
+      "avatars.mds.yandex.net": 69985,
+      "st.top100.ru": 40994,
+      "cs.rambler.ru": 22584,
+      "ssp01.rambler.ru": 18498,
+      "sync.rambler.ru": 7615,
+      "mc.yandex.com": 6955,
+      "x01.aidata.io": 3989,
+      "profile.ad-tech.ru": 3304
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 107676,
+     "control": {
+      "page": 3203875,
+      "third_party": 2787636,
+      "listed": 644819
+     },
+     "ablated": {
+      "page": 2418016,
+      "third_party": 2002708,
+      "listed": 245697
+     },
+     "n_aborted": 2,
+     "moved": {
+      "yastatic.net": 306105,
+      "yandex.ru": 146718,
+      "ssp.rambler.ru": 107676,
+      "mc.yandex.ru": 73869,
+      "st.top100.ru": 40994,
+      "avatars.mds.yandex.net": 24600,
+      "cs.rambler.ru": 21644,
+      "ssp01.rambler.ru": 18503,
+      "sync.rambler.ru": 8144,
+      "mc.yandex.com": 7794,
+      "sync.upravel.com": 3610,
+      "profile.ad-tech.ru": 3302
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     831462,
+     678183
+    ],
+    "third_party": [
+     830737,
+     677252
+    ],
+    "listed": [
+     315430,
+     291446
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 754822.5,
+     "sd": 108384.62031349282,
+     "se": 76639.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 753994.5,
+     "sd": 108530.28431041725,
+     "se": 76742.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 303438,
+     "sd": 16959.249039978156,
+     "se": 11992.0
+    }
+   },
+   "own_mean": 107676
+  },
+  "mc.webvisor.org": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 92220,
+     "control": {
+      "page": 3261807,
+      "third_party": 2845608,
+      "listed": 654993
+     },
+     "ablated": {
+      "page": 3125860,
+      "third_party": 2709659,
+      "listed": 557993
+     },
+     "n_aborted": 1,
+     "moved": {
+      "mc.webvisor.org": 92220,
+      "avatars.mds.yandex.net": 38678,
+      "mc.yandex.com": 7254,
+      "yandex.ru": -2194,
+      "sync.upravel.com": 1876,
+      "px.adhigh.net": -1817,
+      "sync.rambler.ru": -1650,
+      "redirect.frontend.weborama.fr": -927,
+      "lbs-ru1.ads.betweendigital.com": 774,
+      "ad.adriver.ru": 769,
+      "ads.betweendigital.com": 750,
+      "dmg.digitaltarget.ru": 714
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 92220,
+     "control": {
+      "page": 3135235,
+      "third_party": 2719096,
+      "listed": 610463
+     },
+     "ablated": {
+      "page": 3114231,
+      "third_party": 2697987,
+      "listed": 554054
+     },
+     "n_aborted": 1,
+     "moved": {
+      "mc.webvisor.org": 92220,
+      "yandex.ru": -28674,
+      "avatars.mds.yandex.net": -24600,
+      "x01.aidata.io": -3339,
+      "mc.yandex.com": -2981,
+      "cs.rambler.ru": -1881,
+      "px.adhigh.net": -1820,
+      "sync.rambler.ru": -1576,
+      "vk.ru": -1475,
+      "lbs-ru1.ads.betweendigital.com": -1452,
+      "sync.upravel.com": -1258,
+      "pool.liftdsp.com": -1229
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     43727,
+     -71216
+    ],
+    "third_party": [
+     43729,
+     -71111
+    ],
+    "listed": [
+     4780,
+     -35811
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -13744.5,
+     "sd": 81276.97474992533,
+     "se": 57471.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -13691,
+     "sd": 81204.14275146312,
+     "se": 57420.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -15515.5,
+     "sd": 28702.17135514315,
+     "se": 20295.499999999996
+    }
+   },
+   "own_mean": 92220
+  }
+ },
+ "candidates": [
+  "yandex.ru",
+  "ssp.rambler.ru",
+  "mc.webvisor.org"
+ ],
+ "joint": {
+  "hosts": [
+   "yandex.ru",
+   "ssp.rambler.ru",
+   "mc.webvisor.org"
+  ],
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 429496,
+    "control": {
+     "page": 3217616,
+     "third_party": 2801454,
+     "listed": 652254
+    },
+    "ablated": {
+     "page": 2311699,
+     "third_party": 1896327,
+     "listed": 141031
+    },
+    "n_aborted": 3,
+    "moved": {
+     "yastatic.net": 306105,
+     "yandex.ru": 155268,
+     "ssp.rambler.ru": 107676,
+     "mc.webvisor.org": 92220,
+     "mc.yandex.ru": 73869,
+     "st.top100.ru": 40994,
+     "avatars.mds.yandex.net": 27872,
+     "cs.rambler.ru": 21643,
+     "mc.yandex.com": 19424,
+     "ssp01.rambler.ru": 18502,
+     "sync.rambler.ru": 7070,
+     "profile.ad-tech.ru": 3306
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 420772,
+    "control": {
+     "page": 3200961,
+     "third_party": 2784913,
+     "listed": 640153
+    },
+    "ablated": {
+     "page": 2314370,
+     "third_party": 1899091,
+     "listed": 142317
+    },
+    "n_aborted": 3,
+    "moved": {
+     "yastatic.net": 306105,
+     "yandex.ru": 146479,
+     "ssp.rambler.ru": 107676,
+     "mc.webvisor.org": 92220,
+     "mc.yandex.ru": 73934,
+     "st.top100.ru": 40994,
+     "avatars.mds.yandex.net": 24600,
+     "cs.rambler.ru": 21643,
+     "mc.yandex.com": 19618,
+     "ssp01.rambler.ru": 18495,
+     "sync.rambler.ru": 7095,
+     "profile.ad-tech.ru": 3303
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    476421,
+    465819
+   ],
+   "third_party": [
+    475631,
+    465050
+   ],
+   "listed": [
+    81727,
+    77064
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": 471120,
+    "sd": 7496.746094139777,
+    "se": 5300.999999999999
+   },
+   "third_party": {
+    "n": 2,
+    "mean": 470340.5,
+    "sd": 7481.896851734859,
+    "se": 5290.5
+   },
+   "listed": {
+    "n": 2,
+    "mean": 79395.5,
+    "sd": 3297.2389206728712,
+    "se": 2331.5
+   }
+  },
+  "own_mean": 425134
+ },
+ "category": "social",
+ "domain": "livejournal.com",
+ "n_blocked_tracking": 240.0,
+ "elapsed_s": 144.2
+}

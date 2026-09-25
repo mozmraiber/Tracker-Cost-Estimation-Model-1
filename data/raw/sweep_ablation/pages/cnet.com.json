@@ -1,0 +1,404 @@
+{
+ "url": "https://cnet.com/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "client.aps.amazon-adsystem.com",
+  "frugalfiestas.com",
+  "pub.doubleverify.com",
+  "cdn.parsely.com",
+  "experiments.parsely.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "cdn.parsely.com",
+    "frugalfiestas.com",
+    "client.aps.amazon-adsystem.com",
+    "securepubads.g.doubleclick.net",
+    "experiments.parsely.com",
+    "pub.doubleverify.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3335424,
+      "third_party": 1794550,
+      "listed": 672505
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 3308337,
+      "third_party": 1767026,
+      "listed": 644852
+     },
+     "own": 27039,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 27087,
+      "third_party": 27524,
+      "listed": 27653
+     },
+     "cascade": {
+      "page": 48,
+      "third_party": 485,
+      "listed": 614
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com"
+     ],
+     "bytes": {
+      "page": 3259079,
+      "third_party": 1718205,
+      "listed": 596202
+     },
+     "own": 75230,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 76345,
+      "third_party": 76345,
+      "listed": 76303
+     },
+     "cascade": {
+      "page": 1115,
+      "third_party": 1115,
+      "listed": 1073
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 3114146,
+      "third_party": 1626987,
+      "listed": 504976
+     },
+     "own": 163116,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 221278,
+      "third_party": 167563,
+      "listed": 167529
+     },
+     "cascade": {
+      "page": 58162,
+      "third_party": 4447,
+      "listed": 4413
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 2910288,
+      "third_party": 1369414,
+      "listed": 247123
+     },
+     "own": 419796,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 425136,
+      "third_party": 425136,
+      "listed": 425382
+     },
+     "cascade": {
+      "page": 5340,
+      "third_party": 5340,
+      "listed": 5586
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "experiments.parsely.com"
+     ],
+     "bytes": {
+      "page": 2900374,
+      "third_party": 1359944,
+      "listed": 237888
+     },
+     "own": 429032,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 435050,
+      "third_party": 434606,
+      "listed": 434617
+     },
+     "cascade": {
+      "page": 6018,
+      "third_party": 5574,
+      "listed": 5585
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.parsely.com",
+      "frugalfiestas.com",
+      "client.aps.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "experiments.parsely.com",
+      "pub.doubleverify.com"
+     ],
+     "bytes": {
+      "page": 2866187,
+      "third_party": 1325313,
+      "listed": 202046
+     },
+     "own": 464608,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 469237,
+      "third_party": 469237,
+      "listed": 470459
+     },
+     "cascade": {
+      "page": 4629,
+      "third_party": 4629,
+      "listed": 5851
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "cdn.parsely.com",
+    "securepubads.g.doubleclick.net",
+    "client.aps.amazon-adsystem.com",
+    "experiments.parsely.com",
+    "frugalfiestas.com",
+    "pub.doubleverify.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3336169,
+      "third_party": 1794858,
+      "listed": 673096
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.parsely.com"
+     ],
+     "bytes": {
+      "page": 3307892,
+      "third_party": 1767018,
+      "listed": 644973
+     },
+     "own": 27039,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 28277,
+      "third_party": 27840,
+      "listed": 28123
+     },
+     "cascade": {
+      "page": 1238,
+      "third_party": 801,
+      "listed": 1084
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 2996558,
+      "third_party": 1509808,
+      "listed": 387605
+     },
+     "own": 284199,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 339611,
+      "third_party": 285050,
+      "listed": 285491
+     },
+     "cascade": {
+      "page": 55412,
+      "third_party": 851,
+      "listed": 1292
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 2959142,
+      "third_party": 1417796,
+      "listed": 295710
+     },
+     "own": 372085,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 377027,
+      "third_party": 377062,
+      "listed": 377386
+     },
+     "cascade": {
+      "page": 4942,
+      "third_party": 4977,
+      "listed": 5301
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com",
+      "experiments.parsely.com"
+     ],
+     "bytes": {
+      "page": 2949427,
+      "third_party": 1408518,
+      "listed": 286529
+     },
+     "own": 381321,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 386742,
+      "third_party": 386340,
+      "listed": 386567
+     },
+     "cascade": {
+      "page": 5421,
+      "third_party": 5019,
+      "listed": 5246
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com",
+      "experiments.parsely.com",
+      "frugalfiestas.com"
+     ],
+     "bytes": {
+      "page": 2901245,
+      "third_party": 1359899,
+      "listed": 237888
+     },
+     "own": 429490,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 434924,
+      "third_party": 434959,
+      "listed": 435208
+     },
+     "cascade": {
+      "page": 5434,
+      "third_party": 5469,
+      "listed": 5718
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "cdn.parsely.com",
+      "securepubads.g.doubleclick.net",
+      "client.aps.amazon-adsystem.com",
+      "experiments.parsely.com",
+      "frugalfiestas.com",
+      "pub.doubleverify.com"
+     ],
+     "bytes": {
+      "page": 2865358,
+      "third_party": 1324012,
+      "listed": 202046
+     },
+     "own": 464988,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 470811,
+      "third_party": 470846,
+      "listed": 471050
+     },
+     "cascade": {
+      "page": 5823,
+      "third_party": 5858,
+      "listed": 6062
+     }
+    }
+   ]
+  }
+ ],
+ "category": "news",
+ "domain": "cnet.com",
+ "elapsed_s": 91.1
+}

@@ -1,0 +1,109 @@
+{
+ "url": "https://supercell.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o315582.ingest.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1482,
+     "control": {
+      "page": 6853725,
+      "third_party": 218264,
+      "listed": 218264
+     },
+     "ablated": {
+      "page": 6852242,
+      "third_party": 216782,
+      "listed": 216782
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "o315582.ingest.sentry.io": 1482,
+      "supercell.com": 1,
+      "geolocation.onetrust.com": 0,
+      "cdn.supercell.com": 0,
+      "accounts.supercell.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1482,
+     "control": {
+      "page": 6853725,
+      "third_party": 218264,
+      "listed": 218264
+     },
+     "ablated": {
+      "page": 6852243,
+      "third_party": 216782,
+      "listed": 216782
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "o315582.ingest.sentry.io": 1482,
+      "geolocation.onetrust.com": 0,
+      "cdn.supercell.com": 0,
+      "accounts.supercell.com": 0,
+      "cdn.cookielaw.org": 0,
+      "supercell.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1,
+     0
+    ],
+    "third_party": [
+     0,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1482
+  }
+ },
+ "candidates": [
+  "o315582.ingest.sentry.io"
+ ],
+ "category": "entertainment",
+ "domain": "supercell.com",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 32.3
+}

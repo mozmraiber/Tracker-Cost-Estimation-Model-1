@@ -1,0 +1,313 @@
+{
+ "url": "https://networkadvertising.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "static.addtoany.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 30979,
+     "control": {
+      "page": 24541989,
+      "third_party": 24541653,
+      "listed": 53544
+     },
+     "ablated": {
+      "page": 24511530,
+      "third_party": 24511194,
+      "listed": 22565
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "static.addtoany.com": 30979,
+      "thenai.org": -531,
+      "www.googletagmanager.com": 10,
+      "use.typekit.net": 1,
+      "region1.google-analytics.com": 0,
+      "p.typekit.net": 0,
+      "networkadvertising.org": 0,
+      "www.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 30979,
+     "control": {
+      "page": 24542408,
+      "third_party": 24542072,
+      "listed": 53544
+     },
+     "ablated": {
+      "page": 24510377,
+      "third_party": 24510377,
+      "listed": 22565
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "static.addtoany.com": 30979,
+      "thenai.org": 715,
+      "networkadvertising.org": 336,
+      "use.typekit.net": 1,
+      "region1.google-analytics.com": 0,
+      "p.typekit.net": 0,
+      "www.googletagmanager.com": 0,
+      "www.google-analytics.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -520,
+     1052
+    ],
+    "third_party": [
+     -520,
+     716
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 266,
+     "sd": 1111.5718600252528,
+     "se": 786.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 98,
+     "sd": 873.9839815465727,
+     "se": 618.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 30979
+  },
+  "www.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 24790608,
+      "third_party": 24790272,
+      "listed": 31812
+     },
+     "ablated": {
+      "page": 24791381,
+      "third_party": 24791045,
+      "listed": 31812
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "thenai.org": -773,
+      "region1.google-analytics.com": 0,
+      "static.addtoany.com": 0,
+      "use.typekit.net": 0,
+      "p.typekit.net": 0,
+      "www.googletagmanager.com": 0,
+      "networkadvertising.org": 0,
+      "www.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 21732,
+     "control": {
+      "page": 24670514,
+      "third_party": 24670514,
+      "listed": 53544
+     },
+     "ablated": {
+      "page": 24520298,
+      "third_party": 24520298,
+      "listed": 31812
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "thenai.org": 128675,
+      "www.google-analytics.com": 21732,
+      "www.googletagmanager.com": -191,
+      "region1.google-analytics.com": 0,
+      "static.addtoany.com": 0,
+      "use.typekit.net": 0,
+      "p.typekit.net": 0,
+      "networkadvertising.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -773,
+     128484
+    ],
+    "third_party": [
+     -773,
+     128484
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 63855.5,
+     "sd": 91398.50121582957,
+     "se": 64628.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 63855.5,
+     "sd": 91398.50121582957,
+     "se": 64628.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 10866
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 833,
+     "control": {
+      "page": 24683320,
+      "third_party": 24682984,
+      "listed": 53544
+     },
+     "ablated": {
+      "page": 24566691,
+      "third_party": 24566355,
+      "listed": 52711
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "thenai.org": 115796,
+      "region1.google-analytics.com": 833,
+      "use.typekit.net": -1,
+      "www.googletagmanager.com": 1,
+      "static.addtoany.com": 0,
+      "p.typekit.net": 0,
+      "networkadvertising.org": 0,
+      "www.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 833,
+     "control": {
+      "page": 24541800,
+      "third_party": 24541464,
+      "listed": 53544
+     },
+     "ablated": {
+      "page": 24518733,
+      "third_party": 24518733,
+      "listed": 30979
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.google-analytics.com": 21732,
+      "region1.google-analytics.com": 833,
+      "networkadvertising.org": 336,
+      "thenai.org": 156,
+      "www.googletagmanager.com": 10,
+      "static.addtoany.com": 0,
+      "use.typekit.net": 0,
+      "p.typekit.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     115796,
+     22234
+    ],
+    "third_party": [
+     115796,
+     21898
+    ],
+    "listed": [
+     0,
+     21732
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 69015,
+     "sd": 66158.32466137577,
+     "se": 46781.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 68847,
+     "sd": 66395.91253985444,
+     "se": 46949.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 10866,
+     "sd": 15366.844568746052,
+     "se": 10866.0
+    }
+   },
+   "own_mean": 833
+  }
+ },
+ "candidates": [
+  "static.addtoany.com",
+  "www.google-analytics.com",
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "networkadvertising.org",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 128.0
+}

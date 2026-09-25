@@ -1,0 +1,331 @@
+{
+ "url": "https://no-ip.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "us-assets.i.posthog.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 215187,
+     "control": {
+      "page": 3030238,
+      "third_party": 3029887,
+      "listed": 421888
+     },
+     "ablated": {
+      "page": 3013084,
+      "third_party": 3012733,
+      "listed": 204218
+     },
+     "n_aborted": 1,
+     "moved": {
+      "us-assets.i.posthog.com": 215187,
+      "www.googletagmanager.com": -200513,
+      "us.i.posthog.com": 2489,
+      "z.clarity.ms": -805,
+      "u.clarity.ms": 805,
+      "track-na2.hubspot.com": -7,
+      "cdn.inspectlet.com": -5,
+      "www.noip.com": 4,
+      "www.googleadservices.com": 3,
+      "js.zi-scripts.com": -2,
+      "ws.zoominfo.com": -2,
+      "www.google-analytics.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 215199,
+     "control": {
+      "page": 3030806,
+      "third_party": 3030455,
+      "listed": 421911
+     },
+     "ablated": {
+      "page": 2813099,
+      "third_party": 2812748,
+      "listed": 204210
+     },
+     "n_aborted": 1,
+     "moved": {
+      "us-assets.i.posthog.com": 215199,
+      "us.i.posthog.com": 2491,
+      "b.clarity.ms": -805,
+      "t.clarity.ms": 805,
+      "track-na2.hubspot.com": -7,
+      "www.noip.com": 7,
+      "www.googletagmanager.com": 6,
+      "hn.inspectlet.com": 6,
+      "js.zi-scripts.com": 2,
+      "ws.zoominfo.com": 2,
+      "js-na2.hs-analytics.net": 1,
+      "www.google-analytics.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -198033,
+     2508
+    ],
+    "third_party": [
+     -198033,
+     2508
+    ],
+    "listed": [
+     2483,
+     2502
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -97762.5,
+     "sd": 141803.90100593143,
+     "se": 100270.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -97762.5,
+     "sd": 141803.90100593143,
+     "se": 100270.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2492.5,
+     "sd": 13.435028842544403,
+     "se": 9.5
+    }
+   },
+   "own_mean": 215193
+  },
+  "www.googleadservices.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 27933,
+     "control": {
+      "page": 3030400,
+      "third_party": 3030049,
+      "listed": 421921
+     },
+     "ablated": {
+      "page": 3203836,
+      "third_party": 3203485,
+      "listed": 393316
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.googletagmanager.com": -202047,
+      "www.googleadservices.com": 27933,
+      "y.clarity.ms": -805,
+      "u.clarity.ms": 805,
+      "googleads.g.doubleclick.net": 736,
+      "us-assets.i.posthog.com": -58,
+      "ws.zoominfo.com": -6,
+      "track-na2.hubspot.com": 4,
+      "cdn.inspectlet.com": 2,
+      "www.noip.com": 2,
+      "us.i.posthog.com": -2,
+      "hn.inspectlet.com": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 27928,
+     "control": {
+      "page": 3030305,
+      "third_party": 3029954,
+      "listed": 421821
+     },
+     "ablated": {
+      "page": 2979983,
+      "third_party": 2979632,
+      "listed": 371489
+     },
+     "n_aborted": 2,
+     "moved": {
+      "www.googleadservices.com": 27928,
+      "www.google-analytics.com": 21732,
+      "y.clarity.ms": -805,
+      "e.clarity.ms": 805,
+      "googleads.g.doubleclick.net": 736,
+      "us-assets.i.posthog.com": -62,
+      "track-na2.hubspot.com": -8,
+      "www.noip.com": -2,
+      "hn.inspectlet.com": 2,
+      "js.hs-scripts.com": -1,
+      "us.i.posthog.com": -1,
+      "js.zi-scripts.com": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -201369,
+     22394
+    ],
+    "third_party": [
+     -201369,
+     22394
+    ],
+    "listed": [
+     672,
+     22404
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -89487.5,
+     "sd": 158224.33467864542,
+     "se": 111881.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -89487.5,
+     "sd": 158224.33467864542,
+     "se": 111881.49999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 11538,
+     "sd": 15366.844568746052,
+     "se": 10866.0
+    }
+   },
+   "own_mean": 27930.5
+  },
+  "cdn.inspectlet.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 24630,
+     "control": {
+      "page": 3230272,
+      "third_party": 3229921,
+      "listed": 421938
+     },
+     "ablated": {
+      "page": 3204673,
+      "third_party": 3204322,
+      "listed": 396356
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.inspectlet.com": 24630,
+      "hn.inspectlet.com": 916,
+      "y.clarity.ms": -805,
+      "t.clarity.ms": 805,
+      "us-assets.i.posthog.com": 43,
+      "www.noip.com": 12,
+      "www.googleadservices.com": -6,
+      "track-na2.hubspot.com": 5,
+      "ws.zoominfo.com": -2,
+      "js-na2.hs-banner.com": 1,
+      "us.i.posthog.com": 1,
+      "js.zi-scripts.com": -1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 24618,
+     "control": {
+      "page": 3230568,
+      "third_party": 3230217,
+      "listed": 421661
+     },
+     "ablated": {
+      "page": 3205933,
+      "third_party": 3205582,
+      "listed": 396403
+     },
+     "n_aborted": 1,
+     "moved": {
+      "cdn.inspectlet.com": 24618,
+      "hn.inspectlet.com": 916,
+      "y.clarity.ms": -805,
+      "n.clarity.ms": 805,
+      "www.googletagmanager.com": -657,
+      "us-assets.i.posthog.com": -265,
+      "www.noip.com": 37,
+      "www.googleadservices.com": -13,
+      "track-na2.hubspot.com": -3,
+      "js.zi-scripts.com": 2,
+      "us.i.posthog.com": 1,
+      "ws.zoominfo.com": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     969,
+     17
+    ],
+    "third_party": [
+     969,
+     17
+    ],
+    "listed": [
+     952,
+     640
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 493,
+     "sd": 673.1656556895932,
+     "se": 475.99999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 493,
+     "sd": 673.1656556895932,
+     "se": 475.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 796,
+     "sd": 220.61731573020282,
+     "se": 155.99999999999997
+    }
+   },
+   "own_mean": 24624
+  }
+ },
+ "candidates": [
+  "us-assets.i.posthog.com",
+  "www.googleadservices.com",
+  "cdn.inspectlet.com"
+ ],
+ "category": "infrastructure",
+ "domain": "no-ip.com",
+ "n_blocked_tracking": 130.0,
+ "elapsed_s": 104.9
+}

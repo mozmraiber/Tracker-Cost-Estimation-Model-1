@@ -1,0 +1,343 @@
+{
+ "url": "https://imgsmail.ru/",
+ "hosts": [
+  "yandex.ru",
+  "mc.yandex.ru",
+  "top-fwz1.mail.ru",
+  "vk.com",
+  "mc.yandex.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "top-fwz1.mail.ru",
+    "mc.yandex.ru",
+    "yandex.ru",
+    "mc.yandex.com",
+    "vk.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 13401135,
+      "third_party": 12437256,
+      "listed": 1035644
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 8987622,
+      "third_party": 8033043,
+      "listed": 1186779
+     },
+     "own": 62525,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 4413513,
+      "third_party": 4404213,
+      "listed": -151135
+     },
+     "cascade": {
+      "page": 4350988,
+      "third_party": 4341688,
+      "listed": -213660
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 8737008,
+      "third_party": 7773127,
+      "listed": 1011111
+     },
+     "own": 214563,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 4664127,
+      "third_party": 4664129,
+      "listed": 24533
+     },
+     "cascade": {
+      "page": 4449564,
+      "third_party": 4449566,
+      "listed": -190030
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru",
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 8449087,
+      "third_party": 7485215,
+      "listed": 413835
+     },
+     "own": 773594,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 4952048,
+      "third_party": 4952041,
+      "listed": 621809
+     },
+     "cascade": {
+      "page": 4178454,
+      "third_party": 4178447,
+      "listed": -151785
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru",
+      "yandex.ru",
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 7963537,
+      "third_party": 6999253,
+      "listed": 415568
+     },
+     "own": 798888,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 5437598,
+      "third_party": 5438003,
+      "listed": 620076
+     },
+     "cascade": {
+      "page": 4638710,
+      "third_party": 4639115,
+      "listed": -178812
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru",
+      "yandex.ru",
+      "mc.yandex.com",
+      "vk.com"
+     ],
+     "bytes": {
+      "page": 7024979,
+      "third_party": 6061106,
+      "listed": 376461
+     },
+     "own": 837258,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "saved": {
+      "page": 6376156,
+      "third_party": 6376150,
+      "listed": 659183
+     },
+     "cascade": {
+      "page": 5538898,
+      "third_party": 5538892,
+      "listed": -178075
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "yandex.ru",
+    "top-fwz1.mail.ru",
+    "mc.yandex.ru",
+    "vk.com",
+    "mc.yandex.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 14771247,
+      "third_party": 13807368,
+      "listed": 1038472
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 7596836,
+      "third_party": 6632963,
+      "listed": 504962
+     },
+     "own": 562638,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 7174411,
+      "third_party": 7174405,
+      "listed": 533510
+     },
+     "cascade": {
+      "page": 6611773,
+      "third_party": 6611767,
+      "listed": -29128
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "yandex.ru",
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 7558989,
+      "third_party": 6595114,
+      "listed": 412062
+     },
+     "own": 625163,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 7212258,
+      "third_party": 7212254,
+      "listed": 626410
+     },
+     "cascade": {
+      "page": 6587095,
+      "third_party": 6587091,
+      "listed": 1247
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "yandex.ru",
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 7239986,
+      "third_party": 6276109,
+      "listed": 415285
+     },
+     "own": 777201,
+     "n_aborted": 8,
+     "n_aborted_casc": 8,
+     "saved": {
+      "page": 7531261,
+      "third_party": 7531259,
+      "listed": 623187
+     },
+     "cascade": {
+      "page": 6754060,
+      "third_party": 6754058,
+      "listed": -154014
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "yandex.ru",
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru",
+      "vk.com"
+     ],
+     "bytes": {
+      "page": 7114448,
+      "third_party": 6150572,
+      "listed": 375936
+     },
+     "own": 815571,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "saved": {
+      "page": 7656799,
+      "third_party": 7656796,
+      "listed": 662536
+     },
+     "cascade": {
+      "page": 6841228,
+      "third_party": 6841225,
+      "listed": -153035
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "yandex.ru",
+      "top-fwz1.mail.ru",
+      "mc.yandex.ru",
+      "vk.com",
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 6920648,
+      "third_party": 5956361,
+      "listed": 372890
+     },
+     "own": 841044,
+     "n_aborted": 10,
+     "n_aborted_casc": 10,
+     "saved": {
+      "page": 7850599,
+      "third_party": 7851007,
+      "listed": 665582
+     },
+     "cascade": {
+      "page": 7009555,
+      "third_party": 7009963,
+      "listed": -175462
+     }
+    }
+   ]
+  }
+ ],
+ "category": "infrastructure",
+ "domain": "imgsmail.ru",
+ "elapsed_s": 139.8
+}

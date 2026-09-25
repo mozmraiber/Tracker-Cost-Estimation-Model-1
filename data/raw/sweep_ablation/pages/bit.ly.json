@@ -1,0 +1,343 @@
+{
+ "url": "https://bit.ly/",
+ "hosts": [
+  "cdn.optimizely.com",
+  "bat.bing.com",
+  "region1.google-analytics.com",
+  "pagead2.googlesyndication.com",
+  "cdn3.optimizely.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "region1.google-analytics.com",
+    "bat.bing.com",
+    "cdn.optimizely.com",
+    "cdn3.optimizely.com",
+    "pagead2.googlesyndication.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5831613,
+      "third_party": 5831613,
+      "listed": 354727
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 5833616,
+      "third_party": 5833251,
+      "listed": 352876
+     },
+     "own": 2476,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": -2003,
+      "third_party": -1638,
+      "listed": 1851
+     },
+     "cascade": {
+      "page": -4479,
+      "third_party": -4114,
+      "listed": -625
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 5795571,
+      "third_party": 5795206,
+      "listed": 317158
+     },
+     "own": 37594,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 36042,
+      "third_party": 36407,
+      "listed": 37569
+     },
+     "cascade": {
+      "page": -1552,
+      "third_party": -1187,
+      "listed": -25
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5670193,
+      "third_party": 5669828,
+      "listed": 191893
+     },
+     "own": 161322,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 161420,
+      "third_party": 161785,
+      "listed": 162834
+     },
+     "cascade": {
+      "page": 98,
+      "third_party": 463,
+      "listed": 1512
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "cdn.optimizely.com",
+      "cdn3.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5670176,
+      "third_party": 5669811,
+      "listed": 191893
+     },
+     "own": 161699,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 161437,
+      "third_party": 161802,
+      "listed": 162834
+     },
+     "cascade": {
+      "page": -262,
+      "third_party": 103,
+      "listed": 1135
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "cdn.optimizely.com",
+      "cdn3.optimizely.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 5670557,
+      "third_party": 5670167,
+      "listed": 190246
+     },
+     "own": 163346,
+     "n_aborted": 12,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 161056,
+      "third_party": 161446,
+      "listed": 164481
+     },
+     "cascade": {
+      "page": -2290,
+      "third_party": -1900,
+      "listed": 1135
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "cdn.optimizely.com",
+    "region1.google-analytics.com",
+    "bat.bing.com",
+    "pagead2.googlesyndication.com",
+    "cdn3.optimizely.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 5834846,
+      "third_party": 5834456,
+      "listed": 354540
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5712971,
+      "third_party": 5712581,
+      "listed": 230112
+     },
+     "own": 123728,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 121875,
+      "third_party": 121875,
+      "listed": 124428
+     },
+     "cascade": {
+      "page": -1853,
+      "third_party": -1853,
+      "listed": 700
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 5709486,
+      "third_party": 5709486,
+      "listed": 227636
+     },
+     "own": 125392,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 125360,
+      "third_party": 124970,
+      "listed": 126904
+     },
+     "cascade": {
+      "page": -32,
+      "third_party": -422,
+      "listed": 1512
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 5671524,
+      "third_party": 5671159,
+      "listed": 191893
+     },
+     "own": 161135,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 163322,
+      "third_party": 163297,
+      "listed": 162647
+     },
+     "cascade": {
+      "page": 2187,
+      "third_party": 2162,
+      "listed": 1512
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "pagead2.googlesyndication.com"
+     ],
+     "bytes": {
+      "page": 5668508,
+      "third_party": 5668143,
+      "listed": 190246
+     },
+     "own": 162782,
+     "n_aborted": 12,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 166338,
+      "third_party": 166313,
+      "listed": 164294
+     },
+     "cascade": {
+      "page": 3556,
+      "third_party": 3531,
+      "listed": 1512
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.optimizely.com",
+      "region1.google-analytics.com",
+      "bat.bing.com",
+      "pagead2.googlesyndication.com",
+      "cdn3.optimizely.com"
+     ],
+     "bytes": {
+      "page": 5670304,
+      "third_party": 5669939,
+      "listed": 190246
+     },
+     "own": 163159,
+     "n_aborted": 12,
+     "n_aborted_casc": 9,
+     "saved": {
+      "page": 164542,
+      "third_party": 164517,
+      "listed": 164294
+     },
+     "cascade": {
+      "page": 1383,
+      "third_party": 1358,
+      "listed": 1135
+     }
+    }
+   ]
+  }
+ ],
+ "category": "infrastructure",
+ "domain": "bit.ly",
+ "elapsed_s": 94.4
+}

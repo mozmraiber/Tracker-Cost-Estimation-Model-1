@@ -1,0 +1,121 @@
+{
+ "url": "https://amazonaws.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "amazonwebservicesinc.tt.omtrdc.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1270,
+     "control": {
+      "page": 18058942,
+      "third_party": 18058632,
+      "listed": 8956
+     },
+     "ablated": {
+      "page": 18056511,
+      "third_party": 18056511,
+      "listed": 7686
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "amazonwebservicesinc.tt.omtrdc.net": 1270,
+      "prod.log.shortbread.aws.dev": 783,
+      "eu-west-2.prod.pl.panorama.console.api.aws": 647,
+      "us-east-2.prod.pl.panorama.console.api.aws": -647,
+      "amazonaws.com": 310,
+      "t0.m.awsstatic.com": 72,
+      "aws.amazon.com": -4,
+      "fls-na.amazon.com": 0,
+      "a.b.cdn.console.awsstatic.com": 0,
+      "amazonwebservices.d2.sc.omtrdc.net": 0,
+      "d2c.aws.amazon.com": 0,
+      "cx0.m.awsstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1271,
+     "control": {
+      "page": 18060289,
+      "third_party": 18059979,
+      "listed": 8957
+     },
+     "ablated": {
+      "page": 18056919,
+      "third_party": 18056919,
+      "listed": 7686
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "prod.log.shortbread.aws.dev": 2349,
+      "amazonwebservicesinc.tt.omtrdc.net": 1271,
+      "eu-west-2.prod.pl.panorama.console.api.aws": 647,
+      "us-east-2.prod.pl.panorama.console.api.aws": -623,
+      "d2c.aws.amazon.com": -581,
+      "amazonaws.com": 310,
+      "aws.amazon.com": -3,
+      "t0.m.awsstatic.com": 0,
+      "fls-na.amazon.com": 0,
+      "a.b.cdn.console.awsstatic.com": 0,
+      "amazonwebservices.d2.sc.omtrdc.net": 0,
+      "cx0.m.awsstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1161,
+     2099
+    ],
+    "third_party": [
+     851,
+     1789
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1630,
+     "sd": 663.2661607529816,
+     "se": 469.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1320,
+     "sd": 663.2661607529816,
+     "se": 469.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1270.5
+  }
+ },
+ "candidates": [
+  "amazonwebservicesinc.tt.omtrdc.net"
+ ],
+ "category": "productivity",
+ "domain": "amazonaws.com",
+ "n_blocked_tracking": 145.0,
+ "elapsed_s": 53.3
+}

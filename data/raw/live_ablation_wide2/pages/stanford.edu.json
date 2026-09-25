@@ -1,0 +1,337 @@
+{
+ "url": "https://stanford.edu/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "t.contentsquare.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 187228,
+     "control": {
+      "page": 4302136,
+      "third_party": 3062739,
+      "listed": 189713
+     },
+     "ablated": {
+      "page": 4330973,
+      "third_party": 3092114,
+      "listed": 3224
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "a2-us.storyblok.com": -215644,
+      "t.contentsquare.net": 187228,
+      "googleads.g.doubleclick.net": -739,
+      "stanford.edu": 479,
+      "www.youtube.com": -230,
+      "www.stanford.edu": 59,
+      "www.googletagmanager.com": 8,
+      "i.ytimg.com": 3,
+      "www.google.com": -1,
+      "jnn-pa.googleapis.com": 0,
+      "region1.google-analytics.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 187227,
+     "control": {
+      "page": 3920040,
+      "third_party": 2681877,
+      "listed": 190451
+     },
+     "ablated": {
+      "page": 4114780,
+      "third_party": 2875977,
+      "listed": 2485
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "a2-us.storyblok.com": -382408,
+      "t.contentsquare.net": 187227,
+      "googleads.g.doubleclick.net": 739,
+      "stanford.edu": -479,
+      "www.googletagmanager.com": 416,
+      "www.stanford.edu": -161,
+      "www.youtube.com": -74,
+      "jnn-pa.googleapis.com": 0,
+      "region1.google-analytics.com": 0,
+      "www.google.com": 0,
+      "i.ytimg.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -216065,
+     -381967
+    ],
+    "third_party": [
+     -216603,
+     -381327
+    ],
+    "listed": [
+     -739,
+     739
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -299016,
+     "sd": 117310.42921241061,
+     "se": 82951.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -298965,
+     "sd": 116477.45742417286,
+     "se": 82362.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 1045.1038225937173,
+     "se": 739.0
+    }
+   },
+   "own_mean": 187227.5
+  },
+  "googleads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1616,
+     "control": {
+      "page": 4400730,
+      "third_party": 3161413,
+      "listed": 190451
+     },
+     "ablated": {
+      "page": 4301404,
+      "third_party": 3062251,
+      "listed": 188835
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "a2-us.storyblok.com": 98020,
+      "googleads.g.doubleclick.net": 1616,
+      "www.youtube.com": -474,
+      "www.stanford.edu": 164,
+      "jnn-pa.googleapis.com": 0,
+      "region1.google-analytics.com": 0,
+      "stanford.edu": 0,
+      "www.googletagmanager.com": 0,
+      "www.google.com": 0,
+      "i.ytimg.com": 0,
+      "fonts.gstatic.com": 0,
+      "static.doubleclick.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1616,
+     "control": {
+      "page": 4929500,
+      "third_party": 3691080,
+      "listed": 190451
+     },
+     "ablated": {
+      "page": 4300405,
+      "third_party": 3062099,
+      "listed": 188835
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "a2-us.storyblok.com": 624173,
+      "www.youtube.com": 3165,
+      "googleads.g.doubleclick.net": 1616,
+      "www.stanford.edu": 114,
+      "www.googletagmanager.com": 26,
+      "www.google.com": 1,
+      "jnn-pa.googleapis.com": 0,
+      "region1.google-analytics.com": 0,
+      "stanford.edu": 0,
+      "i.ytimg.com": 0,
+      "fonts.gstatic.com": 0,
+      "static.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     97710,
+     627479
+    ],
+    "third_party": [
+     97546,
+     627365
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 362594.5,
+     "sd": 374603.25236241607,
+     "se": 264884.49999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 362455.5,
+     "sd": 374638.60770147544,
+     "se": 264909.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1616
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 839,
+     "control": {
+      "page": 5024383,
+      "third_party": 3785997,
+      "listed": 190452
+     },
+     "ablated": {
+      "page": 4300622,
+      "third_party": 3062621,
+      "listed": 189613
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "a2-us.storyblok.com": 722193,
+      "region1.google-analytics.com": 839,
+      "www.stanford.edu": 385,
+      "www.youtube.com": 337,
+      "www.googletagmanager.com": 8,
+      "i.ytimg.com": -2,
+      "www.google.com": 1,
+      "jnn-pa.googleapis.com": 0,
+      "stanford.edu": 0,
+      "googleads.g.doubleclick.net": 0,
+      "fonts.gstatic.com": 0,
+      "static.doubleclick.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 839,
+     "control": {
+      "page": 4925998,
+      "third_party": 3687449,
+      "listed": 190452
+     },
+     "ablated": {
+      "page": 4533781,
+      "third_party": 3295027,
+      "listed": 188874
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "a2-us.storyblok.com": 391044,
+      "region1.google-analytics.com": 839,
+      "googleads.g.doubleclick.net": 739,
+      "www.youtube.com": -221,
+      "www.stanford.edu": -205,
+      "www.googletagmanager.com": 18,
+      "jnn-pa.googleapis.com": 2,
+      "www.google.com": 1,
+      "stanford.edu": 0,
+      "i.ytimg.com": 0,
+      "fonts.gstatic.com": 0,
+      "static.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     722922,
+     391378
+    ],
+    "third_party": [
+     722537,
+     391583
+    ],
+    "listed": [
+     0,
+     739
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 557150,
+     "sd": 234437.0106617127,
+     "se": 165771.99999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 557060,
+     "sd": 234019.81766081264,
+     "se": 165476.99999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 369.5,
+     "sd": 522.5519112968586,
+     "se": 369.5
+    }
+   },
+   "own_mean": 839
+  }
+ },
+ "candidates": [
+  "t.contentsquare.net",
+  "googleads.g.doubleclick.net",
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "stanford.edu",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 96.2
+}

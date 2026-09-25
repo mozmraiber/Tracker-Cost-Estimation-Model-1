@@ -1,0 +1,456 @@
+{
+ "url": "https://inmobi.com/",
+ "hosts": [
+  "snap.licdn.com",
+  "js.hs-analytics.net",
+  "s.adroll.com",
+  "js.hubspot.com",
+  "tag.demandbase.com",
+  "www.google-analytics.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "tag.demandbase.com",
+    "s.adroll.com",
+    "js.hs-analytics.net",
+    "snap.licdn.com",
+    "www.google-analytics.com",
+    "js.hubspot.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2144298,
+      "third_party": 1812498,
+      "listed": 998346
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "tag.demandbase.com"
+     ],
+     "bytes": {
+      "page": 2116412,
+      "third_party": 1784615,
+      "listed": 970428
+     },
+     "own": 23926,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 27886,
+      "third_party": 27883,
+      "listed": 27918
+     },
+     "cascade": {
+      "page": 3960,
+      "third_party": 3957,
+      "listed": 3992
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "tag.demandbase.com",
+      "s.adroll.com"
+     ],
+     "bytes": {
+      "page": 2047590,
+      "third_party": 1715791,
+      "listed": 901608
+     },
+     "own": 59310,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 96708,
+      "third_party": 96707,
+      "listed": 96738
+     },
+     "cascade": {
+      "page": 37398,
+      "third_party": 37397,
+      "listed": 37428
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "tag.demandbase.com",
+      "s.adroll.com",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 2001856,
+      "third_party": 1670059,
+      "listed": 855875
+     },
+     "own": 103383,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 142442,
+      "third_party": 142439,
+      "listed": 142471
+     },
+     "cascade": {
+      "page": 39059,
+      "third_party": 39056,
+      "listed": 39088
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "tag.demandbase.com",
+      "s.adroll.com",
+      "js.hs-analytics.net",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 1954611,
+      "third_party": 1622811,
+      "listed": 807107
+     },
+     "own": 151166,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 189687,
+      "third_party": 189687,
+      "listed": 191239
+     },
+     "cascade": {
+      "page": 38521,
+      "third_party": 38521,
+      "listed": 40073
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "tag.demandbase.com",
+      "s.adroll.com",
+      "js.hs-analytics.net",
+      "snap.licdn.com",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 1929196,
+      "third_party": 1597731,
+      "listed": 783548
+     },
+     "own": 174298,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 215102,
+      "third_party": 214767,
+      "listed": 214798
+     },
+     "cascade": {
+      "page": 40804,
+      "third_party": 40469,
+      "listed": 40500
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "tag.demandbase.com",
+      "s.adroll.com",
+      "js.hs-analytics.net",
+      "snap.licdn.com",
+      "www.google-analytics.com",
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 1898523,
+      "third_party": 1566724,
+      "listed": 752039
+     },
+     "own": 203947,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 245775,
+      "third_party": 245774,
+      "listed": 246307
+     },
+     "cascade": {
+      "page": 41828,
+      "third_party": 41827,
+      "listed": 42360
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "tag.demandbase.com",
+    "snap.licdn.com",
+    "js.hs-analytics.net",
+    "www.google-analytics.com",
+    "s.adroll.com",
+    "js.hubspot.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2144674,
+      "third_party": 1813209,
+      "listed": 999032
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "tag.demandbase.com"
+     ],
+     "bytes": {
+      "page": 2113580,
+      "third_party": 1781780,
+      "listed": 967600
+     },
+     "own": 23926,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 31094,
+      "third_party": 31429,
+      "listed": 31432
+     },
+     "cascade": {
+      "page": 7168,
+      "third_party": 7503,
+      "listed": 7506
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "tag.demandbase.com",
+      "snap.licdn.com"
+     ],
+     "bytes": {
+      "page": 2063576,
+      "third_party": 1732112,
+      "listed": 917932
+     },
+     "own": 71709,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 81098,
+      "third_party": 81097,
+      "listed": 81100
+     },
+     "cascade": {
+      "page": 9389,
+      "third_party": 9388,
+      "listed": 9391
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "tag.demandbase.com",
+      "snap.licdn.com",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 2016442,
+      "third_party": 1684642,
+      "listed": 870413
+     },
+     "own": 115783,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 128232,
+      "third_party": 128567,
+      "listed": 128619
+     },
+     "cascade": {
+      "page": 12449,
+      "third_party": 12784,
+      "listed": 12836
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "tag.demandbase.com",
+      "snap.licdn.com",
+      "js.hs-analytics.net",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 1996105,
+      "third_party": 1664307,
+      "listed": 850144
+     },
+     "own": 138914,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 148569,
+      "third_party": 148902,
+      "listed": 148888
+     },
+     "cascade": {
+      "page": 9655,
+      "third_party": 9988,
+      "listed": 9974
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "tag.demandbase.com",
+      "snap.licdn.com",
+      "js.hs-analytics.net",
+      "www.google-analytics.com",
+      "s.adroll.com"
+     ],
+     "bytes": {
+      "page": 1929499,
+      "third_party": 1597700,
+      "listed": 783538
+     },
+     "own": 174151,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 215175,
+      "third_party": 215509,
+      "listed": 215494
+     },
+     "cascade": {
+      "page": 41024,
+      "third_party": 41358,
+      "listed": 41343
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "tag.demandbase.com",
+      "snap.licdn.com",
+      "js.hs-analytics.net",
+      "www.google-analytics.com",
+      "s.adroll.com",
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 1897209,
+      "third_party": 1565410,
+      "listed": 752288
+     },
+     "own": 203797,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 247465,
+      "third_party": 247799,
+      "listed": 246744
+     },
+     "cascade": {
+      "page": 43668,
+      "third_party": 44002,
+      "listed": 42947
+     }
+    }
+   ]
+  }
+ ],
+ "category": "productivity",
+ "domain": "inmobi.com",
+ "elapsed_s": 119.7
+}

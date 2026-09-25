@@ -1,0 +1,432 @@
+{
+ "url": "https://fiverr.com/",
+ "hosts": [
+  "connect.facebook.net",
+  "bat.bing.com",
+  "cdn.pdst.fm",
+  "ad.doubleclick.net",
+  "googleads.g.doubleclick.net",
+  "5566805.fls.doubleclick.net"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "googleads.g.doubleclick.net",
+    "cdn.pdst.fm",
+    "bat.bing.com",
+    "connect.facebook.net",
+    "5566805.fls.doubleclick.net",
+    "ad.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 906990,
+      "third_party": 890907,
+      "listed": 624834
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 906929,
+      "third_party": 890856,
+      "listed": 624783
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 61,
+      "third_party": 51,
+      "listed": 51
+     },
+     "cascade": {
+      "page": 61,
+      "third_party": 51,
+      "listed": 51
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.pdst.fm"
+     ],
+     "bytes": {
+      "page": 906194,
+      "third_party": 890897,
+      "listed": 624837
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 796,
+      "third_party": 10,
+      "listed": -3
+     },
+     "cascade": {
+      "page": 796,
+      "third_party": 10,
+      "listed": -3
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.pdst.fm",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 906135,
+      "third_party": 890843,
+      "listed": 624783
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 855,
+      "third_party": 64,
+      "listed": 51
+     },
+     "cascade": {
+      "page": 855,
+      "third_party": 64,
+      "listed": 51
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.pdst.fm",
+      "bat.bing.com",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 908401,
+      "third_party": 892331,
+      "listed": 626269
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": -1411,
+      "third_party": -1424,
+      "listed": -1435
+     },
+     "cascade": {
+      "page": -1411,
+      "third_party": -1424,
+      "listed": -1435
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.pdst.fm",
+      "bat.bing.com",
+      "connect.facebook.net",
+      "5566805.fls.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 638647,
+      "third_party": 622558,
+      "listed": 621380
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 268343,
+      "third_party": 268349,
+      "listed": 3454
+     },
+     "cascade": {
+      "page": 268343,
+      "third_party": 268349,
+      "listed": 3454
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "cdn.pdst.fm",
+      "bat.bing.com",
+      "connect.facebook.net",
+      "5566805.fls.doubleclick.net",
+      "ad.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 906952,
+      "third_party": 890870,
+      "listed": 624808
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 38,
+      "third_party": 37,
+      "listed": 26
+     },
+     "cascade": {
+      "page": 38,
+      "third_party": 37,
+      "listed": 26
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "googleads.g.doubleclick.net",
+    "connect.facebook.net",
+    "bat.bing.com",
+    "5566805.fls.doubleclick.net",
+    "cdn.pdst.fm",
+    "ad.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 906933,
+      "third_party": 890848,
+      "listed": 624786
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 906924,
+      "third_party": 890848,
+      "listed": 624786
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 9,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 9,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "connect.facebook.net"
+     ],
+     "bytes": {
+      "page": 906982,
+      "third_party": 890899,
+      "listed": 624837
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": -49,
+      "third_party": -51,
+      "listed": -51
+     },
+     "cascade": {
+      "page": -49,
+      "third_party": -51,
+      "listed": -51
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "connect.facebook.net",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 906919,
+      "third_party": 890845,
+      "listed": 624783
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 14,
+      "third_party": 3,
+      "listed": 3
+     },
+     "cascade": {
+      "page": 14,
+      "third_party": 3,
+      "listed": 3
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "connect.facebook.net",
+      "bat.bing.com",
+      "5566805.fls.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 906938,
+      "third_party": 890849,
+      "listed": 624787
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": -5,
+      "third_party": -1,
+      "listed": -1
+     },
+     "cascade": {
+      "page": -5,
+      "third_party": -1,
+      "listed": -1
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "connect.facebook.net",
+      "bat.bing.com",
+      "5566805.fls.doubleclick.net",
+      "cdn.pdst.fm"
+     ],
+     "bytes": {
+      "page": 906169,
+      "third_party": 890876,
+      "listed": 624814
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 764,
+      "third_party": -28,
+      "listed": -28
+     },
+     "cascade": {
+      "page": 764,
+      "third_party": -28,
+      "listed": -28
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "googleads.g.doubleclick.net",
+      "connect.facebook.net",
+      "bat.bing.com",
+      "5566805.fls.doubleclick.net",
+      "cdn.pdst.fm",
+      "ad.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 906981,
+      "third_party": 890899,
+      "listed": 624837
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": -48,
+      "third_party": -51,
+      "listed": -51
+     },
+     "cascade": {
+      "page": -48,
+      "third_party": -51,
+      "listed": -51
+     }
+    }
+   ]
+  }
+ ],
+ "category": "shopping",
+ "domain": "fiverr.com",
+ "elapsed_s": 88.9
+}

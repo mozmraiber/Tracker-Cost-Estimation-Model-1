@@ -1,0 +1,337 @@
+{
+ "url": "https://foxnews.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "c.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 95431,
+     "control": {
+      "page": 4626604,
+      "third_party": 2290197,
+      "listed": 252631
+     },
+     "ablated": {
+      "page": 4531245,
+      "third_party": 2194861,
+      "listed": 157201
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "c.amazon-adsystem.com": 95431,
+      "www.google.com": -84,
+      "static.foxnews.com": 42,
+      "my.foxnews.com": -12,
+      "use.fontawesome.com": -8,
+      "schedule-tool.foxnews.com": -3,
+      "static.trueanthem.com": -2,
+      "a57.foxnews.com": -2,
+      "sdk.iad-05.braze.com": -1,
+      "pub-admin-elections.foxnews.com": -1,
+      "www.foxnews.com": -1,
+      "www.foxbusiness.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 95431,
+     "control": {
+      "page": 4589153,
+      "third_party": 2291222,
+      "listed": 252651
+     },
+     "ablated": {
+      "page": 4532488,
+      "third_party": 2195982,
+      "listed": 157200
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "c.amazon-adsystem.com": 95431,
+      "static.foxnews.com": -38275,
+      "foxnews.com": -223,
+      "www.google.com": -184,
+      "www.foxnews.com": -63,
+      "www.gstatic.com": -20,
+      "sdk.iad-05.braze.com": 20,
+      "my.foxnews.com": -12,
+      "static.trueanthem.com": -10,
+      "a57.foxnews.com": -2,
+      "use.fontawesome.com": 2,
+      "www.foxbusiness.com": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -72,
+     -38766
+    ],
+    "third_party": [
+     -95,
+     -191
+    ],
+    "listed": [
+     -1,
+     20
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -19419,
+     "sd": 27360.78979123227,
+     "se": 19347.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -143,
+     "sd": 67.88225099390856,
+     "se": 47.99999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 9.5,
+     "sd": 14.849242404917497,
+     "se": 10.499999999999998
+    }
+   },
+   "own_mean": 95431
+  },
+  "client.aps.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 87899,
+     "control": {
+      "page": 4589565,
+      "third_party": 2291242,
+      "listed": 252651
+     },
+     "ablated": {
+      "page": 4539634,
+      "third_party": 2203364,
+      "listed": 164734
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "client.aps.amazon-adsystem.com": 87899,
+      "static.foxnews.com": -38152,
+      "foxnews.com": 223,
+      "www.google.com": -66,
+      "use.fontawesome.com": 22,
+      "prod-hp.foxnews.com": -20,
+      "sdk.iad-05.braze.com": 18,
+      "static.trueanthem.com": 4,
+      "a57.foxnews.com": 2,
+      "api.strike.fox": 1,
+      "www.foxbusiness.com": 0,
+      "dpm.demdex.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 87900,
+     "control": {
+      "page": 4627841,
+      "third_party": 2291583,
+      "listed": 252634
+     },
+     "ablated": {
+      "page": 4540038,
+      "third_party": 2203615,
+      "listed": 164752
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "client.aps.amazon-adsystem.com": 87900,
+      "foxnews.com": -223,
+      "static.trueanthem.com": 59,
+      "my.foxnews.com": 21,
+      "api.strike.fox": 21,
+      "prod-hp.foxnews.com": 20,
+      "static.foxnews.com": 18,
+      "sdk.iad-05.braze.com": -18,
+      "use.fontawesome.com": -10,
+      "www.google.com": 9,
+      "loki-ingest.fox.com": 7,
+      "a57.foxnews.com": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -37968,
+     -97
+    ],
+    "third_party": [
+     -21,
+     68
+    ],
+    "listed": [
+     18,
+     -18
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -19032.5,
+     "sd": 26778.840910315743,
+     "se": 18935.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 23.5,
+     "sd": 62.932503525602726,
+     "se": 44.49999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 25.45584412271571,
+     "se": 18.0
+    }
+   },
+   "own_mean": 87899.5
+  },
+  "js.appboycdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 64735,
+     "control": {
+      "page": 4628642,
+      "third_party": 2291270,
+      "listed": 252633
+     },
+     "ablated": {
+      "page": 4553668,
+      "third_party": 2216239,
+      "listed": 186218
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.appboycdn.com": 64735,
+      "use.fontawesome.com": 8890,
+      "sdk.iad-05.braze.com": 1680,
+      "www.google.com": -266,
+      "static.foxnews.com": -59,
+      "prod1.fes.kts.fox": -7,
+      "static.trueanthem.com": -2,
+      "a57.foxnews.com": 1,
+      "api.strike.fox": 1,
+      "www.foxnews.com": 1,
+      "www.foxbusiness.com": 0,
+      "dpm.demdex.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 64735,
+     "control": {
+      "page": 4629459,
+      "third_party": 2291516,
+      "listed": 252652
+     },
+     "ablated": {
+      "page": 4553423,
+      "third_party": 2216075,
+      "listed": 186218
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.appboycdn.com": 64735,
+      "use.fontawesome.com": 8878,
+      "sdk.iad-05.braze.com": 1699,
+      "foxnews.com": 576,
+      "www.google.com": 157,
+      "static.foxnews.com": 30,
+      "api.strike.fox": -21,
+      "prod-hp.foxnews.com": -20,
+      "my.foxnews.com": 9,
+      "loki-ingest.fox.com": -8,
+      "static.trueanthem.com": 2,
+      "prod1.fes.kts.fox": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     10239,
+     11301
+    ],
+    "third_party": [
+     10296,
+     10706
+    ],
+    "listed": [
+     1680,
+     1699
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 10770,
+     "sd": 750.9474016201135,
+     "se": 531.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 10501,
+     "sd": 289.9137802864845,
+     "se": 205.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1689.5,
+     "sd": 13.435028842544403,
+     "se": 9.5
+    }
+   },
+   "own_mean": 64735
+  }
+ },
+ "candidates": [
+  "c.amazon-adsystem.com",
+  "client.aps.amazon-adsystem.com",
+  "js.appboycdn.com"
+ ],
+ "category": "news",
+ "domain": "foxnews.com",
+ "n_blocked_tracking": 88.0,
+ "elapsed_s": 96.1
+}

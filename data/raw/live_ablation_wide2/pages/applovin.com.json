@@ -1,0 +1,337 @@
+{
+ "url": "https://applovin.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 258854,
+     "control": {
+      "page": 20153554,
+      "third_party": 13804853,
+      "listed": 2183938
+     },
+     "ablated": {
+      "page": 19895513,
+      "third_party": 13546780,
+      "listed": 1925872
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 258854,
+      "px.ads.linkedin.com": -890,
+      "us-assets.i.posthog.com": -89,
+      "region1.analytics.google.com": 80,
+      "region1.google-analytics.com": 80,
+      "applovin.com": -52,
+      "bzr.openai.com": 27,
+      "s.axon.ai": -25,
+      "storage.googleapis.com": -21,
+      "b.applovin.com": 20,
+      "stats.g.doubleclick.net": 20,
+      "api.hubapi.com": 17
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 18105321,
+      "third_party": 11986246,
+      "listed": 1451921
+     },
+     "ablated": {
+      "page": 19894310,
+      "third_party": 13546400,
+      "listed": 1925978
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.googletagmanager.com": -937978,
+      "cdn.cookielaw.org": -212346,
+      "applovin.com": -191546,
+      "fe-assets.workmagic.io": -86501,
+      "snap.licdn.com": -47842,
+      "js.hs-analytics.net": -43906,
+      "res4.applovin.com": -36383,
+      "us-assets.i.posthog.com": -36160,
+      "js.hubspot.com": -31121,
+      "bzrcdn.openai.com": -29013,
+      "cdn.claydar.com": -25427,
+      "js.hs-banner.com": -20133
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -813,
+     -1788989
+    ],
+    "third_party": [
+     -781,
+     -1560154
+    ],
+    "listed": [
+     -788,
+     -474057
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -894901,
+     "sd": 1264431.375555036,
+     "se": 894088.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -780467.5,
+     "sd": 1102643.2226992103,
+     "se": 779686.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -237422.5,
+     "sd": 334651.71922537615,
+     "se": 236634.49999999997
+    }
+   },
+   "own_mean": 129427
+  },
+  "snap.licdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 47842,
+     "control": {
+      "page": 20156518,
+      "third_party": 13806466,
+      "listed": 2185835
+     },
+     "ablated": {
+      "page": 20103732,
+      "third_party": 13755080,
+      "listed": 2134144
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "snap.licdn.com": 47842,
+      "px.ads.linkedin.com": 3230,
+      "applovin.com": 1425,
+      "px4.ads.linkedin.com": 761,
+      "www.googletagmanager.com": -356,
+      "us-assets.i.posthog.com": -88,
+      "storage.googleapis.com": 67,
+      "b.applovin.com": -25,
+      "connect.facebook.net": -19,
+      "cdn.cookielaw.org": -18,
+      "track-api.workmagic.io": -14,
+      "us.i.posthog.com": -7
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 47842,
+     "control": {
+      "page": 20155488,
+      "third_party": 13806786,
+      "listed": 2185644
+     },
+     "ablated": {
+      "page": 18113923,
+      "third_party": 11986147,
+      "listed": 1451871
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "www.googletagmanager.com": 938272,
+      "connect.facebook.net": 258830,
+      "cdn.cookielaw.org": 212346,
+      "applovin.com": 183612,
+      "fe-assets.workmagic.io": 86505,
+      "snap.licdn.com": 47842,
+      "js.hs-analytics.net": 43906,
+      "res4.applovin.com": 36458,
+      "us-assets.i.posthog.com": 36248,
+      "js.hubspot.com": 31118,
+      "bzrcdn.openai.com": 28984,
+      "cdn.claydar.com": 25447
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     4944,
+     1993723
+    ],
+    "third_party": [
+     3544,
+     1772797
+    ],
+    "listed": [
+     3849,
+     685931
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 999333.5,
+     "sd": 1406279.1171814008,
+     "se": 994389.4999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 888170.5,
+     "sd": 1251050.7939346428,
+     "se": 884626.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 344890,
+     "sd": 482304.8075252827,
+     "se": 341041.0
+    }
+   },
+   "own_mean": 47842
+  },
+  "js.hs-analytics.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 43905,
+     "control": {
+      "page": 20154401,
+      "third_party": 13805771,
+      "listed": 2184966
+     },
+     "ablated": {
+      "page": 18283026,
+      "third_party": 11986641,
+      "listed": 1452365
+     },
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "moved": {
+      "www.googletagmanager.com": 937978,
+      "connect.facebook.net": 258830,
+      "cdn.cookielaw.org": 212346,
+      "fe-assets.workmagic.io": 86499,
+      "snap.licdn.com": 47842,
+      "js.hs-analytics.net": 43905,
+      "res4.applovin.com": 36383,
+      "us-assets.i.posthog.com": 36248,
+      "js.hubspot.com": 31113,
+      "bzrcdn.openai.com": 28963,
+      "cdn.claydar.com": 25427,
+      "js.hs-banner.com": 20133
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 43906,
+     "control": {
+      "page": 20155810,
+      "third_party": 13807182,
+      "listed": 2185962
+     },
+     "ablated": {
+      "page": 20111671,
+      "third_party": 13763019,
+      "listed": 2141581
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hs-analytics.net": 43906,
+      "region1.analytics.google.com": -3868,
+      "region1.google-analytics.com": 2360,
+      "track.hubspot.com": 1331,
+      "cm.g.doubleclick.net": 760,
+      "www.google.com": -552,
+      "pagead2.googlesyndication.com": 552,
+      "ad.doubleclick.net": -551,
+      "www.googletagmanager.com": 306,
+      "px4.ads.linkedin.com": -268,
+      "px.ads.linkedin.com": 268,
+      "us-assets.i.posthog.com": -147
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1827470,
+     233
+    ],
+    "third_party": [
+     1775225,
+     257
+    ],
+    "listed": [
+     688696,
+     475
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 913851.5,
+     "sd": 1292051.6735349635,
+     "se": 913618.4999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 887741,
+     "sd": 1255091.909189124,
+     "se": 887484.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 344585.5,
+     "sd": 486645.73605498695,
+     "se": 344110.5
+    }
+   },
+   "own_mean": 43905.5
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "snap.licdn.com",
+  "js.hs-analytics.net"
+ ],
+ "category": "productivity",
+ "domain": "applovin.com",
+ "n_blocked_tracking": 258.0,
+ "elapsed_s": 131.2
+}

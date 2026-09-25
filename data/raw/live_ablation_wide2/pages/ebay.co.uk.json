@@ -1,0 +1,121 @@
+{
+ "url": "https://ebay.co.uk/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "cas.avalon.perfdrive.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 998,
+     "control": {
+      "page": 2648435,
+      "third_party": 1946294,
+      "listed": 1076147
+     },
+     "ablated": {
+      "page": 4059733,
+      "third_party": 3326108,
+      "listed": 2456606
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "i.ebayimg.com": -1380037,
+      "www.ebay.co.uk": -31462,
+      "svcs.ebay.com": -1421,
+      "cas.avalon.perfdrive.com": 998,
+      "unpkg.com": 645,
+      "devicebind.ebay.co.uk": -20,
+      "backstory.ebay.co.uk": -2,
+      "sherlock-events-sampler.ebay.com": 1,
+      "ir.ebaystatic.com": 0,
+      "monitor.ebay.com": 0,
+      "fonts.gstatic.com": 0,
+      "rover.ebay.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 998,
+     "control": {
+      "page": 4059800,
+      "third_party": 3326533,
+      "listed": 2456153
+     },
+     "ablated": {
+      "page": 4059996,
+      "third_party": 3327009,
+      "listed": 2456590
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "svcs.ebay.com": -1426,
+      "cas.avalon.perfdrive.com": 998,
+      "www.ebay.co.uk": 236,
+      "unpkg.com": -39,
+      "ebay.co.uk": 34,
+      "ir.ebaystatic.com": -12,
+      "devicebind.ebay.co.uk": 10,
+      "rover.ebay.com": 2,
+      "sherlock-events-sampler.ebay.com": 1,
+      "monitor.ebay.com": 0,
+      "fonts.gstatic.com": 0,
+      "backstory.ebay.co.uk": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1412296,
+     -1194
+    ],
+    "third_party": [
+     -1380812,
+     -1474
+    ],
+    "listed": [
+     -1381457,
+     -1435
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -706745,
+     "sd": 997799.7931458995,
+     "se": 705550.9999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -691143,
+     "sd": 975339.2533482901,
+     "se": 689669.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": -691446,
+     "sd": 975822.9143866217,
+     "se": 690011.0
+    }
+   },
+   "own_mean": 998
+  }
+ },
+ "candidates": [
+  "cas.avalon.perfdrive.com"
+ ],
+ "category": "shopping",
+ "domain": "ebay.co.uk",
+ "n_blocked_tracking": 20.0,
+ "elapsed_s": 35.5
+}

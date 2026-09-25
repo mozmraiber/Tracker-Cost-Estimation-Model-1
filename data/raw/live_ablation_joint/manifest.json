@@ -1,0 +1,168 @@
+{
+ "written": "2026-09-24T16:49:23",
+ "rule": "pooled ten-pass paired_pages.csv; n_blocked_tracking >= 5; top 3 per hand-labelled page category by n_blocked_tracking",
+ "params": {
+  "out": "data/raw/live_ablation_joint",
+  "per_category": 3,
+  "min_blocks": 5,
+  "hosts": 3,
+  "reps": 2,
+  "aa_reps": 0,
+  "timeout_s": 45,
+  "settle_s": 5.0,
+  "browser_every": 5,
+  "joint": true,
+  "limit": 0,
+  "force": false,
+  "rebuild_tables": false
+ },
+ "pages": [
+  {
+   "url": "https://ted.com/",
+   "domain": "ted.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 124.0,
+   "bytes_saved_tracking": 4145570.0
+  },
+  {
+   "url": "https://disneyplus.com/",
+   "domain": "disneyplus.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 94.0,
+   "bytes_saved_tracking": 21832.0
+  },
+  {
+   "url": "https://dailymotion.com/",
+   "domain": "dailymotion.com",
+   "category": "entertainment",
+   "n_blocked_tracking": 90.0,
+   "bytes_saved_tracking": 305766.0
+  },
+  {
+   "url": "https://amzn.to/",
+   "domain": "amzn.to",
+   "category": "infrastructure",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 299829.0
+  },
+  {
+   "url": "https://fwmrm.net/",
+   "domain": "fwmrm.net",
+   "category": "infrastructure",
+   "n_blocked_tracking": 190.0,
+   "bytes_saved_tracking": 3471379.0
+  },
+  {
+   "url": "https://no-ip.com/",
+   "domain": "no-ip.com",
+   "category": "infrastructure",
+   "n_blocked_tracking": 130.0,
+   "bytes_saved_tracking": 4196387.0
+  },
+  {
+   "url": "https://nbcnews.com/",
+   "domain": "nbcnews.com",
+   "category": "news",
+   "n_blocked_tracking": 360.0,
+   "bytes_saved_tracking": 22283302.0
+  },
+  {
+   "url": "https://mlb.com/",
+   "domain": "mlb.com",
+   "category": "news",
+   "n_blocked_tracking": 336.0,
+   "bytes_saved_tracking": 1587463.0
+  },
+  {
+   "url": "https://uol.com.br/",
+   "domain": "uol.com.br",
+   "category": "news",
+   "n_blocked_tracking": 308.0,
+   "bytes_saved_tracking": 6233097.0
+  },
+  {
+   "url": "https://att.com/",
+   "domain": "att.com",
+   "category": "productivity",
+   "n_blocked_tracking": 555.0,
+   "bytes_saved_tracking": 7006429.0
+  },
+  {
+   "url": "https://amazonalexa.com/",
+   "domain": "amazonalexa.com",
+   "category": "productivity",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 281518.0
+  },
+  {
+   "url": "https://braze.com/",
+   "domain": "braze.com",
+   "category": "productivity",
+   "n_blocked_tracking": 290.0,
+   "bytes_saved_tracking": 18130562.0
+  },
+  {
+   "url": "https://creativecommons.org/",
+   "domain": "creativecommons.org",
+   "category": "reference",
+   "n_blocked_tracking": 60.0,
+   "bytes_saved_tracking": 33260.0
+  },
+  {
+   "url": "https://harvard.edu/",
+   "domain": "harvard.edu",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 2065958.0
+  },
+  {
+   "url": "https://nist.gov/",
+   "domain": "nist.gov",
+   "category": "reference",
+   "n_blocked_tracking": 50.0,
+   "bytes_saved_tracking": 359534.0
+  },
+  {
+   "url": "https://amazon.ca/",
+   "domain": "amazon.ca",
+   "category": "shopping",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 344138.0
+  },
+  {
+   "url": "https://amazon.com.br/",
+   "domain": "amazon.com.br",
+   "category": "shopping",
+   "n_blocked_tracking": 410.0,
+   "bytes_saved_tracking": 271710.0
+  },
+  {
+   "url": "https://fiverr.com/",
+   "domain": "fiverr.com",
+   "category": "shopping",
+   "n_blocked_tracking": 360.0,
+   "bytes_saved_tracking": 3423271.0
+  },
+  {
+   "url": "https://livejournal.com/",
+   "domain": "livejournal.com",
+   "category": "social",
+   "n_blocked_tracking": 240.0,
+   "bytes_saved_tracking": 6035972.0
+  },
+  {
+   "url": "https://scribd.com/",
+   "domain": "scribd.com",
+   "category": "social",
+   "n_blocked_tracking": 150.0,
+   "bytes_saved_tracking": 230540.0
+  },
+  {
+   "url": "https://imgur.com/",
+   "domain": "imgur.com",
+   "category": "social",
+   "n_blocked_tracking": 108.0,
+   "bytes_saved_tracking": 6521822.0
+  }
+ ]
+}

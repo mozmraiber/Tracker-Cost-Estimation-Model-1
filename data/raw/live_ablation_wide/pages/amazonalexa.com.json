@@ -1,0 +1,119 @@
+{
+ "url": "https://amazonalexa.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s.amazon-adsystem.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23952,
+     "control": {
+      "page": 7387986,
+      "third_party": 7387671,
+      "listed": 57072
+     },
+     "ablated": {
+      "page": 7331970,
+      "third_party": 7331655,
+      "listed": 4175
+     },
+     "n_aborted": 1,
+     "moved": {
+      "s.amazon-adsystem.com": 23952,
+      "cm.g.doubleclick.net": 7502,
+      "dsum-sec.casalemedia.com": 2308,
+      "dpm.demdex.net": 1781,
+      "www.amazon.com": 1569,
+      "x.bidswitch.net": 1474,
+      "capi.connatix.com": 1428,
+      "rtb-csync.smartadserver.com": 1293,
+      "uipglob.semasio.net": 1270,
+      "www.imdb.com": 1258,
+      "user-sync.fwmrm.net": 962,
+      "lciapi.ninthdecimal.com": 926
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 23952,
+     "control": {
+      "page": 7388711,
+      "third_party": 7388396,
+      "listed": 57499
+     },
+     "ablated": {
+      "page": 7511467,
+      "third_party": 7511152,
+      "listed": 4175
+     },
+     "n_aborted": 1,
+     "moved": {
+      "m.media-amazon.com": -177221,
+      "s.amazon-adsystem.com": 23952,
+      "cm.g.doubleclick.net": 7622,
+      "dsum-sec.casalemedia.com": 2306,
+      "dpm.demdex.net": 1782,
+      "capi.connatix.com": 1428,
+      "x.bidswitch.net": 1424,
+      "rtb-csync.smartadserver.com": 1294,
+      "www.imdb.com": 1278,
+      "uipglob.semasio.net": 1270,
+      "user-sync.fwmrm.net": 962,
+      "lciapi.ninthdecimal.com": 926
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     32064,
+     -146708
+    ],
+    "third_party": [
+     32064,
+     -146708
+    ],
+    "listed": [
+     28945,
+     29372
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -57322,
+     "sd": 126410.89348628148,
+     "se": 89386.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -57322,
+     "sd": 126410.89348628148,
+     "se": 89386.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 29158.5,
+     "sd": 301.9345955666558,
+     "se": 213.49999999999997
+    }
+   },
+   "own_mean": 23952
+  }
+ },
+ "candidates": [
+  "s.amazon-adsystem.com"
+ ],
+ "category": "productivity",
+ "domain": "amazonalexa.com",
+ "n_blocked_tracking": 410.0,
+ "elapsed_s": 37.5
+}

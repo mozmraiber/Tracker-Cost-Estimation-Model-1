@@ -1,0 +1,543 @@
+{
+ "url": "https://fiverr.com/",
+ "reps": 3,
+ "aa_reps": 2,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894150,
+      "third_party": 878096,
+      "listed": 625320
+     },
+     "ablated": {
+      "page": 894174,
+      "third_party": 878092,
+      "listed": 625318
+     },
+     "n_aborted": 0,
+     "moved": {
+      "www.fiverr.com": -30,
+      "ift.px-cloud.net": 4,
+      "crcldu.com": 2,
+      "fiverr.com": 2,
+      "captcha.px-cdn.net": -1,
+      "client.px-cloud.net": -1,
+      "collector-pxk3bezzfo.px-cloud.net": 0,
+      "ri.px-cloud.net": 0,
+      "dvp.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "collector-pxk3bezzfo.px-client.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894869,
+      "third_party": 878793,
+      "listed": 626019
+     },
+     "ablated": {
+      "page": 894123,
+      "third_party": 878090,
+      "listed": 625316
+     },
+     "n_aborted": 0,
+     "moved": {
+      "js.px-cloud.net": 698,
+      "www.fiverr.com": 41,
+      "ift.px-cloud.net": 4,
+      "fiverr.com": 2,
+      "client.px-cloud.net": 1,
+      "collector-pxk3bezzfo.px-cloud.net": 0,
+      "ri.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "dvp.px-cloud.net": 0,
+      "j.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "captcha.px-cdn.net": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894173,
+      "third_party": 878090,
+      "listed": 625316
+     },
+     "ablated": {
+      "page": 894192,
+      "third_party": 878119,
+      "listed": 625320
+     },
+     "n_aborted": 0,
+     "moved": {
+      "collector-pxk3bezzfo.px-client.net": -25,
+      "www.fiverr.com": 8,
+      "ift.px-cloud.net": -4,
+      "fiverr.com": 2,
+      "collector-pxk3bezzfo.px-cloud.net": 0,
+      "ri.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "dvp.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "captcha.px-cdn.net": 0,
+      "client.px-cloud.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -24,
+     746,
+     -19
+    ],
+    "third_party": [
+     4,
+     703,
+     -29
+    ],
+    "listed": [
+     2,
+     703,
+     -4
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": 234.33333333333334,
+     "sd": 443.1233838710538,
+     "se": 255.8374049621708
+    },
+    "third_party": {
+     "n": 3,
+     "mean": 226,
+     "sd": 413.42351166811983,
+     "se": 238.6901757509094
+    },
+    "listed": {
+     "n": 3,
+     "mean": 233.66666666666666,
+     "sd": 406.4656607062069,
+     "se": 234.67305862506765
+    }
+   },
+   "own_mean": 0
+  },
+  "cdn.cookielaw.org": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894195,
+      "third_party": 878115,
+      "listed": 625316
+     },
+     "ablated": {
+      "page": 895281,
+      "third_party": 879994,
+      "listed": 627220
+     },
+     "n_aborted": 0,
+     "moved": {
+      "collector-pxk3bezzfo.px-cloud.net": -1900,
+      "fiverr.com": 795,
+      "collector-pxk3bezzfo.px-client.net": 25,
+      "ift.px-cloud.net": -4,
+      "www.fiverr.com": -2,
+      "ri.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "dvp.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "captcha.px-cdn.net": 0,
+      "client.px-cloud.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894189,
+      "third_party": 878113,
+      "listed": 625312
+     },
+     "ablated": {
+      "page": 894211,
+      "third_party": 878144,
+      "listed": 625370
+     },
+     "n_aborted": 0,
+     "moved": {
+      "collector-pxk3bezzfo.px-cloud.net": -50,
+      "collector-pxk3bezzfo.px-client.net": 25,
+      "client.px-cloud.net": -8,
+      "fiverr.com": 6,
+      "www.fiverr.com": 3,
+      "crcldu.com": 2,
+      "ri.px-cloud.net": 0,
+      "dvp.px-cloud.net": 0,
+      "ift.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "captcha.px-cdn.net": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 893452,
+      "third_party": 878165,
+      "listed": 625362
+     },
+     "ablated": {
+      "page": 895707,
+      "third_party": 879623,
+      "listed": 626843
+     },
+     "n_aborted": 0,
+     "moved": {
+      "ift.px-cloud.net": -1478,
+      "fiverr.com": -789,
+      "collector-pxk3bezzfo.px-client.net": 25,
+      "www.fiverr.com": -8,
+      "crcldu.com": -2,
+      "client.px-cloud.net": -2,
+      "captcha.px-cdn.net": -1,
+      "collector-pxk3bezzfo.px-cloud.net": 0,
+      "ri.px-cloud.net": 0,
+      "dvp.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1086,
+     -22,
+     -2255
+    ],
+    "third_party": [
+     -1879,
+     -31,
+     -1458
+    ],
+    "listed": [
+     -1904,
+     -58,
+     -1481
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": -1121,
+     "sd": 1116.9113662238378,
+     "se": 644.8490779502855
+    },
+    "third_party": {
+     "n": 3,
+     "mean": -1122.6666666666667,
+     "sd": 968.56199250917,
+     "se": 559.1995271020096
+    },
+    "listed": {
+     "n": 3,
+     "mean": -1147.6666666666667,
+     "sd": 967.0896201145648,
+     "se": 558.3494525036369
+    }
+   },
+   "own_mean": 0
+  },
+  "53e1270541f5.cdn4.forter.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894186,
+      "third_party": 878109,
+      "listed": 625310
+     },
+     "ablated": {
+      "page": 894182,
+      "third_party": 878109,
+      "listed": 625335
+     },
+     "n_aborted": 0,
+     "moved": {
+      "collector-pxk3bezzfo.px-cloud.net": -25,
+      "collector-pxk3bezzfo.px-client.net": 25,
+      "fiverr.com": 2,
+      "www.fiverr.com": 2,
+      "ri.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "dvp.px-cloud.net": 0,
+      "ift.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "captcha.px-cdn.net": 0,
+      "client.px-cloud.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894917,
+      "third_party": 878837,
+      "listed": 626062
+     },
+     "ablated": {
+      "page": 896776,
+      "third_party": 880691,
+      "listed": 627914
+     },
+     "n_aborted": 0,
+     "moved": {
+      "collector-pxk3bezzfo.px-cloud.net": -1850,
+      "www.fiverr.com": -5,
+      "ri.px-cloud.net": -2,
+      "crcldu.com": -2,
+      "dvp.px-cloud.net": 0,
+      "j.px-cloud.net": 0,
+      "ift.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "captcha.px-cdn.net": 0,
+      "fiverr.com": 0,
+      "client.px-cloud.net": 0
+     }
+    },
+    {
+     "rep": 2,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 0,
+     "control": {
+      "page": 894171,
+      "third_party": 878097,
+      "listed": 625322
+     },
+     "ablated": {
+      "page": 894190,
+      "third_party": 878114,
+      "listed": 625339
+     },
+     "n_aborted": 0,
+     "moved": {
+      "collector-pxk3bezzfo.px-cloud.net": -17,
+      "www.fiverr.com": -4,
+      "fiverr.com": 2,
+      "ri.px-cloud.net": 0,
+      "crcldu.com": 0,
+      "dvp.px-cloud.net": 0,
+      "ift.px-cloud.net": 0,
+      "js.px-cloud.net": 0,
+      "fst-ec.perimeterx.net": 0,
+      "captcha.px-cdn.net": 0,
+      "client.px-cloud.net": 0,
+      "collector-pxk3bezzfo.px-client.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     4,
+     -1859,
+     -19
+    ],
+    "third_party": [
+     0,
+     -1854,
+     -17
+    ],
+    "listed": [
+     -25,
+     -1852,
+     -17
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 3,
+     "mean": -624.6666666666666,
+     "sd": 1069.0258805722774,
+     "se": 617.2023799190811
+    },
+    "third_party": {
+     "n": 3,
+     "mean": -623.6666666666666,
+     "sd": 1065.5338255228378,
+     "se": 615.1862409962622
+    },
+    "listed": {
+     "n": 3,
+     "mean": -631.3333333333334,
+     "sd": 1057.1359105305871,
+     "se": 610.3377025148546
+    }
+   },
+   "own_mean": 0
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "cdn.cookielaw.org",
+  "53e1270541f5.cdn4.forter.com"
+ ],
+ "aa": {
+  "reps": [
+   {
+    "rep": 0,
+    "order": [
+     "control",
+     "ablated"
+    ],
+    "own": 0,
+    "control": {
+     "page": 894164,
+     "third_party": 878121,
+     "listed": 625322
+    },
+    "ablated": {
+     "page": 894169,
+     "third_party": 878090,
+     "listed": 625316
+    },
+    "n_aborted": 0,
+    "moved": {
+     "www.fiverr.com": -36,
+     "collector-pxk3bezzfo.px-client.net": 25,
+     "ift.px-cloud.net": 4,
+     "ri.px-cloud.net": 2,
+     "collector-pxk3bezzfo.px-cloud.net": 0,
+     "crcldu.com": 0,
+     "dvp.px-cloud.net": 0,
+     "js.px-cloud.net": 0,
+     "fst-ec.perimeterx.net": 0,
+     "captcha.px-cdn.net": 0,
+     "fiverr.com": 0,
+     "client.px-cloud.net": 0
+    }
+   },
+   {
+    "rep": 1,
+    "order": [
+     "ablated",
+     "control"
+    ],
+    "own": 0,
+    "control": {
+     "page": 894138,
+     "third_party": 878096,
+     "listed": 625320
+    },
+    "ablated": {
+     "page": 894171,
+     "third_party": 878094,
+     "listed": 625320
+    },
+    "n_aborted": 0,
+    "moved": {
+     "www.fiverr.com": -39,
+     "fiverr.com": 4,
+     "crcldu.com": 2,
+     "collector-pxk3bezzfo.px-cloud.net": 0,
+     "ri.px-cloud.net": 0,
+     "dvp.px-cloud.net": 0,
+     "ift.px-cloud.net": 0,
+     "js.px-cloud.net": 0,
+     "fst-ec.perimeterx.net": 0,
+     "captcha.px-cdn.net": 0,
+     "client.px-cloud.net": 0,
+     "collector-pxk3bezzfo.px-client.net": 0
+    }
+   }
+  ],
+  "diffs": {
+   "page": [
+    -5,
+    -33
+   ],
+   "third_party": [
+    31,
+    2
+   ],
+   "listed": [
+    6,
+    0
+   ]
+  },
+  "summary": {
+   "page": {
+    "n": 2,
+    "mean": -19,
+    "sd": 19.79898987322333,
+    "se": 13.999999999999998
+   },
+   "third_party": {
+    "n": 2,
+    "mean": 16.5,
+    "sd": 20.506096654409877,
+    "se": 14.499999999999998
+   },
+   "listed": {
+    "n": 2,
+    "mean": 3,
+    "sd": 4.242640687119285,
+    "se": 2.9999999999999996
+   }
+  }
+ },
+ "category": "shopping",
+ "domain": "fiverr.com",
+ "n_blocked_tracking": 360.0,
+ "elapsed_s": 137.0
+}

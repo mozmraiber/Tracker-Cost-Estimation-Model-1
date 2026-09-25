@@ -1,0 +1,117 @@
+{
+ "url": "https://chess.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o90235.ingest.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 2943230,
+      "third_party": 609016,
+      "listed": 549570
+     },
+     "ablated": {
+      "page": 2939827,
+      "third_party": 608132,
+      "listed": 549076
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "assets-ds.chess.com": 1304,
+      "www.chess.com": 1194,
+      "o90235.ingest.sentry.io": 494,
+      "challenges.cloudflare.com": 391,
+      "assets-configurator.chess.com": 29,
+      "api.chess.com": -8,
+      "images.chesscomfiles.com": -1,
+      "chess.com": 0,
+      "geolocation.onetrust.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 2943387,
+      "third_party": 608570,
+      "listed": 549570
+     },
+     "ablated": {
+      "page": 2941842,
+      "third_party": 608524,
+      "listed": 549076
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.chess.com": 1467,
+      "o90235.ingest.sentry.io": 494,
+      "challenges.cloudflare.com": -448,
+      "assets-ds.chess.com": 21,
+      "assets-configurator.chess.com": 11,
+      "chess.com": -4,
+      "api.chess.com": 4,
+      "geolocation.onetrust.com": 0,
+      "images.chesscomfiles.com": 0,
+      "cdn.cookielaw.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2909,
+     1051
+    ],
+    "third_party": [
+     390,
+     -448
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1980,
+     "sd": 1313.8043994446052,
+     "se": 928.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -29,
+     "sd": 592.5554826343268,
+     "se": 419.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "o90235.ingest.sentry.io"
+ ],
+ "category": "entertainment",
+ "domain": "chess.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 30.0
+}

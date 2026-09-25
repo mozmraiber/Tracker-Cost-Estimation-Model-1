@@ -1,0 +1,111 @@
+{
+ "url": "https://substack.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o350427.ingest.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 41292957,
+      "third_party": 41232748,
+      "listed": 494
+     },
+     "ablated": {
+      "page": 41289916,
+      "third_party": 41232256,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "substack.com": 2549,
+      "o350427.ingest.sentry.io": 494,
+      "stream.mux.com": -2,
+      "chunk-oci-us-phoenix-1-vop1.edgemv.mux.com": 0,
+      "substack-video.s3.amazonaws.com": 0,
+      "manifest-oci-us-phoenix-1-vop1.edgemv.mux.com": 0,
+      "substackcdn.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 31721062,
+      "third_party": 31663784,
+      "listed": 494
+     },
+     "ablated": {
+      "page": 62526173,
+      "third_party": 62468453,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "moved": {
+      "chunk-oci-us-phoenix-1-vop1.edgemv.mux.com": -30805166,
+      "o350427.ingest.sentry.io": 494,
+      "substack.com": -442,
+      "stream.mux.com": 3,
+      "substack-video.s3.amazonaws.com": 0,
+      "manifest-oci-us-phoenix-1-vop1.edgemv.mux.com": 0,
+      "substackcdn.com": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2547,
+     -30805605
+    ],
+    "third_party": [
+     -2,
+     -30805163
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -15401529,
+     "sd": 21784653.195025895,
+     "se": 15404075.999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -15402582.5,
+     "sd": 21782538.238643367,
+     "se": 15402580.499999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 494
+  }
+ },
+ "candidates": [
+  "o350427.ingest.sentry.io"
+ ],
+ "category": "social",
+ "domain": "substack.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 47.6
+}

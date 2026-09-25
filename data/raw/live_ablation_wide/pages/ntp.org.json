@@ -1,0 +1,331 @@
+{
+ "url": "https://ntp.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 23315,
+     "control": {
+      "page": 681884,
+      "third_party": 531167,
+      "listed": 75245
+     },
+     "ablated": {
+      "page": 658924,
+      "third_party": 507756,
+      "listed": 51837
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 23315,
+      "e.clarity.ms": 550,
+      "k.clarity.ms": -550,
+      "ntp.org": -451,
+      "ep2.adtrafficquality.google": 171,
+      "ep1.adtrafficquality.google": -78,
+      "cse.google.com": 3,
+      "fonts.googleapis.com": 0,
+      "scripts.clarity.ms": 0,
+      "www.ntp.org": 0,
+      "fonts.gstatic.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 25223,
+     "control": {
+      "page": 684442,
+      "third_party": 533274,
+      "listed": 77356
+     },
+     "ablated": {
+      "page": 658919,
+      "third_party": 507751,
+      "listed": 51832
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 25223,
+      "k.clarity.ms": 550,
+      "l.clarity.ms": -550,
+      "ep2.adtrafficquality.google": 171,
+      "ep1.adtrafficquality.google": 171,
+      "www.clarity.ms": -41,
+      "cse.google.com": -1,
+      "ntp.org": 0,
+      "fonts.googleapis.com": 0,
+      "scripts.clarity.ms": 0,
+      "www.ntp.org": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -355,
+     300
+    ],
+    "third_party": [
+     96,
+     300
+    ],
+    "listed": [
+     93,
+     301
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -27.5,
+     "sd": 463.1549416771886,
+     "se": 327.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 198,
+     "sd": 144.2497833620557,
+     "se": 101.99999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 197,
+     "sd": 147.07821048680188,
+     "se": 103.99999999999999
+    }
+   },
+   "own_mean": 24269
+  },
+  "ep1.adtrafficquality.google": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 8598,
+     "control": {
+      "page": 682293,
+      "third_party": 531125,
+      "listed": 75205
+     },
+     "ablated": {
+      "page": 635461,
+      "third_party": 484293,
+      "listed": 28372
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 23315,
+      "ep2.adtrafficquality.google": 14645,
+      "ep1.adtrafficquality.google": 8598,
+      "e.clarity.ms": 550,
+      "n.clarity.ms": -275,
+      "cse.google.com": -1,
+      "ntp.org": 0,
+      "fonts.googleapis.com": 0,
+      "scripts.clarity.ms": 0,
+      "www.ntp.org": 0,
+      "fonts.gstatic.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 8614,
+     "control": {
+      "page": 682307,
+      "third_party": 531139,
+      "listed": 75221
+     },
+     "ablated": {
+      "page": 635464,
+      "third_party": 484296,
+      "listed": 28372
+     },
+     "n_aborted": 1,
+     "moved": {
+      "pagead2.googlesyndication.com": 23315,
+      "ep2.adtrafficquality.google": 14645,
+      "ep1.adtrafficquality.google": 8614,
+      "j.clarity.ms": 550,
+      "i.clarity.ms": -275,
+      "cse.google.com": -5,
+      "www.google.com": -1,
+      "ntp.org": 0,
+      "fonts.googleapis.com": 0,
+      "scripts.clarity.ms": 0,
+      "www.ntp.org": 0,
+      "fonts.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     38234,
+     38229
+    ],
+    "third_party": [
+     38234,
+     38229
+    ],
+    "listed": [
+     38235,
+     38235
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 38231.5,
+     "sd": 3.5355339059327378,
+     "se": 2.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 38231.5,
+     "sd": 3.5355339059327378,
+     "se": 2.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 38235,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 8606
+  },
+  "www.clarity.ms": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1153,
+     "control": {
+      "page": 681982,
+      "third_party": 531265,
+      "listed": 75345
+     },
+     "ablated": {
+      "page": 654557,
+      "third_party": 503389,
+      "listed": 47470
+     },
+     "n_aborted": 1,
+     "moved": {
+      "scripts.clarity.ms": 26110,
+      "www.clarity.ms": 1153,
+      "j.clarity.ms": 550,
+      "ntp.org": -451,
+      "ep1.adtrafficquality.google": 62,
+      "cse.google.com": 1,
+      "fonts.googleapis.com": 0,
+      "ep2.adtrafficquality.google": 0,
+      "www.ntp.org": 0,
+      "fonts.gstatic.com": 0,
+      "www.googletagmanager.com": 0,
+      "pagead2.googlesyndication.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1153,
+     "control": {
+      "page": 682176,
+      "third_party": 531008,
+      "listed": 75294
+     },
+     "ablated": {
+      "page": 656088,
+      "third_party": 505371,
+      "listed": 49452
+     },
+     "n_aborted": 1,
+     "moved": {
+      "scripts.clarity.ms": 26110,
+      "pagead2.googlesyndication.com": -1908,
+      "www.clarity.ms": 1153,
+      "i.clarity.ms": 550,
+      "ntp.org": 451,
+      "cse.google.com": -205,
+      "ep1.adtrafficquality.google": -63,
+      "fonts.googleapis.com": 0,
+      "ep2.adtrafficquality.google": 0,
+      "www.ntp.org": 0,
+      "fonts.gstatic.com": 0,
+      "www.googletagmanager.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     26272,
+     24935
+    ],
+    "third_party": [
+     26723,
+     24484
+    ],
+    "listed": [
+     26722,
+     24689
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 25603.5,
+     "sd": 945.4017664464141,
+     "se": 668.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 25603.5,
+     "sd": 1583.2120830766798,
+     "se": 1119.4999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 25705.5,
+     "sd": 1437.548086152251,
+     "se": 1016.4999999999999
+    }
+   },
+   "own_mean": 1153
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com",
+  "ep1.adtrafficquality.google",
+  "www.clarity.ms"
+ ],
+ "category": "infrastructure",
+ "domain": "ntp.org",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 109.2
+}

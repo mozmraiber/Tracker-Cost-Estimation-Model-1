@@ -1,0 +1,209 @@
+{
+ "url": "https://dyndns.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "dpm.demdex.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1037,
+     "control": {
+      "page": 563701,
+      "third_party": 563188,
+      "listed": 212293
+     },
+     "ablated": {
+      "page": 562637,
+      "third_party": 562124,
+      "listed": 211261
+     },
+     "n_aborted": 3,
+     "moved": {
+      "dpm.demdex.net": 1037,
+      "account.dyn.com": 32,
+      "mpsnare.iesnare.com": -5,
+      "www.oracle.com": 0,
+      "img03.en25.com": 0,
+      "dyndns.org": 0,
+      "oracle.sc.omtrdc.net": 0,
+      "consent.trustarc.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1038,
+     "control": {
+      "page": 563704,
+      "third_party": 563191,
+      "listed": 212295
+     },
+     "ablated": {
+      "page": 562670,
+      "third_party": 562157,
+      "listed": 211261
+     },
+     "n_aborted": 3,
+     "moved": {
+      "dpm.demdex.net": 1038,
+      "mpsnare.iesnare.com": -4,
+      "www.oracle.com": 0,
+      "img03.en25.com": 0,
+      "dyndns.org": 0,
+      "account.dyn.com": 0,
+      "oracle.sc.omtrdc.net": 0,
+      "consent.trustarc.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     27,
+     -4
+    ],
+    "third_party": [
+     27,
+     -4
+    ],
+    "listed": [
+     -5,
+     -4
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 11.5,
+     "sd": 21.920310216782973,
+     "se": 15.499999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 11.5,
+     "sd": 21.920310216782973,
+     "se": 15.499999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": -4.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 1037.5
+  },
+  "oracle.sc.omtrdc.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 987,
+     "control": {
+      "page": 563737,
+      "third_party": 563224,
+      "listed": 212300
+     },
+     "ablated": {
+      "page": 562715,
+      "third_party": 562202,
+      "listed": 211308
+     },
+     "n_aborted": 2,
+     "moved": {
+      "oracle.sc.omtrdc.net": 987,
+      "account.dyn.com": 32,
+      "mpsnare.iesnare.com": 3,
+      "www.oracle.com": -2,
+      "dpm.demdex.net": 2,
+      "img03.en25.com": 0,
+      "dyndns.org": 0,
+      "consent.trustarc.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 987,
+     "control": {
+      "page": 563201,
+      "third_party": 563201,
+      "listed": 212302
+     },
+     "ablated": {
+      "page": 562712,
+      "third_party": 562199,
+      "listed": 211307
+     },
+     "n_aborted": 2,
+     "moved": {
+      "oracle.sc.omtrdc.net": 987,
+      "dyndns.org": -513,
+      "account.dyn.com": 9,
+      "mpsnare.iesnare.com": 7,
+      "www.oracle.com": -2,
+      "dpm.demdex.net": 1,
+      "img03.en25.com": 0,
+      "consent.trustarc.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     35,
+     -498
+    ],
+    "third_party": [
+     35,
+     15
+    ],
+    "listed": [
+     5,
+     8
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -231.5,
+     "sd": 376.8879143724298,
+     "se": 266.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 25,
+     "sd": 14.142135623730951,
+     "se": 10.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 6.5,
+     "sd": 2.1213203435596424,
+     "se": 1.4999999999999998
+    }
+   },
+   "own_mean": 987
+  }
+ },
+ "candidates": [
+  "dpm.demdex.net",
+  "oracle.sc.omtrdc.net"
+ ],
+ "category": "infrastructure",
+ "domain": "dyndns.org",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 76.8
+}

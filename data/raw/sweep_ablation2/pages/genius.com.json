@@ -1,0 +1,456 @@
+{
+ "url": "https://genius.com/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "c.amazon-adsystem.com",
+  "static.chartbeat.com",
+  "secure.quantserve.com",
+  "sb.scorecardresearch.com",
+  "tag.wknd.ai"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "sb.scorecardresearch.com",
+    "static.chartbeat.com",
+    "c.amazon-adsystem.com",
+    "securepubads.g.doubleclick.net",
+    "tag.wknd.ai",
+    "secure.quantserve.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2219528,
+      "third_party": 1422051,
+      "listed": 594965
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "sb.scorecardresearch.com"
+     ],
+     "bytes": {
+      "page": 2213696,
+      "third_party": 1416029,
+      "listed": 589336
+     },
+     "own": 7575,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 5832,
+      "third_party": 6022,
+      "listed": 5629
+     },
+     "cascade": {
+      "page": -1743,
+      "third_party": -1553,
+      "listed": -1946
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 2193347,
+      "third_party": 1396775,
+      "listed": 570080
+     },
+     "own": 24674,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 26181,
+      "third_party": 25276,
+      "listed": 24885
+     },
+     "cascade": {
+      "page": 1507,
+      "third_party": 602,
+      "listed": 211
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 2091671,
+      "third_party": 1294759,
+      "listed": 468071
+     },
+     "own": 123537,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 127857,
+      "third_party": 127292,
+      "listed": 126894
+     },
+     "cascade": {
+      "page": 4320,
+      "third_party": 3755,
+      "listed": 3357
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 1834935,
+      "third_party": 1038124,
+      "listed": 211037
+     },
+     "own": 380602,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 384593,
+      "third_party": 383927,
+      "listed": 383928
+     },
+     "cascade": {
+      "page": 3991,
+      "third_party": 3325,
+      "listed": 3326
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "tag.wknd.ai"
+     ],
+     "bytes": {
+      "page": 1647777,
+      "third_party": 850620,
+      "listed": 24325
+     },
+     "own": 384012,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 571751,
+      "third_party": 571431,
+      "listed": 570640
+     },
+     "cascade": {
+      "page": 187739,
+      "third_party": 187419,
+      "listed": 186628
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "tag.wknd.ai",
+      "secure.quantserve.com"
+     ],
+     "bytes": {
+      "page": 1634043,
+      "third_party": 836273,
+      "listed": 9974
+     },
+     "own": 397030,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 585485,
+      "third_party": 585778,
+      "listed": 584991
+     },
+     "cascade": {
+      "page": 188455,
+      "third_party": 188748,
+      "listed": 187961
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "c.amazon-adsystem.com",
+    "tag.wknd.ai",
+    "static.chartbeat.com",
+    "secure.quantserve.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2219175,
+      "third_party": 1422391,
+      "listed": 595229
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "sb.scorecardresearch.com"
+     ],
+     "bytes": {
+      "page": 2211248,
+      "third_party": 1413622,
+      "listed": 586931
+     },
+     "own": 7575,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 7927,
+      "third_party": 8769,
+      "listed": 8298
+     },
+     "cascade": {
+      "page": 352,
+      "third_party": 1194,
+      "listed": 723
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 1954384,
+      "third_party": 1156742,
+      "listed": 329739
+     },
+     "own": 264827,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 264791,
+      "third_party": 265649,
+      "listed": 265490
+     },
+     "cascade": {
+      "page": -36,
+      "third_party": 822,
+      "listed": 663
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 1852173,
+      "third_party": 1054656,
+      "listed": 228352
+     },
+     "own": 363690,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 367002,
+      "third_party": 367735,
+      "listed": 366877
+     },
+     "cascade": {
+      "page": 3312,
+      "third_party": 4045,
+      "listed": 3187
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com",
+      "tag.wknd.ai"
+     ],
+     "bytes": {
+      "page": 1665228,
+      "third_party": 868001,
+      "listed": 41689
+     },
+     "own": 367101,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 553947,
+      "third_party": 554390,
+      "listed": 553540
+     },
+     "cascade": {
+      "page": 186846,
+      "third_party": 187289,
+      "listed": 186439
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com",
+      "tag.wknd.ai",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 1648593,
+      "third_party": 851068,
+      "listed": 24325
+     },
+     "own": 384200,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 570582,
+      "third_party": 571323,
+      "listed": 570904
+     },
+     "cascade": {
+      "page": 186382,
+      "third_party": 187123,
+      "listed": 186704
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com",
+      "tag.wknd.ai",
+      "static.chartbeat.com",
+      "secure.quantserve.com"
+     ],
+     "bytes": {
+      "page": 1634046,
+      "third_party": 836260,
+      "listed": 9974
+     },
+     "own": 397218,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 585129,
+      "third_party": 586131,
+      "listed": 585255
+     },
+     "cascade": {
+      "page": 187911,
+      "third_party": 188913,
+      "listed": 188037
+     }
+    }
+   ]
+  }
+ ],
+ "category": "entertainment",
+ "domain": "genius.com",
+ "elapsed_s": 93.6
+}

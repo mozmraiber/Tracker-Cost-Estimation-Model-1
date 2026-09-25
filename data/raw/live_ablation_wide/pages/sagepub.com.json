@@ -1,0 +1,225 @@
+{
+ "url": "https://sagepub.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "eu-assets.i.posthog.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 135506,
+     "control": {
+      "page": 2145780,
+      "third_party": 579274,
+      "listed": 365753
+     },
+     "ablated": {
+      "page": 2022245,
+      "third_party": 454099,
+      "listed": 230247
+     },
+     "n_aborted": 1,
+     "moved": {
+      "eu-assets.i.posthog.com": 135506,
+      "csp-reporting.cloudflare.com": -10313,
+      "www.sagepub.com": -1650,
+      "h.clarity.ms": -558,
+      "o.clarity.ms": 558,
+      "analytics.sagepub.com": 10,
+      "offer.slgnt.us": -8,
+      "cdnjs.cloudflare.com": -8,
+      "site-seu.slgnt.us": -2,
+      "www.googletagmanager.com": 0,
+      "www.clarity.ms": 0,
+      "api.insight.sitefinity.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 135509,
+     "control": {
+      "page": 2143828,
+      "third_party": 579395,
+      "listed": 365866
+     },
+     "ablated": {
+      "page": 2010831,
+      "third_party": 443768,
+      "listed": 230247
+     },
+     "n_aborted": 1,
+     "moved": {
+      "eu-assets.i.posthog.com": 135509,
+      "www.sagepub.com": -2749,
+      "y.clarity.ms": 668,
+      "o.clarity.ms": -558,
+      "analytics.sagepub.com": 119,
+      "offer.slgnt.us": 4,
+      "cdnjs.cloudflare.com": 4,
+      "www.googletagmanager.com": 0,
+      "www.clarity.ms": 0,
+      "api.insight.sitefinity.com": 0,
+      "cdn-ukwest.onetrust.com": 0,
+      "geolocation.onetrust.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -11971,
+     -2512
+    ],
+    "third_party": [
+     -10331,
+     118
+    ],
+    "listed": [
+     0,
+     110
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -7241.5,
+     "sd": 6688.523043243553,
+     "se": 4729.499999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -5106.5,
+     "sd": 7388.558756618235,
+     "se": 5224.499999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 55,
+     "sd": 77.78174593052023,
+     "se": 55.0
+    }
+   },
+   "own_mean": 135507.5
+  },
+  "www.clarity.ms": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2306,
+     "control": {
+      "page": 2147996,
+      "third_party": 579382,
+      "listed": 365866
+     },
+     "ablated": {
+      "page": 2118874,
+      "third_party": 550255,
+      "listed": 336742
+     },
+     "n_aborted": 2,
+     "moved": {
+      "scripts.clarity.ms": 26110,
+      "www.clarity.ms": 2306,
+      "y.clarity.ms": 668,
+      "eu-assets.i.posthog.com": 40,
+      "www.sagepub.com": -9,
+      "analytics.sagepub.com": 4,
+      "site-seu.slgnt.us": 3,
+      "offer.slgnt.us": 0,
+      "www.googletagmanager.com": 0,
+      "api.insight.sitefinity.com": 0,
+      "cdn-ukwest.onetrust.com": 0,
+      "geolocation.onetrust.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2306,
+     "control": {
+      "page": 2145491,
+      "third_party": 579424,
+      "listed": 365905
+     },
+     "ablated": {
+      "page": 2116119,
+      "third_party": 550382,
+      "listed": 336852
+     },
+     "n_aborted": 2,
+     "moved": {
+      "scripts.clarity.ms": 26110,
+      "www.clarity.ms": 2306,
+      "y.clarity.ms": 668,
+      "www.sagepub.com": 344,
+      "eu-assets.i.posthog.com": -49,
+      "cdn-ukwest.onetrust.com": 18,
+      "analytics.sagepub.com": -14,
+      "cdnjs.cloudflare.com": -12,
+      "site-seu.slgnt.us": 1,
+      "offer.slgnt.us": 0,
+      "www.googletagmanager.com": 0,
+      "api.insight.sitefinity.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     26816,
+     27066
+    ],
+    "third_party": [
+     26821,
+     26736
+    ],
+    "listed": [
+     26818,
+     26747
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 26941,
+     "sd": 176.7766952966369,
+     "se": 125.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 26778.5,
+     "sd": 60.10407640085654,
+     "se": 42.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 26782.5,
+     "sd": 50.204581464244875,
+     "se": 35.5
+    }
+   },
+   "own_mean": 2306
+  }
+ },
+ "candidates": [
+  "eu-assets.i.posthog.com",
+  "www.clarity.ms"
+ ],
+ "category": "reference",
+ "domain": "sagepub.com",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 74.6
+}

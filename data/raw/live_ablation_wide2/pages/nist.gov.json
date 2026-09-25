@@ -1,0 +1,325 @@
+{
+ "url": "https://nist.gov/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 22848,
+     "control": {
+      "page": 6236586,
+      "third_party": 5746958,
+      "listed": 36095
+     },
+     "ablated": {
+      "page": 6212024,
+      "third_party": 5722419,
+      "listed": 12165
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 22848,
+      "bam.nr-data.net": 1082,
+      "www.googletagmanager.com": 1075,
+      "customer-ltx6ylk10sje63q6.cloudflarestream.com": -467,
+      "www.nist.gov": 23,
+      "time.gov": 1,
+      "region1.google-analytics.com": 0,
+      "static.cloudflareinsights.com": 0,
+      "nist.gov": 0,
+      "platform.dash.cloudflare.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 22849,
+     "control": {
+      "page": 10707409,
+      "third_party": 10217802,
+      "listed": 36096
+     },
+     "ablated": {
+      "page": 10683463,
+      "third_party": 10193772,
+      "listed": 12165
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 22849,
+      "bam.nr-data.net": 1082,
+      "customer-ltx6ylk10sje63q6.cloudflarestream.com": 96,
+      "www.nist.gov": -84,
+      "time.gov": 3,
+      "region1.google-analytics.com": 0,
+      "static.cloudflareinsights.com": 0,
+      "www.googletagmanager.com": 0,
+      "nist.gov": 0,
+      "platform.dash.cloudflare.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1714,
+     1097
+    ],
+    "third_party": [
+     1691,
+     1181
+    ],
+    "listed": [
+     1082,
+     1082
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1405.5,
+     "sd": 436.2848839920998,
+     "se": 308.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1436,
+     "sd": 360.62445840513925,
+     "se": 255.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1082,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 22848.5
+  },
+  "static.cloudflareinsights.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 6236236,
+      "third_party": 5746269,
+      "listed": 36096
+     },
+     "ablated": {
+      "page": 6224821,
+      "third_party": 5735547,
+      "listed": 25600
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "www.nist.gov": 693,
+      "www.googletagmanager.com": 180,
+      "customer-ltx6ylk10sje63q6.cloudflarestream.com": 46,
+      "js-agent.newrelic.com": 1,
+      "region1.google-analytics.com": 0,
+      "bam.nr-data.net": 0,
+      "time.gov": 0,
+      "nist.gov": 0,
+      "platform.dash.cloudflare.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 10495,
+     "control": {
+      "page": 6234659,
+      "third_party": 5745991,
+      "listed": 36096
+     },
+     "ablated": {
+      "page": 6224510,
+      "third_party": 5735653,
+      "listed": 25601
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "static.cloudflareinsights.com": 10495,
+      "www.nist.gov": -189,
+      "customer-ltx6ylk10sje63q6.cloudflarestream.com": -160,
+      "time.gov": 3,
+      "region1.google-analytics.com": 0,
+      "www.googletagmanager.com": 0,
+      "bam.nr-data.net": 0,
+      "js-agent.newrelic.com": 0,
+      "nist.gov": 0,
+      "platform.dash.cloudflare.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     920,
+     -346
+    ],
+    "third_party": [
+     227,
+     -157
+    ],
+    "listed": [
+     1,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 287,
+     "sd": 895.1971849821691,
+     "se": 632.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 35,
+     "sd": 271.5290039756342,
+     "se": 191.99999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 10495
+  },
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1650,
+     "control": {
+      "page": 6235937,
+      "third_party": 5747156,
+      "listed": 36076
+     },
+     "ablated": {
+      "page": 6235049,
+      "third_party": 5745067,
+      "listed": 34425
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "region1.google-analytics.com": 1650,
+      "www.nist.gov": -1201,
+      "customer-ltx6ylk10sje63q6.cloudflarestream.com": 411,
+      "www.googletagmanager.com": 25,
+      "time.gov": 2,
+      "js-agent.newrelic.com": 1,
+      "static.cloudflareinsights.com": 0,
+      "bam.nr-data.net": 0,
+      "nist.gov": 0,
+      "platform.dash.cloudflare.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1670,
+     "control": {
+      "page": 10706766,
+      "third_party": 10217732,
+      "listed": 36096
+     },
+     "ablated": {
+      "page": 6235173,
+      "third_party": 5745478,
+      "listed": 34426
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "customer-ltx6ylk10sje63q6.cloudflarestream.com": 4471671,
+      "region1.google-analytics.com": 1670,
+      "www.googletagmanager.com": -1088,
+      "www.nist.gov": -661,
+      "time.gov": 1,
+      "static.cloudflareinsights.com": 0,
+      "bam.nr-data.net": 0,
+      "js-agent.newrelic.com": 0,
+      "nist.gov": 0,
+      "platform.dash.cloudflare.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -762,
+     4469923
+    ],
+    "third_party": [
+     439,
+     4470584
+    ],
+    "listed": [
+     1,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 2234580.5,
+     "sd": 3161251.6800489803,
+     "se": 2235342.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2235511.5,
+     "sd": 3160869.8423871393,
+     "se": 2235072.4999999995
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 1660
+  }
+ },
+ "candidates": [
+  "js-agent.newrelic.com",
+  "static.cloudflareinsights.com",
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "nist.gov",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 94.9
+}

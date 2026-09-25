@@ -1,0 +1,399 @@
+{
+ "url": "https://mailchimp.com/",
+ "hosts": [
+  "s2.go-mpulse.net",
+  "bat.bing.com",
+  "cdn.segment.com",
+  "region1.google-analytics.com",
+  "sessions.bugsnag.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "cdn.segment.com",
+    "bat.bing.com",
+    "s2.go-mpulse.net",
+    "sessions.bugsnag.com",
+    "region1.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3268117,
+      "third_party": 877919,
+      "listed": 416300
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "cdn.segment.com"
+     ],
+     "bytes": {
+      "page": 3179716,
+      "third_party": 838730,
+      "listed": 380720
+     },
+     "own": 32779,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 88401,
+      "third_party": 39189,
+      "listed": 35580
+     },
+     "cascade": {
+      "page": 55622,
+      "third_party": 6410,
+      "listed": 2801
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "cdn.segment.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3145460,
+      "third_party": 804233,
+      "listed": 348374
+     },
+     "own": 67894,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 122657,
+      "third_party": 73686,
+      "listed": 67926
+     },
+     "cascade": {
+      "page": 54763,
+      "third_party": 5792,
+      "listed": 32
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "cdn.segment.com",
+      "bat.bing.com",
+      "s2.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 3087975,
+      "third_party": 745893,
+      "listed": 288454
+     },
+     "own": 127059,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 180142,
+      "third_party": 132026,
+      "listed": 127846
+     },
+     "cascade": {
+      "page": 53083,
+      "third_party": 4967,
+      "listed": 787
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "cdn.segment.com",
+      "bat.bing.com",
+      "s2.go-mpulse.net",
+      "sessions.bugsnag.com"
+     ],
+     "bytes": {
+      "page": 3077338,
+      "third_party": 744776,
+      "listed": 287330
+     },
+     "own": 127629,
+     "n_aborted": 9,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "xhr": 2,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 190779,
+      "third_party": 133143,
+      "listed": 128970
+     },
+     "cascade": {
+      "page": 63150,
+      "third_party": 5514,
+      "listed": 1341
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "cdn.segment.com",
+      "bat.bing.com",
+      "s2.go-mpulse.net",
+      "sessions.bugsnag.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 3075333,
+      "third_party": 742776,
+      "listed": 285358
+     },
+     "own": 130117,
+     "n_aborted": 13,
+     "n_aborted_casc": 13,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "xhr": 2,
+      "fetch": 5
+     },
+     "saved": {
+      "page": 192784,
+      "third_party": 135143,
+      "listed": 130942
+     },
+     "cascade": {
+      "page": 62667,
+      "third_party": 5026,
+      "listed": 825
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "s2.go-mpulse.net",
+    "cdn.segment.com",
+    "bat.bing.com",
+    "region1.google-analytics.com",
+    "sessions.bugsnag.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3269023,
+      "third_party": 877264,
+      "listed": 416535
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "s2.go-mpulse.net"
+     ],
+     "bytes": {
+      "page": 3208441,
+      "third_party": 818195,
+      "listed": 356910
+     },
+     "own": 59165,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 60582,
+      "third_party": 59069,
+      "listed": 59625
+     },
+     "cascade": {
+      "page": 1417,
+      "third_party": -96,
+      "listed": 460
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "s2.go-mpulse.net",
+      "cdn.segment.com"
+     ],
+     "bytes": {
+      "page": 3114568,
+      "third_party": 782064,
+      "listed": 323577
+     },
+     "own": 91944,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 154455,
+      "third_party": 95200,
+      "listed": 92958
+     },
+     "cascade": {
+      "page": 62511,
+      "third_party": 3256,
+      "listed": 1014
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "s2.go-mpulse.net",
+      "cdn.segment.com",
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3086713,
+      "third_party": 745646,
+      "listed": 288196
+     },
+     "own": 127059,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 182310,
+      "third_party": 131618,
+      "listed": 128339
+     },
+     "cascade": {
+      "page": 55251,
+      "third_party": 4559,
+      "listed": 1280
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "s2.go-mpulse.net",
+      "cdn.segment.com",
+      "bat.bing.com",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 3083579,
+      "third_party": 743945,
+      "listed": 285949
+     },
+     "own": 129547,
+     "n_aborted": 11,
+     "n_aborted_casc": 11,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "fetch": 5
+     },
+     "saved": {
+      "page": 185444,
+      "third_party": 133319,
+      "listed": 130586
+     },
+     "cascade": {
+      "page": 55897,
+      "third_party": 3772,
+      "listed": 1039
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "s2.go-mpulse.net",
+      "cdn.segment.com",
+      "bat.bing.com",
+      "region1.google-analytics.com",
+      "sessions.bugsnag.com"
+     ],
+     "bytes": {
+      "page": 3290775,
+      "third_party": 742533,
+      "listed": 285108
+     },
+     "own": 130167,
+     "n_aborted": 13,
+     "n_aborted_casc": 13,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "xhr": 2,
+      "fetch": 5
+     },
+     "saved": {
+      "page": -21752,
+      "third_party": 134731,
+      "listed": 131427
+     },
+     "cascade": {
+      "page": -151919,
+      "third_party": 4564,
+      "listed": 1260
+     }
+    }
+   ]
+  }
+ ],
+ "category": "productivity",
+ "domain": "mailchimp.com",
+ "elapsed_s": 97.1
+}

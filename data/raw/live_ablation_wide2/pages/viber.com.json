@@ -1,0 +1,337 @@
+{
+ "url": "https://viber.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 58847,
+     "control": {
+      "page": 13613388,
+      "third_party": 728827,
+      "listed": 229372
+     },
+     "ablated": {
+      "page": 13554231,
+      "third_party": 669661,
+      "listed": 170206
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "s.go-mpulse.net": 58847,
+      "c.go-mpulse.net": 344,
+      "cdn.mxpnl.com": -25,
+      "www.viber.com": -9,
+      "fonts.googleapis.com": 0,
+      "geolocation.onetrust.com": 0,
+      "viber.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "www.googletagmanager.com": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 58847,
+     "control": {
+      "page": 13612721,
+      "third_party": 728827,
+      "listed": 229372
+     },
+     "ablated": {
+      "page": 13554239,
+      "third_party": 669636,
+      "listed": 170181
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "s.go-mpulse.net": 58847,
+      "www.viber.com": -709,
+      "c.go-mpulse.net": 344,
+      "fonts.googleapis.com": 0,
+      "geolocation.onetrust.com": 0,
+      "viber.com": 0,
+      "ad.doubleclick.net": 0,
+      "cdn.mxpnl.com": 0,
+      "www.google.de": 0,
+      "www.googletagmanager.com": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     310,
+     -365
+    ],
+    "third_party": [
+     319,
+     344
+    ],
+    "listed": [
+     319,
+     344
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -27.5,
+     "sd": 477.29707730091957,
+     "se": 337.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 331.5,
+     "sd": 17.67766952966369,
+     "se": 12.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 331.5,
+     "sd": 17.67766952966369,
+     "se": 12.5
+    }
+   },
+   "own_mean": 58847
+  },
+  "cdn.mxpnl.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 34305,
+     "control": {
+      "page": 13613395,
+      "third_party": 728812,
+      "listed": 229372
+     },
+     "ablated": {
+      "page": 13578399,
+      "third_party": 694522,
+      "listed": 195067
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "cdn.mxpnl.com": 34305,
+      "www.viber.com": 706,
+      "www.googletagmanager.com": -15,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "geolocation.onetrust.com": 0,
+      "viber.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0,
+      "region1.analytics.google.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 34306,
+     "control": {
+      "page": 13615232,
+      "third_party": 730646,
+      "listed": 230022
+     },
+     "ablated": {
+      "page": 13579436,
+      "third_party": 695527,
+      "listed": 195067
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "cdn.mxpnl.com": 34306,
+      "www.googletagmanager.com": -1004,
+      "www.viber.com": 677,
+      "c.go-mpulse.net": 649,
+      "jubpehqccvw3c2vvnbkq-pey3y4-471ea6168-clientnsv4-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaac5vlk2cv-pey3y4-e2be8c2b8-clienttons-s.akamaihd.net": 312,
+      "trial-eum-clienttons-s.akamaihd.net": 278,
+      "trial-eum-clientnsv4-s.akamaihd.net": 266,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "02179911.akstat.io": 0,
+      "geolocation.onetrust.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     691,
+     1490
+    ],
+    "third_party": [
+     -15,
+     813
+    ],
+    "listed": [
+     0,
+     649
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1090.5,
+     "sd": 564.9783181680515,
+     "se": 399.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 399,
+     "sd": 585.4844148224613,
+     "se": 413.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 324.5,
+     "sd": 458.91230099006935,
+     "se": 324.5
+    }
+   },
+   "own_mean": 34305.5
+  },
+  "region1.analytics.google.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 836,
+     "control": {
+      "page": 13613445,
+      "third_party": 728853,
+      "listed": 229398
+     },
+     "ablated": {
+      "page": 13612258,
+      "third_party": 727997,
+      "listed": 228537
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "region1.analytics.google.com": 836,
+      "viber.com": 309,
+      "cdn.mxpnl.com": 25,
+      "www.viber.com": 22,
+      "www.googletagmanager.com": -5,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "geolocation.onetrust.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.google.de": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 836,
+     "control": {
+      "page": 13613451,
+      "third_party": 728853,
+      "listed": 229398
+     },
+     "ablated": {
+      "page": 13613597,
+      "third_party": 729027,
+      "listed": 228562
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "www.googletagmanager.com": -1010,
+      "region1.analytics.google.com": 836,
+      "www.viber.com": 28,
+      "fonts.googleapis.com": 0,
+      "s.go-mpulse.net": 0,
+      "geolocation.onetrust.com": 0,
+      "viber.com": 0,
+      "ad.doubleclick.net": 0,
+      "cdn.mxpnl.com": 0,
+      "www.google.de": 0,
+      "www.google.com": 0,
+      "stats.g.doubleclick.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     351,
+     -982
+    ],
+    "third_party": [
+     20,
+     -1010
+    ],
+    "listed": [
+     25,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -315.5,
+     "sd": 942.5733393216678,
+     "se": 666.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -495,
+     "sd": 728.3199846221439,
+     "se": 515.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 12.5,
+     "sd": 17.67766952966369,
+     "se": 12.5
+    }
+   },
+   "own_mean": 836
+  }
+ },
+ "candidates": [
+  "s.go-mpulse.net",
+  "cdn.mxpnl.com",
+  "region1.analytics.google.com"
+ ],
+ "category": "social",
+ "domain": "viber.com",
+ "n_blocked_tracking": 60.0,
+ "elapsed_s": 96.7
+}

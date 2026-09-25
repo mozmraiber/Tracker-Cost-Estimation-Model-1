@@ -1,0 +1,337 @@
+{
+ "url": "https://mailchimp.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "s2.go-mpulse.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 59165,
+     "control": {
+      "page": 3467244,
+      "third_party": 877424,
+      "listed": 416417
+     },
+     "ablated": {
+      "page": 3196819,
+      "third_party": 813074,
+      "listed": 356214
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "mailchimp.com": 206025,
+      "s2.go-mpulse.net": 59165,
+      "schema-cf.bc0a.com": 3010,
+      "c.go-mpulse.net": 1055,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkvza-pklyxc-e896ff568-clienttons-s.akamaihd.net": 312,
+      "jubpehqccvw2w2vvk4qa-pklyxc-8e633b8f8-clientnsv4-s.akamaihd.net": 312,
+      "trial-eum-clienttons-s.akamaihd.net": 278,
+      "trial-eum-clientnsv4-s.akamaihd.net": 266,
+      "beacon.mailchimp.com": 50,
+      "accounts.google.com": -27,
+      "sessions.bugsnag.com": -25,
+      "obs.herbgreencolumn.com": 15
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 59165,
+     "control": {
+      "page": 3470303,
+      "third_party": 877156,
+      "listed": 417477
+     },
+     "ablated": {
+      "page": 3415286,
+      "third_party": 815999,
+      "listed": 356156
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "s2.go-mpulse.net": 59165,
+      "mailchimp.com": -6140,
+      "c.go-mpulse.net": 996,
+      "region1.google-analytics.com": 816,
+      "obs.herbgreencolumn.com": 277,
+      "schema-cf.bc0a.com": -161,
+      "sessions.bugsnag.com": 70,
+      "www.googleadservices.com": -2,
+      "accounts.google.com": -2,
+      "www.google.com": -1,
+      "googleads.g.doubleclick.net": -1,
+      "unpkg.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     211260,
+     -4148
+    ],
+    "third_party": [
+     5185,
+     1992
+    ],
+    "listed": [
+     1038,
+     2156
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 103556,
+     "sd": 152316.45752183182,
+     "se": 107703.99999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3588.5,
+     "sd": 2257.7919523286464,
+     "se": 1596.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1597,
+     "sd": 790.5453813665602,
+     "se": 559.0
+    }
+   },
+   "own_mean": 59165
+  },
+  "bat.bing.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35115,
+     "control": {
+      "page": 3473732,
+      "third_party": 873448,
+      "listed": 416294
+     },
+     "ablated": {
+      "page": 3233019,
+      "third_party": 839329,
+      "listed": 380660
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "mailchimp.com": 206544,
+      "bat.bing.com": 35115,
+      "schema-cf.bc0a.com": -2849,
+      "bat.bing.net": 1028,
+      "region1.google-analytics.com": 816,
+      "www.googletagmanager.com": 308,
+      "obs.herbgreencolumn.com": -288,
+      "beacon.mailchimp.com": 50,
+      "www.googleadservices.com": -5,
+      "www.google.com": -5,
+      "googleads.g.doubleclick.net": -5,
+      "uxfabric.intuitcdn.net": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35115,
+     "control": {
+      "page": 3269139,
+      "third_party": 876566,
+      "listed": 415994
+     },
+     "ablated": {
+      "page": 3233991,
+      "third_party": 841376,
+      "listed": 381553
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "bat.bing.com": 35115,
+      "googleads.g.doubleclick.net": -1474,
+      "bat.bing.net": 1028,
+      "region1.google-analytics.com": 816,
+      "jubpehqccvw2w2vvk5na-pp6fto-e6d9a2023-clientnsv4-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkv22-pp6fto-31cc58cff-clienttons-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkv2r-pc22ni-436207f87-clienttons-s.akamaihd.net": -312,
+      "jubpehqccvw2w2vvk5iq-pc22ni-eff02d40f-clientnsv4-s.akamaihd.net": -312,
+      "trial-eum-clientnsv4-s.akamaihd.net": -266,
+      "mailchimp.com": -42,
+      "obs.herbgreencolumn.com": -8,
+      "accounts.google.com": -8
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     205598,
+     33
+    ],
+    "third_party": [
+     -996,
+     75
+    ],
+    "listed": [
+     519,
+     -674
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 102815.5,
+     "sd": 145356.40547461263,
+     "se": 102782.49999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -460.5,
+     "sd": 757.3113626507924,
+     "se": 535.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -77.5,
+     "sd": 843.5783899555512,
+     "se": 596.5
+    }
+   },
+   "own_mean": 35115
+  },
+  "cdn.segment.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 32883,
+     "control": {
+      "page": 3269054,
+      "third_party": 876435,
+      "listed": 416586
+     },
+     "ablated": {
+      "page": 3163258,
+      "third_party": 838767,
+      "listed": 383267
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "moved": {
+      "mailchimp.com": 67270,
+      "cdn.segment.com": 32883,
+      "schema-cf.bc0a.com": 3010,
+      "uxfabric.intuitcdn.net": 2244,
+      "beacon.mailchimp.com": 858,
+      "obs.herbgreencolumn.com": 538,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkv3i-pah8p7-e7c3b4a1e-clienttons-s.akamaihd.net": -312,
+      "jubpehqccvw2w2vvk5ua-pah8p7-7793bedcf-clientnsv4-s.akamaihd.net": -312,
+      "trial-eum-clienttons-s.akamaihd.net": -278,
+      "c.go-mpulse.net": -61,
+      "sessions.bugsnag.com": -50,
+      "region1.google-analytics.com": 20
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 32881,
+     "control": {
+      "page": 3271012,
+      "third_party": 878421,
+      "listed": 417551
+     },
+     "ablated": {
+      "page": 3164980,
+      "third_party": 839002,
+      "listed": 383487
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "moved": {
+      "mailchimp.com": 65755,
+      "cdn.segment.com": 32881,
+      "schema-cf.bc0a.com": 2849,
+      "uxfabric.intuitcdn.net": 2244,
+      "beacon.mailchimp.com": 858,
+      "region1.google-analytics.com": 816,
+      "jubpehqccvw2w2vvk54a-pck2w6-409ae3fa2-clientnsv4-s.akamaihd.net": 312,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkv3y-pck2w6-360d9022e-clienttons-s.akamaihd.net": 312,
+      "jubpehqccvw2w2vvk5xa-p13gle-a3afeeb27-clientnsv4-s.akamaihd.net": -312,
+      "fibdcafmtdnqakqcgbaaaaaac5vlkv3o-p13gle-562e5f310-clienttons-s.akamaihd.net": -312,
+      "www.googletagmanager.com": -307,
+      "obs.herbgreencolumn.com": 287
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     72913,
+     73151
+    ],
+    "third_party": [
+     4785,
+     6538
+    ],
+    "listed": [
+     436,
+     1183
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 73032,
+     "sd": 168.2914139223983,
+     "se": 118.99999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 5661.5,
+     "sd": 1239.5581874200177,
+     "se": 876.4999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 809.5,
+     "sd": 528.208765546351,
+     "se": 373.49999999999994
+    }
+   },
+   "own_mean": 32882
+  }
+ },
+ "candidates": [
+  "s2.go-mpulse.net",
+  "bat.bing.com",
+  "cdn.segment.com"
+ ],
+ "category": "productivity",
+ "domain": "mailchimp.com",
+ "n_blocked_tracking": 245.0,
+ "elapsed_s": 103.2
+}

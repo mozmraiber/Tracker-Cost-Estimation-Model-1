@@ -1,0 +1,121 @@
+{
+ "url": "https://docker.io/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "dpm.demdex.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2107,
+     "control": {
+      "page": 3272910,
+      "third_party": 3272740,
+      "listed": 186644
+     },
+     "ablated": {
+      "page": 3598448,
+      "third_party": 3598278,
+      "listed": 180497
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "www.docker.com": -331672,
+      "docker.demdex.net": 3550,
+      "dpm.demdex.net": 2107,
+      "cm.everesttech.net": 490,
+      "www.google.com": -13,
+      "fonts.googleapis.com": 0,
+      "geolocation.onetrust.com": 0,
+      "www.googletagmanager.com": 0,
+      "assets.adobedtm.com": 0,
+      "docker.io": 0,
+      "fonts.gstatic.com": 0,
+      "marlin-2.docker.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2106,
+     "control": {
+      "page": 3604469,
+      "third_party": 3604299,
+      "listed": 186643
+     },
+     "ablated": {
+      "page": 3598593,
+      "third_party": 3598423,
+      "listed": 180497
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "docker.demdex.net": 3550,
+      "dpm.demdex.net": 2106,
+      "cm.everesttech.net": 490,
+      "www.googletagmanager.com": -189,
+      "www.google.com": -76,
+      "www.docker.com": -5,
+      "fonts.googleapis.com": 0,
+      "geolocation.onetrust.com": 0,
+      "assets.adobedtm.com": 0,
+      "docker.io": 0,
+      "fonts.gstatic.com": 0,
+      "marlin-2.docker.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -327645,
+     3770
+    ],
+    "third_party": [
+     -327645,
+     3770
+    ],
+    "listed": [
+     4040,
+     4040
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -161937.5,
+     "sd": 234345.79388693965,
+     "se": 165707.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -161937.5,
+     "sd": 234345.79388693965,
+     "se": 165707.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 4040,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 2106.5
+  }
+ },
+ "candidates": [
+  "dpm.demdex.net"
+ ],
+ "category": "infrastructure",
+ "domain": "docker.io",
+ "n_blocked_tracking": 40.0,
+ "elapsed_s": 33.0
+}

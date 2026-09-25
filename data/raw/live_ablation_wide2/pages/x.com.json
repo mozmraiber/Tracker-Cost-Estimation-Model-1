@@ -1,0 +1,113 @@
+{
+ "url": "https://x.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o30969.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 519,
+     "control": {
+      "page": 3586235,
+      "third_party": 3506113,
+      "listed": 519
+     },
+     "ablated": {
+      "page": 3619736,
+      "third_party": 3505595,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "x.com": -34018,
+      "o30969.ingest.us.sentry.io": 519,
+      "api.x.com": -1,
+      "accounts.google.com": -1,
+      "fonts.gstatic.com": 0,
+      "jf.x.com": 0,
+      "abs.twimg.com": 0,
+      "appleid.cdn-apple.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 494,
+     "control": {
+      "page": 3620382,
+      "third_party": 3506087,
+      "listed": 494
+     },
+     "ablated": {
+      "page": 3619923,
+      "third_party": 3505707,
+      "listed": 0
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "o30969.ingest.us.sentry.io": 494,
+      "accounts.google.com": -114,
+      "x.com": 79,
+      "api.x.com": 0,
+      "fonts.gstatic.com": 0,
+      "jf.x.com": 0,
+      "abs.twimg.com": 0,
+      "appleid.cdn-apple.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -34020,
+     -35
+    ],
+    "third_party": [
+     -1,
+     -114
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -17027.5,
+     "sd": 24031.023958624817,
+     "se": 16992.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -57.5,
+     "sd": 79.90306627407988,
+     "se": 56.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 506.5
+  }
+ },
+ "candidates": [
+  "o30969.ingest.us.sentry.io"
+ ],
+ "category": "social",
+ "domain": "x.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 33.4
+}

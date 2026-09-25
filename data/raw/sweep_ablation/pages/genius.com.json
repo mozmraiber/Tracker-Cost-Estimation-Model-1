@@ -1,0 +1,404 @@
+{
+ "url": "https://genius.com/",
+ "hosts": [
+  "securepubads.g.doubleclick.net",
+  "c.amazon-adsystem.com",
+  "static.chartbeat.com",
+  "secure.quantserve.com",
+  "sb.scorecardresearch.com",
+  "tag.wknd.ai"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "sb.scorecardresearch.com",
+    "static.chartbeat.com",
+    "c.amazon-adsystem.com",
+    "securepubads.g.doubleclick.net",
+    "tag.wknd.ai",
+    "secure.quantserve.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2218970,
+      "third_party": 1420751,
+      "listed": 594480
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "sb.scorecardresearch.com"
+     ],
+     "bytes": {
+      "page": 2211560,
+      "third_party": 1413500,
+      "listed": 586852
+     },
+     "own": 7575,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 7410,
+      "third_party": 7251,
+      "listed": 7628
+     },
+     "cascade": {
+      "page": -165,
+      "third_party": -324,
+      "listed": 53
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 2193701,
+      "third_party": 1395436,
+      "listed": 568773
+     },
+     "own": 24674,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 25269,
+      "third_party": 25315,
+      "listed": 25707
+     },
+     "cascade": {
+      "page": 595,
+      "third_party": 641,
+      "listed": 1033
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 2092175,
+      "third_party": 1293855,
+      "listed": 466701
+     },
+     "own": 123629,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 126795,
+      "third_party": 126896,
+      "listed": 127779
+     },
+     "cascade": {
+      "page": 3166,
+      "third_party": 3267,
+      "listed": 4150
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 1836469,
+      "third_party": 1037621,
+      "listed": 210922
+     },
+     "own": 380216,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 382501,
+      "third_party": 383130,
+      "listed": 383558
+     },
+     "cascade": {
+      "page": 2285,
+      "third_party": 2914,
+      "listed": 3342
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "tag.wknd.ai"
+     ],
+     "bytes": {
+      "page": 1648211,
+      "third_party": 850526,
+      "listed": 24260
+     },
+     "own": 383602,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 570759,
+      "third_party": 570225,
+      "listed": 570220
+     },
+     "cascade": {
+      "page": 187157,
+      "third_party": 186623,
+      "listed": 186618
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "static.chartbeat.com",
+      "c.amazon-adsystem.com",
+      "securepubads.g.doubleclick.net",
+      "tag.wknd.ai",
+      "secure.quantserve.com"
+     ],
+     "bytes": {
+      "page": 1634520,
+      "third_party": 836213,
+      "listed": 9909
+     },
+     "own": 396620,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 584450,
+      "third_party": 584538,
+      "listed": 584571
+     },
+     "cascade": {
+      "page": 187830,
+      "third_party": 187918,
+      "listed": 187951
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "sb.scorecardresearch.com",
+    "securepubads.g.doubleclick.net",
+    "c.amazon-adsystem.com",
+    "tag.wknd.ai",
+    "static.chartbeat.com",
+    "secure.quantserve.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 2218304,
+      "third_party": 1419870,
+      "listed": 593194
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "sb.scorecardresearch.com"
+     ],
+     "bytes": {
+      "page": 2212231,
+      "third_party": 1413692,
+      "listed": 587010
+     },
+     "own": 7575,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 6073,
+      "third_party": 6178,
+      "listed": 6184
+     },
+     "cascade": {
+      "page": -1502,
+      "third_party": -1397,
+      "listed": -1391
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 1954721,
+      "third_party": 1156218,
+      "listed": 329920
+     },
+     "own": 262875,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 263583,
+      "third_party": 263652,
+      "listed": 263274
+     },
+     "cascade": {
+      "page": 708,
+      "third_party": 777,
+      "listed": 399
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com"
+     ],
+     "bytes": {
+      "page": 1853355,
+      "third_party": 1054551,
+      "listed": 228287
+     },
+     "own": 361830,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "saved": {
+      "page": 364949,
+      "third_party": 365319,
+      "listed": 364907
+     },
+     "cascade": {
+      "page": 3119,
+      "third_party": 3489,
+      "listed": 3077
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com",
+      "tag.wknd.ai"
+     ],
+     "bytes": {
+      "page": 1667085,
+      "third_party": 868367,
+      "listed": 41690
+     },
+     "own": 365216,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 551219,
+      "third_party": 551503,
+      "listed": 551504
+     },
+     "cascade": {
+      "page": 186003,
+      "third_party": 186287,
+      "listed": 186288
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com",
+      "tag.wknd.ai",
+      "static.chartbeat.com"
+     ],
+     "bytes": {
+      "page": 1649221,
+      "third_party": 850658,
+      "listed": 24306
+     },
+     "own": 382315,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 569083,
+      "third_party": 569212,
+      "listed": 568888
+     },
+     "cascade": {
+      "page": 186768,
+      "third_party": 186897,
+      "listed": 186573
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "sb.scorecardresearch.com",
+      "securepubads.g.doubleclick.net",
+      "c.amazon-adsystem.com",
+      "tag.wknd.ai",
+      "static.chartbeat.com",
+      "secure.quantserve.com"
+     ],
+     "bytes": {
+      "page": 1634636,
+      "third_party": 836346,
+      "listed": 10000
+     },
+     "own": 395333,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 583668,
+      "third_party": 583524,
+      "listed": 583194
+     },
+     "cascade": {
+      "page": 188335,
+      "third_party": 188191,
+      "listed": 187861
+     }
+    }
+   ]
+  }
+ ],
+ "category": "entertainment",
+ "domain": "genius.com",
+ "elapsed_s": 94.3
+}

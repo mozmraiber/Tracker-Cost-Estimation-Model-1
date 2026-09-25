@@ -322,6 +322,14 @@ def _rust_extension(module_name: str, split: Split) -> Bytes:
     supplied it scores what `xgboost_shipped` scores; the two budgets are equal
     for that reason.
 
+    `llm_classifier` likewise accepts an `include_followups` that the other
+    has no counterpart for, and this caller leaves it at its default. The
+    journey suite scores against observed response sizes, one request at a
+    time, and the cascade is by definition not in those -- asking for it here
+    would inflate every prediction against a ground truth that cannot contain
+    it. `tests/top500.py` is where it is scored, against a page-level delta
+    that can.
+
     Only the byte half is scored: `cpu_ms` is derived from it by coefficients
     neither crate fits, and the log has no CPU column to score it against.
 

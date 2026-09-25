@@ -1,0 +1,121 @@
+{
+ "url": "https://dropcatch.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "o4510675591430144.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 1482,
+     "control": {
+      "page": 2773113,
+      "third_party": 1595931,
+      "listed": 2322
+     },
+     "ablated": {
+      "page": 2770542,
+      "third_party": 1593258,
+      "listed": 840
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "o4510675591430144.ingest.us.sentry.io": 1482,
+      "www.googletagmanager.com": 1226,
+      "translate.dropcatch.com": -48,
+      "www.google.com": -35,
+      "client.dropcatch.com": -28,
+      "www.dropcatch.com": -26,
+      "region1.google-analytics.com": 0,
+      "rt.dropcatch.com": 0,
+      "ad.doubleclick.net": 0,
+      "logging.dropcatch.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.gstatic.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 1482,
+     "control": {
+      "page": 2771946,
+      "third_party": 1594731,
+      "listed": 2322
+     },
+     "ablated": {
+      "page": 2769912,
+      "third_party": 1593158,
+      "listed": 840
+     },
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "moved": {
+      "o4510675591430144.ingest.us.sentry.io": 1482,
+      "logging.dropcatch.com": 590,
+      "www.google.com": 91,
+      "client.dropcatch.com": -81,
+      "translate.dropcatch.com": -48,
+      "region1.google-analytics.com": 0,
+      "rt.dropcatch.com": 0,
+      "ad.doubleclick.net": 0,
+      "www.googletagmanager.com": 0,
+      "www.dropcatch.com": 0,
+      "fonts.gstatic.com": 0,
+      "www.gstatic.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1089,
+     552
+    ],
+    "third_party": [
+     1191,
+     91
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 820.5,
+     "sd": 379.716341497176,
+     "se": 268.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 641,
+     "sd": 777.8174593052023,
+     "se": 550.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 1482
+  }
+ },
+ "candidates": [
+  "o4510675591430144.ingest.us.sentry.io"
+ ],
+ "category": "shopping",
+ "domain": "dropcatch.com",
+ "n_blocked_tracking": 50.0,
+ "elapsed_s": 28.8
+}

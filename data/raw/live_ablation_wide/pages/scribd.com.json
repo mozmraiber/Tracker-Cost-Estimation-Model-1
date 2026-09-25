@@ -1,0 +1,331 @@
+{
+ "url": "https://scribd.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 4532,
+     "control": {
+      "page": 2646301,
+      "third_party": 1320259,
+      "listed": 127018
+     },
+     "ablated": {
+      "page": 2640095,
+      "third_party": 1314046,
+      "listed": 120630
+     },
+     "n_aborted": 6,
+     "moved": {
+      "region1.google-analytics.com": 4532,
+      "browser-intake-datadoghq.com": 1856,
+      "prodregistryv2.org": -165,
+      "www.googletagmanager.com": -11,
+      "scribd.com": -4,
+      "assets.production.scribd.com": -3,
+      "featureassets.org": 1,
+      "js.stripe.com": 0,
+      "m.stripe.com": 0,
+      "s-f.scribdassets.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "wa.scribd.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 4532,
+     "control": {
+      "page": 2645143,
+      "third_party": 1319089,
+      "listed": 125267
+     },
+     "ablated": {
+      "page": 2641416,
+      "third_party": 1315348,
+      "listed": 122526
+     },
+     "n_aborted": 6,
+     "moved": {
+      "region1.google-analytics.com": 4532,
+      "browser-intake-datadoghq.com": -1856,
+      "prodregistryv2.org": 953,
+      "pagead2.googlesyndication.com": 80,
+      "m.stripe.network": -40,
+      "o127091.ingest.us.sentry.io": 25,
+      "featureassets.org": 24,
+      "www.googletagmanager.com": 23,
+      "assets.production.scribd.com": -12,
+      "scribd.com": -2,
+      "js.stripe.com": 0,
+      "m.stripe.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1674,
+     -805
+    ],
+    "third_party": [
+     1681,
+     -791
+    ],
+    "listed": [
+     1856,
+     -1791
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 434.5,
+     "sd": 1752.9177105614513,
+     "se": 1239.4999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 445,
+     "sd": 1747.9679630931455,
+     "se": 1236.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 32.5,
+     "sd": 2578.8184309873386,
+     "se": 1823.4999999999998
+    }
+   },
+   "own_mean": 4532
+  },
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2296,
+     "control": {
+      "page": 2644629,
+      "third_party": 1318571,
+      "listed": 125242
+     },
+     "ablated": {
+      "page": 2642941,
+      "third_party": 1316868,
+      "listed": 122947
+     },
+     "n_aborted": 8,
+     "moved": {
+      "pagead2.googlesyndication.com": 2296,
+      "prodregistryv2.org": -589,
+      "assets.production.scribd.com": -13,
+      "js.stripe.com": -3,
+      "scribd.com": -2,
+      "m.stripe.network": -1,
+      "m.stripe.com": 0,
+      "featureassets.org": 0,
+      "s-f.scribdassets.com": 0,
+      "www.googletagmanager.com": 0,
+      "region1.google-analytics.com": 0,
+      "wa.scribd.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2296,
+     "control": {
+      "page": 2659098,
+      "third_party": 1333048,
+      "listed": 125243
+     },
+     "ablated": {
+      "page": 2656346,
+      "third_party": 1330292,
+      "listed": 122987
+     },
+     "n_aborted": 8,
+     "moved": {
+      "pagead2.googlesyndication.com": 2296,
+      "cdn.jsdelivr.net": 380,
+      "js.stripe.com": 119,
+      "m.stripe.network": -40,
+      "prodregistryv2.org": 25,
+      "www.googletagmanager.com": -23,
+      "assets.production.scribd.com": -4,
+      "featureassets.org": -1,
+      "scribd.com": 0,
+      "m.stripe.com": 0,
+      "s-f.scribdassets.com": 0,
+      "region1.google-analytics.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -608,
+     456
+    ],
+    "third_party": [
+     -593,
+     460
+    ],
+    "listed": [
+     -1,
+     -40
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -76,
+     "sd": 752.3616151824866,
+     "se": 532.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -66.5,
+     "sd": 744.5834405894345,
+     "se": 526.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -20.5,
+     "sd": 27.577164466275352,
+     "se": 19.499999999999996
+    }
+   },
+   "own_mean": 2296
+  },
+  "o127091.ingest.us.sentry.io": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 494,
+     "control": {
+      "page": 2659493,
+      "third_party": 1333444,
+      "listed": 125243
+     },
+     "ablated": {
+      "page": 2645610,
+      "third_party": 1319559,
+      "listed": 124749
+     },
+     "n_aborted": 1,
+     "moved": {
+      "js.stripe.com": 14418,
+      "www.googletagmanager.com": -581,
+      "o127091.ingest.us.sentry.io": 494,
+      "prodregistryv2.org": -464,
+      "featureassets.org": 26,
+      "cdn.jsdelivr.net": -8,
+      "scribd.com": -2,
+      "m.stripe.com": 0,
+      "s-f.scribdassets.com": 0,
+      "pagead2.googlesyndication.com": 0,
+      "region1.google-analytics.com": 0,
+      "wa.scribd.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 519,
+     "control": {
+      "page": 2645086,
+      "third_party": 1319024,
+      "listed": 125268
+     },
+     "ablated": {
+      "page": 2644615,
+      "third_party": 1318562,
+      "listed": 124789
+     },
+     "n_aborted": 1,
+     "moved": {
+      "o127091.ingest.us.sentry.io": 519,
+      "prodregistryv2.org": -60,
+      "m.stripe.network": -40,
+      "featureassets.org": 25,
+      "www.googletagmanager.com": 16,
+      "assets.production.scribd.com": 13,
+      "scribd.com": -4,
+      "cdn.jsdelivr.net": 2,
+      "js.stripe.com": 0,
+      "m.stripe.com": 0,
+      "s-f.scribdassets.com": 0,
+      "pagead2.googlesyndication.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     13389,
+     -48
+    ],
+    "third_party": [
+     13391,
+     -57
+    ],
+    "listed": [
+     0,
+     -40
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 6670.5,
+     "sd": 9501.393818803639,
+     "se": 6718.499999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 6667,
+     "sd": 9509.17199339669,
+     "se": 6723.999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": -20,
+     "sd": 28.284271247461902,
+     "se": 20.0
+    }
+   },
+   "own_mean": 506.5
+  }
+ },
+ "candidates": [
+  "region1.google-analytics.com",
+  "pagead2.googlesyndication.com",
+  "o127091.ingest.us.sentry.io"
+ ],
+ "category": "social",
+ "domain": "scribd.com",
+ "n_blocked_tracking": 150.0,
+ "elapsed_s": 81.1
+}

@@ -1,0 +1,337 @@
+{
+ "url": "https://fwmrm.net/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 221659,
+     "control": {
+      "page": 2756340,
+      "third_party": 2756031,
+      "listed": 773004
+     },
+     "ablated": {
+      "page": 2534520,
+      "third_party": 2534520,
+      "listed": 550407
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 221659,
+      "21756888.hs-sites.com": -1048,
+      "www.facebook.com": 949,
+      "www.googletagmanager.com": -463,
+      "www.freewheel.com": 451,
+      "fwmrm.net": 309,
+      "www.google-analytics.com": -20,
+      "static.hsappstatic.net": -15,
+      "cdnjs.cloudflare.com": -8,
+      "js.hubspot.com": 6,
+      "cta-service-cms2.hubspot.com": 5,
+      "static.hubspot.com": -4
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 221633,
+     "control": {
+      "page": 2755326,
+      "third_party": 2755326,
+      "listed": 772987
+     },
+     "ablated": {
+      "page": 2531665,
+      "third_party": 2531356,
+      "listed": 549486
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 221633,
+      "cta-service-cms2.hubspot.com": 1176,
+      "www.facebook.com": 949,
+      "www.freewheel.com": 796,
+      "freewheel.com": -779,
+      "www.googletagmanager.com": 469,
+      "fwmrm.net": -309,
+      "px.ads.linkedin.com": -269,
+      "21756888.hs-sites.com": -44,
+      "www.google-analytics.com": 20,
+      "cdn.jsdelivr.net": 12,
+      "static.hubspot.com": 10
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     161,
+     2028
+    ],
+    "third_party": [
+     -148,
+     2337
+    ],
+    "listed": [
+     938,
+     1868
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1094.5,
+     "sd": 1320.1683604752843,
+     "se": 933.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1094.5,
+     "sd": 1757.1603512485706,
+     "se": 1242.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1403,
+     "sd": 657.6093065034892,
+     "se": 464.99999999999994
+    }
+   },
+   "own_mean": 221646
+  },
+  "snap.licdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 166931,
+     "control": {
+      "page": 2759318,
+      "third_party": 2759318,
+      "listed": 773252
+     },
+     "ablated": {
+      "page": 2585780,
+      "third_party": 2585471,
+      "listed": 602944
+     },
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "moved": {
+      "snap.licdn.com": 166931,
+      "www.googletagmanager.com": 3052,
+      "px.ads.linkedin.com": 1255,
+      "cta-service-cms2.hubspot.com": 1176,
+      "21756888.hs-sites.com": 744,
+      "px4.ads.linkedin.com": 535,
+      "cnv.event.prod.bidr.io": 455,
+      "fwmrm.net": -309,
+      "www.freewheel.com": -264,
+      "connect.facebook.net": -24,
+      "www.google-analytics.com": -20,
+      "static.hsappstatic.net": 7
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 167108,
+     "control": {
+      "page": 2755250,
+      "third_party": 2754941,
+      "listed": 772423
+     },
+     "ablated": {
+      "page": 2590803,
+      "third_party": 2590494,
+      "listed": 608308
+     },
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "moved": {
+      "snap.licdn.com": 167108,
+      "connect.facebook.net": -3589,
+      "px.ads.linkedin.com": 1791,
+      "cta-service-cms2.hubspot.com": -1198,
+      "www.freewheel.com": 369,
+      "www.googletagmanager.com": -37,
+      "21756888.hs-sites.com": 32,
+      "cdnjs.cloudflare.com": -21,
+      "static.hsappstatic.net": -11,
+      "cdn.jsdelivr.net": 2,
+      "px4.ads.linkedin.com": 2,
+      "7052064.fs1.hubspotusercontent-na1.net": -1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     6607,
+     -2661
+    ],
+    "third_party": [
+     6916,
+     -2661
+    ],
+    "listed": [
+     3377,
+     -2993
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1973,
+     "sd": 6553.465648036922,
+     "se": 4633.999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2127.5,
+     "sd": 6771.961643423566,
+     "se": 4788.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 192,
+     "sd": 4504.270196158308,
+     "se": 3185.0
+    }
+   },
+   "own_mean": 167019.5
+  },
+  "js.hubspot.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 43895,
+     "control": {
+      "page": 2755653,
+      "third_party": 2755653,
+      "listed": 773068
+     },
+     "ablated": {
+      "page": 2398567,
+      "third_party": 2398258,
+      "listed": 725937
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "21756888.hs-sites.com": 303780,
+      "js.hubspot.com": 43895,
+      "cta-service-cms2.hubspot.com": 3368,
+      "perf-na1.hsforms.com": 1751,
+      "static.hsappstatic.net": 1718,
+      "7052064.fs1.hubspotusercontent-na1.net": 1319,
+      "static.hubspot.com": 874,
+      "freewheel.com": 779,
+      "cnv.event.prod.bidr.io": 463,
+      "snap.licdn.com": -354,
+      "fwmrm.net": -309,
+      "px.ads.linkedin.com": -269
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 43885,
+     "control": {
+      "page": 2757540,
+      "third_party": 2757231,
+      "listed": 773388
+     },
+     "ablated": {
+      "page": 2399889,
+      "third_party": 2399580,
+      "listed": 726464
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "21756888.hs-sites.com": 305241,
+      "js.hubspot.com": 43885,
+      "cta-service-cms2.hubspot.com": 3366,
+      "perf-na1.hsforms.com": 1751,
+      "static.hsappstatic.net": 1716,
+      "7052064.fs1.hubspotusercontent-na1.net": 1319,
+      "static.hubspot.com": 878,
+      "px.ads.linkedin.com": -536,
+      "cnv.event.prod.bidr.io": 459,
+      "px4.ads.linkedin.com": -269,
+      "www.freewheel.com": -173,
+      "connect.facebook.net": 19
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     313191,
+     313766
+    ],
+    "third_party": [
+     313500,
+     313766
+    ],
+    "listed": [
+     3236,
+     3039
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 313478.5,
+     "sd": 406.5863991822648,
+     "se": 287.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 313633,
+     "sd": 188.09040379562165,
+     "se": 133.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3137.5,
+     "sd": 139.30003589374985,
+     "se": 98.49999999999999
+    }
+   },
+   "own_mean": 43890
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "snap.licdn.com",
+  "js.hubspot.com"
+ ],
+ "category": "infrastructure",
+ "domain": "fwmrm.net",
+ "n_blocked_tracking": 190.0,
+ "elapsed_s": 81.5
+}

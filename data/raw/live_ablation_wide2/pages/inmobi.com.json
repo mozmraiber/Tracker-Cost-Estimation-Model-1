@@ -1,0 +1,337 @@
+{
+ "url": "https://inmobi.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "snap.licdn.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 47783,
+     "control": {
+      "page": 2139093,
+      "third_party": 1808891,
+      "listed": 997821
+     },
+     "ablated": {
+      "page": 2093504,
+      "third_party": 1763299,
+      "listed": 948225
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "snap.licdn.com": 47783,
+      "www.googletagmanager.com": -4023,
+      "px.ads.linkedin.com": 2324,
+      "d.adroll.com": -1285,
+      "web.inmobicdn.net": 375,
+      "px4.ads.linkedin.com": 299,
+      "dsum-sec.casalemedia.com": 148,
+      "pixel.tapad.com": -50,
+      "x.bidswitch.net": -50,
+      "ml314.com": 25,
+      "x-stg.glance-cdn.com": 20,
+      "js.hubspot.com": 16
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 47783,
+     "control": {
+      "page": 2138887,
+      "third_party": 1809014,
+      "listed": 997942
+     },
+     "ablated": {
+      "page": 2085781,
+      "third_party": 1755573,
+      "listed": 944879
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "snap.licdn.com": 47783,
+      "px.ads.linkedin.com": 2300,
+      "d.adroll.com": 1227,
+      "dsum-sec.casalemedia.com": 1199,
+      "px4.ads.linkedin.com": 566,
+      "www.googletagmanager.com": 372,
+      "inmobi.com": -334,
+      "web.inmobicdn.net": -50,
+      "i.l-dsp.inmobicdn.net": 25,
+      "us-u.openx.net": 25,
+      "track.hubspot.com": -8,
+      "js.hubspot.com": -6
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -2194,
+     5323
+    ],
+    "third_party": [
+     -2191,
+     5658
+    ],
+    "listed": [
+     1813,
+     5280
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1564.5,
+     "sd": 5315.321674179278,
+     "se": 3758.4999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 1733.5,
+     "sd": 5550.081125533212,
+     "se": 3924.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3546.5,
+     "sd": 2451.5392103737604,
+     "se": 1733.5
+    }
+   },
+   "own_mean": 47783
+  },
+  "js.hs-analytics.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 44094,
+     "control": {
+      "page": 2136781,
+      "third_party": 1806577,
+      "listed": 994476
+     },
+     "ablated": {
+      "page": 2091861,
+      "third_party": 1761656,
+      "listed": 949811
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hs-analytics.net": 44094,
+      "track.hubspot.com": 1338,
+      "js.zi-scripts.com": -279,
+      "www.googletagmanager.com": 257,
+      "tags.srv.stackadapt.com": -238,
+      "d.adroll.com": -139,
+      "x.bidswitch.net": -50,
+      "i.l-dsp.inmobicdn.net": -25,
+      "s.company-target.com": 25,
+      "ml314.com": -25,
+      "px.ads.linkedin.com": -21,
+      "dsum-sec.casalemedia.com": -10
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 44094,
+     "control": {
+      "page": 2138679,
+      "third_party": 1808808,
+      "listed": 998177
+     },
+     "ablated": {
+      "page": 2089365,
+      "third_party": 1759159,
+      "listed": 948506
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "js.hs-analytics.net": 44094,
+      "d.adroll.com": 2550,
+      "track.hubspot.com": 1327,
+      "cm.g.doubleclick.net": 660,
+      "web.inmobicdn.net": 350,
+      "inmobi.com": -334,
+      "js.zi-scripts.com": 279,
+      "px4.ads.linkedin.com": 268,
+      "tags.srv.stackadapt.com": 238,
+      "pixel.tapad.com": -50,
+      "i.l-dsp.inmobicdn.net": -25,
+      "www.googletagmanager.com": -21
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     826,
+     5220
+    ],
+    "third_party": [
+     827,
+     5555
+    ],
+    "listed": [
+     571,
+     5577
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3023,
+     "sd": 3107.0271965336897,
+     "se": 2196.9999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3191,
+     "sd": 3343.200861449997,
+     "se": 2364.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3074,
+     "sd": 3539.776546619857,
+     "se": 2503.0
+    }
+   },
+   "own_mean": 44094
+  },
+  "s.adroll.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 35384,
+     "control": {
+      "page": 2138584,
+      "third_party": 1808380,
+      "listed": 997729
+     },
+     "ablated": {
+      "page": 2071970,
+      "third_party": 1741764,
+      "listed": 929950
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "s.adroll.com": 35384,
+      "d.adroll.com": 21519,
+      "pixel.tapad.com": 2196,
+      "px.ads.linkedin.com": 1989,
+      "www.googletagmanager.com": -1183,
+      "dsum-sec.casalemedia.com": 1039,
+      "px4.ads.linkedin.com": 862,
+      "image2.pubmatic.com": 844,
+      "ipv4.d.adroll.com": 798,
+      "cm.g.doubleclick.net": 660,
+      "x.bidswitch.net": 520,
+      "ml314.com": 397
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 35383,
+     "control": {
+      "page": 2137509,
+      "third_party": 1807303,
+      "listed": 996654
+     },
+     "ablated": {
+      "page": 2071521,
+      "third_party": 1741649,
+      "listed": 930577
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "s.adroll.com": 35383,
+      "d.adroll.com": 20352,
+      "pixel.tapad.com": 2196,
+      "px.ads.linkedin.com": 1457,
+      "px4.ads.linkedin.com": 1129,
+      "dsum-sec.casalemedia.com": 1045,
+      "image2.pubmatic.com": 844,
+      "ipv4.d.adroll.com": 798,
+      "cm.g.doubleclick.net": 660,
+      "x.bidswitch.net": 520,
+      "www.googletagmanager.com": -422,
+      "ml314.com": 397
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     31230,
+     30605
+    ],
+    "third_party": [
+     31232,
+     30271
+    ],
+    "listed": [
+     32395,
+     30694
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 30917.5,
+     "sd": 441.9417382415922,
+     "se": 312.49999999999994
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 30751.5,
+     "sd": 679.5296167202722,
+     "se": 480.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 31544.5,
+     "sd": 1202.7886347983174,
+     "se": 850.5
+    }
+   },
+   "own_mean": 35383.5
+  }
+ },
+ "candidates": [
+  "snap.licdn.com",
+  "js.hs-analytics.net",
+  "s.adroll.com"
+ ],
+ "category": "productivity",
+ "domain": "inmobi.com",
+ "n_blocked_tracking": 240.0,
+ "elapsed_s": 107.5
+}

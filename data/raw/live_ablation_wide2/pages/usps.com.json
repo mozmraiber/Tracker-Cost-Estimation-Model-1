@@ -1,0 +1,337 @@
+{
+ "url": "https://usps.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "connect.facebook.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 259260,
+     "control": {
+      "page": 3619992,
+      "third_party": 1244687,
+      "listed": 485208
+     },
+     "ablated": {
+      "page": 3362089,
+      "third_party": 986640,
+      "listed": 224215
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 259260,
+      "www.googletagmanager.com": -3437,
+      "aax-eu.amazon-adsystem.com": 881,
+      "dpm.demdex.net": 764,
+      "www.facebook.com": 495,
+      "mpc2-prod-23-is5qnl632q-ue.a.run.app": 489,
+      "sync-tm.everesttech.net": -404,
+      "usps.com": -150,
+      "tr.snapchat.com": -25,
+      "x.bidswitch.net": -25,
+      "tr6.snapchat.com": 25,
+      "us-u.openx.net": 25
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 259260,
+     "control": {
+      "page": 3620556,
+      "third_party": 1245191,
+      "listed": 485647
+     },
+     "ablated": {
+      "page": 3360842,
+      "third_party": 985394,
+      "listed": 226466
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "connect.facebook.net": 259260,
+      "live.rezync.com": -705,
+      "www.facebook.com": 495,
+      "mpc2-prod-23-is5qnl632q-ue.a.run.app": 489,
+      "tr.snapchat.com": 453,
+      "sync-tm.everesttech.net": -404,
+      "www.googletagmanager.com": 128,
+      "www.usps.com": -83,
+      "tr6.snapchat.com": 25,
+      "us-u.openx.net": 25,
+      "dsum-sec.casalemedia.com": 16,
+      "p.rfihub.com": 7
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1357,
+     454
+    ],
+    "third_party": [
+     -1213,
+     537
+    ],
+    "listed": [
+     1733,
+     -79
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -451.5,
+     "sd": 1280.5703807288376,
+     "se": 905.4999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -338,
+     "sd": 1237.4368670764582,
+     "se": 874.9999999999999
+    },
+    "listed": {
+     "n": 2,
+     "mean": 827,
+     "sd": 1281.277487510024,
+     "se": 905.9999999999999
+    }
+   },
+   "own_mean": 259260
+  },
+  "c.tvpixel.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 32473,
+     "control": {
+      "page": 3621260,
+      "third_party": 1245817,
+      "listed": 484944
+     },
+     "ablated": {
+      "page": 3586667,
+      "third_party": 1211458,
+      "listed": 451794
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "c.tvpixel.com": 32473,
+      "www.googletagmanager.com": 1210,
+      "p.tvpixel.com": 862,
+      "dpm.demdex.net": 764,
+      "tr.snapchat.com": -501,
+      "beacon.lynx.cognitivlabs.com": -415,
+      "usps.com": 150,
+      "www.usps.com": 84,
+      "tr6.snapchat.com": -25,
+      "connect.facebook.net": -24,
+      "sc-static.net": 20,
+      "dsum-sec.casalemedia.com": -4
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 32473,
+     "control": {
+      "page": 3615677,
+      "third_party": 1240300,
+      "listed": 480670
+     },
+     "ablated": {
+      "page": 3585147,
+      "third_party": 1209788,
+      "listed": 450158
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "c.tvpixel.com": 32473,
+      "p.rfihub.com": -2092,
+      "sync-tm.everesttech.net": -1155,
+      "p.tvpixel.com": 862,
+      "dpm.demdex.net": 764,
+      "cm.g.doubleclick.net": -706,
+      "tr.snapchat.com": 352,
+      "tr6.snapchat.com": -25,
+      "us-u.openx.net": 25,
+      "www.usps.com": 18,
+      "live.rezync.com": 10,
+      "www.facebook.com": 2
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     2120,
+     -1943
+    ],
+    "third_party": [
+     1886,
+     -1961
+    ],
+    "listed": [
+     677,
+     -1961
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 88.5,
+     "sd": 2872.9748519609425,
+     "se": 2031.4999999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -37.5,
+     "sd": 2720.2397872246484,
+     "se": 1923.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -642,
+     "sd": 1865.3476887701124,
+     "se": 1319.0
+    }
+   },
+   "own_mean": 32473
+  },
+  "sc-static.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 25611,
+     "control": {
+      "page": 3617750,
+      "third_party": 1242535,
+      "listed": 483001
+     },
+     "ablated": {
+      "page": 3588302,
+      "third_party": 1212903,
+      "listed": 453035
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "sc-static.net": 25611,
+      "live.rezync.com": 1880,
+      "tr.snapchat.com": 1824,
+      "aax-eu.amazon-adsystem.com": -881,
+      "dpm.demdex.net": 764,
+      "cm.g.doubleclick.net": 706,
+      "www.googletagmanager.com": -333,
+      "tr6.snapchat.com": 311,
+      "p.rfihub.com": -293,
+      "www.usps.com": -184,
+      "us-u.openx.net": 25,
+      "connect.facebook.net": 20
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 25611,
+     "control": {
+      "page": 3617101,
+      "third_party": 1241646,
+      "listed": 481813
+     },
+     "ablated": {
+      "page": 3588149,
+      "third_party": 1212844,
+      "listed": 453133
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "sc-static.net": 25611,
+      "live.rezync.com": 2586,
+      "tr.snapchat.com": 2225,
+      "dpm.demdex.net": -764,
+      "cm.g.doubleclick.net": -706,
+      "sync-tm.everesttech.net": -404,
+      "tr6.snapchat.com": 311,
+      "s.pinimg.com": 198,
+      "usps.com": 150,
+      "p.rfihub.com": -139,
+      "www.googletagmanager.com": -41,
+      "ct.pinterest.com": -35
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3837,
+     3341
+    ],
+    "third_party": [
+     4021,
+     3191
+    ],
+    "listed": [
+     4355,
+     3069
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 3589,
+     "sd": 350.72496346852756,
+     "se": 247.99999999999997
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 3606,
+     "sd": 586.8986283848344,
+     "se": 414.99999999999994
+    },
+    "listed": {
+     "n": 2,
+     "mean": 3712,
+     "sd": 909.3393206059001,
+     "se": 642.9999999999999
+    }
+   },
+   "own_mean": 25611
+  }
+ },
+ "candidates": [
+  "connect.facebook.net",
+  "c.tvpixel.com",
+  "sc-static.net"
+ ],
+ "category": "productivity",
+ "domain": "usps.com",
+ "n_blocked_tracking": 160.0,
+ "elapsed_s": 105.9
+}

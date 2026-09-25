@@ -1,0 +1,331 @@
+{
+ "url": "https://hbr.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "securepubads.g.doubleclick.net": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 254654,
+     "control": {
+      "page": 7229184,
+      "third_party": 2584488,
+      "listed": 528378
+     },
+     "ablated": {
+      "page": 3114138,
+      "third_party": 2075870,
+      "listed": 271287
+     },
+     "n_aborted": 1,
+     "moved": {
+      "hbr.org": 3606430,
+      "securepubads.g.doubleclick.net": 254654,
+      "fundingchoicesmessages.google.com": 157019,
+      "fonts.gstatic.com": 87552,
+      "fonts.googleapis.com": 6975,
+      "pixel.adsafeprotected.com": 1234,
+      "rp.liadm.com": 703,
+      "l.clarity.ms": -542,
+      "u.clarity.ms": 542,
+      "pagead2.googlesyndication.com": 504,
+      "www.recaptcha.net": -76,
+      "www.clarity.ms": 41
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 254654,
+     "control": {
+      "page": 3621906,
+      "third_party": 2583626,
+      "listed": 527429
+     },
+     "ablated": {
+      "page": 6722265,
+      "third_party": 2077582,
+      "listed": 272883
+     },
+     "n_aborted": 1,
+     "moved": {
+      "hbr.org": -3606404,
+      "securepubads.g.doubleclick.net": 254654,
+      "fundingchoicesmessages.google.com": 157001,
+      "fonts.gstatic.com": 87552,
+      "fonts.googleapis.com": 6975,
+      "pixel.adsafeprotected.com": 1050,
+      "dpm.demdex.net": -938,
+      "i.clarity.ms": -813,
+      "rp.liadm.com": -703,
+      "g.clarity.ms": 542,
+      "pagead2.googlesyndication.com": 504,
+      "tags.srv.stackadapt.com": 238
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     3860392,
+     -3355013
+    ],
+    "third_party": [
+     253964,
+     251390
+    ],
+    "listed": [
+     2437,
+     -108
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 252689.5,
+     "sd": 5102061.804507321,
+     "se": 3607702.4999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 252677,
+     "sd": 1820.0928547741732,
+     "se": 1286.9999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1164.5,
+     "sd": 1799.5867581197635,
+     "se": 1272.5
+    }
+   },
+   "own_mean": 254654
+  },
+  "b-code.liadm.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 51641,
+     "control": {
+      "page": 3625913,
+      "third_party": 2587636,
+      "listed": 530225
+     },
+     "ablated": {
+      "page": 7209115,
+      "third_party": 2564424,
+      "listed": 508355
+     },
+     "n_aborted": 1,
+     "moved": {
+      "hbr.org": -3606414,
+      "b-code.liadm.com": 51641,
+      "pagead2.googlesyndication.com": -31262,
+      "rum-ingest.us0.observability.splunkcloud.com": 1200,
+      "dpm.demdex.net": -934,
+      "securepubads.g.doubleclick.net": 745,
+      "rp.liadm.com": 703,
+      "k.clarity.ms": 542,
+      "n.clarity.ms": -542,
+      "rp4.liadm.com": 518,
+      "i.liadm.com": 392,
+      "www.recaptcha.net": 106
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 51641,
+     "control": {
+      "page": 3620105,
+      "third_party": 2585056,
+      "listed": 528871
+     },
+     "ablated": {
+      "page": 7176763,
+      "third_party": 2532074,
+      "listed": 475914
+     },
+     "n_aborted": 1,
+     "moved": {
+      "hbr.org": -3606411,
+      "b-code.liadm.com": 51641,
+      "platform.hbr.org": -3229,
+      "e.clarity.ms": 813,
+      "o.clarity.ms": -542,
+      "rp4.liadm.com": 518,
+      "i.liadm.com": 392,
+      "snap.licdn.com": 59,
+      "securepubads.g.doubleclick.net": 46,
+      "cdn.tinypass.com": 40,
+      "www.recaptcha.net": 39,
+      "fundingchoicesmessages.google.com": -14
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -3634843,
+     -3608299
+    ],
+    "third_party": [
+     -28429,
+     1341
+    ],
+    "listed": [
+     -29771,
+     1316
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -3621571,
+     "sd": 18769.442399815718,
+     "se": 13272.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -13544,
+     "sd": 21050.56887592352,
+     "se": 14884.999999999998
+    },
+    "listed": {
+     "n": 2,
+     "mean": -14227.5,
+     "sd": 21981.828506746202,
+     "se": 15543.499999999998
+    }
+   },
+   "own_mean": 51641
+  },
+  "ak.sail-horizon.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 49611,
+     "control": {
+      "page": 3626222,
+      "third_party": 2587938,
+      "listed": 530470
+     },
+     "ablated": {
+      "page": 7181098,
+      "third_party": 2536431,
+      "listed": 480023
+     },
+     "n_aborted": 1,
+     "moved": {
+      "hbr.org": -3606383,
+      "ak.sail-horizon.com": 49611,
+      "rum-ingest.us0.observability.splunkcloud.com": 1200,
+      "dpm.demdex.net": 938,
+      "api.sail-personalize.com": 619,
+      "i.clarity.ms": -542,
+      "t.clarity.ms": 542,
+      "securepubads.g.doubleclick.net": -481,
+      "px.ads.linkedin.com": -267,
+      "cdn.tinypass.com": -69,
+      "siteintercept.qualtrics.com": -69,
+      "snap.licdn.com": 59
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 49611,
+     "control": {
+      "page": 7230757,
+      "third_party": 2586089,
+      "listed": 530004
+     },
+     "ablated": {
+      "page": 7178778,
+      "third_party": 2534110,
+      "listed": 479106
+     },
+     "n_aborted": 1,
+     "moved": {
+      "ak.sail-horizon.com": 49611,
+      "siteintercept.qualtrics.com": 2497,
+      "www.googletagmanager.com": -1357,
+      "dpm.demdex.net": 934,
+      "api.sail-personalize.com": 618,
+      "k.clarity.ms": -542,
+      "u.clarity.ms": 542,
+      "cm.everesttech.net": -503,
+      "tags.srv.stackadapt.com": 238,
+      "securepubads.g.doubleclick.net": -81,
+      "www.recaptcha.net": 57,
+      "fonts.gstatic.com": -36
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -3604487,
+     2368
+    ],
+    "third_party": [
+     1896,
+     2368
+    ],
+    "listed": [
+     836,
+     1287
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1801059.5,
+     "sd": 2550431.6292566047,
+     "se": 1803427.4999999998
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2132,
+     "sd": 333.75440072005046,
+     "se": 236.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 1061.5,
+     "sd": 318.90515831513295,
+     "se": 225.5
+    }
+   },
+   "own_mean": 49611
+  }
+ },
+ "candidates": [
+  "securepubads.g.doubleclick.net",
+  "b-code.liadm.com",
+  "ak.sail-horizon.com"
+ ],
+ "category": "news",
+ "domain": "hbr.org",
+ "n_blocked_tracking": 170.0,
+ "elapsed_s": 137.2
+}

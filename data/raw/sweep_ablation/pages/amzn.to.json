@@ -1,0 +1,11 @@
+{
+ "url": "https://amzn.to/",
+ "hosts": [
+  "s.amazon-adsystem.com"
+ ],
+ "runs": [],
+ "skipped": "only 1 ETP-blocked hosts",
+ "category": "infrastructure",
+ "domain": "amzn.to",
+ "elapsed_s": 5.7
+}

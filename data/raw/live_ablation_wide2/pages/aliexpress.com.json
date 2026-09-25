@@ -1,0 +1,121 @@
+{
+ "url": "https://aliexpress.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "pagead2.googlesyndication.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 116369,
+     "control": {
+      "page": 5154184,
+      "third_party": 5014740,
+      "listed": 856021
+     },
+     "ablated": {
+      "page": 5027837,
+      "third_party": 4888411,
+      "listed": 739652
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "pagead2.googlesyndication.com": 116369,
+      "ae-pic-a1.aliexpress-media.com": 9239,
+      "aliexpress.com": 619,
+      "aplus.aliexpress.com": -617,
+      "acjs.aliyun.com": 534,
+      "fvr5rd.tdum.alibaba.com": 414,
+      "87sn3m.tdum.alibaba.com": -414,
+      "de.aliexpress.com": 308,
+      "www.aliexpress.com": -298,
+      "59515.ase.aidcgroup.net": -229,
+      "84740.ase.aidcgroup.net": 229,
+      "www.google.com": 197
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 116361,
+     "control": {
+      "page": 5126431,
+      "third_party": 4988082,
+      "listed": 833851
+     },
+     "ablated": {
+      "page": 5007876,
+      "third_party": 4867902,
+      "listed": 717489
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "pagead2.googlesyndication.com": 116361,
+      "ae-pic-a1.aliexpress-media.com": 3577,
+      "aplus.aliexpress.com": -1851,
+      "o.alicdn.com": 502,
+      "2m1336.tdum.alibaba.com": -414,
+      "363j20.tdum.alibaba.com": 414,
+      "gm.mmstat.com": -369,
+      "de.aliexpress.com": 232,
+      "23004.ase.aidcgroup.net": 229,
+      "88609.ase.aidcgroup.net": -229,
+      "log.mmstat.com": 108,
+      "www.google.com": 36
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     9978,
+     2194
+    ],
+    "third_party": [
+     9960,
+     3819
+    ],
+    "listed": [
+     0,
+     1
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 6086,
+     "sd": 5504.119184756086,
+     "se": 3891.9999999999995
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 6889.5,
+     "sd": 4342.3427432665885,
+     "se": 3070.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0.5,
+     "sd": 0.7071067811865476,
+     "se": 0.5
+    }
+   },
+   "own_mean": 116365
+  }
+ },
+ "candidates": [
+  "pagead2.googlesyndication.com"
+ ],
+ "category": "shopping",
+ "domain": "aliexpress.com",
+ "n_blocked_tracking": 10.0,
+ "elapsed_s": 47.6
+}

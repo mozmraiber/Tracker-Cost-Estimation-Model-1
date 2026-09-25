@@ -1,0 +1,328 @@
+{
+ "url": "https://stanford.edu/",
+ "hosts": [
+  "t.contentsquare.net",
+  "googleads.g.doubleclick.net",
+  "region1.google-analytics.com",
+  "static.doubleclick.net"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "region1.google-analytics.com",
+    "t.contentsquare.net",
+    "googleads.g.doubleclick.net",
+    "static.doubleclick.net"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4926535,
+      "third_party": 3687338,
+      "listed": 190451
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 4880670,
+      "third_party": 3642066,
+      "listed": 190620
+     },
+     "own": 839,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 0,
+     "aborted_types": {
+      "fetch": 1
+     },
+     "saved": {
+      "page": 45865,
+      "third_party": 45272,
+      "listed": -169
+     },
+     "cascade": {
+      "page": 45026,
+      "third_party": 44433,
+      "listed": -1008
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "region1.google-analytics.com",
+      "t.contentsquare.net"
+     ],
+     "bytes": {
+      "page": 3730257,
+      "third_party": 2492467,
+      "listed": 1646
+     },
+     "own": 188066,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "fetch": 1
+     },
+     "saved": {
+      "page": 1196278,
+      "third_party": 1194871,
+      "listed": 188805
+     },
+     "cascade": {
+      "page": 1008212,
+      "third_party": 1006805,
+      "listed": 739
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "region1.google-analytics.com",
+      "t.contentsquare.net",
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 2643736,
+      "third_party": 1489681,
+      "listed": 769
+     },
+     "own": 189682,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": 2282799,
+      "third_party": 2197657,
+      "listed": 189682
+     },
+     "cascade": {
+      "page": 2093117,
+      "third_party": 2007975,
+      "listed": 0
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "region1.google-analytics.com",
+      "t.contentsquare.net",
+      "googleads.g.doubleclick.net",
+      "static.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 3729757,
+      "third_party": 2491055,
+      "listed": 0
+     },
+     "own": 190451,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": 1196778,
+      "third_party": 1196283,
+      "listed": 190451
+     },
+     "cascade": {
+      "page": 1006327,
+      "third_party": 1005832,
+      "listed": 0
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "t.contentsquare.net",
+    "googleads.g.doubleclick.net",
+    "static.doubleclick.net",
+    "region1.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 4518003,
+      "third_party": 3278639,
+      "listed": 189713
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "t.contentsquare.net"
+     ],
+     "bytes": {
+      "page": 4743925,
+      "third_party": 3504634,
+      "listed": 3224
+     },
+     "own": 187228,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": -225922,
+      "third_party": -225995,
+      "listed": 186489
+     },
+     "cascade": {
+      "page": -413150,
+      "third_party": -413223,
+      "listed": -739
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "t.contentsquare.net",
+      "googleads.g.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 4112809,
+      "third_party": 2875070,
+      "listed": 1608
+     },
+     "own": 188105,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2,
+      "xhr": 1
+     },
+     "saved": {
+      "page": 405194,
+      "third_party": 403569,
+      "listed": 188105
+     },
+     "cascade": {
+      "page": 217089,
+      "third_party": 215464,
+      "listed": 0
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "t.contentsquare.net",
+      "googleads.g.doubleclick.net",
+      "static.doubleclick.net"
+     ],
+     "bytes": {
+      "page": 4738092,
+      "third_party": 3498412,
+      "listed": 839
+     },
+     "own": 188874,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "xhr": 1
+     },
+     "saved": {
+      "page": -220089,
+      "third_party": -219773,
+      "listed": 188874
+     },
+     "cascade": {
+      "page": -408963,
+      "third_party": -408647,
+      "listed": 0
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "t.contentsquare.net",
+      "googleads.g.doubleclick.net",
+      "static.doubleclick.net",
+      "region1.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 4112059,
+      "third_party": 2873314,
+      "listed": 0
+     },
+     "own": 189713,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 1,
+      "xhr": 1
+     },
+     "saved": {
+      "page": 405944,
+      "third_party": 405325,
+      "listed": 189713
+     },
+     "cascade": {
+      "page": 216231,
+      "third_party": 215612,
+      "listed": 0
+     }
+    }
+   ]
+  }
+ ],
+ "category": "reference",
+ "domain": "stanford.edu",
+ "elapsed_s": 81.9
+}

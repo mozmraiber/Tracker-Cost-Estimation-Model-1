@@ -1,0 +1,471 @@
+{
+ "url": "https://avito.ru/",
+ "hosts": [
+  "yandex.ru",
+  "static.a.mts.ru",
+  "mc.yandex.ru",
+  "top-fwz1.mail.ru",
+  "mc.yandex.com",
+  "content.adriver.ru"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "mc.yandex.com",
+    "mc.yandex.ru",
+    "static.a.mts.ru",
+    "yandex.ru",
+    "content.adriver.ru",
+    "top-fwz1.mail.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 8697381,
+      "third_party": 8364477,
+      "listed": 6982794
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 8713500,
+      "third_party": 8431977,
+      "listed": 7012369
+     },
+     "own": 19162,
+     "n_aborted": 10,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "fetch": 3,
+      "xhr": 3,
+      "script": 3,
+      "image": 1
+     },
+     "saved": {
+      "page": -16119,
+      "third_party": -67500,
+      "listed": -29575
+     },
+     "cascade": {
+      "page": -35281,
+      "third_party": -86662,
+      "listed": -48737
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 10599719,
+      "third_party": 10165899,
+      "listed": 8668062
+     },
+     "own": 185039,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": -1902338,
+      "third_party": -1801422,
+      "listed": -1685268
+     },
+     "cascade": {
+      "page": -2087377,
+      "third_party": -1986461,
+      "listed": -1870307
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru",
+      "static.a.mts.ru"
+     ],
+     "bytes": {
+      "page": 8826577,
+      "third_party": 8528070,
+      "listed": 7116219
+     },
+     "own": 355407,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": -129196,
+      "third_party": -163593,
+      "listed": -133425
+     },
+     "cascade": {
+      "page": -484603,
+      "third_party": -519000,
+      "listed": -488832
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru",
+      "static.a.mts.ru",
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 8459504,
+      "third_party": 7898559,
+      "listed": 7208854
+     },
+     "own": 928438,
+     "n_aborted": 7,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5,
+      "image": 2
+     },
+     "saved": {
+      "page": 237877,
+      "third_party": 465918,
+      "listed": -226060
+     },
+     "cascade": {
+      "page": -690561,
+      "third_party": -462520,
+      "listed": -1154498
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru",
+      "static.a.mts.ru",
+      "yandex.ru",
+      "content.adriver.ru"
+     ],
+     "bytes": {
+      "page": 7337406,
+      "third_party": 7037253,
+      "listed": 6320718
+     },
+     "own": 945910,
+     "n_aborted": 10,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "image": 4
+     },
+     "saved": {
+      "page": 1359975,
+      "third_party": 1327224,
+      "listed": 662076
+     },
+     "cascade": {
+      "page": 414065,
+      "third_party": 381314,
+      "listed": -283834
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "mc.yandex.com",
+      "mc.yandex.ru",
+      "static.a.mts.ru",
+      "yandex.ru",
+      "content.adriver.ru",
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 7684742,
+      "third_party": 7346323,
+      "listed": 6620889
+     },
+     "own": 974626,
+     "n_aborted": 18,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7,
+      "image": 11
+     },
+     "saved": {
+      "page": 1012639,
+      "third_party": 1018154,
+      "listed": 361905
+     },
+     "cascade": {
+      "page": 38013,
+      "third_party": 43528,
+      "listed": -612721
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "mc.yandex.com",
+    "yandex.ru",
+    "static.a.mts.ru",
+    "content.adriver.ru",
+    "mc.yandex.ru",
+    "top-fwz1.mail.ru"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 9138947,
+      "third_party": 8777061,
+      "listed": 7348869
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "mc.yandex.com"
+     ],
+     "bytes": {
+      "page": 8140511,
+      "third_party": 7835463,
+      "listed": 6383563
+     },
+     "own": 19424,
+     "n_aborted": 10,
+     "n_aborted_casc": 9,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "fetch": 3,
+      "xhr": 3,
+      "script": 3,
+      "image": 1
+     },
+     "saved": {
+      "page": 998436,
+      "third_party": 941598,
+      "listed": 965306
+     },
+     "cascade": {
+      "page": 979012,
+      "third_party": 922174,
+      "listed": 945882
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "mc.yandex.com",
+      "yandex.ru"
+     ],
+     "bytes": {
+      "page": 7630037,
+      "third_party": 7236289,
+      "listed": 6551121
+     },
+     "own": 593528,
+     "n_aborted": 6,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3,
+      "fetch": 1,
+      "image": 2
+     },
+     "saved": {
+      "page": 1508910,
+      "third_party": 1540772,
+      "listed": 797748
+     },
+     "cascade": {
+      "page": 915382,
+      "third_party": 947244,
+      "listed": 204220
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "mc.yandex.com",
+      "yandex.ru",
+      "static.a.mts.ru"
+     ],
+     "bytes": {
+      "page": 7766162,
+      "third_party": 7421215,
+      "listed": 6711449
+     },
+     "own": 763896,
+     "n_aborted": 12,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5,
+      "image": 7
+     },
+     "saved": {
+      "page": 1372785,
+      "third_party": 1355846,
+      "listed": 637420
+     },
+     "cascade": {
+      "page": 608889,
+      "third_party": 591950,
+      "listed": -126476
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "mc.yandex.com",
+      "yandex.ru",
+      "static.a.mts.ru",
+      "content.adriver.ru"
+     ],
+     "bytes": {
+      "page": 7433292,
+      "third_party": 7087942,
+      "listed": 6358368
+     },
+     "own": 781366,
+     "n_aborted": 11,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "image": 5
+     },
+     "saved": {
+      "page": 1705655,
+      "third_party": 1689119,
+      "listed": 990501
+     },
+     "cascade": {
+      "page": 924289,
+      "third_party": 907753,
+      "listed": 209135
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "mc.yandex.com",
+      "yandex.ru",
+      "static.a.mts.ru",
+      "content.adriver.ru",
+      "mc.yandex.ru"
+     ],
+     "bytes": {
+      "page": 7151198,
+      "third_party": 6795340,
+      "listed": 6108374
+     },
+     "own": 947243,
+     "n_aborted": 8,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6,
+      "image": 2
+     },
+     "saved": {
+      "page": 1987749,
+      "third_party": 1981721,
+      "listed": 1240495
+     },
+     "cascade": {
+      "page": 1040506,
+      "third_party": 1034478,
+      "listed": 293252
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "mc.yandex.com",
+      "yandex.ru",
+      "static.a.mts.ru",
+      "content.adriver.ru",
+      "mc.yandex.ru",
+      "top-fwz1.mail.ru"
+     ],
+     "bytes": {
+      "page": 7647021,
+      "third_party": 7335596,
+      "listed": 6648253
+     },
+     "own": 975959,
+     "n_aborted": 10,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7,
+      "image": 3
+     },
+     "saved": {
+      "page": 1491926,
+      "third_party": 1441465,
+      "listed": 700616
+     },
+     "cascade": {
+      "page": 515967,
+      "third_party": 465506,
+      "listed": -275343
+     }
+    }
+   ]
+  }
+ ],
+ "category": "shopping",
+ "domain": "avito.ru",
+ "elapsed_s": 511.0
+}

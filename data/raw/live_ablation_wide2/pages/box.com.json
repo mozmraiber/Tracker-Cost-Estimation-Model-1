@@ -1,0 +1,337 @@
+{
+ "url": "https://box.com/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "js.qualified.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 98361,
+     "control": {
+      "page": 3492349,
+      "third_party": 1984009,
+      "listed": 1871058
+     },
+     "ablated": {
+      "page": 3395601,
+      "third_party": 1887014,
+      "listed": 1774066
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "moved": {
+      "js.qualified.com": 98361,
+      "app.qualified.com": -858,
+      "cm.everesttech.net": -490,
+      "www.box.com": -264,
+      "ws.qualified.com": 42,
+      "assets.qualified.com": -39,
+      "box.com": 25,
+      "o209747.ingest.us.sentry.io": -25,
+      "sanalytics.box.com": -8,
+      "cdn03.boxcdn.net": 3,
+      "epsilon.6sense.com": -2,
+      "boxinc.tt.omtrdc.net": 2
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 98361,
+     "control": {
+      "page": 3492826,
+      "third_party": 1984125,
+      "listed": 1871175
+     },
+     "ablated": {
+      "page": 3394694,
+      "third_party": 1886017,
+      "listed": 1773068
+     },
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "moved": {
+      "js.qualified.com": 98361,
+      "dpm.demdex.net": 937,
+      "app.qualified.com": -863,
+      "c.6sc.co": -355,
+      "o209747.ingest.us.sentry.io": 25,
+      "www.box.com": 24,
+      "boxinc.tt.omtrdc.net": 5,
+      "epsilon.6sense.com": -2,
+      "cdn03.boxcdn.net": 1,
+      "js-agent.newrelic.com": -1,
+      "box.demdex.net": 0,
+      "ipv6.6sc.co": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -1613,
+     -229
+    ],
+    "third_party": [
+     -1366,
+     -253
+    ],
+    "listed": [
+     -1369,
+     -254
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -921,
+     "sd": 978.6357851621817,
+     "se": 691.9999999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -809.5,
+     "sd": 787.0098474606274,
+     "se": 556.5
+    },
+    "listed": {
+     "n": 2,
+     "mean": -811.5,
+     "sd": 788.4240610230005,
+     "se": 557.5
+    }
+   },
+   "own_mean": 98361
+  },
+  "cdn.segment.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 37678,
+     "control": {
+      "page": 3491631,
+      "third_party": 1983189,
+      "listed": 1870241
+     },
+     "ablated": {
+      "page": 3454725,
+      "third_party": 1946453,
+      "listed": 1833501
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "cdn.segment.com": 37678,
+      "dpm.demdex.net": -936,
+      "api.segment.io": 514,
+      "c.6sc.co": -355,
+      "www.box.com": 178,
+      "assets.qualified.com": -166,
+      "sanalytics.box.com": -8,
+      "boxinc.tt.omtrdc.net": 6,
+      "cdn03.boxcdn.net": -4,
+      "js-agent.newrelic.com": -1,
+      "app.qualified.com": -1,
+      "ws.qualified.com": 1
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 37678,
+     "control": {
+      "page": 3490465,
+      "third_party": 1982222,
+      "listed": 1869271
+     },
+     "ablated": {
+      "page": 3454790,
+      "third_party": 1945913,
+      "listed": 1832962
+     },
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "moved": {
+      "cdn.segment.com": 37678,
+      "dpm.demdex.net": -946,
+      "c.6sc.co": -854,
+      "www.box.com": -634,
+      "api.segment.io": 514,
+      "cm.everesttech.net": -490,
+      "js.qualified.com": 265,
+      "assets.qualified.com": 94,
+      "ws.qualified.com": 42,
+      "app.qualified.com": 3,
+      "boxinc.tt.omtrdc.net": 3,
+      "box.demdex.net": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -772,
+     -2003
+    ],
+    "third_party": [
+     -942,
+     -1369
+    ],
+    "listed": [
+     -938,
+     -1369
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -1387.5,
+     "sd": 870.44844764064,
+     "se": 615.5
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -1155.5,
+     "sd": 301.9345955666558,
+     "se": 213.49999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": -1153.5,
+     "sd": 304.763022691402,
+     "se": 215.5
+    }
+   },
+   "own_mean": 37678
+  },
+  "js-agent.newrelic.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 28743,
+     "control": {
+      "page": 3490864,
+      "third_party": 1982953,
+      "listed": 1870003
+     },
+     "ablated": {
+      "page": 3461641,
+      "third_party": 1952734,
+      "listed": 1839783
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 28743,
+      "bam.nr-data.net": 2078,
+      "www.box.com": -996,
+      "c.6sc.co": -499,
+      "assets.qualified.com": -54,
+      "ws.qualified.com": -42,
+      "boxinc.tt.omtrdc.net": -4,
+      "app.qualified.com": -2,
+      "dpm.demdex.net": 1,
+      "cdn03.boxcdn.net": -1,
+      "cdn.segment.com": -1,
+      "box.demdex.net": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 28743,
+     "control": {
+      "page": 3492217,
+      "third_party": 1983493,
+      "listed": 1870544
+     },
+     "ablated": {
+      "page": 3460638,
+      "third_party": 1951360,
+      "listed": 1838408
+     },
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "moved": {
+      "js-agent.newrelic.com": 28743,
+      "bam.nr-data.net": 2078,
+      "dpm.demdex.net": 939,
+      "www.box.com": -714,
+      "c.6sc.co": 355,
+      "assets.box.com": 160,
+      "o209747.ingest.us.sentry.io": 25,
+      "app.qualified.com": -4,
+      "cdn03.boxcdn.net": -3,
+      "assets.qualified.com": 2,
+      "boxinc.tt.omtrdc.net": -2,
+      "epsilon.6sense.com": 1
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     480,
+     2836
+    ],
+    "third_party": [
+     1476,
+     3390
+    ],
+    "listed": [
+     1477,
+     3393
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 1658,
+     "sd": 1665.943576475506,
+     "se": 1178.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": 2433,
+     "sd": 1353.402379191052,
+     "se": 957.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 2435,
+     "sd": 1354.816592753425,
+     "se": 958.0
+    }
+   },
+   "own_mean": 28743
+  }
+ },
+ "candidates": [
+  "js.qualified.com",
+  "cdn.segment.com",
+  "js-agent.newrelic.com"
+ ],
+ "category": "productivity",
+ "domain": "box.com",
+ "n_blocked_tracking": 140.0,
+ "elapsed_s": 84.0
+}

@@ -1,0 +1,113 @@
+{
+ "url": "https://cloudflare.net/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "static.cloudflareinsights.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 17726,
+     "control": {
+      "page": 9988270,
+      "third_party": 1353916,
+      "listed": 209901
+     },
+     "ablated": {
+      "page": 8649910,
+      "third_party": 1336626,
+      "listed": 192175
+     },
+     "n_aborted": 3,
+     "moved": {
+      "cloudflare.net": 1321070,
+      "static.cloudflareinsights.com": 17726,
+      "d1azc1qln24ryf.cloudfront.net": -436,
+      "cdn.cookielaw.org": 0,
+      "assets.web.q4inc.com": 0,
+      "geolocation.onetrust.com": 0,
+      "fonts.googleapis.com": 0,
+      "cdn.icomoon.io": 0,
+      "widgets.q4app.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 17726,
+     "control": {
+      "page": 9990003,
+      "third_party": 1354352,
+      "listed": 209901
+     },
+     "ablated": {
+      "page": 10100620,
+      "third_party": 1336646,
+      "listed": 192175
+     },
+     "n_aborted": 3,
+     "moved": {
+      "cloudflare.net": -128323,
+      "static.cloudflareinsights.com": 17726,
+      "fonts.googleapis.com": -20,
+      "cdn.cookielaw.org": 0,
+      "assets.web.q4inc.com": 0,
+      "geolocation.onetrust.com": 0,
+      "d1azc1qln24ryf.cloudfront.net": 0,
+      "cdn.icomoon.io": 0,
+      "widgets.q4app.com": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     1320634,
+     -128343
+    ],
+    "third_party": [
+     -436,
+     -20
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": 596145.5,
+     "sd": 1024581.4624833401,
+     "se": 724488.4999999999
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -228,
+     "sd": 294.15642097360376,
+     "se": 207.99999999999997
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 17726
+  }
+ },
+ "candidates": [
+  "static.cloudflareinsights.com"
+ ],
+ "category": "infrastructure",
+ "domain": "cloudflare.net",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 31.5
+}

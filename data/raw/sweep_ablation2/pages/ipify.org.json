@@ -1,0 +1,456 @@
+{
+ "url": "https://ipify.org/",
+ "hosts": [
+  "js.hs-analytics.net",
+  "js.hubspot.com",
+  "js.hs-banner.com",
+  "www.google-analytics.com",
+  "js.hsadspixel.net",
+  "script.crazyegg.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "js.hsadspixel.net",
+    "js.hs-banner.com",
+    "js.hubspot.com",
+    "js.hs-analytics.net",
+    "script.crazyegg.com",
+    "www.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 1252877,
+      "third_party": 1048748,
+      "listed": 176423
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js.hsadspixel.net"
+     ],
+     "bytes": {
+      "page": 907947,
+      "third_party": 704195,
+      "listed": 163562
+     },
+     "own": 5912,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 344930,
+      "third_party": 344553,
+      "listed": 12861
+     },
+     "cascade": {
+      "page": 339018,
+      "third_party": 338641,
+      "listed": 6949
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-banner.com"
+     ],
+     "bytes": {
+      "page": 882880,
+      "third_party": 679127,
+      "listed": 138501
+     },
+     "own": 30981,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 369997,
+      "third_party": 369621,
+      "listed": 37922
+     },
+     "cascade": {
+      "page": 339016,
+      "third_party": 338640,
+      "listed": 6941
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-banner.com",
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 849365,
+      "third_party": 645237,
+      "listed": 105630
+     },
+     "own": 62245,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 403512,
+      "third_party": 403511,
+      "listed": 70793
+     },
+     "cascade": {
+      "page": 341267,
+      "third_party": 341266,
+      "listed": 8548
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-banner.com",
+      "js.hubspot.com",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 717350,
+      "third_party": 513219,
+      "listed": 63634
+     },
+     "own": 106100,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "n_aborted_code": 4,
+     "aborted_types": {
+      "script": 4
+     },
+     "saved": {
+      "page": 535527,
+      "third_party": 535529,
+      "listed": 112789
+     },
+     "cascade": {
+      "page": 429427,
+      "third_party": 429429,
+      "listed": 6689
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-banner.com",
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "script.crazyegg.com"
+     ],
+     "bytes": {
+      "page": 708231,
+      "third_party": 504102,
+      "listed": 54507
+     },
+     "own": 110398,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 544646,
+      "third_party": 544646,
+      "listed": 121916
+     },
+     "cascade": {
+      "page": 434248,
+      "third_party": 434248,
+      "listed": 11518
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-banner.com",
+      "js.hubspot.com",
+      "js.hs-analytics.net",
+      "script.crazyegg.com",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 686493,
+      "third_party": 482366,
+      "listed": 32774
+     },
+     "own": 132130,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 566384,
+      "third_party": 566382,
+      "listed": 143649
+     },
+     "cascade": {
+      "page": 434254,
+      "third_party": 434252,
+      "listed": 11519
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "js.hsadspixel.net",
+    "js.hs-analytics.net",
+    "js.hubspot.com",
+    "script.crazyegg.com",
+    "js.hs-banner.com",
+    "www.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 1248053,
+      "third_party": 1043924,
+      "listed": 171554
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "n_aborted_code": 0,
+     "aborted_types": {},
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "js.hsadspixel.net"
+     ],
+     "bytes": {
+      "page": 886585,
+      "third_party": 682453,
+      "listed": 141846
+     },
+     "own": 5913,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "n_aborted_code": 1,
+     "aborted_types": {
+      "script": 1
+     },
+     "saved": {
+      "page": 361468,
+      "third_party": 361471,
+      "listed": 29708
+     },
+     "cascade": {
+      "page": 355555,
+      "third_party": 355558,
+      "listed": 23795
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-analytics.net"
+     ],
+     "bytes": {
+      "page": 771476,
+      "third_party": 567347,
+      "listed": 116740
+     },
+     "own": 49772,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "n_aborted_code": 2,
+     "aborted_types": {
+      "script": 2
+     },
+     "saved": {
+      "page": 476577,
+      "third_party": 476577,
+      "listed": 54814
+     },
+     "cascade": {
+      "page": 426805,
+      "third_party": 426805,
+      "listed": 5042
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-analytics.net",
+      "js.hubspot.com"
+     ],
+     "bytes": {
+      "page": 737240,
+      "third_party": 533461,
+      "listed": 83873
+     },
+     "own": 81039,
+     "n_aborted": 3,
+     "n_aborted_casc": 3,
+     "n_aborted_code": 3,
+     "aborted_types": {
+      "script": 3
+     },
+     "saved": {
+      "page": 510813,
+      "third_party": 510463,
+      "listed": 87681
+     },
+     "cascade": {
+      "page": 429774,
+      "third_party": 429424,
+      "listed": 6642
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-analytics.net",
+      "js.hubspot.com",
+      "script.crazyegg.com"
+     ],
+     "bytes": {
+      "page": 733290,
+      "third_party": 529161,
+      "listed": 79576
+     },
+     "own": 85337,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "n_aborted_code": 5,
+     "aborted_types": {
+      "script": 5
+     },
+     "saved": {
+      "page": 514763,
+      "third_party": 514763,
+      "listed": 91978
+     },
+     "cascade": {
+      "page": 429426,
+      "third_party": 429426,
+      "listed": 6641
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-analytics.net",
+      "js.hubspot.com",
+      "script.crazyegg.com",
+      "js.hs-banner.com"
+     ],
+     "bytes": {
+      "page": 707867,
+      "third_party": 504089,
+      "listed": 54507
+     },
+     "own": 110406,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "n_aborted_code": 6,
+     "aborted_types": {
+      "script": 6
+     },
+     "saved": {
+      "page": 540186,
+      "third_party": 539835,
+      "listed": 117047
+     },
+     "cascade": {
+      "page": 429780,
+      "third_party": 429429,
+      "listed": 6641
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "js.hsadspixel.net",
+      "js.hs-analytics.net",
+      "js.hubspot.com",
+      "script.crazyegg.com",
+      "js.hs-banner.com",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 686487,
+      "third_party": 482358,
+      "listed": 32769
+     },
+     "own": 132138,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "n_aborted_code": 7,
+     "aborted_types": {
+      "script": 7
+     },
+     "saved": {
+      "page": 561566,
+      "third_party": 561566,
+      "listed": 138785
+     },
+     "cascade": {
+      "page": 429428,
+      "third_party": 429428,
+      "listed": 6647
+     }
+    }
+   ]
+  }
+ ],
+ "category": "infrastructure",
+ "domain": "ipify.org",
+ "elapsed_s": 101.2
+}

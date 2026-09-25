@@ -1,0 +1,404 @@
+{
+ "url": "https://no-ip.com/",
+ "hosts": [
+  "us-assets.i.posthog.com",
+  "www.googleadservices.com",
+  "cdn.inspectlet.com",
+  "www.google-analytics.com",
+  "bat.bing.com",
+  "js.zi-scripts.com"
+ ],
+ "runs": [
+  {
+   "rep": 0,
+   "order": [
+    "bat.bing.com",
+    "cdn.inspectlet.com",
+    "www.googleadservices.com",
+    "us-assets.i.posthog.com",
+    "js.zi-scripts.com",
+    "www.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3231206,
+      "third_party": 3231206,
+      "listed": 422147
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3013275,
+      "third_party": 3012924,
+      "listed": 405136
+     },
+     "own": 17084,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 217931,
+      "third_party": 218282,
+      "listed": 17011
+     },
+     "cascade": {
+      "page": 200847,
+      "third_party": 201198,
+      "listed": -73
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "bat.bing.com",
+      "cdn.inspectlet.com"
+     ],
+     "bytes": {
+      "page": 3186906,
+      "third_party": 3186555,
+      "listed": 378534
+     },
+     "own": 41709,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 44300,
+      "third_party": 44651,
+      "listed": 43613
+     },
+     "cascade": {
+      "page": 2591,
+      "third_party": 2942,
+      "listed": 1904
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "bat.bing.com",
+      "cdn.inspectlet.com",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 2958401,
+      "third_party": 2958050,
+      "listed": 349605
+     },
+     "own": 69647,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 272805,
+      "third_party": 273156,
+      "listed": 72542
+     },
+     "cascade": {
+      "page": 203158,
+      "third_party": 203509,
+      "listed": 2895
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "bat.bing.com",
+      "cdn.inspectlet.com",
+      "www.googleadservices.com",
+      "us-assets.i.posthog.com"
+     ],
+     "bytes": {
+      "page": 2941848,
+      "third_party": 2941497,
+      "listed": 132007
+     },
+     "own": 284787,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 289358,
+      "third_party": 289709,
+      "listed": 290140
+     },
+     "cascade": {
+      "page": 4571,
+      "third_party": 4922,
+      "listed": 5353
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "bat.bing.com",
+      "cdn.inspectlet.com",
+      "www.googleadservices.com",
+      "us-assets.i.posthog.com",
+      "js.zi-scripts.com"
+     ],
+     "bytes": {
+      "page": 2731878,
+      "third_party": 2731527,
+      "listed": 123309
+     },
+     "own": 292153,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 499328,
+      "third_party": 499679,
+      "listed": 298838
+     },
+     "cascade": {
+      "page": 207175,
+      "third_party": 207526,
+      "listed": 6685
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "bat.bing.com",
+      "cdn.inspectlet.com",
+      "www.googleadservices.com",
+      "us-assets.i.posthog.com",
+      "js.zi-scripts.com",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 2709964,
+      "third_party": 2709613,
+      "listed": 101852
+     },
+     "own": 313885,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 521242,
+      "third_party": 521593,
+      "listed": 320295
+     },
+     "cascade": {
+      "page": 207357,
+      "third_party": 207708,
+      "listed": 6410
+     }
+    }
+   ]
+  },
+  {
+   "rep": 1,
+   "order": [
+    "bat.bing.com",
+    "us-assets.i.posthog.com",
+    "www.googleadservices.com",
+    "js.zi-scripts.com",
+    "cdn.inspectlet.com",
+    "www.google-analytics.com"
+   ],
+   "steps": [
+    {
+     "k": 0,
+     "blocked": [],
+     "bytes": {
+      "page": 3031119,
+      "third_party": 3030768,
+      "listed": 422000
+     },
+     "own": 0,
+     "n_aborted": 0,
+     "n_aborted_casc": 0,
+     "saved": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     },
+     "cascade": {
+      "page": 0,
+      "third_party": 0,
+      "listed": 0
+     }
+    },
+    {
+     "k": 1,
+     "blocked": [
+      "bat.bing.com"
+     ],
+     "bytes": {
+      "page": 3012456,
+      "third_party": 3012456,
+      "listed": 404120
+     },
+     "own": 17084,
+     "n_aborted": 1,
+     "n_aborted_casc": 1,
+     "saved": {
+      "page": 18663,
+      "third_party": 18312,
+      "listed": 17880
+     },
+     "cascade": {
+      "page": 1579,
+      "third_party": 1228,
+      "listed": 796
+     }
+    },
+    {
+     "k": 2,
+     "blocked": [
+      "bat.bing.com",
+      "us-assets.i.posthog.com"
+     ],
+     "bytes": {
+      "page": 2795800,
+      "third_party": 2795449,
+      "listed": 187192
+     },
+     "own": 232080,
+     "n_aborted": 2,
+     "n_aborted_casc": 2,
+     "saved": {
+      "page": 235319,
+      "third_party": 235319,
+      "listed": 234808
+     },
+     "cascade": {
+      "page": 3239,
+      "third_party": 3239,
+      "listed": 2728
+     }
+    },
+    {
+     "k": 3,
+     "blocked": [
+      "bat.bing.com",
+      "us-assets.i.posthog.com",
+      "www.googleadservices.com"
+     ],
+     "bytes": {
+      "page": 2766543,
+      "third_party": 2766192,
+      "listed": 158471
+     },
+     "own": 260019,
+     "n_aborted": 4,
+     "n_aborted_casc": 4,
+     "saved": {
+      "page": 264576,
+      "third_party": 264576,
+      "listed": 263529
+     },
+     "cascade": {
+      "page": 4557,
+      "third_party": 4557,
+      "listed": 3510
+     }
+    },
+    {
+     "k": 4,
+     "blocked": [
+      "bat.bing.com",
+      "us-assets.i.posthog.com",
+      "www.googleadservices.com",
+      "js.zi-scripts.com"
+     ],
+     "bytes": {
+      "page": 2956873,
+      "third_party": 2956873,
+      "listed": 148888
+     },
+     "own": 267381,
+     "n_aborted": 5,
+     "n_aborted_casc": 5,
+     "saved": {
+      "page": 74246,
+      "third_party": 73895,
+      "listed": 273112
+     },
+     "cascade": {
+      "page": -193135,
+      "third_party": -193486,
+      "listed": 5731
+     }
+    },
+    {
+     "k": 5,
+     "blocked": [
+      "bat.bing.com",
+      "us-assets.i.posthog.com",
+      "www.googleadservices.com",
+      "js.zi-scripts.com",
+      "cdn.inspectlet.com"
+     ],
+     "bytes": {
+      "page": 2732146,
+      "third_party": 2731795,
+      "listed": 123585
+     },
+     "own": 292003,
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "saved": {
+      "page": 298973,
+      "third_party": 298973,
+      "listed": 298415
+     },
+     "cascade": {
+      "page": 6970,
+      "third_party": 6970,
+      "listed": 6412
+     }
+    },
+    {
+     "k": 6,
+     "blocked": [
+      "bat.bing.com",
+      "us-assets.i.posthog.com",
+      "www.googleadservices.com",
+      "js.zi-scripts.com",
+      "cdn.inspectlet.com",
+      "www.google-analytics.com"
+     ],
+     "bytes": {
+      "page": 2708715,
+      "third_party": 2708364,
+      "listed": 100648
+     },
+     "own": 313735,
+     "n_aborted": 7,
+     "n_aborted_casc": 7,
+     "saved": {
+      "page": 322404,
+      "third_party": 322404,
+      "listed": 321352
+     },
+     "cascade": {
+      "page": 8669,
+      "third_party": 8669,
+      "listed": 7617
+     }
+    }
+   ]
+  }
+ ],
+ "category": "infrastructure",
+ "domain": "no-ip.com",
+ "elapsed_s": 120.6
+}

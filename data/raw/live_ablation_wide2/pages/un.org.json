@@ -1,0 +1,115 @@
+{
+ "url": "https://un.org/",
+ "reps": 2,
+ "aa_reps": 0,
+ "hosts": {
+  "region1.google-analytics.com": {
+   "reps": [
+    {
+     "rep": 0,
+     "order": [
+      "control",
+      "ablated"
+     ],
+     "own": 2499,
+     "control": {
+      "page": 5658334,
+      "third_party": 769548,
+      "listed": 20648
+     },
+     "ablated": {
+      "page": 5655855,
+      "third_party": 767067,
+      "listed": 18149
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "moved": {
+      "region1.google-analytics.com": 2499,
+      "www.googletagmanager.com": -18,
+      "www.un.org": -2,
+      "fonts.googleapis.com": 0,
+      "fonts.gstatic.com": 0,
+      "un.org": 0,
+      "ssl.google-analytics.com": 0,
+      "maxcdn.bootstrapcdn.com": 0,
+      "code.jquery.com": 0
+     }
+    },
+    {
+     "rep": 1,
+     "order": [
+      "ablated",
+      "control"
+     ],
+     "own": 2499,
+     "control": {
+      "page": 5658354,
+      "third_party": 769566,
+      "listed": 20648
+     },
+     "ablated": {
+      "page": 5655855,
+      "third_party": 767067,
+      "listed": 18149
+     },
+     "n_aborted": 6,
+     "n_aborted_casc": 6,
+     "moved": {
+      "region1.google-analytics.com": 2499,
+      "fonts.googleapis.com": 0,
+      "fonts.gstatic.com": 0,
+      "un.org": 0,
+      "ssl.google-analytics.com": 0,
+      "maxcdn.bootstrapcdn.com": 0,
+      "www.googletagmanager.com": 0,
+      "code.jquery.com": 0,
+      "www.un.org": 0
+     }
+    }
+   ],
+   "diffs": {
+    "page": [
+     -20,
+     0
+    ],
+    "third_party": [
+     -18,
+     0
+    ],
+    "listed": [
+     0,
+     0
+    ]
+   },
+   "summary": {
+    "page": {
+     "n": 2,
+     "mean": -10,
+     "sd": 14.142135623730951,
+     "se": 10.0
+    },
+    "third_party": {
+     "n": 2,
+     "mean": -9,
+     "sd": 12.727922061357855,
+     "se": 9.0
+    },
+    "listed": {
+     "n": 2,
+     "mean": 0,
+     "sd": 0.0,
+     "se": 0.0
+    }
+   },
+   "own_mean": 2499
+  }
+ },
+ "candidates": [
+  "region1.google-analytics.com"
+ ],
+ "category": "reference",
+ "domain": "un.org",
+ "n_blocked_tracking": 30.0,
+ "elapsed_s": 36.7
+}
